@@ -1,0 +1,37 @@
+{
+  "title": "local",
+  "rules": [
+    {
+      "description": "local test (rev 13)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button3"
+          },
+          "to": [
+            {
+              "key_code": "mission_control"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "local pointing test (rev3)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button3"
+          },
+          "to": [
+            {
+              "key_code": "mission_control"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
