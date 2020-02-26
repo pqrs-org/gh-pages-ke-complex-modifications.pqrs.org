@@ -3347,6 +3347,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/mouse_buttons_4_5_desktop_switch.json",
+          "json": {
+            "title": "Switch desktop with mouse buttons 4,5",
+            "rules": [
+              {
+                "description": "Maps button 5 to left desktop switch, 4 to right desktop switch"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
