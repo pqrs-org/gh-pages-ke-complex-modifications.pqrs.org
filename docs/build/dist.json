@@ -3926,6 +3926,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/personal_karszawa.json",
+          "json": {
+            "title": "Personal rules (@karszawa)",
+            "rules": [
+              {
+                "description": "Post left_alt + left_arrow (word back) if left_control + , is pressed"
+              },
+              {
+                "description": "Post left_alt + right_arrow (word proceed) if left_control + . is pressed"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
