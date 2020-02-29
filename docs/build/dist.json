@@ -4234,6 +4234,27 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/mouse_button4_back_mouse_button5_forward.json",
+          "json": {
+            "title": "mouse_button4_to_back_action(command + left_arrow)_and_mouse_button5_to_forward_action(command+right_arrow)",
+            "rules": [
+              {
+                "description": "Mouse button5 to back in web. NOTE: Default key setting"
+              },
+              {
+                "description": "Mouse button5 to back in web. NOTE: left_command and left_option is changed to each other. "
+              },
+              {
+                "description": "Mouse button4 to back in web. NOTE: Default key setting"
+              },
+              {
+                "description": "Mouse button4 to back in web. NOTE: left_command and left_option is changed to each other. "
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
