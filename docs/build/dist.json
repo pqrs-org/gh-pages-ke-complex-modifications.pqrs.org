@@ -1405,6 +1405,25 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/terminal_undo_redo.json",
+          "extra_description_path": "extra_descriptions/terminal_undo_redo.json.html",
+          "json": {
+            "title": "Undo/Redo in Terminal Apps",
+            "maintainers": [
+              "marlonrichert"
+            ],
+            "rules": [
+              {
+                "description": "⌘Z to Undo"
+              },
+              {
+                "description": "⌘⇧Z to Redo [Zsh only]"
+              }
+            ]
+          },
+          "extra_description_text": "Zsh is the only shell that supports Redo, but unfortunately, it's not bound by default. To use the shortcut listed here, you need to add the following to your ~/.zshrc file: bindkey \"^[_\" redo If you are using Prezto's editor module, then this is included automatically."
+        },
+        {
           "path": "json/launch_new_Chrome_or_iTerm2_windows.json",
           "extra_description_path": "extra_descriptions/launch_new_Chrome_or_iTerm2_windows.json.html",
           "json": {
