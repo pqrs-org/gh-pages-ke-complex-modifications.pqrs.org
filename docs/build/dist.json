@@ -1972,6 +1972,19 @@
       "id": "international",
       "files": [
         {
+          "path": "json/caps_lock_toggle_chinese_english.json",
+          "extra_description_path": "extra_descriptions/caps_lock_toggle_chinese_english.html",
+          "json": {
+            "title": "Toggle Chinese English With caps_lock",
+            "rules": [
+              {
+                "description": "caps_lock 切换中英文，长按锁定大写，短按恢复小写"
+              }
+            ]
+          },
+          "extra_description_text": "实现功能： 单击 caps_lock 时发送 control+空格 组合键，用以切换中英文输入法。 长按 caps_lock 触发大写锁定。 再次短按 caps_lock 取消大写锁定。 用来解决使用第三方拼音输入法(搜狗拼音、百度拼音等)时无法使用系统的 \"使用中/英键切换“ABC”输入模式\" 选项问题。"
+        },
+        {
           "path": "json/japanese.json",
           "json": {
             "title": "For Japanese （日本語環境向けの設定） (rev 5)",
