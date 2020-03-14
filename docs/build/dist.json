@@ -1242,6 +1242,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/ShiftHomeEnd.json",
+          "json": {
+            "title": "Shift Home and End",
+            "rules": [
+              {
+                "description": "Shift Home to Shift Command Left"
+              },
+              {
+                "description": "Shift End to Shift Command Right"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
