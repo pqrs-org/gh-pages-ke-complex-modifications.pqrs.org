@@ -4349,6 +4349,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/gregrcp.json",
+          "json": {
+            "title": "keypad_0 to copy & keypad_plus to paste",
+            "rules": [
+              {
+                "description": "keypad_0 to Copy"
+              },
+              {
+                "description": "keypad_plus to Paste"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     }
