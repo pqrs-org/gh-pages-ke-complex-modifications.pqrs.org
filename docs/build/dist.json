@@ -3639,6 +3639,141 @@
           "extra_description_text": "right_option + V → Paste and Match Style right_option + S → Redo the last command in terminal with sudo up_arrow control + A \"sudo\" spacebar return Click a link while pressing right_option → Open link in a new window right_option + equal_sign/hyphen → produce a horizontal rule in code comment"
         },
         {
+          "path": "json/personal_bavelee_20200321.json",
+          "json": {
+            "title": "Personal PC-Style Shortcuts(@Bave Lee)",
+            "rules": [
+              {
+                "description": "Home key to the beginning of the sentence (Command + Left). Doesnt work in terminal"
+              },
+              {
+                "description": "Home key to the beginning of the line (Control + a)"
+              },
+              {
+                "description": "End key to the end of the line (Control + e)"
+              },
+              {
+                "description": "End key to the end of the sentence (Command + Right). Doesnt work in terminal"
+              },
+              {
+                "description": "PC-Style Home/End"
+              },
+              {
+                "description": "PC-Style Paste(Shift+Insert) for JIS keyboard"
+              },
+              {
+                "description": "Option(Alt)+Tab as Switch Application (Command+Tab)"
+              },
+              {
+                "description": "PC-Style Control+Up/Down/Left/Right"
+              },
+              {
+                "description": "PC-Style Copy/Paste/Cut"
+              },
+              {
+                "description": "PC-Style Undo"
+              },
+              {
+                "description": "PC-Style Redo"
+              },
+              {
+                "description": "PC-Style Select-All"
+              },
+              {
+                "description": "PC-Style Save"
+              },
+              {
+                "description": "PC-Style Spotlight Search (Command+S)"
+              },
+              {
+                "description": "PC-Style Switch Input (Command+Space)"
+              },
+              {
+                "description": "PC-Style Quit Application (Alt+F4 to Command+Q)"
+              },
+              {
+                "description": "Command+E Opens Finder"
+              },
+              {
+                "description": "PC-Style Back/Forward (Alt+Left Arrow/Alt+Right Arrow)"
+              },
+              {
+                "description": "PC-Style Browser Zoom (Ctrl+Plus/Minus/0)"
+              },
+              {
+                "description": "PC-Style Control+Delete/Backspace"
+              },
+              {
+                "description": "Home key to the beginning of the line (Control + a)"
+              },
+              {
+                "description": "End key to the end of the line (Control + e)"
+              },
+              {
+                "description": "Home key to the beginning of the sentence (Command + Left). Doesnt work in terminal"
+              },
+              {
+                "description": "End key to the end of the sentence (Command + Right). Doesnt work in terminal"
+              },
+              {
+                "description": "PC-Style Home/End"
+              },
+              {
+                "description": "PC-Style Paste(Shift+Insert) for JIS keyboard"
+              },
+              {
+                "description": "PC-Style Paste(Shift+Fn) for ANSI keyboard"
+              },
+              {
+                "description": "Option(Alt)+Tab as Switch Application (Command+Tab)"
+              },
+              {
+                "description": "PC-Style Control+Up/Down/Left/Right"
+              },
+              {
+                "description": "PC-Style Copy/Paste/Cut"
+              },
+              {
+                "description": "PC-Style Undo"
+              },
+              {
+                "description": "PC-Style Redo"
+              },
+              {
+                "description": "PC-Style Select-All"
+              },
+              {
+                "description": "PC-Style Save"
+              },
+              {
+                "description": "PC-Style Find"
+              },
+              {
+                "description": "PC-Style Spotlight Search (Command+S)"
+              },
+              {
+                "description": "PC-Style Switch Input (Command+Space)"
+              },
+              {
+                "description": "PC-Style Quit Application (Alt+F4 to Command+Q)"
+              },
+              {
+                "description": "Command+E Opens Finder"
+              },
+              {
+                "description": "PC-Style Reload(F5, Ctrl+R)"
+              },
+              {
+                "description": "PC-Style Browser Zoom (Ctrl+Plus/Minus/0)"
+              },
+              {
+                "description": "PC-Style Quit Application (Alt+F4 to Command+Q)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/personal_drazcmd.json",
           "json": {
             "title": "Personal rules (@drazcmd)",
