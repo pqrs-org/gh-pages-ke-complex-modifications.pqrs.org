@@ -1257,6 +1257,19 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/left_option_plus_hjkl_to_arrows.json",
+          "extra_description_path": "extra_descriptions/left_option_plus_hjkl_to_arrows.json.html",
+          "json": {
+            "title": "Map Left Option plus h/j/k/l to Arrows",
+            "rules": [
+              {
+                "description": "Map Left Option plus h/j/k/l to Arrows"
+              }
+            ]
+          },
+          "extra_description_text": "Map Left Option + hjkl to Arrows Keys left_option + h = left_arrow left_option + j = down_arrow left_option + k = up_arrow left_option + l = right_arrow"
         }
       ]
     },
