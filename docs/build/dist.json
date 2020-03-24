@@ -3050,18 +3050,24 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/ypilot_fn_Media_Controls.json",
+          "path": "json/focusaperture_Controls_Media_Playback_and_Screen_Brightness.json",
           "json": {
-            "title": "ypilot fn Media Controls",
+            "title": "focusaperture Control: Media & Brightness Controls (fn+Arrows)",
             "rules": [
               {
-                "description": "ypilot Volume Controls (fn + up/down = volume up/down)"
+                "description": "focusaperture Control: Screen Brightness (fn + cmd + up/down)"
               },
               {
-                "description": "ypilot Media Keys (fn + left/right = Previous/Next title)"
+                "description": "focusaperture Control: Keyboard Illumination (fn + cmd + left/right)"
               },
               {
-                "description": "ypilot Mute&Pause Controls (fn+. = mute/unmute, fn+/ = Play/Pause)"
+                "description": "focusaperture Control: Volume (fn + up/down)"
+              },
+              {
+                "description": "focusaperture Control: Media Playback (fn + left/right = previous/next track)"
+              },
+              {
+                "description": "focusaperture Control: Mute & Pause (fn+. = mute/unmute, fn+/ = Play/Pause)"
               }
             ]
           },
