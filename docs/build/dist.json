@@ -2810,10 +2810,10 @@
         {
           "path": "json/control_backspace_to_function_backspace.json",
           "json": {
-            "title": "Map Ctrl+Backward-Delete to Fn+Backward-Delete (suppr current character)",
+            "title": "Map Ctrl+Backspace-Delete to Fn+Backward-Delete (suppr current character)",
             "rules": [
               {
-                "description": "Add Ctrl+Backward-Delete"
+                "description": "Map Ctrl+Backspace-Delete to Fn+Backward-Delete (suppr current character)"
               }
             ]
           },
@@ -3619,6 +3619,9 @@
           "json": {
             "title": "Personal Thooams Remapping",
             "rules": [
+              {
+                "description": "Map Ctrl+Backspace-Delete to Fn+Backward-Delete (suppr current character)"
+              },
               {
                 "description": "Map Left Option + Spacebar to Enter"
               },
