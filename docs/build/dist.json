@@ -4367,13 +4367,16 @@
         {
           "path": "json/save_pinky_fingers.json",
           "json": {
-            "title": "Save pinky fingers",
+            "title": "Save pinky fingers (rev 2)",
             "rules": [
               {
                 "description": "Change Control + 8 to Enter"
               },
               {
                 "description": "Change Control + 9 to Enter"
+              },
+              {
+                "description": "Change Control + o to Enter"
               },
               {
                 "description": "Change Control + 6 to Backspace"
