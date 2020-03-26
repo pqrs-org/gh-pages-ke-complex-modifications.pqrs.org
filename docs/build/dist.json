@@ -370,6 +370,30 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/map_left_option_plus_spacebar_to_enter.json",
+          "json": {
+            "title": "Map Left Option + Spacebar to Enter",
+            "rules": [
+              {
+                "description": "Map Left Option + Spacebar to Enter"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/map_shift_plus_left_option_with_j_k_l_semicolon_to_page_arrows.json",
+          "json": {
+            "title": "Map Left Shift plus Left Option with j/k/l/; to Page Arrows (QWERTY alt)",
+            "rules": [
+              {
+                "description": "Map Left Shift plus Left Option with j/k/l/; to Page Arrows (QWERTY alt)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/emacs_key_bindings.json",
           "extra_description_path": "extra_descriptions/emacs_key_bindings.json.html",
           "json": {
@@ -3590,6 +3614,24 @@
       "name": "Personal Settings",
       "id": "personal-settings",
       "files": [
+        {
+          "path": "json/personal_thooams.json",
+          "json": {
+            "title": "Personal Thooams Remapping",
+            "rules": [
+              {
+                "description": "Map Left Option + Spacebar to Enter"
+              },
+              {
+                "description": "Map Left Option with j/k/l/; to Arrows (QWERTY alt)"
+              },
+              {
+                "description": "Map Left Shift plus Left Option with j/k/l/; to Page Arrows (QWERTY alt)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
         {
           "path": "json/hai.json",
           "json": {
