@@ -4250,10 +4250,10 @@
                 "description": "Change right_shift to Ctrl-\\ if pressed alone in Emacs"
               },
               {
-                "description": "Change left_shift to Ctrl-Shift-z if pressed alone exclude in Emacs and VitualMachine"
+                "description": "Change left_shift to Ctrl-Shift-z if pressed alone outside Emacs and VitualMachine"
               },
               {
-                "description": "Change right_shift to Ctrl-Shift-z if pressed alone exclude in Emacs and VitualMachine"
+                "description": "Change right_shift to Ctrl-Shift-z if pressed alone outside Emacs and VitualMachine"
               },
               {
                 "description": "Change left_gui+spacebar to left_alt+spacebar in Emacs"
