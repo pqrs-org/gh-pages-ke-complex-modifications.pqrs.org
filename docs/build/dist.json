@@ -1881,6 +1881,27 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/notion_cmd_p_to_cmd_k.json",
+          "json": {
+            "title": "Swap Cmd+K and Cmd+P in Notion",
+            "rules": [
+              {
+                "description": "Change Left Cmd+K to Left Cmd+P in Notion"
+              },
+              {
+                "description": "Change Right Cmd+K to Right Cmd+P in Notion"
+              },
+              {
+                "description": "Change Left Cmd+P to Left Cmd+K in Notion"
+              },
+              {
+                "description": "Change Right Cmd+P to Right Cmd+K in Notion"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
