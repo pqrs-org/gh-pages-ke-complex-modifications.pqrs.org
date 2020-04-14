@@ -1389,6 +1389,9 @@
           "path": "json/mac_osx_on_rdp.json",
           "json": {
             "title": "Mac OSX Style Shortcuts for RDP sessions. Translates OSX shortcuts to PC equivalent",
+            "maintainers": [
+              "varp"
+            ],
             "rules": [
               {
                 "description": "Mac OSX RDP: Home key to the beginning of the sentence (Command + Left)"
