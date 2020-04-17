@@ -195,6 +195,37 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/dual_keys.json",
+          "extra_description_path": "extra_descriptions/dual_keys.json.html",
+          "json": {
+            "title": "Dual keys",
+            "maintainers": [
+              "marlonrichert"
+            ],
+            "rules": [
+              {
+                "description": "Left ⌘ to Enter if pressed alone"
+              },
+              {
+                "description": "Left ⌥ to Escape if pressed alone"
+              },
+              {
+                "description": "Left ⇧ to [ if pressed alone"
+              },
+              {
+                "description": "Right ⌘ to - if pressed alone"
+              },
+              {
+                "description": "Right ⌥ to = if pressed alone"
+              },
+              {
+                "description": "Right ⇧ to ] if pressed alone"
+              }
+            ]
+          },
+          "extra_description_text": "Dual keys Relieve stress from you pinkies by moving Escape, Enter, -, =, [ and ] to the modifier keys, without losing the ability to use them as modifier keys. Note: Using Shift as a dual key is mainly intended for keyboards that let you use Shift with your thumbs. You can still use it on regular keyboard, but you're not going to get as much benefit from it"
         }
       ]
     },
