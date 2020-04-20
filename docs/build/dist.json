@@ -200,7 +200,7 @@
           "path": "json/dual_keys.json",
           "extra_description_path": "extra_descriptions/dual_keys.json.html",
           "json": {
-            "title": "Dual keys",
+            "title": "Dual keys (to relieve stress from your pinkies)",
             "maintainers": [
               "marlonrichert"
             ],
@@ -3867,13 +3867,13 @@
         {
           "path": "json/personal_tekezo_launcher_mode_v4.json",
           "json": {
-            "title": "Personal rules (@tekezo) Launcher Mode v4 (rev 11)",
+            "title": "Personal rules (@tekezo) Launcher Mode v4",
             "maintainers": [
               "tekezo"
             ],
             "rules": [
               {
-                "description": "Launcher Mode v4 (rev 11)"
+                "description": "Launcher Mode v4 (rev 12)"
               }
             ]
           },
