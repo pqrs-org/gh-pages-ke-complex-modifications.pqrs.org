@@ -3777,7 +3777,7 @@
         {
           "path": "json/personal_jonlev1n.json",
           "json": {
-            "title": "Change ctrl + i/j/k/l to arrow keys",
+            "title": "personal @jonlev1n",
             "rules": [
               {
                 "description": "Change Control + i/j/k/l to Arrows"
@@ -3787,6 +3787,12 @@
               },
               {
                 "description": "Change CMD + j/l to command left_arrow/right_arrow"
+              },
+              {
+                "description": "Control and -/= to display brightness"
+              },
+              {
+                "description": "Control and 1/2/3 to rewind/play_or_pause/fastforward"
               }
             ]
           },
