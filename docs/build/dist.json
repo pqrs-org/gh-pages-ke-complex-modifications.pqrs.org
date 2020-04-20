@@ -3775,6 +3775,24 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/personal_jonlev1n.json",
+          "json": {
+            "title": "Change ctrl + i/j/k/l to arrow keys",
+            "rules": [
+              {
+                "description": "Change Control + i/j/k/l to Arrows"
+              },
+              {
+                "description": "Change Option + j/l to beginning/end of word"
+              },
+              {
+                "description": "Change CMD + j/l to command left_arrow/right_arrow"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/hai.json",
           "json": {
             "title": "Hai HHKB: when(right_cmd->fn) jkil->arrow && ,.->page && 4->F4",
