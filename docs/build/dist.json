@@ -1370,6 +1370,27 @@
             ]
           },
           "extra_description_text": "Map Left Option + hjkl to Arrows Keys left_option + h = left_arrow left_option + j = down_arrow left_option + k = up_arrow left_option + l = right_arrow"
+        },
+        {
+          "path": "json/caps_tenkey_mode.json",
+          "json": {
+            "title": "CAPS 4 Tenkey",
+            "maintainers": [
+              "IvanShamatov"
+            ],
+            "rules": [
+              {
+                "description": "CAPS Tenkey: TenkeyMode on/off toggle"
+              },
+              {
+                "description": "CAPS Tenkey: if TenkeyMode ON m,.jkluio maps to 1234567890"
+              },
+              {
+                "description": "CAPS Tenkey: if TenkeyMode ON 90p;/ maps to /*-+="
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
