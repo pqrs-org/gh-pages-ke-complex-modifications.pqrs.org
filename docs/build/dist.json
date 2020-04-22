@@ -209,23 +209,29 @@
                 "description": "Left ⌘ to Enter if pressed alone"
               },
               {
-                "description": "Left ⌥ to Escape if pressed alone"
-              },
-              {
-                "description": "Left ⇧ to [ if pressed alone"
-              },
-              {
                 "description": "Right ⌘ to - if pressed alone"
+              },
+              {
+                "description": "Left ⌥ to Escape if pressed alone"
               },
               {
                 "description": "Right ⌥ to = if pressed alone"
               },
               {
-                "description": "Right ⇧ to ] if pressed alone"
+                "description": "Left ⇧ to ` if pressed alone"
+              },
+              {
+                "description": "Right ⇧ to ' if pressed alone"
+              },
+              {
+                "description": "Left ⌃ to [ if pressed alone"
+              },
+              {
+                "description": "Right ⌃ to ] if pressed alone"
               }
             ]
           },
-          "extra_description_text": "Dual keys Relieve stress from you pinkies by moving Escape, Enter, -, =, [ and ] to the modifier keys, without losing the ability to use them as modifier keys. Note: Using Shift as a dual key is mainly intended for keyboards that let you use Shift with your thumbs. You can still use it on regular keyboard, but you're not going to get as much benefit from it"
+          "extra_description_text": "Dual keys Relieve stress from you pinkies by moving Escape, Enter, -, =, ', `, [ and ] to the modifier keys, without losing the ability to use them as modifier keys. Notes Using the Shift keys as a dual keys is mainly intended for keyboards that let you access them with your thumbs. You can use them on regular keyboard, too, but you won't to get as much benefit from it. Likewise, if your Control keys are located on the outer edges of your keyboard (because it has a wide spacebar), then it's not recommendeded to use them as dual keys."
         }
       ]
     },
