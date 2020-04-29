@@ -1750,7 +1750,7 @@
         {
           "path": "json/virtual_machine.json",
           "json": {
-            "title": "Virtual Machine",
+            "title": "Virtual Machine and Remote Desktop (Microsoft or other)",
             "rules": [
               {
                 "description": "Swap left command and control in virtual machine/remote desktop"
