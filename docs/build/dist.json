@@ -4650,7 +4650,13 @@
             "title": "Autoshift: Post key if pressed alone, shifted key if held down",
             "rules": [
               {
-                "description": "Autoshift: Post key if pressed alone, shifted key if held down"
+                "description": "Autoshift Alphabets only: Post alphabets if pressed alone, Capital alphas if held down"
+              },
+              {
+                "description": "Autoshift Numbers only: Post number if pressed alone, shifted number row key if held down"
+              },
+              {
+                "description": "Autoshift Special Characters only: Post key if pressed alone, shifted key if held down"
               }
             ]
           },
