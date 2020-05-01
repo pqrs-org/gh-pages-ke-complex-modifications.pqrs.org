@@ -4395,7 +4395,7 @@
                 "description": "Vi binding [Q + hjkl]"
               },
               {
-                "description": "Emacs binding [; + aedhk]"
+                "description": "Emacs binding [' + aedhk]"
               },
               {
                 "description": "Media control [Fn + iop] (for HHKB)"
