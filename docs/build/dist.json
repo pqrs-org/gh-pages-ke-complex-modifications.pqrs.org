@@ -231,7 +231,7 @@
               }
             ]
           },
-          "extra_description_text": "Dual keys Relieve stress from you pinkies by moving Escape, Enter, -, =, ', `, [ and ] to the modifier keys, without losing the ability to use them as modifier keys. Notes Using the Shift keys as a dual keys is mainly intended for keyboards that let you access them with your thumbs. You can use them on regular keyboard, too, but you won't to get as much benefit from it. Likewise, if your Control keys are located on the outer edges of your keyboard (because it has a wide spacebar), then it's not recommendeded to use them as dual keys."
+          "extra_description_text": "Dual keys Relieve stress from you pinkies by moving Escape, Enter, -, =, ', `, [ and ] to the modifier keys, without losing the ability to use them as modifier keys. Notes Using the Shift keys as a dual keys is mainly intended for keyboards that let you access them with your thumbs. You can use them on regular keyboard, too, but you won't to get as much benefit from it. Likewise, if your Control keys are located on the outer edges of your keyboard (because it has a wide spacebar), then it's not recommendeded to use them as dual keys. This mod is made for US Qwerty keyboards. If you want to use a different keyboard layout, or otherwise remap the keys, please download the source code and modify dual_keys.json.rb."
         },
         {
           "path": "json/cmd+d_down_arrow.json",
@@ -325,7 +325,7 @@
               }
             ]
           },
-          "extra_description_text": "Ergoemacs mode Ergonomic anti-RSI keybindings for text editing, based on the US Qwerty version of ergoemacs-mode. Features Tuned to feel quick and responsive. Does not trigger accidentally while touch typing. Compatible with terminal apps. Included key bindings Trigger key + I/J/K/L Arrow keys Trigger key + U/O Move cursor one word backward/forward Trigger key + H/; Move cursor to beginning/end of line Trigger key + D/F Backspace/Delete Trigger key + E/R Delete one word backward/forward Trigger key + S/G Delete to beginning/end of line Usage Notes Space should be your default choice for the trigger key, as it's the easiest to reach and the most ergonomic option. However, Tab is also provided as an option, so that if you have a keyboards with two spacebars, so you can map one to Space, one to Tab, and use both as the trigger key. If you want to use a different keyboard layout or another key as the trigger key, please download the source code and modify this file. In Zsh, the command backward-kill-line does not have a keybinding by default and the shortcut for \"Delete to beginning of line\" will delete the whole line instead. To get it to work correctly, you need to add the following to your ~/.zshrc file: bindkey \"^U\" backward-kill-line If you are using Prezto's editor module, then this is included automatically."
+          "extra_description_text": "Ergoemacs mode Ergonomic anti-RSI keybindings for text editing, based on the US Qwerty version of ergoemacs-mode. Features Tuned to feel quick and responsive. Does not trigger accidentally while touch typing. Compatible with terminal apps. Included key bindings Trigger key + I/J/K/L Arrow keys Trigger key + U/O Move cursor one word backward/forward Trigger key + H/; Move cursor to beginning/end of line Trigger key + D/F Backspace/Delete Trigger key + E/R Delete one word backward/forward Trigger key + S/G Delete to beginning/end of line Usage notes Space should be your default choice for the trigger key, as it's the easiest to reach and the most ergonomic option. However, Tab is provided as an additional option, so that if you have a keyboard with two spacebars, so you can map one to Space and one to Tab, and use both as the trigger key. This mod is made for Qwerty keyboards. If you want to use a different keyboard layout, or another key as the trigger key, please download the source code and modify ergoemacs_mode.json.rb. In Zsh, the command backward-kill-line does not have a keybinding by default and the shortcut for \"Delete to beginning of line\" will delete the whole line instead. To get it to work correctly, you need to add the following to your ~/.zshrc file: bindkey \"^U\" backward-kill-line If you are using Prezto's editor module, then this is included automatically."
         },
         {
           "path": "json/vi_mode.json",
@@ -1664,7 +1664,7 @@
               }
             ]
           },
-          "extra_description_text": "Zsh is the only shell that supports Redo, but unfortunately, it's not bound by default. To use the shortcut listed here, you need to add the following to your ~/.zshrc file: bindkey \"^[_\" redo If you are using Prezto's editor module, then this is included automatically."
+          "extra_description_text": "Notes Zsh is the only shell that supports Redo, but unfortunately, it's not bound by default. To use the shortcut listed here, you need to add the following to your ~/.zshrc file: bindkey \"^[_\" redo If you are using Prezto's editor module, then this is included automatically. This mod supports English and Finnish keyboards. If you want to use a different keyboard layout, please download the source code and modify terminal_undo_redo.json.erb."
         },
         {
           "path": "json/launch_new_Chrome_or_iTerm2_windows.json",
@@ -1750,7 +1750,7 @@
         {
           "path": "json/virtual_machine.json",
           "json": {
-            "title": "Virtual Machine and Remote Desktop (Microsoft or other)",
+            "title": "Virtual Machine",
             "rules": [
               {
                 "description": "Swap left command and control in virtual machine/remote desktop"
