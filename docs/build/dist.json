@@ -4792,6 +4792,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/nyankko.json",
+          "json": {
+            "title": "Nyankko Akko",
+            "rules": [
+              {
+                "description": "Use right_shift for selected capture"
+              },
+              {
+                "description": "Use right_control for developer console"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
