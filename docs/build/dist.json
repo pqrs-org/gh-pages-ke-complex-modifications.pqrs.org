@@ -1772,6 +1772,9 @@
               },
               {
                 "description": "Press Fn + function keys to use special features in virtual machine/remote desktop"
+              },
+              {
+                "description": "Swap >/< and °/§ in virtual machine/remote desktop"
               }
             ]
           },
