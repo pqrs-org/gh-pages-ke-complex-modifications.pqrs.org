@@ -2655,6 +2655,18 @@
       "id": "key-specific",
       "files": [
         {
+          "path": "json/ctrlquote.json",
+          "json": {
+            "title": "Convert <c-'> to double quote",
+            "rules": [
+              {
+                "description": "Remaps mistyped control-quote into a shft-quote. Occurs often when caps lock is remapped to control key."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/escape.json",
           "json": {
             "title": "Change escape key (rev 4)",
