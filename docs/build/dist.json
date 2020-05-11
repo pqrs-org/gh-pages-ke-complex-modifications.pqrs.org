@@ -2655,6 +2655,57 @@
       "id": "key-specific",
       "files": [
         {
+          "path": "json/ctrl-to-shift.json",
+          "json": {
+            "title": "Left control to shift (useful for fixing typos when caps lock is remapped to control)",
+            "rules": [
+              {
+                "description": "Ctrl-6 to ^"
+              },
+              {
+                "description": "Ctrl-7 to &"
+              },
+              {
+                "description": "Ctrl-8 to *"
+              },
+              {
+                "description": "Ctrl-9 to ("
+              },
+              {
+                "description": "Ctrl-0 to )"
+              },
+              {
+                "description": "Ctrl-- to _"
+              },
+              {
+                "description": "Ctrl-= to +"
+              },
+              {
+                "description": "Ctrl-[ to {"
+              },
+              {
+                "description": "Ctrl-] to }"
+              },
+              {
+                "description": "Ctrl-; to :"
+              },
+              {
+                "description": "Ctrl-' to \""
+              },
+              {
+                "description": "Ctrl-, to <"
+              },
+              {
+                "description": "Ctrl-. to >"
+              },
+              {
+                "description": "Ctrl-/ to ?"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/ctrlquote.json",
           "json": {
             "title": "Convert <c-'> to double quote",
