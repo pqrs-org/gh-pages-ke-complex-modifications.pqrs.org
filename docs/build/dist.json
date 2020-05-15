@@ -3418,6 +3418,24 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/f2_cut_f3_copy_f4_paste.json",
+          "json": {
+            "title": "F2 to cut, F3 to copy, F4 to paste",
+            "rules": [
+              {
+                "description": "F2 to Cut"
+              },
+              {
+                "description": "F3 to Copy"
+              },
+              {
+                "description": "F4 to Paste"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
