@@ -3436,6 +3436,39 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/sinoridha_personal_mapping.json",
+          "json": {
+            "title": "Sinoridha Function Key",
+            "rules": [
+              {
+                "description": "cmd + w"
+              },
+              {
+                "description": "F2 to Cut"
+              },
+              {
+                "description": "F3 to Copy"
+              },
+              {
+                "description": "F4 to Paste"
+              },
+              {
+                "description": "Lunch VS Code"
+              },
+              {
+                "description": "Lunch Chrome"
+              },
+              {
+                "description": "Lunch Terminal"
+              },
+              {
+                "description": "Lunch Franz"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
