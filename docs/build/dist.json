@@ -2016,6 +2016,19 @@
           "extra_description_text": "When using Spectacle on a Macbook, hitting fn and WASD of F will move the current window. Fast window movement with Spectacle even when overriding modifiers in other apps. fn-w: snap current window up fn-a: snap current window left fn-s: snap current window down fn-d: snap current window right fn-f: make current window fullscreen"
         },
         {
+          "path": "json/stadia_cmd.json",
+          "extra_description_path": "extra_descriptions/stadia_cmd.html",
+          "json": {
+            "title": "Option to Command Key in Stadia",
+            "rules": [
+              {
+                "description": "Use CMD key as alt for Google Chrome Stadia gaming - requires install of Stadia app on Macbook"
+              }
+            ]
+          },
+          "extra_description_text": "Use the Mac Command key as ALT for Google Chrome Stadia gaming. Requires installation of the Stadia chrome app on Macbook."
+        },
+        {
           "path": "json/roon.json",
           "json": {
             "title": "Roon media keys",
