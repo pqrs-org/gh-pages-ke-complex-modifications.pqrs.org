@@ -1409,6 +1409,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/japanese_nicola.json",
+          "json": {
+            "title": "Japanese NICOLA",
+            "rules": [
+              {
+                "description": "Japanese NICOLA Type F"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -4923,10 +4935,10 @@
         {
           "path": "json/example_japanese_nicola.json",
           "json": {
-            "title": "Japanese NICOLA (partial) (rev 2)",
+            "title": "Japanese NICOLA (rev 3)",
             "rules": [
               {
-                "description": "Japanese NICOLA (partial) (rev 2)"
+                "description": "Japanese NICOLA (rev 3)"
               }
             ]
           },
