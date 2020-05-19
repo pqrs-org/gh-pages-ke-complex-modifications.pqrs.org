@@ -1081,115 +1081,31 @@
                 "description": "Right (right_shift+l to right)"
               },
               {
-                "description": "Right shift (right_shift+left_shift+l to right+shift)"
-              },
-              {
-                "description": "Right command (right_shift+e to cmd+right)"
-              },
-              {
-                "description": "Right command (right_shift+left_command+l to cmd+right)"
-              },
-              {
-                "description": "Right command option (right_shift+left_command+_left_option+l to cmd+option+right)"
-              },
-              {
-                "description": "Right command shift (right_shift+left_shift+e to cmd+shift+right)"
-              },
-              {
-                "description": "Right option (right_shift+w to option+right)"
-              },
-              {
-                "description": "Right option shift (right_shift+left_shift+w to option+shift+right)"
-              },
-              {
                 "description": "Down (right_shift+j to down)"
-              },
-              {
-                "description": "Down shift (right_shift+left_shift+j to shift+down)"
-              },
-              {
-                "description": "Down command (right_shift+cmd+j to cmd+down)"
-              },
-              {
-                "description": "Down command 2 (right_shift+cmd+e to cmd+down)"
-              },
-              {
-                "description": "Down option (right_shift+option+j to option+down)"
-              },
-              {
-                "description": "Down control (right_shift+control+j to control+down)"
-              },
-              {
-                "description": "Down option shift (right_shift+option+left_shift+j to option+shift+down)"
               },
               {
                 "description": "Left (right_shift+h to left)"
               },
               {
-                "description": "Left shift (right_shift+left_shift+h to shift+left)"
-              },
-              {
-                "description": "Left command (right_shift+left_command+h to cmd+left)"
-              },
-              {
-                "description": "Left command option (right_shift+left_command+left_option+h to cmd+option+left)"
-              },
-              {
-                "description": "Left command (right_shift+a to cmd+left)"
-              },
-              {
-                "description": "Left command shift (right_shift+left_shift+a to cmd+shift+left)"
-              },
-              {
-                "description": "Left option (right_shift+b to option+left)"
-              },
-              {
-                "description": "Left option shift (right_shift+left_shift+b to option+shift+left)"
-              },
-              {
                 "description": "Up (right_shift+k to up)"
               },
               {
-                "description": "Up shift (right_shift+left_shift+k to shift+up)"
+                "description": "End (right_shift+e to fn+right)"
               },
               {
-                "description": "Up command (right_shift+cmd+k to cmd+up)"
+                "description": "Home (right_shift+a to fn+left)"
               },
               {
-                "description": "Up command 2 (right_shift+cmd+a to cmd+up)"
+                "description": "Word forward (right_shift+w to option+right)"
               },
               {
-                "description": "Up option (right_shift+option+k to option+up)"
-              },
-              {
-                "description": "Up control (right_shift+control+k to control+up)"
-              },
-              {
-                "description": "Up option shift (right_shift+option+left_shift+k to option+shift+up)"
-              },
-              {
-                "description": "Right command and space to escape (right_command+space to escape)"
-              },
-              {
-                "description": "Right command, shift and space to shift escape (right_command+left_shift+space to shift+escape)"
-              },
-              {
-                "description": "Left command and space to escape (left_command+space to escape)"
-              },
-              {
-                "description": "Left command, shift and space to shift escape (left_command+left_shift+space to shift+escape)"
+                "description": "Word back (right_shift+b to option+left)"
               },
               {
                 "description": "Page up (right_shift+p to page_up)"
               },
               {
-                "description": "Page up shift (right_shift+left_shift+p to page_up+shift)"
-              },
-              {
                 "description": "Page down (right_shift+; to page_down)"
-              },
-              {
-                "description": "Page down shift (right_shift+left_shift+;to page_down+shift)"
               },
               {
                 "description": "Copy (right_shift+c to c+command)"
@@ -1216,19 +1132,13 @@
                 "description": "Close tab (right_shift+y to w+command)"
               },
               {
-                "description": "Search focus (right_shift+g to l+command)"
+                "description": "Escape (left_command+space to escape)"
               },
               {
                 "description": "Return (right_shift+m to return)"
               },
               {
-                "description": "Return option (right_shift+m+option to return+option)"
-              },
-              {
                 "description": "Delete (right_shift+f to delete)"
-              },
-              {
-                "description": "Delete shift (right_shift+left_shift_f to shift+delete)"
               },
               {
                 "description": "Backspace (right_shift+d to backspace)"
@@ -1237,13 +1147,28 @@
                 "description": "Tab (right_shift+space to tab)"
               },
               {
-                "description": "Tab shift (right_shift+left_shift+space to shift+tab)"
-              },
-              {
                 "description": "Rename (right_shift+r to shift+f6)"
               },
               {
                 "description": "Hash (right_shift+3 to #)"
+              },
+              {
+                "description": "Thin arrow (right_shift+- to ->)"
+              },
+              {
+                "description": "Fat arrow (right_shift+= to =>)"
+              },
+              {
+                "description": "Go back (right_shift+cmd+option+h to cmd+[)"
+              },
+              {
+                "description": "Go forward (right_shift+cmd+option+l to cmd+])"
+              },
+              {
+                "description": "Go to tab to left (right_shift+u to cmd+shift+[)"
+              },
+              {
+                "description": "Go to tab to right (right_shift+o to cmd+shift+])"
               },
               {
                 "description": "Single quote (right_shift+q to single quote)"
@@ -1258,36 +1183,6 @@
                 "description": "Double quote closed (right_shift+left_shift+2 to closed double quotes)"
               },
               {
-                "description": "Thin arrow (right_shift+- to ->)"
-              },
-              {
-                "description": "Fat arrow (right_shift+= to =>)"
-              },
-              {
-                "description": "Right command and return to spotlight (right_command+return to left_command+spacebar)"
-              },
-              {
-                "description": "Go to space to left (right_shift+control+h to ctrl+left)"
-              },
-              {
-                "description": "Go to space to right (right_shift+control+l to control+right)"
-              },
-              {
-                "description": "IntelliJ go back (right_shift+cmd+option+h to cmd+[)"
-              },
-              {
-                "description": "IntelliJ go forward (right_shift+cmd+option+l to cmd+])"
-              },
-              {
-                "description": "IntelliJ go to tab to left (right_shift+u to cmd+shift+[)"
-              },
-              {
-                "description": "IntelliJ go to tab to right (right_shift+o to cmd+shift+])"
-              },
-              {
-                "description": "Select word (right_shift+n to shift+option+left then shift+option+right)"
-              },
-              {
                 "description": "Parentheses closed (right_shift+left_shift+9 to closed paranetheses)"
               },
               {
@@ -1295,10 +1190,16 @@
               },
               {
                 "description": "Angle brackets closed (right_shift+left_shift+, to closed angle brackets)"
+              },
+              {
+                "description": "Search focus (right_shift+g to l+command)"
+              },
+              {
+                "description": "Spotlight (left_command+return to left_command+spacebar)"
               }
             ]
           },
-          "extra_description_text": "Title Mappings all with right shift pressed.. Movement/navigation h/j/k/l -> mapped to arrow keys w/b -> word forward/back a/e -> home/end ;/p -> pageup/down u/o -> cmd+shift+[/] (tab switch) +command/option/left shift/control -> apply to above Editing s/c/v/x/z/t sent with command modifier m -> return f/d -> delete/backspace space -> tab space+left shift -> shift tab q -> single quote q+left shift -> closed single quote 2 -> double quote 2+left shift -> closed double quote 3 -> hash . -> \"->\" .+left shift -> \"=>\" r -> f6+shift (rename) Other caplocks -> command caplocks+enter -> command+space (spotlight default) caplocks+space -> escape y -> cmd+w (close tab) g -> cmd+l (address bar) h/l -> cmd+[/] (history back/forward)"
+          "extra_description_text": "Title Mappings all with right shift pressed.. Movement/navigation h/j/k/l -> mapped to arrow keys w/b -> word forward/back a/e -> home/end ;/p -> pageup/down u/o -> cmd+shift+[/] (tab switch) +command/option/left shift/control -> apply to above Editing s/c/v/x/z/t sent with command modifier m -> return f/d -> delete/backspace space -> tab space+left shift -> shift tab q -> single quote q+left shift -> closed single quote 2 -> double quote 2+left shift -> closed double quote 3 -> hash . -> \"->\" .+left shift -> \"=>\" r -> f6+shift (rename) Other caplocks+enter -> command+space (spotlight default) caplocks+space -> escape y -> cmd+w (close tab) g -> cmd+l (address bar) h/l -> cmd+[/] (history back/forward)"
         },
         {
           "path": "json/ctrl_pn_arrow.json",
