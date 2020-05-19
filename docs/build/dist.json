@@ -206,10 +206,10 @@
             ],
             "rules": [
               {
-                "description": "Left ⌘ to Enter if pressed alone"
+                "description": "Left ⌘ to ↩︎ if pressed alone"
               },
               {
-                "description": "Left ⌃ to Escape if pressed alone"
+                "description": "Left ⌃ to ⎋ if pressed alone"
               },
               {
                 "description": "Right ⌘ to - if pressed alone"
@@ -2248,7 +2248,7 @@
                 "description": "コマンドキー（右のみ）を単体で押したときに、英数・かなをトグルで切り替える。 (rev 2)"
               },
               {
-                "description": "英数・かなキーを他のキーと同時に押したときに、Optionキーを送信する (rev 2)"
+                "description": "英数・かなキーを他のキーと同時に押したときに、Optionキーを送信する (rev 3)"
               },
               {
                 "description": "escキーを押したときに、英数キーも送信する（vim用）"
