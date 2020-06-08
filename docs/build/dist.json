@@ -1554,22 +1554,16 @@
                 "description": "⌥ + → | Move cursor one word ahead"
               },
               {
-                "description": "⌥ + ⌫ | Delete one word"
+                "description": "⌥ + ⌫ | Delete one word behind"
               },
               {
-                "description": "⌥ + fn + ⌫ | Delete one word ahead [laptop w/out ⌦ key]"
-              },
-              {
-                "description": "⌥ + ⌦ | Delete one word ahead [keyboard w/ ⌦ key]"
+                "description": "⌥ + ⌦ | Delete one word ahead"
               },
               {
                 "description": "⌘ + ⌫ | Delete to line begin"
               },
               {
-                "description": "⌘ + fn + ⌫ | Delete to line end [laptop w/out ⌦ key]"
-              },
-              {
-                "description": "⌘ + ⌦ | Delete to line end [keyboard w/ ⌦ key]"
+                "description": "⌘ + ⌦ | Delete to line end"
               }
             ]
           },
