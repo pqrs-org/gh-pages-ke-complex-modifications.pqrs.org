@@ -4573,6 +4573,24 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/iliaskarim_personal_mapping.json",
+          "json": {
+            "title": "Personal rules (@iliaskarim)",
+            "rules": [
+              {
+                "description": "Right shift to cut"
+              },
+              {
+                "description": "Right command to copy"
+              },
+              {
+                "description": "Right option to paste"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
