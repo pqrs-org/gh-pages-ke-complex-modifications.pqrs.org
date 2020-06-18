@@ -3781,6 +3781,19 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/r_cmd_to_l_ctrl_and_space.json",
+          "extra_description_path": "extra_descriptions/r_cmd_to_l_ctrl_and_space.json.html",
+          "json": {
+            "title": "r_cmd_to_l_ctrl_and_space",
+            "rules": [
+              {
+                "description": "right_command -> left_control + spacebar, for switch input type in mac OS."
+              }
+            ]
+          },
+          "extra_description_text": "for mac/hhkb: right_command -> left_control + spacebar, for switch input type."
         }
       ]
     },
