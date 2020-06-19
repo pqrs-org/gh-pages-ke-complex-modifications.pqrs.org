@@ -4831,6 +4831,31 @@
           "extra_description_text": ""
         }
       ]
+    },
+    {
+      "name": "Keychron K2",
+      "id": "Keychron K2",
+      "files": [
+        {
+          "path": "json/keychron_k2.json",
+          "extra_description_path": "extra_descriptions/keychron_k2.json.html",
+          "json": {
+            "title": "Change Keychron K2 keyboard layout to more closely resemble an Apple keyboard",
+            "rules": [
+              {
+                "description": "Post right_option if right_control is pressed alone."
+              },
+              {
+                "description": "Exchange right_command and fn."
+              },
+              {
+                "description": "Disable page_up, page_down, home, and end."
+              }
+            ]
+          },
+          "extra_description_text": "Keychron K2 This rule modifies the Keychron K2 keyboard layout to more closely resemble an Apple keyboard. Changes right_control to right_option Swaps right_command and fn Disable page_up, page_down, home, and end"
+        }
+      ]
     }
   ],
   "example": [
