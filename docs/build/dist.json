@@ -1419,6 +1419,24 @@
             ]
           },
           "extra_description_text": "This mapping will make your mac behave more it would on Windows. It is designed with an external keyboard in mind."
+        },
+        {
+          "path": "json/Vimode_with_smart_caps.json",
+          "json": {
+            "title": "Vimode with smart caps",
+            "rules": [
+              {
+                "description": "CAPSLOCK + hjkl to arrow keys (Post ESCAPE if press CAPSLOCK alone)"
+              },
+              {
+                "description": "Post CAPSLOCK if press ESCAPE alone"
+              },
+              {
+                "description": "Change left_shift + Command_L to escape only if pressed at the same time."
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
