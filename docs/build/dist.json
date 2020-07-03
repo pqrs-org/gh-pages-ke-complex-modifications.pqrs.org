@@ -244,6 +244,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/caps_media.json",
+          "json": {
+            "title": "Capslock + Arrows for media keys",
+            "rules": [
+              {
+                "description": "CapsLock to Hyper/Escape"
+              },
+              {
+                "description": "Hyper + arrow keys to media"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
