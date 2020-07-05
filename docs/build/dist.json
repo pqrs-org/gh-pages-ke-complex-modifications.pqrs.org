@@ -259,6 +259,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/capslock-navigate-tabs.json",
+          "json": {
+            "title": "[macOS] Use Caps Lock + Arrows to Navigate Tabs",
+            "rules": [
+              {
+                "description": "Navigate Tabs with CapsLock + Any Arrows"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
