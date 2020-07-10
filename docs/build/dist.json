@@ -2758,6 +2758,21 @@
       "id": "key-specific",
       "files": [
         {
+          "path": "json/ctrl_L-OR-ctrl_R+up-to-down-arrow.json",
+          "json": {
+            "title": "Map ctrl+up to down",
+            "rules": [
+              {
+                "description": "control_L + up to down"
+              },
+              {
+                "description": "control_R + up to down"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/ctrl-to-shift.json",
           "json": {
             "title": "Left control to shift (useful for fixing typos when caps lock is remapped to control)",
