@@ -3145,10 +3145,11 @@
         {
           "path": "json/ctrl_delete.json",
           "json": {
-            "title": "Map Ctrl+Backward-Delete to Option+Backward-Delete (delete current word)",
+            "title": "Map Ctrl+Backward-Delete.",
             "rules": [
               {
-                "description": "Add Ctrl+Backward-Delete"
+                "description": "Add Ctrl+Backward-Delete to Option+Delete (delete current word).",
+                "type": "basic"
               }
             ]
           },
