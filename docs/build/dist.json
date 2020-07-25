@@ -4076,6 +4076,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/NuType-F1.json",
+          "json": {
+            "title": "NuPhy NuType F1 keyboard",
+            "rules": [
+              {
+                "description": "Change fn+escape to escape"
+              },
+              {
+                "description": "Change escape to grave accent and tilde"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
