@@ -4091,6 +4091,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/quattro_tkl_for_mac_jis.json",
+          "json": {
+            "title": "ARCHISS Quattro TKL for macOS JIS",
+            "rules": [
+              {
+                "description": "L-Button/R-Buttonを英数/かなへ代替"
+              },
+              {
+                "description": "Ctrl+Buttonをマウスクリックへ代替"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
