@@ -4857,28 +4857,28 @@
             "title": "Force the user to make key combination with two hands (rev 2)",
             "rules": [
               {
-                "description": "Block left-handed command + left-handed key (rev 2)"
-              },
-              {
                 "description": "Block left-handed shift + left-handed key (rev 2)"
               },
               {
-                "description": "Block left-handed option + left-handed key (rev 2)"
+                "description": "Block right-handed shift + right-handed key (rev 2)"
               },
               {
                 "description": "Block left-handed control + left-handed key (rev 2)"
               },
               {
-                "description": "Block right-handed command + right-handed key (rev 1)"
+                "description": "Block right-handed control + right-handed key (rev 2)"
               },
               {
-                "description": "Block right-handed shift + right-handed key (rev 1)"
+                "description": "Block left-handed option + left-handed key (rev 2)"
               },
               {
-                "description": "Block right-handed option + right-handed key (rev 1)"
+                "description": "Block right-handed option + right-handed key (rev 2)"
               },
               {
-                "description": "Block right-handed control + right-handed key (rev 1)"
+                "description": "Block left-handed command + left-handed key (rev 2)"
+              },
+              {
+                "description": "Block right-handed command + right-handed key (rev 2)"
               }
             ]
           },
