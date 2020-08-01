@@ -176,6 +176,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/bepo-cmdqwerty-toggle.json",
+          "json": {
+            "title": "Bepo CmdQwerty Toggle",
+            "rules": [
+              {
+                "description": "While using Programmer Bepo, holding command temporarily switches to the Australian qwerty layout."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/windows_like_word_bindings.json",
           "json": {
             "title": "[macOS] Windows-like word movement/selection/deletion",
@@ -4129,6 +4141,9 @@
               },
               {
                 "description": "Map Left Shift plus Left Option with j/k/l/; to Page Arrows (QWERTY alt)"
+              },
+              {
+                "description": "While using Programmer Bepo, holding command temporarily switches to the Australian qwerty layout."
               }
             ]
           },
