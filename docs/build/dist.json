@@ -4863,13 +4863,13 @@
             "title": "Personal rules (@iliaskarim)",
             "rules": [
               {
-                "description": "Right shift to cut"
+                "description": "Right shift to paste"
+              },
+              {
+                "description": "Right option to cut"
               },
               {
                 "description": "Right command to copy"
-              },
-              {
-                "description": "Right option to paste"
               }
             ]
           },
