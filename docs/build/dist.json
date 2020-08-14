@@ -4003,6 +4003,21 @@
       "id": "device-specific",
       "files": [
         {
+          "path": "json/keypadAsLauncher.json",
+          "json": {
+            "title": "Keypad as App Launcher",
+            "maintainers": [
+              "Mikadifo"
+            ],
+            "rules": [
+              {
+                "description": "Remap your keypad as an app launcher, programmed keypads(1-9)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/matias_ergo_pro.json",
           "json": {
             "title": "Matias Ergo Pro Keyboard",
