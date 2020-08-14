@@ -4889,6 +4889,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/personal_sidv.json",
+          "json": {
+            "title": "sidv_personal",
+            "rules": [
+              {
+                "description": "Change delete_or_backspace key to hyper and caps_lock to delete_or_backspace."
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
