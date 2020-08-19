@@ -5117,6 +5117,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/CommandShiftHomeAndEnd.json",
+          "json": {
+            "title": "Command Shift Home and End",
+            "rules": [
+              {
+                "description": "Command Shift Home to Command Shift Up"
+              },
+              {
+                "description": "Command Shift End to Command Shift Down"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
