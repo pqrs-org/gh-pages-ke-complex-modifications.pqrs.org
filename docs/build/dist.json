@@ -1476,6 +1476,19 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/comfortable_text_navigation.json",
+          "extra_description_path": "extra_descriptions/comfortable_text_navigation.html",
+          "json": {
+            "title": "Comfortable text navigation (Vim)",
+            "rules": [
+              {
+                "description": "Fn+h/j/k/l as Vim arrows && Fn+a/s/d as ⇧/⌥/⌘"
+              }
+            ]
+          },
+          "extra_description_text": "Use \"Vim like\" arrow navigation + ⇧/⌥/⌘ on keyboard \"Home Row\" to edit text without breaking your fingers! More information: Fn + h: Left arrow Fn + j: Down arrow Fn + k: Up arrow Fn + l: Right arrow Fn + a: Left Shift ⇧ Fn + s: Left Option ⌥ Fn + d: Left Command ⌘"
         }
       ]
     },
