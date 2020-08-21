@@ -218,28 +218,28 @@
             ],
             "rules": [
               {
-                "description": "Left ⌘ to ↩︎ if pressed alone"
-              },
-              {
-                "description": "Left ⌃ to ⎋ if pressed alone"
-              },
-              {
                 "description": "Right ⌘ to - if pressed alone"
               },
               {
                 "description": "Right ⌃ to = if pressed alone"
               },
               {
-                "description": "Left ⇧ to ` if pressed alone"
-              },
-              {
-                "description": "Right ⇧ to ' if pressed alone"
-              },
-              {
-                "description": "Left ⌥ to [ if pressed alone"
+                "description": "Right ⇧ to [ if pressed alone"
               },
               {
                 "description": "Right ⌥ to ] if pressed alone"
+              },
+              {
+                "description": "Left ⌘ to ↩︎ if pressed alone"
+              },
+              {
+                "description": "Left ⌃ to ' if pressed alone"
+              },
+              {
+                "description": "Left ⇧ to ` if pressed alone"
+              },
+              {
+                "description": "Left ⌥ to ⎋ if pressed alone"
               }
             ]
           },
