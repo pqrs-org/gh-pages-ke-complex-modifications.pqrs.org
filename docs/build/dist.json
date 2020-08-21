@@ -233,10 +233,10 @@
                 "description": "Left ⌘ to ↩︎ if pressed alone"
               },
               {
-                "description": "Left ⌃ to ' if pressed alone"
+                "description": "Left ⌃ to ` if pressed alone"
               },
               {
-                "description": "Left ⇧ to ` if pressed alone"
+                "description": "Left ⇧ to ' if pressed alone"
               },
               {
                 "description": "Left ⌥ to ⎋ if pressed alone"
