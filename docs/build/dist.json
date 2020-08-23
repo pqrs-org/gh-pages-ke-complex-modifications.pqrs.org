@@ -283,6 +283,30 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/JesseHyperPlusVimNavigation.json",
+          "json": {
+            "title": "CAPS_LOCK to Hyper/Escape (SHIFT+COMMAND+OPTION+CONTROL) & Hyper + VIM Navigation keys",
+            "rules": [
+              {
+                "description": "CMD + W : NOTHING"
+              },
+              {
+                "description": "CAPS_LOCK : (HYPER) SHIFT+COMMAND+OPTION+CONTROL or ESCAPE (If Alone)"
+              },
+              {
+                "description": "Toggle CAPS_LOCK with LEFT_SHIFT + RIGHT_SHIFT"
+              },
+              {
+                "description": "CAPS_LOCK + SPACE : Toggle Alfred"
+              },
+              {
+                "description": "CAPS_LOCK + i/j/k/l == Arrow Keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
