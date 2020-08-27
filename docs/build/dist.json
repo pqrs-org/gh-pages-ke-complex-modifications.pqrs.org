@@ -307,6 +307,42 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/Jesse_Tutorial_Hyper_Plus_Others.json",
+          "json": {
+            "title": "CAPS_LOCK to Hyper/Escape, Hyper + i/j/k/l Vim navigation and others.",
+            "rules": [
+              {
+                "description": "CAPS_LOCK to HYPER (SHIFT+COMMAND+OPTION+CONTROL) or ESCAPE (If Alone)"
+              },
+              {
+                "description": "Toggle caps_lock by pressing left_shift then right_shift"
+              },
+              {
+                "description": "Shifts Move Forward and Backward by 1 word"
+              },
+              {
+                "description": "CMD + W to NOTHING"
+              },
+              {
+                "description": "Double tap cmd closes apps"
+              },
+              {
+                "description": "Hyper + SPACE : Toggle Alfred"
+              },
+              {
+                "description": "Open Screenshot.app with Print_Screen key"
+              },
+              {
+                "description": "Hyper + i/j/k/l == vim directional Keys"
+              },
+              {
+                "description": "o Launcher"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
