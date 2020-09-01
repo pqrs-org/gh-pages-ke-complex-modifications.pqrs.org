@@ -367,42 +367,185 @@
       "id": "emulation-modes",
       "files": [
         {
-          "path": "json/fc660c_arrow_keys.json",
+          "path": "json/caps_lock_enhancement.json",
+          "extra_description_path": "extra_descriptions/caps_lock_enhancement.json.html",
           "json": {
-            "title": "FC660C Arrow Keys",
+            "title": "Capslock Enhancement",
+            "author": "Vonng(fengruohang@outlook.com)",
+            "homepage": "https://github.com/Vonng/Capslock",
+            "hostpage": "https://ke-complex-modifications.pqrs.org/",
+            "manual": "https://github.com/Vonng/Capslock/tree/master/mac",
+            "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Vonng/Capslock/master/mac/capslock.json",
             "rules": [
               {
-                "description": "FC660C Arrow Keys (fn + ijkl to arrow keys)"
+                "description": "CapsLock to Hyper/Escape"
+              },
+              {
+                "description": "Hyper Navigation"
+              },
+              {
+                "description": "Hyper Mousekey"
+              },
+              {
+                "description": "Hyper Deletion"
+              },
+              {
+                "description": "Hyper Window Control"
+              },
+              {
+                "description": "Hyper Bash Control"
+              },
+              {
+                "description": "Hyper Application"
+              },
+              {
+                "description": "Hyper Functional"
+              },
+              {
+                "description": "Hyper Shifter"
+              },
+              {
+                "description": "Hyper Misc (Check https://github.com/Vonng/Capslock for all details)"
+              }
+            ]
+          },
+          "extra_description_text": "CapsLock Enhancement Project Vonng/Capslock provides more detailed info. Latest import url: karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Vonng/Capslock/master/mac/capslock.json Basic ✱ Hyper actually maps to ⌃⌥⇧⌘ (all right modifiers) , It works well with additional left modifiers. And compatible with most application. Hold CapsLock to enable Hyper funcationality while press it will emit an Escape. Origin MapsTo Comment ⇪ Press ⎋ Escape Single press to escape ⇪ Hold ✱ Hyper Enable Hyper Functionality Navigation Hold ✱ Hyper to enable navigators Hold additional ⌘ Command for selection . (just like holding ⇧shift in normal) Hold additional ⌥ Command for mouse movement Hold additional ⇧ Command for switching tab/app Hold additional ⌃ Command for desktop management (just like holding ⌃ctrl with arrow key) Origin MapsTo Comment H ← LeftArrow cursor left J ↓ DownArrow cursor down K ↑ UpArrow cursor up L → RightArrow cursor right U ⇞ PageUp cursor page up I ↖ Home cursor to line(doc) head O ↘ End cursor to line(doc) end P ⇟ PageDn cursor page down ⌘H ⇧← LeftArrow cursor left and selection ⌘J ⇧↓ DownArrow cursor down and selection ⌘K ⇧↑ UpArrow cursor up and selection ⌘L ⇧→ RightArrow cursor right and selection ⌥H ← LeftArrow mouse left ⌥J ↓ DownArrow mouse down ⌥K ↑ UpArrow mouse up ⌥L → RightArrow mouse right ⌃H ← LeftArrow expose all ⌃J ↓ DownArrow show desktops ⌃K ↑ UpArrow switch prev desktop ⌃L → RightArrow switch next desktop Mousekey Origin MapsTo Comment ← MouseLeft mouse cursor left ↓ MouseDown mouse cursor down ↑ MouseUp mouse cursor up → MouseRight mouse cursor right ↩ MouseLeft mouse left button click ⌘↩ MouseRight mouse right button click Deletion Origin MapsTo Comment N ⌥⌫ Option + ForwardDelete Delete a word ahead M ⌫ ForwardDelete Delete a char ahead , ⌦ Delete Delete a char after . ⌥⌦ Option + Delete Delete a word after ⌘M,⌘N ⌘⌥⌫ Command+Option+ForwardDelete Delete to line head Window Control Origin MapsTo Comment ⇥ Tab ⌘⇥ Command+Tab Switch Window ⌘⇥ Command+Tab ⌘⇧⇥ Command+Shift+Tab Switch Window Reversely Q ⌘Q Close Window W ⌘W Close Tab A ⌃⌥⇧⌘A Leaves to Moom, ※a window resize app ⌘A ⌃↑ Ctrl+UpArrow OSX Expose All S ⌃⇥ Ctrl+Tab Switch Tab ⌘S ⌃⇧⇥ Ctrl+Shift+Tab Swtich Tab Reversely ⌘D F11 Show Desktop Bash Control Common bash utils: EOF, SIGINT, SIGTSTP, VIM/Tmux Prefix Origin MapsTo Comment Z ⌃Z Ctrl+Z SIGTSTP X ⌃R IDE Run C ⌃C SIGINT V ⌃V Vim Prefix B ⌃B Tmux Default Prefix D ⌃D EOF Applications Maybe you'd like overwrite these with your own favorite apps. Origin MapsTo Comment E Open Safari Open Web Browser ⌘E Open Finder Open File Browser R Open iTerm2 Great terminal for osx (Run) ⌘R Open Preview Switch to opened picture, pdf, etc... T Open Visual Studio Code Text Editor: Visual Studio Code ⌘T Open Typora Text Editor: Typora , a great WYSIWYG md editor Y Open Siri F Open Dash Find API Document ⌘F Open Dictionary Find words G Open Intellij IDEA Open IDE ⌘G Open Chrome Google Chrome Functional Use F1,…F12 as standard functional keys, while hold hyper to turn them back. Origin MapsTo Comment F1 BrightnessDown F2 BrightnessUp F3 ExposeAll F4 LaunchPad F5 KeyboardLightDown F6 KeyboardLightUp F7 MusicPrev F8 MusicPlay F9 MusicNext F10 Mute F11 VolumeDown F12 VolumeUp F13 PrintScreen MusicPrev F14 ScrollLock MusicNext F15 Pause Mute Insert ⌥BrightnessUp Fine grained brightness up Delete ⌥BrightnessDown Fine grained brightness down Home ⌥KeyboardLightUp Fine grained keyboard light up End ⌥KeyboardLightDown Fine grained keyboard light down PgUp ⌥VolumeUp Fine grained volume up PgDn ⌥VolumeDown Fine grained volume down Shifter A more convient shift for most case Origin MapsTo Comment 1 ! Exclamation 2 @ At 3 # Sharp 4 $ Dollar 5 % Percent 6 ^ Caret 7 & Ampersand 8 * Star 9 ( Left Round Bracket 0 ) Right Round Bracket - Minus _ Hyphen = Equal + Plus [ Left Bracket ( Left Round Bracket ⇧9 ] Right Bracket ) Right Round Bracket ⇧0 \\ Back Slash | Bar ; Semicolon ! Exclamation ' Single Quote = EqualSign ⌘; Semicolon ! Colon ⌘' Single Quote = EqualSign Misc Origin MapsTo Comment ⎋ Escape ⇪ CapsLock Bug: Difficult to turn capslock off after emit ~ BackQuote ⌃⇧⌘4 macOS Area Screenshot to Clipboard ⌘~ Command+BackQuote ⌃⇧4 macOS Area Screenshot to Desktop File ⌫ Backspace ⌘⌫ macOS Delete File / Slash ⌘/ Command+Slash Comment/Uncomment in many IDE / Backslash ⌘/ Command+Slash Comment/Uncomment in many IDE ␢ Spacebar ⌃␢ Ctrl+Spacebar Switch Input Source"
+        },
+        {
+          "path": "json/caps_tenkey_mode.json",
+          "json": {
+            "title": "CAPS 4 Tenkey",
+            "maintainers": [
+              "IvanShamatov"
+            ],
+            "rules": [
+              {
+                "description": "CAPS Tenkey: TenkeyMode on/off toggle"
+              },
+              {
+                "description": "CAPS Tenkey: if TenkeyMode ON m,.jkluio maps to 1234567890"
+              },
+              {
+                "description": "CAPS Tenkey: if TenkeyMode ON 90p;/ maps to /*-+="
               }
             ]
           },
           "extra_description_text": ""
         },
         {
-          "path": "json/fc660c_media_keys.json",
+          "path": "json/capslock-plus.json",
+          "extra_description_path": "extra_descriptions/capslock-plus.json.html",
           "json": {
-            "title": "FC660C Media Controls",
+            "title": "CapsLock Plus",
+            "maintainers": [
+              "BryanHoo"
+            ],
+            "homepage": "https://github.com/BryanHoo/Capslock-Plus",
+            "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/BryanHoo/Capslock-Plus/master/capslock-plus.json",
             "rules": [
               {
-                "description": "FC660C Volume Controls (fn + up/down to volume up/down)"
+                "description": "CapsLock to Hyper/Escape"
               },
               {
-                "description": "FC660C Media Keys (fn + left/right to Previous Title/Next)"
+                "description": "Hyper Cursor navigation"
+              },
+              {
+                "description": "Hyper selected Navigation"
+              },
+              {
+                "description": "Hyper More"
+              }
+            ]
+          },
+          "extra_description_text": "README Mac Capslock PlusIt is modeled on capslock+ of windows platform and basically keeps the same as that of windows,Click to view windows Capslock+&nbsp;PlatformsCapsLock-Plus via Karabiner-ElementsmacOS Catalina(10.15)macOS Mojave(10.14)macOS High Sierra (10.13)macOS Sierra (10.12)macOS EI Capitan (10.11)InstallDownload Karabiner-Elements and InstallCopy URL to your browser to import configuration script.# This Repo (open in safari)karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/BryanHoo/Capslock-Plus/master/capslock-plus.jsonOpen Karabiner, Tab \"ComplexModification\", Button \"Add Item\", and enable entries you like.Default conf file path is $HOME/.config/karabiner/assets/complex_modifications. Modify it if you like.Enable functions: [App] karabiner-elements -> [Tab] Complex Modification -> Add ItemUsageBasic✱ Hyper actually maps to ⌃⌥⇧⌘ (all right modifiers) , It works well with additional left modifiers. And compatible with most application. Hold CapsLock to enable Hyper funcationality while press it will emit an Escape.OriginMaps toComment⇪ Press⎋ EscapeSingle press to escape⇪ Hold✱ HyperEnable Hyper FunctionalitynavigationHold ✱ Hyper to enable navigatorsOriginMaps toCommentS← LeftArrowcursor leftD↓ DownArrowcursor downE↑ UpArrowcursor upF→ RightArrowcursor rightA&nbsp;cursor skip words forwardG&nbsp;cursor skips the word backwardY⇞ PageUpcursor page upB⇟ PageDncursor page downP↖ Homecursor to line(doc) head;↘ Endcursor to line(doc) endJ&nbsp;cursor left and selectionK&nbsp;cursor down and selectionI&nbsp;cursor up and selectionL&nbsp;cursor left and selectionH&nbsp;cursor one word to the left and selectionN&nbsp;cursor one word to the right and selectionU&nbsp;cursor to line(doc) head and selectionO&nbsp;cursor to line(doc) end and selectionWindow ControlOriginMaps toComment/ Tab⌘⇥ Command+TabSwitch WindowApplicationsOriginMaps toCommentMOpen FinderOpen File BrowserTOpen iTerm2Great terminal for osx (Run)"
+        },
+        {
+          "path": "json/comfortable_text_navigation.json",
+          "extra_description_path": "extra_descriptions/comfortable_text_navigation.html",
+          "json": {
+            "title": "Comfortable text navigation (Vim)",
+            "rules": [
+              {
+                "description": "Fn+h/j/k/l as Vim arrows && Fn+a/s/d as ⇧/⌥/⌘"
+              }
+            ]
+          },
+          "extra_description_text": "Use \"Vim like\" arrow navigation + ⇧/⌥/⌘ on keyboard \"Home Row\" to edit text without breaking your fingers! More information: Fn + h: Left arrow Fn + j: Down arrow Fn + k: Up arrow Fn + l: Right arrow Fn + a: Left Shift ⇧ Fn + s: Left Option ⌥ Fn + d: Left Command ⌘"
+        },
+        {
+          "path": "json/command_arrows.json",
+          "json": {
+            "title": "LCMD + Arrow Keys",
+            "rules": [
+              {
+                "description": "LCMD + Up to Page Up"
+              },
+              {
+                "description": "LCMD + Down to Page Down"
+              },
+              {
+                "description": "LCMD + Left to Home"
+              },
+              {
+                "description": "LCMD + Right to End"
               }
             ]
           },
           "extra_description_text": ""
         },
         {
-          "path": "json/diamond_cursor.json",
+          "path": "json/control_fn_to_media_control.json",
           "json": {
-            "title": "Diamond Cursor",
+            "title": "Control + Function Keys to Media Control",
             "rules": [
               {
-                "description": "Change fn + I/J/K/L to Arrow Keys"
+                "description": "control + f1 to display_brightness_decrement"
               },
               {
-                "description": "Change right_command+i/j/k/l to Arrows"
+                "description": "control + f2 to display_brightness_increment"
+              },
+              {
+                "description": "control + f3 to rewind"
+              },
+              {
+                "description": "control + f4 to play_or_pause"
+              },
+              {
+                "description": "control + f5 to fastforward"
+              },
+              {
+                "description": "control + f10 to mute"
+              },
+              {
+                "description": "control + f11 to volume_decrement"
+              },
+              {
+                "description": "control + f12 to volume_increment"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/ctrl_plus_hjkl_to_arrow_keys.json",
+          "extra_description_path": "extra_descriptions/ctrl_plus_hjkl_to_arrow_keys.json.html",
+          "json": {
+            "title": "Left ctrl + hjkl to Arrow Keys Vim",
+            "rules": [
+              {
+                "description": "Left ctrl + hjkl to arrow keys Vim"
+              }
+            ]
+          },
+          "extra_description_text": "ctrl + hjkl to Arrow Keys (Vim) ctrl + h = left_arrow ctrl + j = down_arrow ctrl + k = up_arrow ctrl + l = right_arrow"
+        },
+        {
+          "path": "json/ctrl_pn_arrow.json",
+          "json": {
+            "title": "Ctrl+p/Ctrl+n to arrow up/down",
+            "rules": [
+              {
+                "description": "Ctrl+p/Ctrl+n to arrow up/down"
               }
             ]
           },
@@ -424,155 +567,27 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/ergoemacs_mode.json",
-          "extra_description_path": "extra_descriptions/ergoemacs_mode.json.html",
+          "path": "json/diamond_cursor.json",
           "json": {
-            "title": "Ergoemacs mode",
-            "maintainers": [
-              "marlonrichert"
-            ],
+            "title": "Diamond Cursor",
             "rules": [
               {
-                "description": "Ergoemacs mode [space as trigger key]"
+                "description": "Change fn + I/J/K/L to Arrow Keys"
               },
               {
-                "description": "Ergoemacs mode [tab as trigger key]"
-              }
-            ]
-          },
-          "extra_description_text": "Ergoemacs mode Ergonomic anti-RSI keybindings for text editing, based on the US Qwerty version of ergoemacs-mode. Features Tuned to feel quick and responsive. Does not trigger accidentally while touch typing. Compatible with terminal apps. Included key bindings Trigger key + I/J/K/L Arrow keys Trigger key + U/O Move cursor one word backward/forward Trigger key + H/; Move cursor to beginning/end of line Trigger key + D/F Backspace/Delete Trigger key + E/R Delete one word backward/forward Trigger key + S/G Delete to beginning/end of line Usage notes Space should be your default choice for the trigger key, as it's the easiest to reach and the most ergonomic option. However, Tab is provided as an additional option, so that if you have a keyboard with two spacebars, so you can map one to Space and one to Tab, and use both as the trigger key. This mod is made for Qwerty keyboards. If you want to use a different keyboard layout, or another key as the trigger key, please download the source code and modify ergoemacs_mode.json.rb. In Zsh, the command backward-kill-line does not have a keybinding by default and the shortcut for \"Delete to beginning of line\" will delete the whole line instead. To get it to work correctly, you need to add the following to your ~/.zshrc file: bindkey \"^U\" backward-kill-line If you are using Prezto's editor module, then this is included automatically."
-        },
-        {
-          "path": "json/vi_mode.json",
-          "extra_description_path": "extra_descriptions/vi_mode.json.html",
-          "json": {
-            "title": "Vi Mode (rev 5)",
-            "rules": [
-              {
-                "description": "Vi Mode [S as Trigger Key]"
-              },
-              {
-                "description": "Vi Mode [D as Trigger Key]"
-              },
-              {
-                "description": "Vi Visual Mode"
-              }
-            ]
-          },
-          "extra_description_text": "Moving Around Trigger Key + H/J/K/L Arrow Keys Trigger Key + F Fn Trigger Key + F + H/J/K/L Home / Page Down / Page Up / End Trigger Key + 0/4 Go to Start/End of the Line Trigger Key + Command + H/L Go to Start/End of the Line Trigger Key + Command + J/K Go to Start/End of the Document Trigger Key + Option + H/L Go to Start/End of the Word Selecting Text Trigger Key + Shift + H/J/K/L Select Text Trigger Key + Shift + Command + H/L Select Until Start/End of the Line Trigger Key + Shift + Command + J/K Select Until Start/End of the Document Trigger Key + Shfit + Option + H/L Select Until Start/End of the Word Trigger Key + Shfit + Option + J/K Select Until Start/End of the Paragraph Visual Mode V + H/J/K/L Select Text V + 0/4 Select Until Start/End of the Line V + B/W Select Until Start/End of the Word V + Open/Close Bracket Select Until Start/End of the Paragraph You can use either S or D as the trigger key Please change your simultaneous_threshold_milliseconds setting in Karabiner-Elements → Complex Modifications → Parameters; A value between 150 and 500 is recommended for this mode If you want to use another key as the trigger key, please download the source code and modify this file"
-        },
-        {
-          "path": "json/vi_mode_with_caps_lock.json",
-          "json": {
-            "title": "Use CAPS LOCK for vi navigation",
-            "rules": [
-              {
-                "description": "CAPS LOCK + hjkl to arrow keys"
-              },
-              {
-                "description": "CAPS LOCK + shift + hjkl to scroll"
+                "description": "Change right_command+i/j/k/l to Arrows"
               }
             ]
           },
           "extra_description_text": ""
         },
         {
-          "path": "json/vi_style_arrows.json",
+          "path": "json/dos_style.json",
           "json": {
-            "title": "Vi Style Arrows",
+            "title": "DOS-Style Shortcuts",
             "rules": [
               {
-                "description": "Change Control + h/j/k/l to Arrows"
-              },
-              {
-                "description": "Change Option + h/j/k/l to Arrows"
-              },
-              {
-                "description": "Change Fn + h/j/k/l to Arrows"
-              },
-              {
-                "description": "Change command + h/j/k/l to Arrows"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/vi_style_arrows_pushing_simultaneously.json",
-          "json": {
-            "title": "Vi Style Arrows Pushing Simultaneously",
-            "rules": [
-              {
-                "description": "Change Control + h/j/k/l to Arrows"
-              },
-              {
-                "description": "Change Option + h/j/k/l to Arrows"
-              },
-              {
-                "description": "Change Fn + h/j/k/l to Arrows"
-              },
-              {
-                "description": "Change command + h/j/k/l to Arrows"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/vi_mode_arrow.json",
-          "json": {
-            "title": "Vi Mode, left_control + hjkl. shift/option/command + arrow working.",
-            "rules": [
-              {
-                "description": "Vi Mode [left_control + hjkl]"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/map_left_option_with_j_k_l_m_to_arrows.json",
-          "json": {
-            "title": "Map Left Option with j/k/l/m to Arrows",
-            "rules": [
-              {
-                "description": "Map Left Option with j/k/l/m to Arrows"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/map_left_option_with_j_k_l_semicolon_to_arrows.json",
-          "json": {
-            "title": "Map Left Option with j/k/l/; to Arrows (QWERTY alt)",
-            "rules": [
-              {
-                "description": "Map Left Option with j/k/l/; to Arrows (QWERTY alt)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/map_left_option_plus_spacebar_to_enter.json",
-          "json": {
-            "title": "Map Left Option + Spacebar to Enter",
-            "rules": [
-              {
-                "description": "Map Left Option + Spacebar to Enter"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/map_shift_plus_left_option_with_j_k_l_semicolon_to_page_arrows.json",
-          "json": {
-            "title": "Map Left Shift plus Left Option with j/k/l/; to Page Arrows (QWERTY alt)",
-            "rules": [
-              {
-                "description": "Map Left Shift plus Left Option with j/k/l/; to Page Arrows (QWERTY alt)"
+                "description": "DOS-Style Copy/Paste/Cut"
               }
             ]
           },
@@ -613,49 +628,67 @@
           "extra_description_text": "Key Bindings (C-x key strokes) C-x C-c Quit application (post command-q) C-x C-f Open file (post command-o) C-x C-s Save file (post command-s) Key Bindings (control+keys) control+d forward delete control+h delete control+i tab control+[ escape control+m return control+bfnp arrow keys control+v page down control+a (Microsoft Office) home control+e (Microsoft Office) end Key Bindings (option+keys) option+v page up option+bf option+arrow keys option+d option+forward delete Bash Style Key Bindings control+w Delete the word behind point (option+delete) control+u Delete backward from point to the beginning of the line."
         },
         {
-          "path": "json/numeric_keypad.json",
-          "extra_description_path": "extra_descriptions/numeric_keypad.json.html",
+          "path": "json/ergoemacs_mode.json",
+          "extra_description_path": "extra_descriptions/ergoemacs_mode.json.html",
           "json": {
-            "title": "Numeric Keypad",
+            "title": "Ergoemacs mode",
+            "maintainers": [
+              "marlonrichert"
+            ],
             "rules": [
               {
-                "description": "Numeric Keypad Trigger [Tab as trigger key]"
+                "description": "Ergoemacs mode [space as trigger key]"
               },
               {
-                "description": "Numeric Keypad Trigger [Caps Lock as trigger key]"
-              },
-              {
-                "description": "Numeric Keypad Trigger [Escape as trigger key]"
-              },
-              {
-                "description": "Numeric Keypad Mode [spacebar as 0]"
-              },
-              {
-                "description": "Numeric Keypad Mode [right_command as 0]"
-              },
-              {
-                "description": "Numeric Keypad Mode [Optional] Trigger + right_control to keypad_period"
-              },
-              {
-                "description": "Numeric Keypad Mode [Optional] Trigger + left_command to spacebar"
+                "description": "Ergoemacs mode [tab as trigger key]"
               }
             ]
           },
-          "extra_description_text": "Numeric Keypad Mode Trigger Key + 7 / 8 / 9 / 0 Backspace / = / Slash(/) / * Trigger Key + U / I / O / P 7 / 8 / 9 / - Trigger Key + J / K / L / ; 4 / 5 / 6 / + Trigger Key + M / , / . / Slash(/) 1 / 2 / 3 / Enter Trigger Key + Space or right_command / right_option 0 / Period (.) Optional mappings Trigger Key + right_control Period (.) Trigger Key + left_command Space Choose a trigger key from: Tab, Escape, Caps Lock Choose a layout: Either spacebar or right_command to be mapped to 0 Hold down the trigger key then press one of the keys to use a numeric key Press and releasing the trigger acts as a normal key press Optionally map right_control (in case you remapped your right_option) to numeric_period Optionally map left_command to spacebar (so you can type spaced numbers without lifting trigger key)"
+          "extra_description_text": "Ergoemacs mode Ergonomic anti-RSI keybindings for text editing, based on the US Qwerty version of ergoemacs-mode. Features Tuned to feel quick and responsive. Does not trigger accidentally while touch typing. Compatible with terminal apps. Included key bindings Trigger key + I/J/K/L Arrow keys Trigger key + U/O Move cursor one word backward/forward Trigger key + H/; Move cursor to beginning/end of line Trigger key + D/F Backspace/Delete Trigger key + E/R Delete one word backward/forward Trigger key + S/G Delete to beginning/end of line Usage notes Space should be your default choice for the trigger key, as it's the easiest to reach and the most ergonomic option. However, Tab is provided as an additional option, so that if you have a keyboard with two spacebars, so you can map one to Space and one to Tab, and use both as the trigger key. This mod is made for Qwerty keyboards. If you want to use a different keyboard layout, or another key as the trigger key, please download the source code and modify ergoemacs_mode.json.rb. In Zsh, the command backward-kill-line does not have a keybinding by default and the shortcut for \"Delete to beginning of line\" will delete the whole line instead. To get it to work correctly, you need to add the following to your ~/.zshrc file: bindkey \"^U\" backward-kill-line If you are using Prezto's editor module, then this is included automatically."
         },
         {
-          "path": "json/hhkb_mode.json",
+          "path": "json/fc660c_arrow_keys.json",
           "json": {
-            "title": "Happy Hacking Keyboard Compatible Mode (rev 2)",
+            "title": "FC660C Arrow Keys",
             "rules": [
               {
-                "description": "HHKB Arrow Mode (fn + semicolon/slash/open_bracket/quote to arrow keys, etc)"
+                "description": "FC660C Arrow Keys (fn + ijkl to arrow keys)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/fc660c_media_keys.json",
+          "json": {
+            "title": "FC660C Media Controls",
+            "rules": [
+              {
+                "description": "FC660C Volume Controls (fn + up/down to volume up/down)"
               },
               {
-                "description": "HHKB Media Key Mode (fn + asdf to Volume down/up/mute, eject) (rev 2)"
+                "description": "FC660C Media Keys (fn + left/right to Previous Title/Next)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/fn_arrows.json",
+          "json": {
+            "title": "FN + Arrow Keys",
+            "rules": [
+              {
+                "description": "FN + Up to Page Up"
               },
               {
-                "description": "Map fn + i, o, p  to F13, F14, F15."
+                "description": "FN + Down to Page Down"
+              },
+              {
+                "description": "FN + Left to Home"
+              },
+              {
+                "description": "FN + Right to End"
               }
             ]
           },
@@ -689,6 +722,57 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/gamer_keys.json",
+          "json": {
+            "title": "Gaming cursor keys [WASD]",
+            "rules": [
+              {
+                "description": "Change fn + W/A/S/D to Arrow Keys"
+              },
+              {
+                "description": "Change control + W/A/S/D to Arrow Keys"
+              },
+              {
+                "description": "Change left_option + W/A/S/D to Arrow Keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/hhkb_mode.json",
+          "json": {
+            "title": "Happy Hacking Keyboard Compatible Mode (rev 2)",
+            "rules": [
+              {
+                "description": "HHKB Arrow Mode (fn + semicolon/slash/open_bracket/quote to arrow keys, etc)"
+              },
+              {
+                "description": "HHKB Media Key Mode (fn + asdf to Volume down/up/mute, eject) (rev 2)"
+              },
+              {
+                "description": "Map fn + i, o, p  to F13, F14, F15."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/HomeEnd.json",
+          "json": {
+            "title": "Home and End",
+            "rules": [
+              {
+                "description": "Home to Command Left"
+              },
+              {
+                "description": "End to Command Right"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/ijkl_arrows.json",
           "json": {
             "title": "Change Modifier key + i/j/k/l to arrow keys",
@@ -713,27 +797,85 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/pok3r-media.json",
+          "path": "json/japanese_nicola.json",
           "json": {
-            "title": "Pok3r Media Controls",
+            "title": "Japanese NICOLA",
             "rules": [
               {
-                "description": "Pok3r Volume Controls (fn + sdf to Volume down/up/mute)"
-              },
-              {
-                "description": "Pok3r Media Keys (fn + qwe to Previous Title/Play-Pause/Next)"
+                "description": "Japanese NICOLA Type F"
               }
             ]
           },
           "extra_description_text": ""
         },
         {
-          "path": "json/pok3r-escape.json",
+          "path": "json/left_option_plus_hjkl_to_arrows.json",
+          "extra_description_path": "extra_descriptions/left_option_plus_hjkl_to_arrows.json.html",
           "json": {
-            "title": "Pok3r Escape Key",
+            "title": "Map Left Option plus h/j/k/l to Arrows",
             "rules": [
               {
-                "description": "Pok3r Escape key (grave_accent_and_tilde as Escape and fn + grave_accent_and_tilde as grave_accent_and_tilde)"
+                "description": "Map Left Option plus h/j/k/l to Arrows"
+              }
+            ]
+          },
+          "extra_description_text": "Map Left Option + hjkl to Arrows Keys left_option + h = left_arrow left_option + j = down_arrow left_option + k = up_arrow left_option + l = right_arrow"
+        },
+        {
+          "path": "json/map_left_option_plus_spacebar_to_enter.json",
+          "json": {
+            "title": "Map Left Option + Spacebar to Enter",
+            "rules": [
+              {
+                "description": "Map Left Option + Spacebar to Enter"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/map_left_option_with_j_k_l_m_to_arrows.json",
+          "json": {
+            "title": "Map Left Option with j/k/l/m to Arrows",
+            "rules": [
+              {
+                "description": "Map Left Option with j/k/l/m to Arrows"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/map_left_option_with_j_k_l_semicolon_to_arrows.json",
+          "json": {
+            "title": "Map Left Option with j/k/l/; to Arrows (QWERTY alt)",
+            "rules": [
+              {
+                "description": "Map Left Option with j/k/l/; to Arrows (QWERTY alt)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/map_shift_plus_left_option_with_j_k_l_semicolon_to_page_arrows.json",
+          "json": {
+            "title": "Map Left Shift plus Left Option with j/k/l/; to Page Arrows (QWERTY alt)",
+            "rules": [
+              {
+                "description": "Map Left Shift plus Left Option with j/k/l/; to Page Arrows (QWERTY alt)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mu_mode.json",
+          "json": {
+            "title": "Mu Mode (rev 0.1)",
+            "rules": [
+              {
+                "description": "Mu Mode Semicolon(;)+J/K/L/I/U/M/O/. to Arrow Left/Down/Right/Up/PageUp/PageDown/Home/End"
               }
             ]
           },
@@ -782,19 +924,47 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/poker-escape.json",
+          "path": "json/nmop_to_page_updown_and_homeend.json",
           "json": {
-            "title": "Change Poker Keyboard escape behavior",
+            "title": "Change fn + n/m/o/p' to page_up, page_down, home and end keys",
             "rules": [
               {
-                "description": "Change left option+escape to escape"
-              },
-              {
-                "description": "Change escape to grave accent and tilde"
+                "description": "Change fn + n/m/o/p' to page_up, page_down, home and end keys"
               }
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/numeric_keypad.json",
+          "extra_description_path": "extra_descriptions/numeric_keypad.json.html",
+          "json": {
+            "title": "Numeric Keypad",
+            "rules": [
+              {
+                "description": "Numeric Keypad Trigger [Tab as trigger key]"
+              },
+              {
+                "description": "Numeric Keypad Trigger [Caps Lock as trigger key]"
+              },
+              {
+                "description": "Numeric Keypad Trigger [Escape as trigger key]"
+              },
+              {
+                "description": "Numeric Keypad Mode [spacebar as 0]"
+              },
+              {
+                "description": "Numeric Keypad Mode [right_command as 0]"
+              },
+              {
+                "description": "Numeric Keypad Mode [Optional] Trigger + right_control to keypad_period"
+              },
+              {
+                "description": "Numeric Keypad Mode [Optional] Trigger + left_command to spacebar"
+              }
+            ]
+          },
+          "extra_description_text": "Numeric Keypad Mode Trigger Key + 7 / 8 / 9 / 0 Backspace / = / Slash(/) / * Trigger Key + U / I / O / P 7 / 8 / 9 / - Trigger Key + J / K / L / ; 4 / 5 / 6 / + Trigger Key + M / , / . / Slash(/) 1 / 2 / 3 / Enter Trigger Key + Space or right_command / right_option 0 / Period (.) Optional mappings Trigger Key + right_control Period (.) Trigger Key + left_command Space Choose a trigger key from: Tab, Escape, Caps Lock Choose a layout: Either spacebar or right_command to be mapped to 0 Hold down the trigger key then press one of the keys to use a numeric key Press and releasing the trigger acts as a normal key press Optionally map right_control (in case you remapped your right_option) to numeric_period Optionally map left_command to spacebar (so you can type spaced numbers without lifting trigger key)"
         },
         {
           "path": "json/pc_shortcuts.json",
@@ -914,273 +1084,42 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/dos_style.json",
+          "path": "json/pok3r-escape.json",
           "json": {
-            "title": "DOS-Style Shortcuts",
+            "title": "Pok3r Escape Key",
             "rules": [
               {
-                "description": "DOS-Style Copy/Paste/Cut"
+                "description": "Pok3r Escape key (grave_accent_and_tilde as Escape and fn + grave_accent_and_tilde as grave_accent_and_tilde)"
               }
             ]
           },
           "extra_description_text": ""
         },
         {
-          "path": "json/mu_mode.json",
+          "path": "json/pok3r-media.json",
           "json": {
-            "title": "Mu Mode (rev 0.1)",
+            "title": "Pok3r Media Controls",
             "rules": [
               {
-                "description": "Mu Mode Semicolon(;)+J/K/L/I/U/M/O/. to Arrow Left/Down/Right/Up/PageUp/PageDown/Home/End"
+                "description": "Pok3r Volume Controls (fn + sdf to Volume down/up/mute)"
+              },
+              {
+                "description": "Pok3r Media Keys (fn + qwe to Previous Title/Play-Pause/Next)"
               }
             ]
           },
           "extra_description_text": ""
         },
         {
-          "path": "json/spacefn.json",
+          "path": "json/poker-escape.json",
           "json": {
-            "title": "SpaceFN",
+            "title": "Change Poker Keyboard escape behavior",
             "rules": [
               {
-                "description": "SpaceFN: Space enables SpaceFN mode (see: https://geekhack.org/index.php?topic=51069.0)"
+                "description": "Change left option+escape to escape"
               },
               {
-                "description": "SpaceFN: Space+b to Space (hold to repeat)"
-              },
-              {
-                "description": "SpaceFN: Space+[ijkl] to Up, Left, Down, Right"
-              },
-              {
-                "description": "SpaceFN: Space+[hjkl] to Left, Down, Up, Right"
-              },
-              {
-                "description": "SpaceFN: Space+u to Home, Space+o to End"
-              },
-              {
-                "description": "SpaceFN: Space+h to Page Up, Space+n to Page Down"
-              },
-              {
-                "description": "SpaceFN: Space+p to Print Screen, Space+Open Bracket ([) to Scroll Lock, Space+Close Bracket (]) to Pause, Space+Backspace to Forward Delete, Space+Backslash (\\) to Insert"
-              },
-              {
-                "description": "SpaceFN: Backquote (`) to Escape, Space+[1-9] to F[1-9], Space+0 to F10, Space+Hyphen (-) to F11, Space+Equal Sign (=) to F12, Space+e to Escape, Space+m to Backtick (`), Space+Comma to Tilde (~), Space+Slash (/) to Menu"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/touchcursor_mode.json",
-          "extra_description_path": "extra_descriptions/touchcursor_mode.json.html",
-          "json": {
-            "title": "TouchCursor Mode (rev 2)",
-            "rules": [
-              {
-                "description": "TouchCursor Mode [Space as Trigger Key] (rev 2)"
-              }
-            ]
-          },
-          "extra_description_text": "Moving Around Trigger Key + J/K/I/L Arrow Keys Trigger Key + U/O/H/N Home / End / Page Up / Page Down Trigger Key + Y/P/M Insert / Backspace / (Forward) Delete"
-        },
-        {
-          "path": "json/caps_lock_enhancement.json",
-          "extra_description_path": "extra_descriptions/caps_lock_enhancement.json.html",
-          "json": {
-            "title": "Capslock Enhancement",
-            "author": "Vonng(fengruohang@outlook.com)",
-            "homepage": "https://github.com/Vonng/Capslock",
-            "hostpage": "https://ke-complex-modifications.pqrs.org/",
-            "manual": "https://github.com/Vonng/Capslock/tree/master/mac",
-            "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Vonng/Capslock/master/mac/capslock.json",
-            "rules": [
-              {
-                "description": "CapsLock to Hyper/Escape"
-              },
-              {
-                "description": "Hyper Navigation"
-              },
-              {
-                "description": "Hyper Mousekey"
-              },
-              {
-                "description": "Hyper Deletion"
-              },
-              {
-                "description": "Hyper Window Control"
-              },
-              {
-                "description": "Hyper Bash Control"
-              },
-              {
-                "description": "Hyper Application"
-              },
-              {
-                "description": "Hyper Functional"
-              },
-              {
-                "description": "Hyper Shifter"
-              },
-              {
-                "description": "Hyper Misc (Check https://github.com/Vonng/Capslock for all details)"
-              }
-            ]
-          },
-          "extra_description_text": "CapsLock Enhancement Project Vonng/Capslock provides more detailed info. Latest import url: karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Vonng/Capslock/master/mac/capslock.json Basic ✱ Hyper actually maps to ⌃⌥⇧⌘ (all right modifiers) , It works well with additional left modifiers. And compatible with most application. Hold CapsLock to enable Hyper funcationality while press it will emit an Escape. Origin MapsTo Comment ⇪ Press ⎋ Escape Single press to escape ⇪ Hold ✱ Hyper Enable Hyper Functionality Navigation Hold ✱ Hyper to enable navigators Hold additional ⌘ Command for selection . (just like holding ⇧shift in normal) Hold additional ⌥ Command for mouse movement Hold additional ⇧ Command for switching tab/app Hold additional ⌃ Command for desktop management (just like holding ⌃ctrl with arrow key) Origin MapsTo Comment H ← LeftArrow cursor left J ↓ DownArrow cursor down K ↑ UpArrow cursor up L → RightArrow cursor right U ⇞ PageUp cursor page up I ↖ Home cursor to line(doc) head O ↘ End cursor to line(doc) end P ⇟ PageDn cursor page down ⌘H ⇧← LeftArrow cursor left and selection ⌘J ⇧↓ DownArrow cursor down and selection ⌘K ⇧↑ UpArrow cursor up and selection ⌘L ⇧→ RightArrow cursor right and selection ⌥H ← LeftArrow mouse left ⌥J ↓ DownArrow mouse down ⌥K ↑ UpArrow mouse up ⌥L → RightArrow mouse right ⌃H ← LeftArrow expose all ⌃J ↓ DownArrow show desktops ⌃K ↑ UpArrow switch prev desktop ⌃L → RightArrow switch next desktop Mousekey Origin MapsTo Comment ← MouseLeft mouse cursor left ↓ MouseDown mouse cursor down ↑ MouseUp mouse cursor up → MouseRight mouse cursor right ↩ MouseLeft mouse left button click ⌘↩ MouseRight mouse right button click Deletion Origin MapsTo Comment N ⌥⌫ Option + ForwardDelete Delete a word ahead M ⌫ ForwardDelete Delete a char ahead , ⌦ Delete Delete a char after . ⌥⌦ Option + Delete Delete a word after ⌘M,⌘N ⌘⌥⌫ Command+Option+ForwardDelete Delete to line head Window Control Origin MapsTo Comment ⇥ Tab ⌘⇥ Command+Tab Switch Window ⌘⇥ Command+Tab ⌘⇧⇥ Command+Shift+Tab Switch Window Reversely Q ⌘Q Close Window W ⌘W Close Tab A ⌃⌥⇧⌘A Leaves to Moom, ※a window resize app ⌘A ⌃↑ Ctrl+UpArrow OSX Expose All S ⌃⇥ Ctrl+Tab Switch Tab ⌘S ⌃⇧⇥ Ctrl+Shift+Tab Swtich Tab Reversely ⌘D F11 Show Desktop Bash Control Common bash utils: EOF, SIGINT, SIGTSTP, VIM/Tmux Prefix Origin MapsTo Comment Z ⌃Z Ctrl+Z SIGTSTP X ⌃R IDE Run C ⌃C SIGINT V ⌃V Vim Prefix B ⌃B Tmux Default Prefix D ⌃D EOF Applications Maybe you'd like overwrite these with your own favorite apps. Origin MapsTo Comment E Open Safari Open Web Browser ⌘E Open Finder Open File Browser R Open iTerm2 Great terminal for osx (Run) ⌘R Open Preview Switch to opened picture, pdf, etc... T Open Visual Studio Code Text Editor: Visual Studio Code ⌘T Open Typora Text Editor: Typora , a great WYSIWYG md editor Y Open Siri F Open Dash Find API Document ⌘F Open Dictionary Find words G Open Intellij IDEA Open IDE ⌘G Open Chrome Google Chrome Functional Use F1,…F12 as standard functional keys, while hold hyper to turn them back. Origin MapsTo Comment F1 BrightnessDown F2 BrightnessUp F3 ExposeAll F4 LaunchPad F5 KeyboardLightDown F6 KeyboardLightUp F7 MusicPrev F8 MusicPlay F9 MusicNext F10 Mute F11 VolumeDown F12 VolumeUp F13 PrintScreen MusicPrev F14 ScrollLock MusicNext F15 Pause Mute Insert ⌥BrightnessUp Fine grained brightness up Delete ⌥BrightnessDown Fine grained brightness down Home ⌥KeyboardLightUp Fine grained keyboard light up End ⌥KeyboardLightDown Fine grained keyboard light down PgUp ⌥VolumeUp Fine grained volume up PgDn ⌥VolumeDown Fine grained volume down Shifter A more convient shift for most case Origin MapsTo Comment 1 ! Exclamation 2 @ At 3 # Sharp 4 $ Dollar 5 % Percent 6 ^ Caret 7 & Ampersand 8 * Star 9 ( Left Round Bracket 0 ) Right Round Bracket - Minus _ Hyphen = Equal + Plus [ Left Bracket ( Left Round Bracket ⇧9 ] Right Bracket ) Right Round Bracket ⇧0 \\ Back Slash | Bar ; Semicolon ! Exclamation ' Single Quote = EqualSign ⌘; Semicolon ! Colon ⌘' Single Quote = EqualSign Misc Origin MapsTo Comment ⎋ Escape ⇪ CapsLock Bug: Difficult to turn capslock off after emit ~ BackQuote ⌃⇧⌘4 macOS Area Screenshot to Clipboard ⌘~ Command+BackQuote ⌃⇧4 macOS Area Screenshot to Desktop File ⌫ Backspace ⌘⌫ macOS Delete File / Slash ⌘/ Command+Slash Comment/Uncomment in many IDE / Backslash ⌘/ Command+Slash Comment/Uncomment in many IDE ␢ Spacebar ⌃␢ Ctrl+Spacebar Switch Input Source"
-        },
-        {
-          "path": "json/vimium.json",
-          "extra_description_path": "extra_descriptions/vimium.json.html",
-          "json": {
-            "title": "Vimium",
-            "rules": [
-              {
-                "description": "System-wide Vimium"
-              }
-            ]
-          },
-          "extra_description_text": "Press Esc to enter Vimium mode. Manipulating tabs K, gt Go one tab right J, gT Go one tab left t Create new tab x Close current tab X Restore closed tab g0 Go to the first tab g$ Go to the last tab Navigating h/j/k/l Arrow Keys gg Scroll to the top of the page G Scroll to the bottom of the page f, <c-f> Scroll a full page down b, <c-b> Scroll a full page up <c-u> Scroll 20 lines up <c-d> Scroll 20 lines down r Reload the page / Search n Cycle forward to the next find match N Cycle backward to the previous find match u Undo <c-r> Redo i Enter insert mode"
-        },
-        {
-          "path": "json/capslock-plus.json",
-          "extra_description_path": "extra_descriptions/capslock-plus.json.html",
-          "json": {
-            "title": "CapsLock Plus",
-            "maintainers": [
-              "BryanHoo"
-            ],
-            "homepage": "https://github.com/BryanHoo/Capslock-Plus",
-            "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/BryanHoo/Capslock-Plus/master/capslock-plus.json",
-            "rules": [
-              {
-                "description": "CapsLock to Hyper/Escape"
-              },
-              {
-                "description": "Hyper Cursor navigation"
-              },
-              {
-                "description": "Hyper selected Navigation"
-              },
-              {
-                "description": "Hyper More"
-              }
-            ]
-          },
-          "extra_description_text": "README Mac Capslock PlusIt is modeled on capslock+ of windows platform and basically keeps the same as that of windows,Click to view windows Capslock+&nbsp;PlatformsCapsLock-Plus via Karabiner-ElementsmacOS Catalina(10.15)macOS Mojave(10.14)macOS High Sierra (10.13)macOS Sierra (10.12)macOS EI Capitan (10.11)InstallDownload Karabiner-Elements and InstallCopy URL to your browser to import configuration script.# This Repo (open in safari)karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/BryanHoo/Capslock-Plus/master/capslock-plus.jsonOpen Karabiner, Tab \"ComplexModification\", Button \"Add Item\", and enable entries you like.Default conf file path is $HOME/.config/karabiner/assets/complex_modifications. Modify it if you like.Enable functions: [App] karabiner-elements -> [Tab] Complex Modification -> Add ItemUsageBasic✱ Hyper actually maps to ⌃⌥⇧⌘ (all right modifiers) , It works well with additional left modifiers. And compatible with most application. Hold CapsLock to enable Hyper funcationality while press it will emit an Escape.OriginMaps toComment⇪ Press⎋ EscapeSingle press to escape⇪ Hold✱ HyperEnable Hyper FunctionalitynavigationHold ✱ Hyper to enable navigatorsOriginMaps toCommentS← LeftArrowcursor leftD↓ DownArrowcursor downE↑ UpArrowcursor upF→ RightArrowcursor rightA&nbsp;cursor skip words forwardG&nbsp;cursor skips the word backwardY⇞ PageUpcursor page upB⇟ PageDncursor page downP↖ Homecursor to line(doc) head;↘ Endcursor to line(doc) endJ&nbsp;cursor left and selectionK&nbsp;cursor down and selectionI&nbsp;cursor up and selectionL&nbsp;cursor left and selectionH&nbsp;cursor one word to the left and selectionN&nbsp;cursor one word to the right and selectionU&nbsp;cursor to line(doc) head and selectionO&nbsp;cursor to line(doc) end and selectionWindow ControlOriginMaps toComment/ Tab⌘⇥ Command+TabSwitch WindowApplicationsOriginMaps toCommentMOpen FinderOpen File BrowserTOpen iTerm2Great terminal for osx (Run)"
-        },
-        {
-          "path": "json/control_fn_to_media_control.json",
-          "json": {
-            "title": "Control + Function Keys to Media Control",
-            "rules": [
-              {
-                "description": "control + f1 to display_brightness_decrement"
-              },
-              {
-                "description": "control + f2 to display_brightness_increment"
-              },
-              {
-                "description": "control + f3 to rewind"
-              },
-              {
-                "description": "control + f4 to play_or_pause"
-              },
-              {
-                "description": "control + f5 to fastforward"
-              },
-              {
-                "description": "control + f10 to mute"
-              },
-              {
-                "description": "control + f11 to volume_decrement"
-              },
-              {
-                "description": "control + f12 to volume_increment"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/window_resizing.json",
-          "extra_description_path": "extra_descriptions/window_resizing.json.html",
-          "json": {
-            "title": "Window Resizing",
-            "rules": [
-              {
-                "description": "Window Resize Mode [Cmd+Esc as trigger]"
-              }
-            ]
-          },
-          "extra_description_text": "Window Resizing Mode This mode is intended to use with a third-party window resizing/management tool. We use these rules to create easier to access shortcut keys that do not conflic with other system shortcuts. Karabiner Shortcuts Resize Shortcuts Window Resize Result Trigger Key + U / I / O Ctrl+Alt+Cmd + 1 / 2 / 3 Top Left Quarter / Top Half / Top Right Quarter Trigger Key + J / K / L Ctrl+Alt+Cmd + 4 / 5 / 6 Left Half / Maximized Window / Right Half Trigger Key + M / , / . Ctrl+Alt+Cmd + 7 / 8 / 9 Bottom Left Quarter / Bottom Half / Bottom Right Quater Trigger Key + Space Ctrl+Alt+Cmd + 0 Send window to next monitor Setup Open your window resizing app and configure the Resize Shortcuts (2nd column) to the according Window Sizes (3rd columns)."
-        },
-        {
-          "path": "json/gamer_keys.json",
-          "json": {
-            "title": "Gaming cursor keys [WASD]",
-            "rules": [
-              {
-                "description": "Change fn + W/A/S/D to Arrow Keys"
-              },
-              {
-                "description": "Change control + W/A/S/D to Arrow Keys"
-              },
-              {
-                "description": "Change left_option + W/A/S/D to Arrow Keys"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/shift_arrows.json",
-          "json": {
-            "title": "Shift + Arrow Keys",
-            "rules": [
-              {
-                "description": "Shift + Up to Page Up"
-              },
-              {
-                "description": "Shift + Down to Page Down"
-              },
-              {
-                "description": "Shift + Left to Home"
-              },
-              {
-                "description": "Shift + Right to End"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/command_arrows.json",
-          "json": {
-            "title": "LCMD + Arrow Keys",
-            "rules": [
-              {
-                "description": "LCMD + Up to Page Up"
-              },
-              {
-                "description": "LCMD + Down to Page Down"
-              },
-              {
-                "description": "LCMD + Left to Home"
-              },
-              {
-                "description": "LCMD + Right to End"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/nmop_to_page_updown_and_homeend.json",
-          "json": {
-            "title": "Change fn + n/m/o/p' to page_up, page_down, home and end keys",
-            "rules": [
-              {
-                "description": "Change fn + n/m/o/p' to page_up, page_down, home and end keys"
+                "description": "Change escape to grave accent and tilde"
               }
             ]
           },
@@ -1317,61 +1256,21 @@
           "extra_description_text": "Title Mappings all with right shift pressed.. Movement/navigation h/j/k/l -> mapped to arrow keys w/b -> word forward/back a/e -> home/end ;/p -> pageup/down u/o -> cmd+shift+[/] (tab switch) +command/option/left shift/control -> apply to above Editing s/c/v/x/z/t sent with command modifier m -> return f/d -> delete/backspace space -> tab space+left shift -> shift tab q -> single quote q+left shift -> closed single quote 2 -> double quote 2+left shift -> closed double quote 3 -> hash . -> \"->\" .+left shift -> \"=>\" r -> f6+shift (rename) Other caplocks+enter -> command+space (spotlight default) caplocks+space -> escape y -> cmd+w (close tab) g -> cmd+l (address bar) h/l -> cmd+[/] (history back/forward)"
         },
         {
-          "path": "json/ctrl_pn_arrow.json",
+          "path": "json/shift_arrows.json",
           "json": {
-            "title": "Ctrl+p/Ctrl+n to arrow up/down",
+            "title": "Shift + Arrow Keys",
             "rules": [
               {
-                "description": "Ctrl+p/Ctrl+n to arrow up/down"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/fn_arrows.json",
-          "json": {
-            "title": "FN + Arrow Keys",
-            "rules": [
-              {
-                "description": "FN + Up to Page Up"
+                "description": "Shift + Up to Page Up"
               },
               {
-                "description": "FN + Down to Page Down"
+                "description": "Shift + Down to Page Down"
               },
               {
-                "description": "FN + Left to Home"
+                "description": "Shift + Left to Home"
               },
               {
-                "description": "FN + Right to End"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/ctrl_plus_hjkl_to_arrow_keys.json",
-          "extra_description_path": "extra_descriptions/ctrl_plus_hjkl_to_arrow_keys.json.html",
-          "json": {
-            "title": "Left ctrl + hjkl to Arrow Keys Vim",
-            "rules": [
-              {
-                "description": "Left ctrl + hjkl to arrow keys Vim"
-              }
-            ]
-          },
-          "extra_description_text": "ctrl + hjkl to Arrow Keys (Vim) ctrl + h = left_arrow ctrl + j = down_arrow ctrl + k = up_arrow ctrl + l = right_arrow"
-        },
-        {
-          "path": "json/HomeEnd.json",
-          "json": {
-            "title": "Home and End",
-            "rules": [
-              {
-                "description": "Home to Command Left"
-              },
-              {
-                "description": "End to Command Right"
+                "description": "Shift + Right to End"
               }
             ]
           },
@@ -1393,50 +1292,231 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/left_option_plus_hjkl_to_arrows.json",
-          "extra_description_path": "extra_descriptions/left_option_plus_hjkl_to_arrows.json.html",
+          "path": "json/spacefn.json",
           "json": {
-            "title": "Map Left Option plus h/j/k/l to Arrows",
+            "title": "SpaceFN",
             "rules": [
               {
-                "description": "Map Left Option plus h/j/k/l to Arrows"
+                "description": "SpaceFN: Space enables SpaceFN mode (see: https://geekhack.org/index.php?topic=51069.0)"
+              },
+              {
+                "description": "SpaceFN: Space+b to Space (hold to repeat)"
+              },
+              {
+                "description": "SpaceFN: Space+[ijkl] to Up, Left, Down, Right"
+              },
+              {
+                "description": "SpaceFN: Space+[hjkl] to Left, Down, Up, Right"
+              },
+              {
+                "description": "SpaceFN: Space+u to Home, Space+o to End"
+              },
+              {
+                "description": "SpaceFN: Space+h to Page Up, Space+n to Page Down"
+              },
+              {
+                "description": "SpaceFN: Space+p to Print Screen, Space+Open Bracket ([) to Scroll Lock, Space+Close Bracket (]) to Pause, Space+Backspace to Forward Delete, Space+Backslash (\\) to Insert"
+              },
+              {
+                "description": "SpaceFN: Backquote (`) to Escape, Space+[1-9] to F[1-9], Space+0 to F10, Space+Hyphen (-) to F11, Space+Equal Sign (=) to F12, Space+e to Escape, Space+m to Backtick (`), Space+Comma to Tilde (~), Space+Slash (/) to Menu"
               }
             ]
           },
-          "extra_description_text": "Map Left Option + hjkl to Arrows Keys left_option + h = left_arrow left_option + j = down_arrow left_option + k = up_arrow left_option + l = right_arrow"
+          "extra_description_text": ""
         },
         {
-          "path": "json/caps_tenkey_mode.json",
+          "path": "json/touchcursor_mode.json",
+          "extra_description_path": "extra_descriptions/touchcursor_mode.json.html",
           "json": {
-            "title": "CAPS 4 Tenkey",
+            "title": "TouchCursor Mode (rev 2)",
+            "rules": [
+              {
+                "description": "TouchCursor Mode [Space as Trigger Key] (rev 2)"
+              }
+            ]
+          },
+          "extra_description_text": "Moving Around Trigger Key + J/K/I/L Arrow Keys Trigger Key + U/O/H/N Home / End / Page Up / Page Down Trigger Key + Y/P/M Insert / Backspace / (Forward) Delete"
+        },
+        {
+          "path": "json/vi_mode_arrow.json",
+          "json": {
+            "title": "Vi Mode, left_control + hjkl. shift/option/command + arrow working.",
+            "rules": [
+              {
+                "description": "Vi Mode [left_control + hjkl]"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/vi_mode_with_caps_lock.json",
+          "json": {
+            "title": "Use CAPS LOCK for vi navigation",
+            "rules": [
+              {
+                "description": "CAPS LOCK + hjkl to arrow keys"
+              },
+              {
+                "description": "CAPS LOCK + shift + hjkl to scroll"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/vi_mode.json",
+          "extra_description_path": "extra_descriptions/vi_mode.json.html",
+          "json": {
+            "title": "Vi Mode (rev 5)",
+            "rules": [
+              {
+                "description": "Vi Mode [S as Trigger Key]"
+              },
+              {
+                "description": "Vi Mode [D as Trigger Key]"
+              },
+              {
+                "description": "Vi Visual Mode"
+              }
+            ]
+          },
+          "extra_description_text": "Moving Around Trigger Key + H/J/K/L Arrow Keys Trigger Key + F Fn Trigger Key + F + H/J/K/L Home / Page Down / Page Up / End Trigger Key + 0/4 Go to Start/End of the Line Trigger Key + Command + H/L Go to Start/End of the Line Trigger Key + Command + J/K Go to Start/End of the Document Trigger Key + Option + H/L Go to Start/End of the Word Selecting Text Trigger Key + Shift + H/J/K/L Select Text Trigger Key + Shift + Command + H/L Select Until Start/End of the Line Trigger Key + Shift + Command + J/K Select Until Start/End of the Document Trigger Key + Shfit + Option + H/L Select Until Start/End of the Word Trigger Key + Shfit + Option + J/K Select Until Start/End of the Paragraph Visual Mode V + H/J/K/L Select Text V + 0/4 Select Until Start/End of the Line V + B/W Select Until Start/End of the Word V + Open/Close Bracket Select Until Start/End of the Paragraph You can use either S or D as the trigger key Please change your simultaneous_threshold_milliseconds setting in Karabiner-Elements → Complex Modifications → Parameters; A value between 150 and 500 is recommended for this mode If you want to use another key as the trigger key, please download the source code and modify this file"
+        },
+        {
+          "path": "json/vi_style_arrows_pushing_simultaneously.json",
+          "json": {
+            "title": "Vi Style Arrows Pushing Simultaneously",
+            "rules": [
+              {
+                "description": "Change Control + h/j/k/l to Arrows"
+              },
+              {
+                "description": "Change Option + h/j/k/l to Arrows"
+              },
+              {
+                "description": "Change Fn + h/j/k/l to Arrows"
+              },
+              {
+                "description": "Change command + h/j/k/l to Arrows"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/vi_style_arrows.json",
+          "json": {
+            "title": "Vi Style Arrows",
+            "rules": [
+              {
+                "description": "Change Control + h/j/k/l to Arrows"
+              },
+              {
+                "description": "Change Option + h/j/k/l to Arrows"
+              },
+              {
+                "description": "Change Fn + h/j/k/l to Arrows"
+              },
+              {
+                "description": "Change command + h/j/k/l to Arrows"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/vim_mode_plus.json",
+          "extra_description_path": "extra_descriptions/vim_mode_plus.json.html",
+          "json": {
+            "title": "Vim Mode Plus",
             "maintainers": [
-              "IvanShamatov"
+              "harmtemolder"
             ],
+            "homepage": "https://git.sr.ht/~harmtemolder/karabiner-vim-mode-plus",
+            "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://git.sr.ht/~harmtemolder/karabiner-vim-mode-plus/blob/master/vim_mode_plus.json",
             "rules": [
               {
-                "description": "CAPS Tenkey: TenkeyMode on/off toggle"
+                "description": "(Vim 1/11) caps_lock -> on, caps_lock, esc, control+[ or any pointing_button -> off"
               },
               {
-                "description": "CAPS Tenkey: if TenkeyMode ON m,.jkluio maps to 1234567890"
+                "description": "(Vim 2/11) finger on trackpad + any key -> off",
+                "available_since": "12.6.9"
               },
               {
-                "description": "CAPS Tenkey: if TenkeyMode ON 90p;/ maps to /*-+="
+                "description": "(Vim 3/11) visual mode + h,j,k,l,e,b,0,^,$,gg,G,{,} + d,y,c,x"
+              },
+              {
+                "description": "(Vim 4/11) dd,de,db,d0,d^,d$,dgg,dG,d{,d}"
+              },
+              {
+                "description": "(Vim 5/11) yy,ye,yb,y0,y^,y$,ygg,yG,y{,y}"
+              },
+              {
+                "description": "(Vim 6/11) cc,ce,cb,c0,c^,c$,cgg,cG,c{,c}"
+              },
+              {
+                "description": "(Vim 7/11) x,X,p,P,u,control+r"
+              },
+              {
+                "description": "(Vim 8/11) h,j,k,l (+ control/option/command/shift),e,b,0,^,$,gg,G,{,}"
+              },
+              {
+                "description": "(Vim 9/11) i,I,a,A,o,O"
+              },
+              {
+                "description": "(Vim 10/11) s,m,spacebar -> Hammerspoon modals"
+              },
+              {
+                "description": "(Vim 11/11) disable unused keys"
+              }
+            ]
+          },
+          "extra_description_text": "Karabiner Vim Mode Plus A complex modification that mimics Vim's navigation throughout your entire Mac. Although I try to keep this mod up-to-date in the KE-complex_modifications repository, you might encounter a more recent version in its own repository. 1. So what do you get? 1.1 NORMAL mode Activate with caps lock. Deactivate with: i or a (there are more like these, see below) caps lock, escape, control+[, Clicking any mouse button Pressing any key within Atom, iTerm2, PyCharm or VSCodium (because those have their own Vim modes) Pressing any key while having at least one finger on your trackpad Alternatively you can hold caps lock for NORMAL mode and release it to exit. Within NORMAL mode you can then move around with: key action h Move cursor left* j Move cursor down* k Move cursor up* l Move cursor right* e Move cursor to next end of word b Move cursor to previous start of word 0 Move cursor to start of line (before any tabs) ^ Move cursor to start of line (after any tabs) $ Move cursor to end of line g,g Move cursor to start of document G Move cursor to end of document { Move cursor to start of paragraph } Move cursor to end of paragraph *These work with shift, control, option and/or command, e.g. for hotkeys within apps. Combine those with d, y and c to delete (“cut”), yank (“copy”) or change (“cut” and exit NORMAL mode) like so: key action d,d / y,y / c,c Delete/yank/change the entire line d,e / y,e / c,e Delete/yank/change to the next end of word d,b / ... / ... Delete/yank/change to the previous start of word ... Ditto for all other navigation keys mentioned above Also: key action x Delete forward X Delete back p or P Paste at cursor u Undo control+r Redo To exit NORMAL mode at specific locations: key action i Exit NORMAL mode at the cursor I Exit NORMAL mode at the start of the line a Exit NORMAL mode at the cursor A Exit NORMAL mode at the end of the line o Exit NORMAL mode on a new line below the cursor O Exit NORMAL mode on a new line above the cursor I've also mapped 3 keys to F18, F19 and F20, which I pick up on within Hammerspoon to load specific modals: key action s Activate Hammerspoon screen modal m Activate Hammerspoon Markdown modal spacebar Activate Hammerspoon hyper modal 1.2 VISUAL mode From within NORMAL mode you can switch to VISUAL mode with v. (Unfortunately you cannot switch to the other end of the selection with o as you normally would, so choose your starting point wisely.) key action v Exit VISUAL mode, enter NORMAL mode h Select left j Select down ... Ditto for all other navigation keys mentioned above d Delete (“cut”) the selection and enter NORMAL mode y Yank (“copy”) the selection and enter NORMAL mode c Change (“cut”) the selection and exit Vim Mode entirely x Remove the selection and enter NORMAL mode 2. Setting up Import this complex modification straight into Karabiner through this link: karabiner://karabiner/assets/complex_modifications/import?url=https://git.sr.ht/~harmtemolder/karabiner-vim-mode-plus/blob/master/vim_mode_plus.json (You might have to copy and paste it into your browser's address bar if your browser does not render it as a clickable link.) 3. Making changes I write my complex modifications in YML files, converting them into JSON using yml-to-json.py. You don't have to, but you can, if you want to. Either way, make sure to remove and re-add all parts of this mod in Karabiner's “Complex modifications” tab after making changes. The order they are in is important. 4. Reporting issues If you encounter any issues, please report them here. (If you need help with sourcehut's issue tracker, see this man page.) I'd also love to hear additions you would like to see to this setup."
+        },
+        {
+          "path": "json/vimium.json",
+          "extra_description_path": "extra_descriptions/vimium.json.html",
+          "json": {
+            "title": "Vimium",
+            "rules": [
+              {
+                "description": "System-wide Vimium"
+              }
+            ]
+          },
+          "extra_description_text": "Press Esc to enter Vimium mode. Manipulating tabs K, gt Go one tab right J, gT Go one tab left t Create new tab x Close current tab X Restore closed tab g0 Go to the first tab g$ Go to the last tab Navigating h/j/k/l Arrow Keys gg Scroll to the top of the page G Scroll to the bottom of the page f, <c-f> Scroll a full page down b, <c-b> Scroll a full page up <c-u> Scroll 20 lines up <c-d> Scroll 20 lines down r Reload the page / Search n Cycle forward to the next find match N Cycle backward to the previous find match u Undo <c-r> Redo i Enter insert mode"
+        },
+        {
+          "path": "json/Vimode_with_smart_caps.json",
+          "json": {
+            "title": "Vimode with smart caps",
+            "rules": [
+              {
+                "description": "CAPSLOCK + hjkl to arrow keys (Post ESCAPE if press CAPSLOCK alone)"
+              },
+              {
+                "description": "Post CAPSLOCK if press ESCAPE alone"
+              },
+              {
+                "description": "Change left_shift + Command_L to escape only if pressed at the same time."
               }
             ]
           },
           "extra_description_text": ""
         },
         {
-          "path": "json/japanese_nicola.json",
+          "path": "json/window_resizing.json",
+          "extra_description_path": "extra_descriptions/window_resizing.json.html",
           "json": {
-            "title": "Japanese NICOLA",
+            "title": "Window Resizing",
             "rules": [
               {
-                "description": "Japanese NICOLA Type F"
+                "description": "Window Resize Mode [Cmd+Esc as trigger]"
               }
             ]
           },
-          "extra_description_text": ""
+          "extra_description_text": "Window Resizing Mode This mode is intended to use with a third-party window resizing/management tool. We use these rules to create easier to access shortcut keys that do not conflic with other system shortcuts. Karabiner Shortcuts Resize Shortcuts Window Resize Result Trigger Key + U / I / O Ctrl+Alt+Cmd + 1 / 2 / 3 Top Left Quarter / Top Half / Top Right Quarter Trigger Key + J / K / L Ctrl+Alt+Cmd + 4 / 5 / 6 Left Half / Maximized Window / Right Half Trigger Key + M / , / . Ctrl+Alt+Cmd + 7 / 8 / 9 Bottom Left Quarter / Bottom Half / Bottom Right Quater Trigger Key + Space Ctrl+Alt+Cmd + 0 Send window to next monitor Setup Open your window resizing app and configure the Resize Shortcuts (2nd column) to the according Window Sizes (3rd columns)."
         },
         {
           "path": "json/windows_shortcuts_on_macos.json",
@@ -1534,37 +1614,6 @@
             ]
           },
           "extra_description_text": "This mapping will make your mac behave more it would on Windows. It is designed with an external keyboard in mind."
-        },
-        {
-          "path": "json/Vimode_with_smart_caps.json",
-          "json": {
-            "title": "Vimode with smart caps",
-            "rules": [
-              {
-                "description": "CAPSLOCK + hjkl to arrow keys (Post ESCAPE if press CAPSLOCK alone)"
-              },
-              {
-                "description": "Post CAPSLOCK if press ESCAPE alone"
-              },
-              {
-                "description": "Change left_shift + Command_L to escape only if pressed at the same time."
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/comfortable_text_navigation.json",
-          "extra_description_path": "extra_descriptions/comfortable_text_navigation.html",
-          "json": {
-            "title": "Comfortable text navigation (Vim)",
-            "rules": [
-              {
-                "description": "Fn+h/j/k/l as Vim arrows && Fn+a/s/d as ⇧/⌥/⌘"
-              }
-            ]
-          },
-          "extra_description_text": "Use \"Vim like\" arrow navigation + ⇧/⌥/⌘ on keyboard \"Home Row\" to edit text without breaking your fingers! More information: Fn + h: Left arrow Fn + j: Down arrow Fn + k: Up arrow Fn + l: Right arrow Fn + a: Left Shift ⇧ Fn + s: Left Option ⌥ Fn + d: Left Command ⌘"
         }
       ]
     },
