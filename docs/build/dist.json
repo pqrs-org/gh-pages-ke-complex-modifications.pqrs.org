@@ -5,6 +5,30 @@
       "id": "modifier-keys",
       "files": [
         {
+          "path": "json/bepo-cmdqwerty-toggle.json",
+          "json": {
+            "title": "Bepo CmdQwerty Toggle",
+            "rules": [
+              {
+                "description": "While using Programmer Bepo, holding command temporarily switches to the Australian qwerty layout."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/both-command_l-and-command_r-to-escape.json",
+          "json": {
+            "title": "Change Command_L (Left Command) and Command_R (Right Command) to Esc Key ",
+            "rules": [
+              {
+                "description": "Change Command_L + Command_R to escape only if pressed at the same time."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/caps_lock.json",
           "json": {
             "title": "Change caps_lock key (rev 4)",
@@ -35,36 +59,27 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/control.json",
+          "path": "json/caps_media.json",
           "json": {
-            "title": "Change control key",
+            "title": "Capslock + Arrows for media keys",
             "rules": [
               {
-                "description": "Post escape if left_control is pressed alone."
+                "description": "CapsLock to Hyper/Escape"
               },
               {
-                "description": "Post caps_lock if left_control is pressed alone."
-              },
-              {
-                "description": "Post return_or_enter if right_control is pressed alone."
+                "description": "Hyper + arrow keys to media"
               }
             ]
           },
           "extra_description_text": ""
         },
         {
-          "path": "json/shift.json",
+          "path": "json/capslock-navigate-tabs.json",
           "json": {
-            "title": "Change shift key (rev 2)",
+            "title": "[macOS] Use Caps Lock + Arrows to Navigate Tabs",
             "rules": [
               {
-                "description": "Change left_shift to caps_lock if pressed alone (rev 2)"
-              },
-              {
-                "description": "Change right_shift to caps_lock if pressed alone"
-              },
-              {
-                "description": "Toggle caps_lock by pressing left_shift + right_shift at the same time"
+                "description": "Navigate Tabs with CapsLock + Any Arrows"
               }
             ]
           },
@@ -95,6 +110,48 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/cmd+d_down_arrow.json",
+          "json": {
+            "title": "Command_L|Command_R + d to down arrow",
+            "rules": [
+              {
+                "description": "Command_L|Command_R + d to down arrow"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/command_l-and-caps_lock-to-escape.json",
+          "json": {
+            "title": "Change Command_L (Left Command) and Caps_Lock Key ",
+            "rules": [
+              {
+                "description": "Change Command_L + Caps_Lock to escape only if pressed at the same time."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/control.json",
+          "json": {
+            "title": "Change control key",
+            "rules": [
+              {
+                "description": "Post escape if left_control is pressed alone."
+              },
+              {
+                "description": "Post caps_lock if left_control is pressed alone."
+              },
+              {
+                "description": "Post return_or_enter if right_control is pressed alone."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/ctrl_command_fn_letter_specials.json",
           "json": {
             "title": "Change control and Fn + letter keys to command and control keys",
@@ -104,24 +161,6 @@
               },
               {
                 "description": "Change fn + letter to left_control + letter"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/pc_style_modifiers.json",
-          "json": {
-            "title": "PC-Style Modifiers",
-            "rules": [
-              {
-                "description": "Swap Command with Ctrl"
-              },
-              {
-                "description": "Option+Tab to Command+Tab"
-              },
-              {
-                "description": "Option+Backtick to Command+Backtick"
               }
             ]
           },
@@ -146,63 +185,6 @@
             "rules": [
               {
                 "description": "Double tab and hold left_control to become left_command. Once released, returns to left_control. Useful for scrolling through windows with left_command + tab"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/command_l-and-caps_lock-to-escape.json",
-          "json": {
-            "title": "Change Command_L (Left Command) and Caps_Lock Key ",
-            "rules": [
-              {
-                "description": "Change Command_L + Caps_Lock to escape only if pressed at the same time."
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/both-command_l-and-command_r-to-escape.json",
-          "json": {
-            "title": "Change Command_L (Left Command) and Command_R (Right Command) to Esc Key ",
-            "rules": [
-              {
-                "description": "Change Command_L + Command_R to escape only if pressed at the same time."
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/bepo-cmdqwerty-toggle.json",
-          "json": {
-            "title": "Bepo CmdQwerty Toggle",
-            "rules": [
-              {
-                "description": "While using Programmer Bepo, holding command temporarily switches to the Australian qwerty layout."
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/windows_like_word_bindings.json",
-          "json": {
-            "title": "[macOS] Windows-like word movement/selection/deletion",
-            "maintainers": [
-              "tyru"
-            ],
-            "rules": [
-              {
-                "description": "Ctrl + Arrow Keys to Option + Arrow Keys"
-              },
-              {
-                "description": "Ctrl + Shift + Arrow Keys to Option + Shift + Arrow Keys"
-              },
-              {
-                "description": "Ctrl + BS/Del Keys to Option + BS/Del Keys"
               }
             ]
           },
@@ -246,67 +228,20 @@
           "extra_description_text": "Dual keys Relieve stress from you pinkies by moving hard-to-reach characters to the modifier keys, without losing the ability to use them as modifier keys. Notes This mod is made for a US Qwerty keyboard with additional thumb keys that can be used as modifier keys. If you want to use a different keyboard layout or otherwise remap the keys, please download the source code and modify dual_keys.json.rb."
         },
         {
-          "path": "json/cmd+d_down_arrow.json",
+          "path": "json/function_keys.json",
+          "extra_description_path": "extra_descriptions/function_keys.json.html",
           "json": {
-            "title": "Command_L|Command_R + d to down arrow",
+            "title": "Function keys work as fn keys (instead of media keys)",
+            "maintainers": [
+              "harmtemolder"
+            ],
             "rules": [
               {
-                "description": "Command_L|Command_R + d to down arrow"
+                "description": "(Atom, CKII, EUIV, iTerm, muCommander, PyCharm, VSCodium) Function keys work as fn keys"
               }
             ]
           },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/caps_media.json",
-          "json": {
-            "title": "Capslock + Arrows for media keys",
-            "rules": [
-              {
-                "description": "CapsLock to Hyper/Escape"
-              },
-              {
-                "description": "Hyper + arrow keys to media"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/capslock-navigate-tabs.json",
-          "json": {
-            "title": "[macOS] Use Caps Lock + Arrows to Navigate Tabs",
-            "rules": [
-              {
-                "description": "Navigate Tabs with CapsLock + Any Arrows"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/JesseHyperPlusVimNavigation.json",
-          "json": {
-            "title": "CAPS_LOCK to Hyper/Escape (SHIFT+COMMAND+OPTION+CONTROL) & Hyper + VIM Navigation keys",
-            "rules": [
-              {
-                "description": "CMD + W : NOTHING"
-              },
-              {
-                "description": "CAPS_LOCK : (HYPER) SHIFT+COMMAND+OPTION+CONTROL or ESCAPE (If Alone)"
-              },
-              {
-                "description": "Toggle CAPS_LOCK with LEFT_SHIFT + RIGHT_SHIFT"
-              },
-              {
-                "description": "CAPS_LOCK + SPACE : Toggle Alfred"
-              },
-              {
-                "description": "CAPS_LOCK + i/j/k/l == Arrow Keys"
-              }
-            ]
-          },
-          "extra_description_text": ""
+          "extra_description_text": "This mod maps your function keys (F1–F12) to themselves for a predefined selection of apps. (I left my selection in there as an example, so please use the “Frontmost application” tab of Karabiner's EventViewer to find bundle identifiers and file paths for your apps.) I have set this up as follows: Each function key in the “Function keys” tab is set to whatever I want it to do. (A combination of media buttons and custom actions through Hammerspoon.) “Use all F1, F2, etc. keys as standard function keys” unchecked, so that the above mappings apply without pressing fn. This modification added to the “Complex modifications” tab. This way I can use the function keys as function keys within the following apps, and as media buttons in all others: Atom Crusader Kings II Europa Universalis IV iTerm2 muCommander PyCharm VSCodium"
         },
         {
           "path": "json/Jesse_Tutorial_Hyper_Plus_Others.json",
@@ -339,6 +274,87 @@
               },
               {
                 "description": "o Launcher"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/JesseHyperPlusVimNavigation.json",
+          "json": {
+            "title": "CAPS_LOCK to Hyper/Escape (SHIFT+COMMAND+OPTION+CONTROL) & Hyper + VIM Navigation keys",
+            "rules": [
+              {
+                "description": "CMD + W : NOTHING"
+              },
+              {
+                "description": "CAPS_LOCK : (HYPER) SHIFT+COMMAND+OPTION+CONTROL or ESCAPE (If Alone)"
+              },
+              {
+                "description": "Toggle CAPS_LOCK with LEFT_SHIFT + RIGHT_SHIFT"
+              },
+              {
+                "description": "CAPS_LOCK + SPACE : Toggle Alfred"
+              },
+              {
+                "description": "CAPS_LOCK + i/j/k/l == Arrow Keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/pc_style_modifiers.json",
+          "json": {
+            "title": "PC-Style Modifiers",
+            "rules": [
+              {
+                "description": "Swap Command with Ctrl"
+              },
+              {
+                "description": "Option+Tab to Command+Tab"
+              },
+              {
+                "description": "Option+Backtick to Command+Backtick"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/shift.json",
+          "json": {
+            "title": "Change shift key (rev 2)",
+            "rules": [
+              {
+                "description": "Change left_shift to caps_lock if pressed alone (rev 2)"
+              },
+              {
+                "description": "Change right_shift to caps_lock if pressed alone"
+              },
+              {
+                "description": "Toggle caps_lock by pressing left_shift + right_shift at the same time"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/windows_like_word_bindings.json",
+          "json": {
+            "title": "[macOS] Windows-like word movement/selection/deletion",
+            "maintainers": [
+              "tyru"
+            ],
+            "rules": [
+              {
+                "description": "Ctrl + Arrow Keys to Option + Arrow Keys"
+              },
+              {
+                "description": "Ctrl + Shift + Arrow Keys to Option + Shift + Arrow Keys"
+              },
+              {
+                "description": "Ctrl + BS/Del Keys to Option + BS/Del Keys"
               }
             ]
           },
