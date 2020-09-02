@@ -200,32 +200,11 @@
             ],
             "rules": [
               {
-                "description": "Right ⌘ to - if pressed alone"
-              },
-              {
-                "description": "Right ⌃ to = if pressed alone"
-              },
-              {
-                "description": "Right ⇧ to [ if pressed alone"
-              },
-              {
-                "description": "Right ⌥ to ] if pressed alone"
-              },
-              {
-                "description": "Left ⌘ to ↩︎ if pressed alone"
-              },
-              {
-                "description": "Left ⌃ to ` if pressed alone"
-              },
-              {
-                "description": "Left ⇧ to ' if pressed alone"
-              },
-              {
-                "description": "Left ⌥ to ⎋ if pressed alone"
+                "description": "Dual keys"
               }
             ]
           },
-          "extra_description_text": "Dual keys Relieve stress from you pinkies by moving hard-to-reach characters to the modifier keys, without losing the ability to use them as modifier keys. Notes This mod is made for a US Qwerty keyboard with additional thumb keys that can be used as modifier keys. If you want to use a different keyboard layout or otherwise remap the keys, please download the source code and modify dual_keys.json.rb."
+          "extra_description_text": "Dual keys This mod relieves stress from your pinkies by moving several hard-to-reach keys to more ergonomic positions. It accomplishes this by making several keys do double duty as both modifier keys and input keys, depending on whether your press them alone or hold them down. Combines well with the Ergoemacs mod. Key bindings Key When pressed alone When held down Left ⌘ ⇥ ⇧ Right ⌘ - ⇧ Left ⌥ ↩︎ ⌘ Right ⌥ = ⌘ ` ` ⌃ / / ⌃ ⇪ \\ ⌥ ' ' ⌥ ⌃ [ [ ← ] ] Notes This mod is made for using a US layout with an ISO (not ANSI) MacBook keyboard. If you want to use a different keyboard layout or otherwise remap the keys, please download the source code and modify dual_keys.json.rb."
         },
         {
           "path": "json/function_keys.json",
