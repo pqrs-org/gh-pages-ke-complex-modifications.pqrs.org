@@ -616,14 +616,11 @@
             ],
             "rules": [
               {
-                "description": "Ergoemacs mode [space as trigger key]"
-              },
-              {
-                "description": "Ergoemacs mode [tab as trigger key]"
+                "description": "Ergoemacs mode"
               }
             ]
           },
-          "extra_description_text": "Ergoemacs mode Ergonomic anti-RSI keybindings for text editing, based on the US Qwerty version of ergoemacs-mode. Features Tuned to feel quick and responsive. Does not trigger accidentally while touch typing. Compatible with terminal apps. Included key bindings Trigger key + I/J/K/L Arrow keys Trigger key + U/O Move cursor one word backward/forward Trigger key + H/; Move cursor to beginning/end of line Trigger key + D/F Backspace/Delete Trigger key + E/R Delete one word backward/forward Trigger key + S/G Delete to beginning/end of line Usage notes Space should be your default choice for the trigger key, as it's the easiest to reach and the most ergonomic option. However, Tab is provided as an additional option, so that if you have a keyboard with two spacebars, so you can map one to Space and one to Tab, and use both as the trigger key. This mod is made for Qwerty keyboards. If you want to use a different keyboard layout, or another key as the trigger key, please download the source code and modify ergoemacs_mode.json.rb. In Zsh, the command backward-kill-line does not have a keybinding by default and the shortcut for \"Delete to beginning of line\" will delete the whole line instead. To get it to work correctly, you need to add the following to your ~/.zshrc file: bindkey \"^U\" backward-kill-line If you are using Prezto's editor module, then this is included automatically."
+          "extra_description_text": "Ergoemacs mode Ergonomic anti-RSI keybindings for text editing, based on the US Qwerty version of ergoemacs-mode. Features Tuned to feel quick and responsive. Does not trigger accidentally while touch typing. Compatible with terminal apps. Included key bindings Space + I/J/K/L Arrow keys Space + U/O Move cursor one word backward/forward Space + H/; Move cursor to beginning/end of line Space + M/, Scroll one page up/down Space + N/. Scroll to beginning/end of document Space + D/F Backspace/Delete Space + E/R Delete one word backward/forward Space + S/G Delete to beginning/end of line Usage notes This mod is made for Qwerty keyboards. If you want to use a different keyboard layout, or another trigger key than space, please download the source code and modify ergoemacs_mode.json.rb. In Zsh, the command backward-kill-line does not have a keybinding by default and the shortcut for \"Delete to beginning of line\" will delete the whole line instead. To get it to work correctly, you need to add the following to your ~/.zshrc file: bindkey \"^U\" backward-kill-line If you are using Prezto's editor module, then this is included automatically."
         },
         {
           "path": "json/fc660c_arrow_keys.json",
