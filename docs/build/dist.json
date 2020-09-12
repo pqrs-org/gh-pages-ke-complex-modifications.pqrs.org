@@ -3719,6 +3719,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/eject_take_screenshot.json",
+          "json": {
+            "title": "Maps Eject to Screenshot",
+            "rules": [
+              {
+                "description": "Eject to Screenshot"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
