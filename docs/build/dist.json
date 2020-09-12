@@ -4243,6 +4243,24 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/KeychronK6F1HelperShortcuts.json",
+          "json": {
+            "title": "Keychron K6 Fn1 Shortcuts",
+            "rules": [
+              {
+                "description": "Shift + Esc to ` Grave Accent"
+              },
+              {
+                "description": "Control + Esc to Tilde"
+              },
+              {
+                "description": "Command + Esc to Command + Tilda"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
