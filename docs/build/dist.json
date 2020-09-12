@@ -2547,6 +2547,18 @@
           "extra_description_text": "Mapped Keys From To Control+ö { Control+ä } Left Command+ö [ Left Command+# ] Control++ ~ Control+- / Right Option+ß \\ Right Option+ |"
         },
         {
+          "path": "json/hungarian_pc.json",
+          "json": {
+            "title": "Hungarian PC-Style layout (Enable various Alt Gr key combinations)",
+            "rules": [
+              {
+                "description": "PC-Style Hungarian layout (Alt Gr, Backslash, @, pipe, tilde, brackets)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/us-cro.json",
           "json": {
             "title": "US keyboard with Croatian letters on right command key",
