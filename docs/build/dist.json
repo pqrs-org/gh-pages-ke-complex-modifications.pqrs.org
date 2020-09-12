@@ -2164,6 +2164,18 @@
           "extra_description_text": "Use the Mac Command key as ALT for Google Chrome Stadia gaming. Requires installation of the Stadia chrome app on Macbook."
         },
         {
+          "path": "json/swap_ctrl_and_cmd_for_trader_workstation.json",
+          "json": {
+            "title": "CTRL <=> CMD in Trader Workstation",
+            "rules": [
+              {
+                "description": "Swap CTRL and command in Trader Workstation to fix copy-paste issues"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/roon.json",
           "json": {
             "title": "Roon media keys",
