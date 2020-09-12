@@ -4273,6 +4273,54 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/durgod-iso-uk-pt-extras-macos.json",
+          "json": {
+            "title": "British Keyboard (DURGOD Taurus K320) on MacBook Pro with pt-PT support",
+            "rules": [
+              {
+                "description": "Swap Win/CMD, Alt/Opt and App/Opt"
+              },
+              {
+                "description": "Backslash"
+              },
+              {
+                "description": "Pipe"
+              },
+              {
+                "description": "Non-US pound aka hash and tilde (using shift)"
+              },
+              {
+                "description": "@ symbol"
+              },
+              {
+                "description": "€ symbol"
+              },
+              {
+                "description": "AltGr Win ~ behaviour (ex: ã)"
+              },
+              {
+                "description": "AltGr Win ^ behaviour (ex: â)"
+              },
+              {
+                "description": "á using Alt/Option like on Windows"
+              },
+              {
+                "description": "é using Alt/Option like on Windows"
+              },
+              {
+                "description": "í using Alt/Option like on Windows"
+              },
+              {
+                "description": "ó using Alt/Option like on Windows"
+              },
+              {
+                "description": "ú using Alt/Option like on Windows"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
