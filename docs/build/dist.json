@@ -338,6 +338,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/remap_rshift_esc_to_tilde.json",
+          "json": {
+            "title": "Remap R_Shift+ESC to Tilde rules",
+            "rules": [
+              {
+                "description": "Remap R_Shift+ESC to Tilde"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
