@@ -5084,13 +5084,22 @@
             "title": "Personal rules (@iliaskarim)",
             "rules": [
               {
-                "description": "Right shift to paste"
+                "description": "Right command to copy"
               },
               {
                 "description": "Right option to cut"
               },
               {
-                "description": "Right command to copy"
+                "description": "Right shift to paste"
+              },
+              {
+                "description": "Disable command+c to copy"
+              },
+              {
+                "description": "Disable command+x to cut"
+              },
+              {
+                "description": "Disable command+v to paste"
               }
             ]
           },
