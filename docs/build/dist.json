@@ -350,6 +350,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/rshift_up_if_alone.json",
+          "json": {
+            "title": "Right Shift Up if alone",
+            "rules": [
+              {
+                "description": "Right Shift Up if alone"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
