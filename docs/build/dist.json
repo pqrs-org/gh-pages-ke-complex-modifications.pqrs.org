@@ -2178,7 +2178,7 @@
           "path": "json/stadia_cmd.json",
           "extra_description_path": "extra_descriptions/stadia_cmd.html",
           "json": {
-            "title": "Option to Command Key in Stadia",
+            "title": "Alt to Command Key in Stadia",
             "rules": [
               {
                 "description": "Use CMD key as alt for Google Chrome Stadia gaming - requires install of Stadia app on Macbook"
@@ -2186,6 +2186,19 @@
             ]
           },
           "extra_description_text": "Use the Mac Command key as ALT for Google Chrome Stadia gaming. Requires installation of the Stadia chrome app on Macbook."
+        },
+        {
+          "path": "json/wow_cmd.json",
+          "extra_description_path": "extra_descriptions/wow_cmd.html",
+          "json": {
+            "title": "Command Key to Control in World of Warcraft",
+            "rules": [
+              {
+                "description": "Use the left CMD key as ctrl for World of Warcraft on Macbook"
+              }
+            ]
+          },
+          "extra_description_text": "Use the Mac Command key as CTRL for World of Warcraft."
         },
         {
           "path": "json/swap_ctrl_and_cmd_for_trader_workstation.json",
