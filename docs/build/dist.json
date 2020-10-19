@@ -194,17 +194,17 @@
           "path": "json/dual_keys.json",
           "extra_description_path": "extra_descriptions/dual_keys.json.html",
           "json": {
-            "title": "Dual-purpose keys to relieve stress from your pinkies",
+            "title": "Dual keys (to relieve stress from your pinkies)",
             "maintainers": [
               "marlonrichert"
             ],
             "rules": [
               {
-                "description": "Dual Keys"
+                "description": "Dual keys"
               }
             ]
           },
-          "extra_description_text": "Dual keys This mod relieves stress from your pinkies by moving several hard-to-reach keys to more ergonomic positions. It accomplishes this by making several keys do double duty as both modifier keys and input keys, depending on whether your press them alone or hold them down. Combines well with the Ergoemacs mod. Key bindings Key When pressed alone When held down Left ⌘ ⇥ ⇧ Right ⌘ - ⇧ Left ⌥ ↩︎ ⌥ Right ⌥ = ⌥ F F ⌘ J J ⌘ D D ⌃ K K ⌃ ⇪ \\ \\ ⇥ ⎋ ⎋ Notes This mod is made for using a US layout with an ISO (not ANSI) MacBook keyboard. If you want to use a different keyboard layout or otherwise remap the keys, please download the source code and modify dual_keys.json.rb."
+          "extra_description_text": "Dual keys This mod relieves stress from your pinkies by moving several hard-to-reach keys to more ergonomic positions. It accomplishes this by making several keys do double duty as both modifier keys and input keys, depending on whether your press them alone or hold them down. Combines well with the Ergoemacs mod. Key bindings Key When pressed alone When held down Left ⌘ ⇥ ⇧ Right ⌘ - ⇧ Left ⌥ ↩︎ ⌘ Right ⌥ = ⌘ ` ` ⌃ / / ⌃ ⇪ \\ ⌥ ' ' ⌥ ⌃ [ [ ← ] ] Notes This mod is made for using a US layout with an ISO (not ANSI) MacBook keyboard. If you want to use a different keyboard layout or otherwise remap the keys, please download the source code and modify dual_keys.json.rb."
         },
         {
           "path": "json/function_keys.json",
