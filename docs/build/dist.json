@@ -4421,6 +4421,79 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/Razer_Tartarus_v2.json",
+          "extra_description_path": "extra_descriptions/Razer_Tartarus_v2.json.html",
+          "json": {
+            "title": "Razer Tartarus v2",
+            "maintainers": [
+              "rbradcurtis"
+            ],
+            "rules": [
+              {
+                "description": "Razer 01 to Left_Shift-Left_Option-a"
+              },
+              {
+                "description": "Razer 02 to Left_Shift-Left_Option-b"
+              },
+              {
+                "description": "Razer 03 to Left_Shift-Left_Option-c"
+              },
+              {
+                "description": "Razer 04 to Left_Shift-Left_Option-d"
+              },
+              {
+                "description": "Razer 05 to Left_Shift-Left_Option-e"
+              },
+              {
+                "description": "Razer 06 to Left_Shift-Left_Option-f"
+              },
+              {
+                "description": "Razer 07 to Left_Shift-Left_Option-g"
+              },
+              {
+                "description": "Razer 08 to Left_Shift-Left_Option-h"
+              },
+              {
+                "description": "Razer 09 to Left_Shift-Left_Option-i"
+              },
+              {
+                "description": "Razer 10 to Left_Shift-Left_Option-j"
+              },
+              {
+                "description": "Razer 11 to Left_Shift-Left_Option-k"
+              },
+              {
+                "description": "Razer 12 to Left_Shift-Left_Option-l"
+              },
+              {
+                "description": "Razer 13 to Left_Shift-Left_Option-m"
+              },
+              {
+                "description": "Razer 14 to Left_Shift-Left_Option-n"
+              },
+              {
+                "description": "Razer 15 to Left_Shift-Left_Option-o"
+              },
+              {
+                "description": "Razer 16 to Left_Shift-Left_Option-p"
+              },
+              {
+                "description": "Razer 17 to Left_Shift-Left_Option-q"
+              },
+              {
+                "description": "Razer 18 to Left_Shift-Left_Option-r"
+              },
+              {
+                "description": "Razer 19 to Left_Shift-Left_Option-s"
+              },
+              {
+                "description": "Razer Trigger to tab"
+              }
+            ]
+          },
+          "extra_description_text": "Use the Razer Tartarus v2 without the Razer Synapse software. Razer no longer supports MacOS (after 10.14) with their Synapse software solution. In order to continue using the product, the buttons on the game pad must be remapped so as to not conflict with keys on the \"normal\" keyboard. This configuration remaps each button on the keypad to a key sequence not likely to match any normal. This configuration is device-specific to the Tartarus v2 (vendor_id=5426, product_id=555) but minor tweaks should be possible to support other devices from Razer. Feedback: bcurtis@gmail.com Keypad Button Mapping 1 [Left Shift] + [Left Option] + a 2 [Left Shift] + [Left Option] + b 3 [Left Shift] + [Left Option] + c 4 [Left Shift] + [Left Option] + d 5 [Left Shift] + [Left Option] + e 6 [Left Shift] + [Left Option] + f 7 [Left Shift] + [Left Option] + g 8 [Left Shift] + [Left Option] + h 9 [Left Shift] + [Left Option] + i 10 [Left Shift] + [Left Option] + j 11 [Left Shift] + [Left Option] + k 12 [Left Shift] + [Left Option] + l 13 [Left Shift] + [Left Option] + m 14 [Left Shift] + [Left Option] + n 15 [Left Shift] + [Left Option] + o 16 [Left Shift] + [Left Option] + p 17 [Left Shift] + [Left Option] + q 18 [Left Shift] + [Left Option] + r 19 [Left Shift] + [Left Option] + s 20 [Space] (not remapped) Scroll Wheel not remapped Thumb button (Trigger) [Tab] Arrows (U/D/L/R) not remapped"
         }
       ]
     },
