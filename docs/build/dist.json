@@ -3932,6 +3932,22 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/mouse_keys_ambi.json",
+          "extra_description_path": "extra_descriptions/mouse_keys_ambi.json.html",
+          "json": {
+            "title": "Mouse keys ambidextrous",
+            "maintainers": [
+              "k--chow"
+            ],
+            "rules": [
+              {
+                "description": "Mouse keys Ambidextrous"
+              }
+            ]
+          },
+          "extra_description_text": "Mouse keys Ambidextrous Replace the mouse with your keyboard, with either or both hands. With fast scrolling, and two speed settings. Hold the left_control key in tandem with W,A,S,D (left hand) or I,J,K,L(right hand) for mouse movement. Hold shift + left_control for 4x faster mouse movement (max speed). Fn + W,A,S,D (left hand) or I,J,K,L(right hand)for scrolling. Key bindings: Mouse motion: left_control + W,A,S,D or I, J, K, L Fast mouse motion: left_control + shift + W,A,S,D or I, J, K, L Mouse left click: left_control + Q or U Mouse right click: left_control + E or O Mouse scroll: Fn + W,A,S,D or I, J, K, L"
+        },
+        {
           "path": "json/mouse_keys_simple.json",
           "extra_description_path": "extra_descriptions/mouse_keys_simple.json.html",
           "json": {
