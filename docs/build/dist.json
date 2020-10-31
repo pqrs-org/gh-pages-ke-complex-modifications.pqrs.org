@@ -2933,15 +2933,128 @@
       "id": "key-specific",
       "files": [
         {
-          "path": "json/ctrl_L-OR-ctrl_R+up-to-down-arrow.json",
+          "path": "json/accute_accent_deadkey_azerty.json",
+          "extra_description_path": "extra_descriptions/accute_accent_deadkey_azerty.json.html",
           "json": {
-            "title": "Map ctrl+up to down",
+            "title": "Convert ù to an accute accent (´) dead key (AZERTY) (rev 2)",
             "rules": [
               {
-                "description": "control_L + up to down"
+                "description": "ù to deadkey ´ while leaving % accessible. (rev 2)"
+              }
+            ]
+          },
+          "extra_description_text": "Version 1.0 Typing an accute accented letter in AZERTT requires the Alt+Shift+1+letter combinaion. This slows down typing considerably compared to the AltGr method in Linux and Windows. This setup converts the \"ù\" key to a \"´\" deadkey to you can use it to type accents. More information: Raise an issue on the fork."
+        },
+        {
+          "path": "json/auto_close_brackets_and_quotes.json",
+          "extra_description_path": "extra_descriptions/auto_close_brackets_and_quotes.json.html",
+          "json": {
+            "title": "Auto close brackets & quotes",
+            "maintainers": [
+              "harmtemolder"
+            ],
+            "rules": [
+              {
+                "description": "(1/2) Do not auto close brackets & quotes when holding fn"
               },
               {
-                "description": "control_R + up to down"
+                "description": "(2/2) Auto close brackets & quotes ( (), '', \"\", ``, [], {}, “”, ‘’, <> )"
+              }
+            ]
+          },
+          "extra_description_text": "Karabiner Auto Quotes A complex modification that automatically closes brackets and quotes while typing. It does the following: Typing a ( is automatically followed by a ) and placing the cursor between them ' is followed by a ' \" by another \" ` by ` [ by ] { by } “ by ” ‘ by ’ by > For normal behavior (i.e. to type a single one of these) hold fn. For example fn+' types one single quote. It contains exceptions for Atom, iTerm, PyCharm and VSCodium, because all of these already have their own intelligent quote and bracket handling."
+        },
+        {
+          "path": "json/change_grave_accent_to_escape.json",
+          "json": {
+            "title": "Change grave accent (backtick) to escape, option grave accent to grave accent",
+            "rules": [
+              {
+                "description": "Post Escape if grave_accent_and_tilde (backtick) is pressed alone; post grave_accent (backtick) if Option + grave_accent_and_tilde is pressed."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/command_arrows_to_ctrl_arrows.json",
+          "json": {
+            "title": "Exchange command + arrows keys with control + arrows keys",
+            "rules": [
+              {
+                "description": "Exchange command + arrow keys with control + arrow keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/command_arrows_to_option_arrows.json",
+          "json": {
+            "title": "Exchange command + arrows keys with option + arrows keys",
+            "rules": [
+              {
+                "description": "Exchange command + arrow keys with option + arrow keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/command_esc_to_command_grave_accent.json",
+          "json": {
+            "title": "Command + Esc to Command + `",
+            "rules": [
+              {
+                "description": "Command + Esc to Command + `"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/command_grave_accent_and_tilde_to_escape.json",
+          "json": {
+            "title": "Command + ` Grave Accent, Tilde to Esc",
+            "rules": [
+              {
+                "description": "Command + ` Grave Accent, Tilde to Esc"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/command_r_and_shift_r_to_command_tab.json",
+          "json": {
+            "title": "Command_R + Shift_R to Command + Tab",
+            "rules": [
+              {
+                "description": "Command_R + Shift_R to Command +Tab"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/control_backspace_to_function_backspace.json",
+          "json": {
+            "title": "Map Ctrl+Backspace-Delete to Fn+Backward-Delete (suppr current character)",
+            "rules": [
+              {
+                "description": "Map Ctrl+Backspace-Delete to Fn+Backward-Delete (suppr current character)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/control_comma_period.json",
+          "json": {
+            "title": "Change control+comma & control+period",
+            "rules": [
+              {
+                "description": "Change control+comma to comma, control+period to period"
               }
             ]
           },
@@ -2999,12 +3112,118 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/ctrl_L-OR-ctrl_R+up-to-down-arrow.json",
+          "json": {
+            "title": "Map ctrl+up to down",
+            "rules": [
+              {
+                "description": "control_L + up to down"
+              },
+              {
+                "description": "control_R + up to down"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/ctrl_arrows_to_option_arrows.json",
+          "json": {
+            "title": "Exchange control + arrows keys with option + arrows keys",
+            "rules": [
+              {
+                "description": "Exchange control + arrow keys with option + arrow keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/ctrl_delete.json",
+          "json": {
+            "title": "Map Ctrl+Backward-Delete.",
+            "rules": [
+              {
+                "description": "Add Ctrl+Backward-Delete to Option+Delete (delete current word).",
+                "type": "basic"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/ctrl_forward_delete.json",
+          "json": {
+            "title": "Map Ctrl+Forward-Delete to Option+Forward-Delete (forward delete current word)",
+            "rules": [
+              {
+                "description": "Add Ctrl+Forward-Delete"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/ctrlquote.json",
           "json": {
             "title": "Convert <c-'> to double quote",
             "rules": [
               {
                 "description": "Remaps mistyped control-quote into a shft-quote. Occurs often when caps lock is remapped to control key."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/delete.json",
+          "json": {
+            "title": "Change delete key (rev 3)",
+            "rules": [
+              {
+                "description": "Change shift + delete to forward delete (rev 2)"
+              },
+              {
+                "description": "Change shift + delete to tilde (rev 1)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/eject_take_screenshot.json",
+          "json": {
+            "title": "Maps Eject to Screenshot",
+            "rules": [
+              {
+                "description": "Eject to Screenshot"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/equals_del_to_forward_del.json",
+          "json": {
+            "title": "Equals + Delete to Forward Delete",
+            "rules": [
+              {
+                "description": "Simultaneously press Equals + Del to get a ForwardDel"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/esc_to_eng_ime.json",
+          "json": {
+            "title": "For Vim User Esc to en_US/ABC IME",
+            "rules": [
+              {
+                "description": "Esc to en_US"
+              },
+              {
+                "description": "Esc to ABC"
               }
             ]
           },
@@ -3029,148 +3248,30 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/change_grave_accent_to_escape.json",
+          "path": "json/exchange_command_backspace_and_option_backspace.json",
           "json": {
-            "title": "Change grave accent (backtick) to escape, option grave accent to grave accent",
+            "title": "Exchange Command+Backward-Delete (delete current line) and Option+Backward-Delete (delete current word)",
             "rules": [
               {
-                "description": "Post Escape if grave_accent_and_tilde (backtick) is pressed alone; post grave_accent (backtick) if Option + grave_accent_and_tilde is pressed."
+                "description": "Change Command+Backward-Delete and Option+Backward-Delete"
+              },
+              {
+                "description": "Change Option+Backward-Delete to Command+Backward-Delete"
               }
             ]
           },
           "extra_description_text": ""
         },
         {
-          "path": "json/modifiers_to_f-keys.json",
+          "path": "json/exchange_command_del-forward_and_option_del-forward.json",
           "json": {
-            "title": "Tapping modifier-keys produces a f-key.",
+            "title": "Exchange Command+Forward-Delete and Option+Forward-Delete",
             "rules": [
               {
-                "description": "Press left_shift alone produces F12"
+                "description": "Change Command+Forward-Delete to Option+Forward-Delete"
               },
               {
-                "description": "Press left_control alone produces F13"
-              },
-              {
-                "description": "Press left_command alone produces F14"
-              },
-              {
-                "description": "Press left_option alone produces F15"
-              },
-              {
-                "description": "Press right_control alone produces F16"
-              },
-              {
-                "description": "Press right_command alone produces F17"
-              },
-              {
-                "description": "Press right_alt alone produces F18"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/modifiers_to_arrows.json",
-          "json": {
-            "title": "Change modifiers to arrows",
-            "maintainers": [
-              "thoelze1"
-            ],
-            "rules": [
-              {
-                "description": "Change left_shift to left_arrow if pressed alone"
-              },
-              {
-                "description": "Change right_shift to right_arrow if pressed alone"
-              },
-              {
-                "description": "Change left_command to down_arrow if pressed alone"
-              },
-              {
-                "description": "Change right_command to up_arrow if pressed alone"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/return_to_ctrl.json",
-          "json": {
-            "title": "Change return to control",
-            "rules": [
-              {
-                "description": "Change return to control if pressed with other keys, to return if pressed alone"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/delete.json",
-          "json": {
-            "title": "Change delete key (rev 3)",
-            "rules": [
-              {
-                "description": "Change shift + delete to forward delete (rev 2)"
-              },
-              {
-                "description": "Change shift + delete to tilde (rev 1)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/fn_backspace_to_forward_delete.json",
-          "json": {
-            "title": "Fn + Backspace to Forward Delete",
-            "rules": [
-              {
-                "description": "Map Fn + Backspace to Forward Delete"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/wolfXu.json",
-          "json": {
-            "title": "Mapping [left_option-{1-0,-,=} to {F1-F10,F11,F12}",
-            "rules": [
-              {
-                "description": "Mapping [left_option-{1-0,-,=} to {F1-F10,F11,F12}"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/accute_accent_deadkey_azerty.json",
-          "extra_description_path": "extra_descriptions/accute_accent_deadkey_azerty.json.html",
-          "json": {
-            "title": "Convert ù to an accute accent (´) dead key (AZERTY) (rev 2)",
-            "rules": [
-              {
-                "description": "ù to deadkey ´ while leaving % accessible. (rev 2)"
-              }
-            ]
-          },
-          "extra_description_text": "Version 1.0 Typing an accute accented letter in AZERTT requires the Alt+Shift+1+letter combinaion. This slows down typing considerably compared to the AltGr method in Linux and Windows. This setup converts the \"ù\" key to a \"´\" deadkey to you can use it to type accents. More information: Raise an issue on the fork."
-        },
-        {
-          "path": "json/section_sign_to_escape.json",
-          "json": {
-            "title": "Section sign (§) to Escape",
-            "maintainers": [
-              "kopach"
-            ],
-            "rules": [
-              {
-                "description": "[Any Keyboard] Section sign (§) to Escape and fn + Section sign (§) to Section sign (§)."
-              },
-              {
-                "description": "[Apple Keyboard Only] Section sign (§) to Escape and fn + Section sign (§) to Section sign (§). Useful on Mac with Touch Bar, where is no physical Escape key."
+                "description": "Change Option+Forward-Delete to Command+Forward-Delete"
               }
             ]
           },
@@ -3186,6 +3287,18 @@
               },
               {
                 "description": "Change Control+Tab to Command+Tab"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/exchange_left_paren_and_semicolon.json",
+          "json": {
+            "title": "Exchange left_paren and semicolon",
+            "rules": [
+              {
+                "description": "Exchange left_paren and semicolon"
               }
             ]
           },
@@ -3240,169 +3353,241 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/swap-paren-and-sqbrackets.json",
+          "path": "json/f12-to-dev-tools-networking-mac-ff.json",
           "json": {
-            "title": "Exchange paren and square bracket",
+            "title": "Use F12 to open Dev Tools",
             "rules": [
               {
-                "description": "Exchange paren and square bracket"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/nonbreaking_space.json",
-          "json": {
-            "title": "Disable alt+spacebar (nonbreaking space)",
-            "rules": [
-              {
-                "description": "Change alt+spacebar to spacebar"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/spacebar.json",
-          "json": {
-            "title": "Change spacebar",
-            "rules": [
-              {
-                "description": "Change spacebar to left_shift if pressed with other keys (Post spacebar when pressed alone)"
+                "description": "Use F12 to open Dev Tools Network Tab (Mac + Firefox)"
               },
               {
-                "description": "Change spacebar to left_ctrl if pressed with other keys (Post spacebar when pressed alone)"
+                "description": "Use F12 to open Dev Tools (all browsers)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/f14_to_copy_f15_to_paste.json",
+          "json": {
+            "title": "F14 to copy & F15 to paste",
+            "rules": [
+              {
+                "description": "F14 to Copy"
               },
               {
-                "description": "Change spacebar to left_option if pressed with other keys (Post spacebar when pressed alone)"
+                "description": "F15 to Paste"
               }
             ]
           },
           "extra_description_text": ""
         },
         {
-          "path": "json/command_arrows_to_option_arrows.json",
+          "path": "json/f2_cut_f3_copy_f4_paste.json",
           "json": {
-            "title": "Exchange command + arrows keys with option + arrows keys",
+            "title": "F2 to cut, F3 to copy, F4 to paste",
             "rules": [
               {
-                "description": "Exchange command + arrow keys with option + arrow keys"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/command_arrows_to_ctrl_arrows.json",
-          "json": {
-            "title": "Exchange command + arrows keys with control + arrows keys",
-            "rules": [
-              {
-                "description": "Exchange command + arrow keys with control + arrow keys"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/ctrl_arrows_to_option_arrows.json",
-          "json": {
-            "title": "Exchange control + arrows keys with option + arrows keys",
-            "rules": [
-              {
-                "description": "Exchange control + arrow keys with option + arrow keys"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/ctrl_delete.json",
-          "json": {
-            "title": "Map Ctrl+Backward-Delete.",
-            "rules": [
-              {
-                "description": "Add Ctrl+Backward-Delete to Option+Delete (delete current word).",
-                "type": "basic"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/ctrl_forward_delete.json",
-          "json": {
-            "title": "Map Ctrl+Forward-Delete to Option+Forward-Delete (forward delete current word)",
-            "rules": [
-              {
-                "description": "Add Ctrl+Forward-Delete"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/command_esc_to_command_grave_accent.json",
-          "json": {
-            "title": "Command + Esc to Command + `",
-            "rules": [
-              {
-                "description": "Command + Esc to Command + `"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/command_grave_accent_and_tilde_to_escape.json",
-          "json": {
-            "title": "Command + ` Grave Accent, Tilde to Esc",
-            "rules": [
-              {
-                "description": "Command + ` Grave Accent, Tilde to Esc"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/control_backspace_to_function_backspace.json",
-          "json": {
-            "title": "Map Ctrl+Backspace-Delete to Fn+Backward-Delete (suppr current character)",
-            "rules": [
-              {
-                "description": "Map Ctrl+Backspace-Delete to Fn+Backward-Delete (suppr current character)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/exchange_command_backspace_and_option_backspace.json",
-          "json": {
-            "title": "Exchange Command+Backward-Delete (delete current line) and Option+Backward-Delete (delete current word)",
-            "rules": [
-              {
-                "description": "Change Command+Backward-Delete and Option+Backward-Delete"
+                "description": "F2 to Cut"
               },
               {
-                "description": "Change Option+Backward-Delete to Command+Backward-Delete"
+                "description": "F3 to Copy"
+              },
+              {
+                "description": "F4 to Paste"
               }
             ]
           },
           "extra_description_text": ""
         },
         {
-          "path": "json/exchange_command_del-forward_and_option_del-forward.json",
+          "path": "json/fn-copy-paste.json",
           "json": {
-            "title": "Exchange Command+Forward-Delete and Option+Forward-Delete",
+            "title": "F13 to copy & F14 to paste",
             "rules": [
               {
-                "description": "Change Command+Forward-Delete to Option+Forward-Delete"
+                "description": "F13 to Copy"
               },
               {
-                "description": "Change Option+Forward-Delete to Command+Forward-Delete"
+                "description": "F14 to Paste"
+              },
+              {
+                "description": "Shift-F14 to Paste and Match Style"
+              },
+              {
+                "description": "F15 to Paste and Match Style"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/fn_backspace_to_forward_delete.json",
+          "json": {
+            "title": "Fn + Backspace to Forward Delete",
+            "rules": [
+              {
+                "description": "Map Fn + Backspace to Forward Delete"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/fn_grave_accent.json",
+          "json": {
+            "title": "Change fn + grave_accent_and_tilde to esc",
+            "rules": [
+              {
+                "description": "Change fn + grave_accent_and_tilde to esc"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/focusaperture_Controls_Media_Playback_and_Screen_Brightness.json",
+          "json": {
+            "title": "focusaperture Control: Media & Brightness Controls (fn+Arrows)",
+            "rules": [
+              {
+                "description": "focusaperture Control: Screen Brightness (fn + cmd + up/down)"
+              },
+              {
+                "description": "focusaperture Control: Keyboard Illumination (fn + cmd + left/right)"
+              },
+              {
+                "description": "focusaperture Control: Volume (fn + up/down)"
+              },
+              {
+                "description": "focusaperture Control: Media Playback (fn + left/right = previous/next track)"
+              },
+              {
+                "description": "focusaperture Control: Mute & Pause (fn+. = mute/unmute, fn+/ = Play/Pause)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/leftclick.json",
+          "json": {
+            "title": "Remove ctrl+left click to right click",
+            "rules": [
+              {
+                "description": "ctrl+left click to left click"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/lshift_to_escape.json",
+          "json": {
+            "title": "Change shift key",
+            "rules": [
+              {
+                "description": "Change left_shift to caps_lock if alone."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/media_key_only_control_itunes.json",
+          "extra_description_path": "extra_descriptions/media_key_only_control_itunes.html",
+          "json": {
+            "title": "Media key only control iTunes",
+            "rules": [
+              {
+                "description": "F7 (back track, rewind) key should only control iTunes."
+              },
+              {
+                "description": "F8 (play/pause) key should only control iTunes."
+              },
+              {
+                "description": "F9 (next track, fast forward) key should only control iTunes."
+              },
+              {
+                "description": "Fn+F7 (back track, rewind) key should only control iTunes."
+              },
+              {
+                "description": "Fn+F8 (play/pause) key should only control iTunes."
+              },
+              {
+                "description": "Fn+F9 (next track, fast forward) key should only control iTunes."
+              }
+            ]
+          },
+          "extra_description_text": "Description From Mac OS High Sierra, Apple added new feature that media keys can control not only iTunes, but also safari, chrome (youtube, facebook video), spotify, or other media players. This would be annoying feature to someone who wanted to media keys only works for iTunes player, as before. If you want to make media key (F7,F8,F9) only control iTunes, enable this option. Source Reference https://apple.stackexchange.com/a/300903"
+        },
+        {
+          "path": "json/modifiers_to_arrows.json",
+          "json": {
+            "title": "Change modifiers to arrows",
+            "maintainers": [
+              "thoelze1"
+            ],
+            "rules": [
+              {
+                "description": "Change left_shift to left_arrow if pressed alone"
+              },
+              {
+                "description": "Change right_shift to right_arrow if pressed alone"
+              },
+              {
+                "description": "Change left_command to down_arrow if pressed alone"
+              },
+              {
+                "description": "Change right_command to up_arrow if pressed alone"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/modifiers_to_f-keys.json",
+          "json": {
+            "title": "Tapping modifier-keys produces a f-key.",
+            "rules": [
+              {
+                "description": "Press left_shift alone produces F12"
+              },
+              {
+                "description": "Press left_control alone produces F13"
+              },
+              {
+                "description": "Press left_command alone produces F14"
+              },
+              {
+                "description": "Press left_option alone produces F15"
+              },
+              {
+                "description": "Press right_control alone produces F16"
+              },
+              {
+                "description": "Press right_command alone produces F17"
+              },
+              {
+                "description": "Press right_alt alone produces F18"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mouse_button.json",
+          "json": {
+            "title": "Change mouse buttons (rev 2)",
+            "rules": [
+              {
+                "description": "Change button4,5 to back,forward (rev 1)"
+              },
+              {
+                "description": "Change button4,5 to forward,back (rev 1)"
+              },
+              {
+                "description": "Change left button + right button to middle button if these buttons are pressed simultaneously (rev 1)"
               }
             ]
           },
@@ -3448,24 +3633,6 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/mouse_button.json",
-          "json": {
-            "title": "Change mouse buttons (rev 2)",
-            "rules": [
-              {
-                "description": "Change button4,5 to back,forward (rev 1)"
-              },
-              {
-                "description": "Change button4,5 to forward,back (rev 1)"
-              },
-              {
-                "description": "Change left button + right button to middle button if these buttons are pressed simultaneously (rev 1)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
           "path": "json/mousebuttons_copy_paste_screenshot.json",
           "json": {
             "title": "Mouse buttons 3,4,5 -> screenshot, paste, copy",
@@ -3478,183 +3645,16 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/equals_del_to_forward_del.json",
+          "path": "json/nonbreaking_space.json",
           "json": {
-            "title": "Equals + Delete to Forward Delete",
+            "title": "Disable alt+spacebar (nonbreaking space)",
             "rules": [
               {
-                "description": "Simultaneously press Equals + Del to get a ForwardDel"
+                "description": "Change alt+spacebar to spacebar"
               }
             ]
           },
           "extra_description_text": ""
-        },
-        {
-          "path": "json/command_r_and_shift_r_to_command_tab.json",
-          "json": {
-            "title": "Command_R + Shift_R to Command + Tab",
-            "rules": [
-              {
-                "description": "Command_R + Shift_R to Command +Tab"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/fn_grave_accent.json",
-          "json": {
-            "title": "Change fn + grave_accent_and_tilde to esc",
-            "rules": [
-              {
-                "description": "Change fn + grave_accent_and_tilde to esc"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/standard_function_keys_on_fn.json",
-          "extra_description_path": "extra_descriptions/standard_function_keys_on_fn.json.html",
-          "json": {
-            "title": "Standard media control keys using the fn key",
-            "rules": [
-              {
-                "description": "Media control keys using fn key - use with fn checkbox disabled and f1 = f1 etc. in Function Keys menu."
-              },
-              {
-                "description": "Swap f key functions - to use with fn checkbox disabled. Causes Touch Bar flicker."
-              },
-              {
-                "description": "Keep normal media keys funtionality with F1, F2 etc. set normally as default (inverted method)."
-              }
-            ]
-          },
-          "extra_description_text": "Solution to profile dependent F key swap There are 3 rules: First make sure you use the media keys as default (checkbox off)* and assign F1 to F1 etc. in the Function Keys menu for given profile. Now after adding this rule and following these steps F keys will be the used primarily for this profile. First make sure you use the media keys as default (checkbox off)*. Now after adding this rule (\"Swap f key functions..\") you avoid assignment F1 to F1 etc. like in the first rule. Drawback: causes Touch Bar to flicker when f keys are pressed (no problem with media function keys). Best solution, allows fastest setup of a profile, but requires switching to F1, F2 as default (checkbox on)*. Now you will have F keys set as default so just select this third rule (\"Keep normal media keys funtionality...\") for the profiles, where you want to keep using media function keys as default. This is inverted method so to say. *I mean checkbox on the bottom of Function Keys menu to use F1, F2 etc. as default."
-        },
-        {
-          "path": "json/fn-copy-paste.json",
-          "json": {
-            "title": "F13 to copy & F14 to paste",
-            "rules": [
-              {
-                "description": "F13 to Copy"
-              },
-              {
-                "description": "F14 to Paste"
-              },
-              {
-                "description": "Shift-F14 to Paste and Match Style"
-              },
-              {
-                "description": "F15 to Paste and Match Style"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/f12-to-dev-tools-networking-mac-ff.json",
-          "json": {
-            "title": "Use F12 to open Dev Tools",
-            "rules": [
-              {
-                "description": "Use F12 to open Dev Tools Network Tab (Mac + Firefox)"
-              },
-              {
-                "description": "Use F12 to open Dev Tools (all browsers)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/screenshot_f3.json",
-          "json": {
-            "title": "Maps F3 to Clipboard Screenshot",
-            "rules": [
-              {
-                "description": "F3 to Clipboard Screenshot"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/leftclick.json",
-          "json": {
-            "title": "Remove ctrl+left click to right click",
-            "rules": [
-              {
-                "description": "ctrl+left click to left click"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/lshift_to_escape.json",
-          "json": {
-            "title": "Change shift key",
-            "rules": [
-              {
-                "description": "Change left_shift to caps_lock if alone."
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/spacebar_changes.json",
-          "json": {
-            "title": "Spacebar changes",
-            "rules": [
-              {
-                "description": "Post space is pressed alone, left_ctrl otherwise"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/exchange_left_paren_and_semicolon.json",
-          "json": {
-            "title": "Exchange left_paren and semicolon",
-            "rules": [
-              {
-                "description": "Exchange left_paren and semicolon"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/media_key_only_control_itunes.json",
-          "extra_description_path": "extra_descriptions/media_key_only_control_itunes.html",
-          "json": {
-            "title": "Media key only control iTunes",
-            "rules": [
-              {
-                "description": "F7 (back track, rewind) key should only control iTunes."
-              },
-              {
-                "description": "F8 (play/pause) key should only control iTunes."
-              },
-              {
-                "description": "F9 (next track, fast forward) key should only control iTunes."
-              },
-              {
-                "description": "Fn+F7 (back track, rewind) key should only control iTunes."
-              },
-              {
-                "description": "Fn+F8 (play/pause) key should only control iTunes."
-              },
-              {
-                "description": "Fn+F9 (next track, fast forward) key should only control iTunes."
-              }
-            ]
-          },
-          "extra_description_text": "Description From Mac OS High Sierra, Apple added new feature that media keys can control not only iTunes, but also safari, chrome (youtube, facebook video), spotify, or other media players. This would be annoying feature to someone who wanted to media keys only works for iTunes player, as before. If you want to make media key (F7,F8,F9) only control iTunes, enable this option. Source Reference https://apple.stackexchange.com/a/300903"
         },
         {
           "path": "json/option-fb-to-option-arrows.json",
@@ -3663,57 +3663,6 @@
             "rules": [
               {
                 "description": "option + f/b to option + arrows"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/control_comma_period.json",
-          "json": {
-            "title": "Change control+comma & control+period",
-            "rules": [
-              {
-                "description": "Change control+comma to comma, control+period to period"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/focusaperture_Controls_Media_Playback_and_Screen_Brightness.json",
-          "json": {
-            "title": "focusaperture Control: Media & Brightness Controls (fn+Arrows)",
-            "rules": [
-              {
-                "description": "focusaperture Control: Screen Brightness (fn + cmd + up/down)"
-              },
-              {
-                "description": "focusaperture Control: Keyboard Illumination (fn + cmd + left/right)"
-              },
-              {
-                "description": "focusaperture Control: Volume (fn + up/down)"
-              },
-              {
-                "description": "focusaperture Control: Media Playback (fn + left/right = previous/next track)"
-              },
-              {
-                "description": "focusaperture Control: Mute & Pause (fn+. = mute/unmute, fn+/ = Play/Pause)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/f14_to_copy_f15_to_paste.json",
-          "json": {
-            "title": "F14 to copy & F15 to paste",
-            "rules": [
-              {
-                "description": "F14 to Copy"
-              },
-              {
-                "description": "F15 to Paste"
               }
             ]
           },
@@ -3732,18 +3681,42 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/f2_cut_f3_copy_f4_paste.json",
+          "path": "json/return_to_ctrl.json",
           "json": {
-            "title": "F2 to cut, F3 to copy, F4 to paste",
+            "title": "Change return to control",
             "rules": [
               {
-                "description": "F2 to Cut"
+                "description": "Change return to control if pressed with other keys, to return if pressed alone"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/screenshot_f3.json",
+          "json": {
+            "title": "Maps F3 to Clipboard Screenshot",
+            "rules": [
+              {
+                "description": "F3 to Clipboard Screenshot"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/section_sign_to_escape.json",
+          "json": {
+            "title": "Section sign (§) to Escape",
+            "maintainers": [
+              "kopach"
+            ],
+            "rules": [
+              {
+                "description": "[Any Keyboard] Section sign (§) to Escape and fn + Section sign (§) to Section sign (§)."
               },
               {
-                "description": "F3 to Copy"
-              },
-              {
-                "description": "F4 to Paste"
+                "description": "[Apple Keyboard Only] Section sign (§) to Escape and fn + Section sign (§) to Section sign (§). Useful on Mac with Touch Bar, where is no physical Escape key."
               }
             ]
           },
@@ -3783,27 +3756,73 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/esc_to_eng_ime.json",
+          "path": "json/spacebar.json",
           "json": {
-            "title": "For Vim User Esc to en_US/ABC IME",
+            "title": "Change spacebar",
             "rules": [
               {
-                "description": "Esc to en_US"
+                "description": "Change spacebar to left_shift if pressed with other keys (Post spacebar when pressed alone)"
               },
               {
-                "description": "Esc to ABC"
+                "description": "Change spacebar to left_ctrl if pressed with other keys (Post spacebar when pressed alone)"
+              },
+              {
+                "description": "Change spacebar to left_option if pressed with other keys (Post spacebar when pressed alone)"
               }
             ]
           },
           "extra_description_text": ""
         },
         {
-          "path": "json/eject_take_screenshot.json",
+          "path": "json/spacebar_changes.json",
           "json": {
-            "title": "Maps Eject to Screenshot",
+            "title": "Spacebar changes",
             "rules": [
               {
-                "description": "Eject to Screenshot"
+                "description": "Post space is pressed alone, left_ctrl otherwise"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/standard_function_keys_on_fn.json",
+          "extra_description_path": "extra_descriptions/standard_function_keys_on_fn.json.html",
+          "json": {
+            "title": "Standard media control keys using the fn key",
+            "rules": [
+              {
+                "description": "Media control keys using fn key - use with fn checkbox disabled and f1 = f1 etc. in Function Keys menu."
+              },
+              {
+                "description": "Swap f key functions - to use with fn checkbox disabled. Causes Touch Bar flicker."
+              },
+              {
+                "description": "Keep normal media keys funtionality with F1, F2 etc. set normally as default (inverted method)."
+              }
+            ]
+          },
+          "extra_description_text": "Solution to profile dependent F key swap There are 3 rules: First make sure you use the media keys as default (checkbox off)* and assign F1 to F1 etc. in the Function Keys menu for given profile. Now after adding this rule and following these steps F keys will be the used primarily for this profile. First make sure you use the media keys as default (checkbox off)*. Now after adding this rule (\"Swap f key functions..\") you avoid assignment F1 to F1 etc. like in the first rule. Drawback: causes Touch Bar to flicker when f keys are pressed (no problem with media function keys). Best solution, allows fastest setup of a profile, but requires switching to F1, F2 as default (checkbox on)*. Now you will have F keys set as default so just select this third rule (\"Keep normal media keys funtionality...\") for the profiles, where you want to keep using media function keys as default. This is inverted method so to say. *I mean checkbox on the bottom of Function Keys menu to use F1, F2 etc. as default."
+        },
+        {
+          "path": "json/swap-paren-and-sqbrackets.json",
+          "json": {
+            "title": "Exchange paren and square bracket",
+            "rules": [
+              {
+                "description": "Exchange paren and square bracket"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/wolfXu.json",
+          "json": {
+            "title": "Mapping [left_option-{1-0,-,=} to {F1-F10,F11,F12}",
+            "rules": [
+              {
+                "description": "Mapping [left_option-{1-0,-,=} to {F1-F10,F11,F12}"
               }
             ]
           },
