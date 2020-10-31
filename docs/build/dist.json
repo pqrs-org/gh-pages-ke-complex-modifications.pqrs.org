@@ -5086,7 +5086,7 @@
               "suliveevil"
             ],
             "homepage": "https://github.com/suliveevil/Capslock",
-            "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/suliveevil/Capslock/master/mac/ultimate_macOS.json",
+            "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/pqrs-org/KE-complex_modifications/raw/master/public/json/ultimate_macOS.json",
             "rules": [
               {
                 "description": "ultimate macOS (version: 1556140182)"
@@ -5264,10 +5264,16 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/personal_sidv.json",
+          "path": "json/personal_sidharthv96.json",
           "json": {
-            "title": "sidv_personal",
+            "title": "Personal rules (@sidharthv96)",
             "rules": [
+              {
+                "description": "Diamond Nav Mode [; as Trigger Key]"
+              },
+              {
+                "description": "Diamond Nav Mode [E as Trigger Key]"
+              },
               {
                 "description": "Change delete_or_backspace key to hyper and caps_lock to delete_or_backspace."
               }
