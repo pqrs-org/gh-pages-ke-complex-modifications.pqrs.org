@@ -2506,6 +2506,42 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/carpalx-qgmlwy-us.json",
+          "json": {
+            "title": "CarpalX QGMLWY Keyboard USA",
+            "rules": [
+              {
+                "description": "Remap keys to use CarpalX QGMLWY USA keyboard layout"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/carpalx-qgmlwb-us.json",
+          "json": {
+            "title": "CarpalX QGMLWB Keyboard USA",
+            "rules": [
+              {
+                "description": "Remap keys to use CarpalX QGMLWB USA keyboard layout"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/carpalx-qfmlwy-us.json",
+          "json": {
+            "title": "CarpalX QFMLWY Keyboard USA",
+            "rules": [
+              {
+                "description": "Remap keys to use CarpalX QFMLWY USA keyboard layout"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -5086,7 +5122,7 @@
               "suliveevil"
             ],
             "homepage": "https://github.com/suliveevil/Capslock",
-            "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/suliveevil/Capslock/master/mac/ultimate_macOS.json",
+            "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/pqrs-org/KE-complex_modifications/raw/master/public/json/ultimate_macOS.json",
             "rules": [
               {
                 "description": "ultimate macOS (version: 1556140182)"
