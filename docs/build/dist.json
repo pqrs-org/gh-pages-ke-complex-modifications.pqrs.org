@@ -2253,6 +2253,22 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/panic-nova-home-and-end.json",
+          "extra_description_path": "extra_descriptions/panic-nova-home-and-end.json.html",
+          "json": {
+            "title": "Panic Nova: Home and End",
+            "rules": [
+              {
+                "description": "Panic Nova: Allow Home and End to navigate along a line."
+              },
+              {
+                "description": "Panic Nova: Allow Shift+Home and Shift+End to select text along a line."
+              }
+            ]
+          },
+          "extra_description_text": "Home and End key modifier for Panic's Nova editor. Changes the Home and End keys so they can navigate and select text along a single line instead of the top and bottom of a file."
         }
       ]
     },
