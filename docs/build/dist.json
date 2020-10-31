@@ -362,6 +362,22 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/minimal_dual_keys.json",
+          "extra_description_path": "extra_descriptions/minimal_dual_keys.json.html",
+          "json": {
+            "title": "Minimal dual keys",
+            "maintainers": [
+              "yeonsh"
+            ],
+            "rules": [
+              {
+                "description": "Minimal dual keys"
+              }
+            ]
+          },
+          "extra_description_text": "Minimal Dual keys Key bindings Key When pressed alone When held down Left CMD Backspace Left CMD Right CMD Enter Right CMD Left SHIFTtd> Enter Left SHIFTtd>"
         }
       ]
     },
