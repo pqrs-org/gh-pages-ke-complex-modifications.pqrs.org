@@ -1573,7 +1573,16 @@
                 "description": "Ctrl+T => Cmd+T (New tab)"
               },
               {
+                "description": "Ctrl+B => Cmd+B (Bold)"
+              },
+              {
+                "description": "Ctrl+I => Cmd+I (Italic)"
+              },
+              {
                 "description": "Ctrl+L => Cmd+L (Open url location) (Only in browsers)"
+              },
+              {
+                "description": "Ctrl+R => Cmd+R (Reload) (Only in browsers)"
               },
               {
                 "description": "F5 => Cmd+r (Reload)"
