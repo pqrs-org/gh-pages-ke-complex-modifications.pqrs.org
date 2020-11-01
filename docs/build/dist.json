@@ -378,6 +378,18 @@
             ]
           },
           "extra_description_text": "Minimal Dual keys Key bindings Key When pressed alone When held down Left CMD Backspace Left CMD Right CMD Enter Right CMD Left SHIFTtd> Enter Left SHIFTtd>"
+        },
+        {
+          "path": "json/capslock2command.json",
+          "json": {
+            "title": "Change caps_lock to command ",
+            "rules": [
+              {
+                "description": "Change caps_lock to Command if pressed with other keys, to escape if pressed alone."
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
