@@ -390,6 +390,19 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/simvi.json",
+          "extra_description_path": "extra_descriptions/simvi.html",
+          "json": {
+            "title": "Simvi",
+            "rules": [
+              {
+                "description": "Simvi Hyun's personal mod"
+              }
+            ]
+          },
+          "extra_description_text": "simvi - simple vi mode from tekezo's vi, dosen't work with mac os's combination move keys so I added keysets like below for work with mac os's combination keys option + s + h,j,k,l shift + option + s + h,j,k,l command + s + h,j,k,l shift + command + s + h,j,k,l highly recommended to vi + mac combination keys lover users"
         }
       ]
     },
