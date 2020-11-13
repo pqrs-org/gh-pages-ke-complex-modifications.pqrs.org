@@ -1663,6 +1663,9 @@
               },
               {
                 "description": "Backspace => Cmd+up (Go back) (Only in Finder)"
+              },
+              {
+                "description": "Ctrl+Left Click => Cmd+Left Click (select multiple items)"
               }
             ]
           },
