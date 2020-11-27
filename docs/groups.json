@@ -80,6 +80,9 @@
         {
           "path": "json/simvi.json",
           "extra_description_path": "extra_descriptions/simvi.html"
+        },
+        {
+          "path": "json/mouse_key_gesture.json"
         }
       ]
     },
@@ -714,6 +717,9 @@
         },
         {
           "path": "json/durgod-iso-uk-pt-extras-macos.json"
+        },
+        {
+          "path": "json/keychron_k6_escapemods.json"
         },
 	{
 	  "path": "json/Razer_Tartarus_v2.json",

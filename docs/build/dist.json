@@ -403,6 +403,36 @@
             ]
           },
           "extra_description_text": "simvi - simple vi mode from tekezo's vi, dosen't work with mac os's combination move keys so I added keysets like below for work with mac os's combination keys option + s + h,j,k,l shift + option + s + h,j,k,l command + s + h,j,k,l shift + command + s + h,j,k,l highly recommended to vi + mac combination keys lover users"
+        },
+        {
+          "path": "json/mouse_key_gesture.json",
+          "json": {
+            "title": "mouse_key_gesture",
+            "rules": [
+              {
+                "description": "button5 to mission_control"
+              },
+              {
+                "description": "button4 to command + ["
+              },
+              {
+                "description": "option & button4 to command + ]"
+              },
+              {
+                "description": "control & button5 to Left Desktop"
+              },
+              {
+                "description": "option & button5 to Right Desktop"
+              },
+              {
+                "description": "button3 to command + m"
+              },
+              {
+                "description": "option & button3 to command + h"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -2464,10 +2494,10 @@
             "title": "Neo2",
             "rules": [
               {
-                "description": "Neo2 mod 3 and 4 keys (Apple keyboard)"
+                "description": "Neo2 mod 3 and 4 keys (Apple keyboard). Toggle mod4 by pressing both mod4 keys simultaneously."
               },
               {
-                "description": "Neo2 mod 3 and 4 keys (Windows keyboard)"
+                "description": "Neo2 mod 3 and 4 keys (Windows keyboard). Toggle mod4 by pressing both mod4 keys simultaneously."
               },
               {
                 "description": "Neo2 layer 4"
@@ -2612,16 +2642,13 @@
         {
           "path": "json/japanese.json",
           "json": {
-            "title": "For Japanese （日本語環境向けの設定） (rev 6)",
+            "title": "For Japanese （日本語環境向けの設定） (rev 5)",
             "rules": [
               {
                 "description": "コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな） (rev 3)"
               },
               {
                 "description": "CTRLキーを単体で押したときに、英数・かなキーを送信する。（左CTRLキーは英数、右CTRLキーはかな）"
-              },
-              {
-                "description": "オプションキーを単体で押したときに、英数・かなキーを送信する。（左オプションキーは英数キー、右オプションキーはかなキー）"
               },
               {
                 "description": "コマンドキー（左右どちらでも）を単体で押したときに、英数・かなをトグルで切り替える。 (rev 2)"
@@ -4503,6 +4530,24 @@
               },
               {
                 "description": "ú using Alt/Option like on Windows"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/keychron_k6_escapemods.json",
+          "json": {
+            "title": "Keychron K6 Escape Key/ `/~ modifications",
+            "rules": [
+              {
+                "description": "Shift + Esc to ~"
+              },
+              {
+                "description": "Control + Esc to `"
+              },
+              {
+                "description": "Command + Esc to Command + Tilda"
               }
             ]
           },
