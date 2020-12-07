@@ -2619,6 +2619,19 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/frogpad-right-one-hand-keyboard.json",
+          "extra_description_path": "extra_descriptions/frogpad-right-one-hand-keyboard.html",
+          "json": {
+            "title": "Frogpad one hand keyboard - right",
+            "rules": [
+              {
+                "description": "frogpad remap for right hand by clark"
+              }
+            ]
+          },
+          "extra_description_text": "Right hand remap for the now-defunct Frogpad one handed keyboard. The \"J\" key is remapped to the letter \"H\" and if you have already memorized the frogpad layout, the rest should be straightforward from there! Special note that the and > keys that become lost in this layout are now remapped to the left-shift+Z and left-shift+X keys respectively. Full Keymap (Right Hand) For \"Primary\" keys, simply type as normal with right hand. To activate \"Secondary\" keys, hold down (spacebar) while typing. Default Primary Secondary (spacebar) (spacebar) N/A o p j i w m u r b y a ' (quote) t f (tab) l d v k t c j h l h e z g o q . y x , s g m n k n i (backspace or delete backwards) b u (delete forward) (right-cmd) N/A , (comma) (right-alt) (return/enter) . (period) (left-shift)+z N/A (left-shift)+x > N/A"
         }
       ]
     },
