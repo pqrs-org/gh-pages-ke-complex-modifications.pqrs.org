@@ -433,6 +433,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/map_esc_grave_accent_and_tilde.json",
+          "json": {
+            "title": "shift + Esc Tilde to ~, command + Esc Tilde to `",
+            "rules": [
+              {
+                "description": "command + Esc, Tilde to `"
+              },
+              {
+                "description": "shift + Esc, Tilde to ~"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -2702,16 +2717,13 @@
         {
           "path": "json/japanese.json",
           "json": {
-            "title": "For Japanese （日本語環境向けの設定） (rev 6)",
+            "title": "For Japanese （日本語環境向けの設定） (rev 5)",
             "rules": [
               {
                 "description": "コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな） (rev 3)"
               },
               {
                 "description": "CTRLキーを単体で押したときに、英数・かなキーを送信する。（左CTRLキーは英数、右CTRLキーはかな）"
-              },
-              {
-                "description": "オプションキーを単体で押したときに、英数・かなキーを送信する。（左オプションキーは英数キー、右オプションキーはかなキー）"
               },
               {
                 "description": "コマンドキー（左右どちらでも）を単体で押したときに、英数・かなをトグルで切り替える。 (rev 2)"
