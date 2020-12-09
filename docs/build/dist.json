@@ -2355,6 +2355,53 @@
             ]
           },
           "extra_description_text": "Home and End key modifier for Panic's Nova editor. Changes the Home and End keys so they can navigate and select text along a single line instead of the top and bottom of a file."
+        },
+        {
+          "path": "json/citrix_ctrl_alt_win.json",
+          "extra_description_path": "extra_descriptions/citrix.html",
+          "json": {
+            "title": "Citrix Receiver/Workspace modifiers for Ctrl, Alt, Windows order",
+            "rules": [
+              {
+                "description": "In Citrix, add fn modifier to Tab so it is forwarded"
+              },
+              {
+                "description": "In Citrix, change left_option to Alt key via \"⌘⌥ Command (left)-Option\""
+              },
+              {
+                "description": "In Citrix, change right_option to Alt key via \"⌘⌥ Command (left)-Option\""
+              },
+              {
+                "description": "In Citrix, change left_command as well via \"Send Windows logo key using ⌘ Command (right)\""
+              }
+            ]
+          },
+          "extra_description_text": "Map Apple modifiers (Ctrl, Option, Command) to Windows modifiers (Ctrl, Alt, Windows or Ctrl, Windows, Alt) in Citrix Receiver & Workspace, with working Alt+Tab and Windows key shortcuts. For whatever reason, Citrix Receiver/Workspace MacOS client has only limited settings to map Alt and Windows keys, motivating the need for this modification. Example Citrix Workspace (2005) settings that work with this configuration: References The goods on offer Configure shortcuts in the client MacOS Windows Citrix Workspace users have another option Original Gist with this modification"
+        },
+        {
+          "path": "json/citrix_ctrl_win_alt.json",
+          "extra_description_path": "extra_descriptions/citrix.html",
+          "json": {
+            "title": "Citrix Receiver/Workspace modifiers for Ctrl, Windows, Alt order",
+            "rules": [
+              {
+                "description": "In Citrix, add fn modifier to Tab so it is forwarded"
+              },
+              {
+                "description": "In Citrix, change left_command to Alt via \"⌘⌥ Command (left)-Option\""
+              },
+              {
+                "description": "In Citrix, change right_command to Alt via \"⌘⌥ Command (left)-Option\""
+              },
+              {
+                "description": "In Citrix, change left_option to Windows logo key via \"Send Windows logo key using ⌘ Command (right)\""
+              },
+              {
+                "description": "In Citrix, change right_option to Windows logo key via \"Send Windows logo key using ⌘ Command (right)\""
+              }
+            ]
+          },
+          "extra_description_text": "Map Apple modifiers (Ctrl, Option, Command) to Windows modifiers (Ctrl, Alt, Windows or Ctrl, Windows, Alt) in Citrix Receiver & Workspace, with working Alt+Tab and Windows key shortcuts. For whatever reason, Citrix Receiver/Workspace MacOS client has only limited settings to map Alt and Windows keys, motivating the need for this modification. Example Citrix Workspace (2005) settings that work with this configuration: References The goods on offer Configure shortcuts in the client MacOS Windows Citrix Workspace users have another option Original Gist with this modification"
         }
       ]
     },
@@ -5695,6 +5742,60 @@
             ]
           },
           "extra_description_text": "Keychron K2 This rule modifies the Keychron K2 keyboard layout to more closely resemble an Apple keyboard. Changes right_control to right_option Swaps right_command and fn Disable page_up, page_down, home, and end"
+        }
+      ]
+    },
+    {
+      "name": "Keychron K8",
+      "id": "Keychron K8",
+      "files": [
+        {
+          "path": "json/keychron-k8-mic-key-mute-cisco-webex.json",
+          "extra_description_path": "extra_descriptions/keychron-k8-mic-key-mute-cisco-webex.json.html",
+          "json": {
+            "title": "Keychron K8 Microphone Button to Webex Mute",
+            "rules": [
+              {
+                "description": "Focus Webex Meeting Manager Window"
+              },
+              {
+                "description": "Change Fn + Spacebar to Shift + Cmd + M"
+              }
+            ]
+          },
+          "extra_description_text": "Keychron K8 This rule modifies the Keychron K8 microphone key (on the top-right) to toggle mute on Cisco Webex (even if the conversation is not in focus). Changes Fn + Space to Gui + Shift + M If Cisco Webex meeting window is not in focus, it will first put the window into focus"
+        },
+        {
+          "path": "json/keychron-k8-mic-key-mute-zoom.json",
+          "extra_description_path": "extra_descriptions/keychron-k8-mic-key-mute-zoom.json.html",
+          "json": {
+            "title": "Keychron K8 Microphone Button to Zoom Mute",
+            "rules": [
+              {
+                "description": "Focus Zoom Meeting Manager Window"
+              },
+              {
+                "description": "Change Fn + Spacebar to Shift + Cmd + A"
+              }
+            ]
+          },
+          "extra_description_text": "Keychron K8 This rule modifies the Keychron K8 microphone key (on the top-right) to toggle mute on Zoom (even if the conversation is not in focus). Changes Fn + Space to Gui + Shift + A If Zoom meeting window is not in focus, it will first put the window into focus"
+        },
+        {
+          "path": "json/keychron-k8-mic-key-mute-microsoft-teams.json",
+          "extra_description_path": "extra_descriptions/keychron-k8-mic-key-mute-microsoft-teams.json.html",
+          "json": {
+            "title": "Keychron K8 Microphone Button to Microsoft Teams Mute",
+            "rules": [
+              {
+                "description": "Focus Microsoft Teams Meeting Manager Window"
+              },
+              {
+                "description": "Change Fn + Spacebar to Shift + Cmd + A"
+              }
+            ]
+          },
+          "extra_description_text": "Keychron K8 This rule modifies the Keychron K8 microphone key (on the top-right) to toggle mute on Microsoft Teams (even if the conversation is not in focus). Changes Fn + Space to Gui + Shift + M If Microsoft Teams meeting window is not in focus, it will first put the window into focus"
         }
       ]
     }
