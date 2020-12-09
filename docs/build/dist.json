@@ -2417,6 +2417,21 @@
             ]
           },
           "extra_description_text": "Map Apple modifiers (Ctrl, Option, Command) to Windows modifiers (Ctrl, Alt, Windows or Ctrl, Windows, Alt) in Citrix Receiver & Workspace, with working Alt+Tab and Windows key shortcuts. For whatever reason, Citrix Receiver/Workspace MacOS client has only limited settings to map Alt and Windows keys, motivating the need for this modification. Example Citrix Workspace (2005) settings that work with this configuration: References The goods on offer Configure shortcuts in the client MacOS Windows Citrix Workspace users have another option Original Gist with this modification"
+        },
+        {
+          "path": "json/control-to-command-in-office.json",
+          "json": {
+            "title": "Use left control key as command key in Microsoft Office",
+            "rules": [
+              {
+                "description": "Use left control key as command key in Microsoft Office (rev 1)"
+              },
+              {
+                "description": "Use right control key as command key in Microsoft Office (rev 1)"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -2717,13 +2732,16 @@
         {
           "path": "json/japanese.json",
           "json": {
-            "title": "For Japanese （日本語環境向けの設定） (rev 5)",
+            "title": "For Japanese （日本語環境向けの設定） (rev 6)",
             "rules": [
               {
                 "description": "コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな） (rev 3)"
               },
               {
                 "description": "CTRLキーを単体で押したときに、英数・かなキーを送信する。（左CTRLキーは英数、右CTRLキーはかな）"
+              },
+              {
+                "description": "オプションキーを単体で押したときに、英数・かなキーを送信する。（左オプションキーは英数キー、右オプションキーはかなキー）"
               },
               {
                 "description": "コマンドキー（左右どちらでも）を単体で押したときに、英数・かなをトグルで切り替える。 (rev 2)"
