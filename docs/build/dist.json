@@ -968,6 +968,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/mu_mouse_mode.json",
+          "json": {
+            "title": "Mu Mouse Mode (rev 0.3.1)",
+            "rules": [
+              {
+                "description": "Mu Mouse Mode Semicolon(;)+D to enter Mu Mouse Mode(default Mouse Move Mode); V to Mouse Left Click; N to Mouse Right Click; Q to quit Mu Mouse Mode; D: Mouse Move Mode, J/K/L/I/U/M/O/. to Mouse Left/Down/Right/Up/Up-Left/Down-Left/Up-Right/Down-Right; F: Mouse Fast Move Mode, like Mouse Move Mode but faster; S: Mouse Scroll Mode, J/K/L/I to Mouse Scroll Left/Down/Right/Up"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/nehem_mappings.json",
           "json": {
             "title": "Nehem's cursor moves inspired by Anne Pro 2",
@@ -2732,16 +2744,13 @@
         {
           "path": "json/japanese.json",
           "json": {
-            "title": "For Japanese （日本語環境向けの設定） (rev 6)",
+            "title": "For Japanese （日本語環境向けの設定） (rev 5)",
             "rules": [
               {
                 "description": "コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな） (rev 3)"
               },
               {
                 "description": "CTRLキーを単体で押したときに、英数・かなキーを送信する。（左CTRLキーは英数、右CTRLキーはかな）"
-              },
-              {
-                "description": "オプションキーを単体で押したときに、英数・かなキーを送信する。（左オプションキーは英数キー、右オプションキーはかなキー）"
               },
               {
                 "description": "コマンドキー（左右どちらでも）を単体で押したときに、英数・かなをトグルで切り替える。 (rev 2)"
