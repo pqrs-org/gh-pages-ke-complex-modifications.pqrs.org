@@ -4758,6 +4758,31 @@
             ]
           },
           "extra_description_text": "Use the Razer Tartarus v2 without the Razer Synapse software. Razer no longer supports MacOS (after 10.14) with their Synapse software solution. In order to continue using the product, the buttons on the game pad must be remapped so as to not conflict with keys on the \"normal\" keyboard. This configuration remaps each button on the keypad to a key sequence not likely to match any normal. This configuration is device-specific to the Tartarus v2 (vendor_id=5426, product_id=555) but minor tweaks should be possible to support other devices from Razer. Feedback: bcurtis@gmail.com Keypad Button Mapping 1 [Left Shift] + [Left Option] + a 2 [Left Shift] + [Left Option] + b 3 [Left Shift] + [Left Option] + c 4 [Left Shift] + [Left Option] + d 5 [Left Shift] + [Left Option] + e 6 [Left Shift] + [Left Option] + f 7 [Left Shift] + [Left Option] + g 8 [Left Shift] + [Left Option] + h 9 [Left Shift] + [Left Option] + i 10 [Left Shift] + [Left Option] + j 11 [Left Shift] + [Left Option] + k 12 [Left Shift] + [Left Option] + l 13 [Left Shift] + [Left Option] + m 14 [Left Shift] + [Left Option] + n 15 [Left Shift] + [Left Option] + o 16 [Left Shift] + [Left Option] + p 17 [Left Shift] + [Left Option] + q 18 [Left Shift] + [Left Option] + r 19 [Left Shift] + [Left Option] + s 20 [Space] (not remapped) Scroll Wheel not remapped Thumb button (Trigger) [Tab] Arrows (U/D/L/R) not remapped"
+        },
+        {
+          "path": "json/rog_chakram_joystick.json",
+          "extra_description_path": "extra_descriptions/rog_chakram_joystick.html",
+          "json": {
+            "title": "ROG Chakram Joystick",
+            "maintainers": [
+              "gtavanez"
+            ],
+            "rules": [
+              {
+                "description": "Right Arrow to Move Right a Space"
+              },
+              {
+                "description": "Left Arrow to Move Left a Space"
+              },
+              {
+                "description": "Up Arrow override"
+              },
+              {
+                "description": "Down Arrow override"
+              }
+            ]
+          },
+          "extra_description_text": "Remap the ROG Chakram Joystick! Since Asus doesn't have any software to map out the keys in MacOS (despite what you define in Windows, being carried trough in the mouse internal settings), there was no way to make them have a different behaviour. Set out to redefine the joystick keys (the side keys are not recognised, and hadn't had the time to dwelve into that yet). This configuration is device-specific to the ROG Chakram (vendor_id=2821, product_id=6371), and so far only the joystick keys, in digital mode, have been mapped. For the config to work properly, you'll need to enable the device keyboard mode, in Karabiner Elements Preferences -> Devices: This is my mapping: Mouse Button Mapping Joystick Up (mapped as Up Arrow) [Left Control] + Up Arrow Joystick Down (mapped as Down Arrow) [Left Control] + Down Arrow Joystick Right (mapped as Right Arrow) [Left Control] + Right Arrow Joystick Left (mapped as Left Arrow) [Left Control] + Left Arrow"
         }
       ]
     },
