@@ -5018,7 +5018,8 @@
             ],
             "rules": [
               {
-                "description": "Launcher Mode v4 (rev 12)"
+                "description": "Launcher Mode v4 (rev 13)",
+                "available_since": "13.1.4"
               }
             ]
           },
