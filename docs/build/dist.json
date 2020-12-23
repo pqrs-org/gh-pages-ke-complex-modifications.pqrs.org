@@ -2734,6 +2734,51 @@
             ]
           },
           "extra_description_text": "Left hand remap for the now-defunct Frogpad one handed keyboard. The \"D\" key is remapped to the letter \"H\" and if you have already memorized the frogpad layout, the rest should be straightforward from there! Full Keymap (Left Hand) For \"Primary\" keys, simply type as normal with left hand. To activate \"Secondary\" keys, hold down (spacebar) while typing. Default Primary Secondary (spacebar) (spacebar) N/A q p j w w m e r b r a ' (quote) t f (tab) a d v s t c d h l f e z g o q z y x x s g c n k v i (backspace or delete backwards) b u (delete forward) (left-alt) N/A , (comma) (left-ctrl) (return/enter) . (period)"
+        },
+        {
+          "path": "json/multi_n.json",
+          "extra_description_path": "extra_descriptions/multi_n.html",
+          "json": {
+            "title": "MultiN Mode: Use TouchBoard To Extend Keyboard",
+            "maintainers": [
+              "Chenlm"
+            ],
+            "rules": [
+              {
+                "description": "Multi_1 Lower Mode: Extend Number Keyboard And Media Keys",
+                "available_since": "12.6.9"
+              },
+              {
+                "description": "Multi_1 Mode: Extend Keyboard",
+                "available_since": "12.6.9"
+              },
+              {
+                "description": "Multi_2 iThoughtsX Mode: Application Operations",
+                "available_since": "12.6.9"
+              },
+              {
+                "description": "Multi_2 Firefox Mode: Application Operations",
+                "available_since": "12.6.9"
+              },
+              {
+                "description": "Multi_2 Finder Mode: Application Operations",
+                "available_since": "12.6.9"
+              },
+              {
+                "description": "Multi_2 Mode: All Application Operations",
+                "available_since": "12.6.9"
+              },
+              {
+                "description": "Multi_3 Mode: Open Application",
+                "available_since": "12.6.9"
+              },
+              {
+                "description": "Multi_4 Mode: Hammerspoon WinWin",
+                "available_since": "12.6.9"
+              }
+            ]
+          },
+          "extra_description_text": "README_en MultiN Touchpad Keyboard ModeThis project (github path) shares a multi-mode keyboard operation scheme, which is mainly suitable for notebooks. By combining the touchpad and keyboard, the operability of the keyboard can be greatly enriched.Multi-touch multi-mode keyboard solutionThe idea of ​​this solution is to map the keys of the keyboard into different modes through different multi-finger touch modes, thereby expanding the keys of the keyboard, shortening the keystroke, and submitting input efficiency. For example, single-finger touch+hjkl is mapped to arrow keys, and four-finger touch+hjkl is mapped to window layout shortcut keys.In order to facilitate memory, this program divides the control mode into four modes:Single-finger touch + key: single-finger keyboard expansion modeTwo-finger touch + key: two-finger program control modeThree-finger touch + key: three-finger program start modeFour-finger touch + key: Four-finger window management modeSingle finger keyboard expansion modeThis mode expands the notebook keypad into a full keyboard through single-finger touch + keys. The keys are defined as follows (Multi_1 means single-finger touch):Multi_1 + h -> leftMulti_1 + j -> downMulti_1 + k -> upMulti_1 + l -> right...Two-finger program control modeThis mode maps two-finger touch + buttons into operation shortcuts of different programs. The currently defined program control buttons are as follows (Multi_2 means two-finger touch):General keys:Multi_2 + s -> Command + SMulti_2 + w -> Command + WMulti_2 + q -> Command + QFirefox:Multi_2 + h -> privious tabMulti_2 + l -> next tabMulti_2 + j -> page downMulti_2 + l -> page up...Three-finger program opening modeThis mode maps the three-finger touch + button to open different programs. The currently defined program control buttons are as follows (Multi_3 means three-finger touch):Multi_3 + f -> FirefoxMulti_3 + e -> EmacsMulti_3 + t -> iTerm2Multi_3 + i -> Intellij Idea...Four-finger window management modeThis mode maps the four-finger touch + key to window management shortcut keys. The window management uses Harmmerspoon. The defined keys are as follows (Multi_4 means four-finger touch):Multi_4 + h -> the left side of the two split screenMulti_4 + l -> the right side of the two split screenMulti_4 + j -> the bottom side of the two split screenMulti_4 + k -> the upper side of the two split screenMulti_4 + f -> full screen...Method to realizeGoal This solution is only realized through open source software on macOS.Software usedHammerspoon + WinWin pluginKarabiner-ElementNeed to open Multi Touch plug-inHow to useThe generated configuration files are in the dist directory and can be used directly.multi_n.json is the Karabiner_Element configuration file, which can be copied or linked to the Karabiner_Element configuration directory to enable. Karabiner_Element configuration directory is /Users//.config/karabiner/assets/complex_modifications.config.lua is the Hammerspoon configuration file, which can be introduced in the Harmmerspoon configuration file.Custom keyboard mappingIf you need to customize, you can modify the keyboard mapping configuration file config.ini in the src directory, and then execute the makejson.py file to regenerate the multi_n.json configuration file."
         }
       ]
     },
