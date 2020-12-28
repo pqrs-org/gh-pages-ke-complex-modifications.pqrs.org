@@ -2802,16 +2802,13 @@
         {
           "path": "json/japanese.json",
           "json": {
-            "title": "For Japanese （日本語環境向けの設定） (rev 6)",
+            "title": "For Japanese （日本語環境向けの設定） (rev 5)",
             "rules": [
               {
                 "description": "コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな） (rev 3)"
               },
               {
                 "description": "CTRLキーを単体で押したときに、英数・かなキーを送信する。（左CTRLキーは英数、右CTRLキーはかな）"
-              },
-              {
-                "description": "オプションキーを単体で押したときに、英数・かなキーを送信する。（左オプションキーは英数キー、右オプションキーはかなキー）"
               },
               {
                 "description": "コマンドキー（左右どちらでも）を単体で押したときに、英数・かなをトグルで切り替える。 (rev 2)"
@@ -4828,6 +4825,49 @@
             ]
           },
           "extra_description_text": "Remap the ROG Chakram Joystick! Since Asus doesn't have any software to map out the keys in MacOS (despite what you define in Windows, being carried trough in the mouse internal settings), there was no way to make them have a different behaviour. Set out to redefine the joystick keys (the side keys are not recognised, and hadn't had the time to dwelve into that yet). This configuration is device-specific to the ROG Chakram (vendor_id=2821, product_id=6371), and so far only the joystick keys, in digital mode, have been mapped. For the config to work properly, you'll need to enable the device keyboard mode, in Karabiner Elements Preferences -> Devices: This is my mapping: Mouse Button Mapping Joystick Up (mapped as Up Arrow) [Left Control] + Up Arrow Joystick Down (mapped as Down Arrow) [Left Control] + Down Arrow Joystick Right (mapped as Right Arrow) [Left Control] + Right Arrow Joystick Left (mapped as Left Arrow) [Left Control] + Left Arrow"
+        },
+        {
+          "path": "json/Microsoft_Ergonomic_Desktop.json",
+          "extra_description_path": "extra_descriptions/Microsoft_Ergonomic_Desktop.json.html",
+          "json": {
+            "title": "Microsoft Ergonomic Desktop (RJU-00004)",
+            "rules": [
+              {
+                "description": "Map the keyboard emojis key to macOS emojis popup."
+              },
+              {
+                "description": "Map the O365 key to right command key."
+              },
+              {
+                "description": "Map the application key to left command key."
+              },
+              {
+                "description": "Map the keyboard screenshot area key to Cmd+Shift+0 for Lightshot App"
+              },
+              {
+                "description": "Map the keyboard magnifying glass key to open calculator"
+              },
+              {
+                "description": "Map the keyboard window in brakets key to open finder"
+              },
+              {
+                "description": "Map the keyboard special key 1 to open Chrome app"
+              },
+              {
+                "description": "Map the keyboard special key 2 to open Firefox"
+              },
+              {
+                "description": "Map the keyboard special key 3 to open Webex app"
+              },
+              {
+                "description": "Mouse button5 to forward (cmd+])"
+              },
+              {
+                "description": "Mouse button4 to forward (cmd+[)"
+              }
+            ]
+          },
+          "extra_description_text": "Microsoft Ergonomic Desktop This complex modification adds full support to keyboard keys and mouse buttons that would otherwise not work as intended in the Microsoft Ergonomic Desktop. Features Enables the mouse back and forward buttons. Enables the top row of special keys. Remaps a few other Windows specific keys. Included key bindings Emoji Key Cmd+Ctrl+Spacebar O365 Key Right Command Application Key Left Command Screenshot area key Cmd+Shift+0 for Lightshot App Magnifying glass key Open Calculator Window in brackets key (top row) Open Finder Special key 1 (top row) Open Chrome Browser Special key 2 (top row) Open Firefox Browser Special key 3 (top row) Open Webex App Usage notes There's two keys that are impossible to map, the Calculator key and the Media Player key. Volume and media playback buttons work out of the box. I wish the Application key wasn't there, but since it's there I mapped it to the Cmd key, which means both the Application and Window key work as the same. It is important to load the Emoji remapping first and then the O365 button one, otherwise the emoji button will behave differently and just open the Spotlight. Feel free to manually modify any of the mappings to match personal preference."
         }
       ]
     },
