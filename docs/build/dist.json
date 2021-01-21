@@ -1591,6 +1591,18 @@
           "extra_description_text": "Karabiner Vim Mode Plus A complex modification that mimics Vim's navigation throughout your entire Mac. Although I try to keep this mod up-to-date in the KE-complex_modifications repository, you might encounter a more recent version in its own repository. 1. So what do you get? 1.1 NORMAL mode Activate with caps lock. Deactivate with: i or a (there are more like these, see below) caps lock, escape, control+[, Clicking any mouse button Pressing any key within Atom, iTerm2, PyCharm or VSCodium (because those have their own Vim modes) Pressing any key while having at least one finger on your trackpad Alternatively you can hold caps lock for NORMAL mode and release it to exit. Within NORMAL mode you can then move around with: key action h Move cursor left* j Move cursor down* k Move cursor up* l Move cursor right* e Move cursor to next end of word b Move cursor to previous start of word 0 Move cursor to start of line (before any tabs) ^ Move cursor to start of line (after any tabs) $ Move cursor to end of line g,g Move cursor to start of document G Move cursor to end of document { Move cursor to start of paragraph } Move cursor to end of paragraph *These work with shift, control, option and/or command, e.g. for hotkeys within apps. Combine those with d, y and c to delete (“cut”), yank (“copy”) or change (“cut” and exit NORMAL mode) like so: key action d,d / y,y / c,c Delete/yank/change the entire line d,e / y,e / c,e Delete/yank/change to the next end of word d,b / ... / ... Delete/yank/change to the previous start of word ... Ditto for all other navigation keys mentioned above Also: key action x Delete forward X Delete back p or P Paste at cursor u Undo control+r Redo To exit NORMAL mode at specific locations: key action i Exit NORMAL mode at the cursor I Exit NORMAL mode at the start of the line a Exit NORMAL mode at the cursor A Exit NORMAL mode at the end of the line o Exit NORMAL mode on a new line below the cursor O Exit NORMAL mode on a new line above the cursor I've also mapped 3 keys to F18, F19 and F20, which I pick up on within Hammerspoon to load specific modals: key action s Activate Hammerspoon screen modal m Activate Hammerspoon Markdown modal spacebar Activate Hammerspoon hyper modal 1.2 VISUAL mode From within NORMAL mode you can switch to VISUAL mode with v. (Unfortunately you cannot switch to the other end of the selection with o as you normally would, so choose your starting point wisely.) key action v Exit VISUAL mode, enter NORMAL mode h Select left j Select down ... Ditto for all other navigation keys mentioned above d Delete (“cut”) the selection and enter NORMAL mode y Yank (“copy”) the selection and enter NORMAL mode c Change (“cut”) the selection and exit Vim Mode entirely x Remove the selection and enter NORMAL mode 2. Setting up Import this complex modification straight into Karabiner through this link: karabiner://karabiner/assets/complex_modifications/import?url=https://git.sr.ht/~harmtemolder/karabiner-vim-mode-plus/blob/master/vim_mode_plus.json (You might have to copy and paste it into your browser's address bar if your browser does not render it as a clickable link.) 3. Making changes I write my complex modifications in YML files, converting them into JSON using yml-to-json.py. You don't have to, but you can, if you want to. Either way, make sure to remove and re-add all parts of this mod in Karabiner's “Complex modifications” tab after making changes. The order they are in is important. 4. Reporting issues If you encounter any issues, please report them here. (If you need help with sourcehut's issue tracker, see this man page.) I'd also love to hear additions you would like to see to this setup."
         },
         {
+          "path": "json/vim_text_navigation.json",
+          "json": {
+            "title": "Text Navigation (VIM style)",
+            "rules": [
+              {
+                "description": "Text Navigation Forward/Backward (fn + left_shift + jl to alt + arrow keys)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/vimium.json",
           "extra_description_path": "extra_descriptions/vimium.json.html",
           "json": {
@@ -2817,16 +2829,13 @@
         {
           "path": "json/japanese.json",
           "json": {
-            "title": "For Japanese （日本語環境向けの設定） (rev 6)",
+            "title": "For Japanese （日本語環境向けの設定） (rev 5)",
             "rules": [
               {
                 "description": "コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな） (rev 3)"
               },
               {
                 "description": "CTRLキーを単体で押したときに、英数・かなキーを送信する。（左CTRLキーは英数、右CTRLキーはかな）"
-              },
-              {
-                "description": "オプションキーを単体で押したときに、英数・かなキーを送信する。（左オプションキーは英数キー、右オプションキーはかなキー）"
               },
               {
                 "description": "コマンドキー（左右どちらでも）を単体で押したときに、英数・かなをトグルで切り替える。 (rev 2)"
