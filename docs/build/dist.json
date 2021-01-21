@@ -207,6 +207,18 @@
           "extra_description_text": "Dual keys This mod relieves stress from your pinkies by moving several hard-to-reach keys to more ergonomic positions. It accomplishes this by making several keys do double duty as both modifier keys and input keys, depending on whether your press them alone or hold them down. Combines well with the Ergoemacs mod. Key bindings Key When pressed alone When held down Left ⌘ ⇥ ⇧ Right ⌘ - ⇧ Left ⌥ ↩︎ ⌘ Right ⌥ = ⌘ ` ` ⌃ / / ⌃ ⇪ \\ ⌥ ' ' ⌥ ⌃ [ [ ← ] ] Notes This mod is made for using a US layout with an ISO (not ANSI) MacBook keyboard. If you want to use a different keyboard layout or otherwise remap the keys, please download the source code and modify dual_keys.json.rb."
         },
         {
+          "path": "json/e0da_caps_lock.json",
+          "json": {
+            "title": "e0da Caps Lock",
+            "rules": [
+              {
+                "description": "shift+caps_lock->caps_lock; caps_lock+[...keys] -> control+[..keys]; caps_lock -> escape"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/function_keys.json",
           "extra_description_path": "extra_descriptions/function_keys.json.html",
           "json": {
@@ -2829,13 +2841,16 @@
         {
           "path": "json/japanese.json",
           "json": {
-            "title": "For Japanese （日本語環境向けの設定） (rev 5)",
+            "title": "For Japanese （日本語環境向けの設定） (rev 6)",
             "rules": [
               {
                 "description": "コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな） (rev 3)"
               },
               {
                 "description": "CTRLキーを単体で押したときに、英数・かなキーを送信する。（左CTRLキーは英数、右CTRLキーはかな）"
+              },
+              {
+                "description": "オプションキーを単体で押したときに、英数・かなキーを送信する。（左オプションキーは英数キー、右オプションキーはかなキー）"
               },
               {
                 "description": "コマンドキー（左右どちらでも）を単体で押したときに、英数・かなをトグルで切り替える。 (rev 2)"
