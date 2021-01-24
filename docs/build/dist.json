@@ -2483,6 +2483,34 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/preview-vim.json",
+          "extra_description_path": "extra_descriptions/preview-vim.html",
+          "json": {
+            "title": "vim / zathura bindings for Preview.app",
+            "rules": [
+              {
+                "description": "vim-preview: map jk (down/up)"
+              },
+              {
+                "description": "vim preview: map JK (previous / next page)"
+              },
+              {
+                "description": "vim-preview: map hl (left / right)"
+              },
+              {
+                "description": "vim-preview: map HL (previous / next position)"
+              },
+              {
+                "description": "vim-preview: map zoom (9/0/-/=)"
+              },
+              {
+                "description": "vim-preview: map gG (go to first / last page)"
+              }
+            ]
+          },
+          "extra_description_text": "vim-preview This modification provides zathura/vim-like functionality to Preview.app. Key binds currently implemented: Movement Left => h Right => l Down => j Up => k Previous position => H Next position => L Previous page => K Next page => J First page => g Last page => G Zoom Zoom In => = Zoom Out => - Actual size => 0 Zoom to fit => 9 The main repository is hosted on Github. Contributions are welcome!"
         }
       ]
     },
