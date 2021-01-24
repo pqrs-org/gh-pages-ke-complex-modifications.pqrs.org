@@ -4354,6 +4354,18 @@
           "extra_description_text": "Mouse keys Mode v4 You can operate mouse via keyboard. (motion, click and scroll) Mouse keys mode is active by the following procedure. d key_down any keys of mouse keys key_down (h, j, k, l,...) any keys of mouse keys key_up (h, j, k, l,...) Then mouse keys is active until you release d key. Example: Press d Press h Press j Release h Release j Release d Key bindings: h: mouse left j: mouse down k: mouse up l: mouse right v: left click b: middle click n: right click f: fast mode (fast mouse move by f+hjkl) g: slow mode (slow mouse move by g+hjkl) s: scroll mode (scroll by s+hjkl)"
         },
         {
+          "path": "json/mouse_keys_full_xgwang_me.json",
+          "json": {
+            "title": "Mouse keys (xgwang.me)",
+            "rules": [
+              {
+                "description": "Mouse keys (xgwang.me)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/disable_cmd_f1_screen_mirroring.json",
           "json": {
             "title": "Disable Cmd+F1 Toggle Screen Mirroring",
