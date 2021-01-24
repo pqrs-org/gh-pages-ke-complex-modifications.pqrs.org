@@ -3252,6 +3252,24 @@
             ]
           },
           "extra_description_text": "If you are used to a Swedish keyboard on Windows, this mapping will make your mac behave more it would on Windows."
+        },
+        {
+          "path": "json/DK_Programmer.json",
+          "json": {
+            "title": "Danish DK Programmer Keyboard",
+            "rules": [
+              {
+                "description": "Danish DK keyboard, Right Alt + 7,0 =>            { , }"
+              },
+              {
+                "description": "Danish dk keyboard, AltGr+key_left_of_backspace =>        pipe    |"
+              },
+              {
+                "description": "Danish Dk keyboard, AltGr+key_left_of_z =>          Backslash \\"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
