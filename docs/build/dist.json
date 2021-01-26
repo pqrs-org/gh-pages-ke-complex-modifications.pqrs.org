@@ -2573,6 +2573,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/dvorak_cmd_qwerty_layout_only_us_input.json",
+          "json": {
+            "title": "Dvorak-CmdQwerty Keyboard",
+            "rules": [
+              {
+                "description": "Remap keys to use Dvorak-CmdQwerty keyboard layout only on US input"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/programmer_dvorak_cmd_qwerty_layout.json",
           "json": {
             "title": "Programmer Dvorak-CmdQwerty Keyboard (rev 2)",
