@@ -31,7 +31,7 @@
         {
           "path": "json/caps_lock.json",
           "json": {
-            "title": "Change caps_lock key (rev 4)",
+            "title": "Change caps_lock key (rev 5)",
             "rules": [
               {
                 "description": "Change caps_lock key to command+control+option+shift if pressed with other keys"
@@ -50,9 +50,6 @@
               },
               {
                 "description": "Change caps_lock to control if pressed with other keys. (rev 2)"
-              },
-              {
-                "description": "Disable caps_lock delay (rev 1)"
               }
             ]
           },
