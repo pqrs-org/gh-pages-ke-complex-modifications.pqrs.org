@@ -6079,6 +6079,31 @@
       ]
     },
     {
+      "name": "Keychron K6",
+      "id": "Keychron K6",
+      "files": [
+        {
+          "path": "json/keychron_k6_better_escape.json",
+          "extra_description_path": "extra_descriptions/keychron_k6_better_escape.json.html",
+          "json": {
+            "title": "Keychron K6 Better Escape Key",
+            "rules": [
+              {
+                "description": "Shift + Esc to ~"
+              },
+              {
+                "description": "Command + Esc to Command + ` (for window switching)"
+              },
+              {
+                "description": "Command + Shift + Esc to Command + ~ (for reverse window switching)"
+              }
+            ]
+          },
+          "extra_description_text": "Keychron K6 Better Escape Key This rule modifies the Keychron K6 escape key to follow established muscle memory for window switching and use of ~. The esc key will behave as follows with modifier keys: Unmodified = escape Shift = ~ (tilde) Command = Command + ` (Cycle forward through the current application's windows) Command + Shift = Command + ~ (Cycle backward through the current application's windows)"
+        }
+      ]
+    },
+    {
       "name": "Keychron K8",
       "id": "Keychron K8",
       "files": [
