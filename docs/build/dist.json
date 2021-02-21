@@ -5313,7 +5313,7 @@
             ],
             "rules": [
               {
-                "description": "Launcher Mode v4 (rev 13)",
+                "description": "Launcher Mode v4 (rev 14)",
                 "available_since": "13.1.4"
               }
             ]
