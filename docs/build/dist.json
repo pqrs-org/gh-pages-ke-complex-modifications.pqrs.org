@@ -4225,6 +4225,18 @@
             ]
           },
           "extra_description_text": "In MacBooks with a Touch Bar, holding down the fn function key usually changes its behaviour. For instance, it might show the Control Strip by default, and holding down would instead show the F1-F12 function keys. This modification takes that idea further, by using the combination ⇧fn as a hard toggle, like ⇪ Caps Lock is to ⇧ Shift."
+        },
+        {
+          "path": "json/caps_escape.json",
+          "json": {
+            "title": "Caps Lock to Escape, enable Caps Lock when held",
+            "rules": [
+              {
+                "description": "Caps Lock to Escape on single press, Caps Lock on press and hold."
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
