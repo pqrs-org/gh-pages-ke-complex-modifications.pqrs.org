@@ -5143,6 +5143,33 @@
       "id": "personal-settings",
       "files": [
         {
+          "path": "json/personal_mutoe.json",
+          "json": {
+            "title": "HHKB modifiers for mutoe (Tab key)",
+            "rules": [
+              {
+                "description": "Change left_shift to caps_lock if pressed alone."
+              },
+              {
+                "description": "Tab + hjkl to arrow keys"
+              },
+              {
+                "description": "Tab + uiyo to shift + arrow keys"
+              },
+              {
+                "description": "Tab + nm,. to home/pgup/pgdown/end"
+              },
+              {
+                "description": "Tab + 1234567890-= to F1-F12"
+              },
+              {
+                "description": "Tab + backspace to delete"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/personal_thooams.json",
           "json": {
             "title": "Personal Thooams Remapping",
