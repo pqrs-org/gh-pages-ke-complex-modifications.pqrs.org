@@ -4420,6 +4420,7 @@
         },
         {
           "path": "json/mouse_keys_full_xgwang_me.json",
+          "extra_description_path": "extra_descriptions/mouse_keys_full_xgwang_me.json.html",
           "json": {
             "title": "Mouse keys (xgwang.me)",
             "rules": [
@@ -4428,7 +4429,7 @@
               }
             ]
           },
-          "extra_description_text": ""
+          "extra_description_text": "Mouse keys (xgwang.me) You can enter mouse keys mode by holding \"left_command\" then click \"right_command\". To leave mouse keys mode, hold \"left_command\" and click \"right_command\" again. Example: Press the left_command + right_command key (enter mouse keys mode) Press the j key (mouse down) Press the l key (mouse right) Press the left_command + right_command key (leave mouse keys mode) Key bindings: h: mouse left j: mouse down k: mouse up l: mouse right v: left click b: middle click n: right click f: fast mode (fast mouse move by f+hjkl) d: slow mode (slow mouse move by d+hjkl) s: scroll mode (scroll by s+hjkl)"
         },
         {
           "path": "json/disable_cmd_f1_screen_mirroring.json",
