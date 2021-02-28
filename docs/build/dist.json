@@ -2508,6 +2508,18 @@
             ]
           },
           "extra_description_text": "vim-preview This modification provides zathura/vim-like functionality to Preview.app. Key binds currently implemented: Movement Left => h Right => l Down => j Up => k Previous position => H Next position => L Previous page => K Next page => J First page => g Last page => G Zoom Zoom In => = Zoom Out => - Actual size => 0 Zoom to fit => 9 The main repository is hosted on Github. Contributions are welcome!"
+        },
+        {
+          "path": "json/swap_ctrl_and_cmd_except_in_terminal.json",
+          "json": {
+            "title": "Swap left-ctrl and command except in Terminal",
+            "rules": [
+              {
+                "description": "Swap left-ctrl and command except in Terminal"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
