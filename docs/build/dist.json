@@ -6318,6 +6318,27 @@
           "extra_description_text": "Keychron K8 This rule modifies the Keychron K8 microphone key (on the top-right) to toggle mute on Microsoft Teams (even if the conversation is not in focus). Changes Fn + Space to Gui + Shift + M If Microsoft Teams meeting window is not in focus, it will first put the window into focus"
         }
       ]
+    },
+    {
+      "name": "KKmoon",
+      "id": "KKmoon",
+      "files": [
+        {
+          "path": "json/kkmoon-usb-foot-switch-mute-microsoft-teams.json",
+          "json": {
+            "title": "KKmoon USB game foot switch to Microsoft Teams Mute",
+            "rules": [
+              {
+                "description": "Focus Microsoft Teams Meeting Manager Window"
+              },
+              {
+                "description": "Change b to Shift + Cmd + M"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        }
+      ]
     }
   ],
   "example": [
