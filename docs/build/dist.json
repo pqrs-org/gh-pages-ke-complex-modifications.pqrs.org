@@ -2527,6 +2527,42 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/KeynoteAndIllustrator.json",
+          "json": {
+            "title": "Mouse 4,5 -> Keynote Zoom",
+            "maintainers": [
+              "juonic"
+            ],
+            "rules": [
+              {
+                "description": "Mouse button 4 to zoom out"
+              },
+              {
+                "description": "Mouse button 5 to zoom in"
+              },
+              {
+                "description": "Keynote Group to CTR+G"
+              },
+              {
+                "description": "Keynote UnGroup to CTR+Shift+G"
+              },
+              {
+                "description": "Keynote Layer Top"
+              },
+              {
+                "description": "Keynote Layer Bottom"
+              },
+              {
+                "description": "Illustrator Layer Bottom"
+              },
+              {
+                "description": "Illustrator Layer Top"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
