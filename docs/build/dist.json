@@ -71,6 +71,20 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/caps_num_to_func_keys.json",
+          "json": {
+            "title": "Capslock + number => Function keys",
+            "author": "https://github.com/rlei",
+            "repo": "https://github.com/rlei/KE-complex_modifications",
+            "rules": [
+              {
+                "description": "Caps lock and 1234...890-+ to F1..F12"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/capslock-navigate-tabs.json",
           "json": {
             "title": "[macOS] Use Caps Lock + Arrows to Navigate Tabs",
