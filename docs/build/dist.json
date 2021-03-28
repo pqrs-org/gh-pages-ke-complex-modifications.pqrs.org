@@ -1777,6 +1777,36 @@
       "id": "application-specific",
       "files": [
         {
+          "path": "json/Sync_SystemVolume_to_Music.json",
+          "json": {
+            "title": "Sync Music and System Volume (no key repeat)",
+            "rules": [
+              {
+                "description": "Sync Music and System Volume (on volume key events)"
+              },
+              {
+                "description": "Sync Music and System Volume (on volume key events, allow offset)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/Sync_SystemVolume_to_iTunes.json",
+          "json": {
+            "title": "Sync iTunes and System Volume (no key repeat)",
+            "rules": [
+              {
+                "description": "Sync iTunes and System Volume (on volume key events)"
+              },
+              {
+                "description": "Sync iTunes and System Volume (on volume key events, allow offset)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/bash.json",
           "json": {
             "title": "Shell helpers",
