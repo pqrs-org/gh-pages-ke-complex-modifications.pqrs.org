@@ -131,6 +131,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/right_command_plus_ijkl_to_arrow_keys.json",
+          "json": {
+            "title": "right_command + i/j/k/l to arrow keys",
+            "rules": [
+              {
+                "description": "Change right_command + i/j/k/l to Arrows"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/control.json",
           "json": {
             "title": "Change control key",
