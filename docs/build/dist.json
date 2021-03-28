@@ -3250,6 +3250,22 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/ChangeInputSourceDirectlyForKorean.json",
+          "extra_description_path": "extra_descriptions/ChangeInputSourceDirectlyForKorean.html",
+          "json": {
+            "title": "Change input-source directly for korean",
+            "maintainers": [
+              "creatorKoo"
+            ],
+            "rules": [
+              {
+                "description": "Right_command to korean <-> english"
+              }
+            ]
+          },
+          "extra_description_text": "Description Right_command to korean english right_command to 2-Set korean(두벌식) ABC(로마자) Notes Originally, the mac-os input-source-change event was triggered by a key-up event. In contrast, the windows-os input-source-change event was triggered by a key-down event. So, this function is windows-os liked input source change system. If you have any issue, email me."
+        },
+        {
           "path": "json/korean_won_to_backtick.json",
           "json": {
             "title": "For Korean",
