@@ -3409,6 +3409,25 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/cmd-opt-en-ru-uk.json",
+          "extra_description_path": "extra_descriptions/cmd-opt-en-ru-uk.html",
+          "json": {
+            "title": "Left CMD -> en, Right CMD -> ru, Right Opt -> uk",
+            "rules": [
+              {
+                "description": "Left CMD -> en"
+              },
+              {
+                "description": "Right CMD -> ru"
+              },
+              {
+                "description": "Right Opt -> uk"
+              }
+            ]
+          },
+          "extra_description_text": "This is a non-modal way to live with three keyboard layouts. It maps single presses of modifier keys (leaving long presses to being original modifiers) to unconditionally enable some keyboard layout. See a blog post about switching keyboard layouts why this is good."
         }
       ]
     },
