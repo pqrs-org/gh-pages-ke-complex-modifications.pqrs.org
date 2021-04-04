@@ -6116,6 +6116,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/emsspree-personal-rules.json",
+          "json": {
+            "title": "EmsSpree’s personal rules",
+            "rules": [
+              {
+                "description": "Launchpad: Post 𝗙𝟭𝟯 if 𝓁𝗦𝗛𝗜𝗙𝗧﹢𝗠𝗕𝟯𝟮 is pressed (set 𝗖𝗔𝗣𝗦𝗟𝗢𝗖𝗞 to 𝗠𝗕𝟯𝟮 first)"
+              },
+              {
+                "description": "Show Desktop: Post 𝗠𝗕𝟯𝟬 if 𝓁𝗖𝗧𝗥𝗟﹢𝓁𝗦𝗛𝗜𝗙𝗧﹢𝗠𝗕𝟯𝟮 is pressed (set 𝗖𝗔𝗣𝗦𝗟𝗢𝗖𝗞 to 𝗠𝗕𝟯𝟮 first)"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
