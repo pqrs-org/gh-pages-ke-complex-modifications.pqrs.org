@@ -498,6 +498,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/ctrl_option_command_tab_change.json",
+          "json": {
+            "title": "Ctrl/Option/Command + Tab Change",
+            "rules": [
+              {
+                "description": "Ctrl/Option/Command + Tab Change"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
