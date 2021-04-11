@@ -2311,10 +2311,10 @@
         {
           "path": "json/option_tab.json",
           "json": {
-            "title": "Use Option + Number to Switch Tabs in Chrome & Firefox",
+            "title": "Use Option + Number to Switch Tabs in Chrome, Brave & Firefox",
             "rules": [
               {
-                "description": "Use Option + Number to Switch Tabs in Chrome & Firefox"
+                "description": "Use Option + Number to Switch Tabs in Chrome, Brave & Firefox"
               }
             ]
           },
