@@ -6621,6 +6621,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/caps_lock_tapped_caps_held_cmd.json",
+          "json": {
+            "title": "Change caps_lock to dual keys, caps_lock and left_command.",
+            "rules": [
+              {
+                "description": "Change caps_lock to left_command if pressed with other keys, keep caps_lock if pressed alone. It's same as LGUI_T(KC_CAPS) in qmk"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
