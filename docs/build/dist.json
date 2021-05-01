@@ -3107,7 +3107,7 @@
               }
             ]
           },
-          "extra_description_text": "Mapped Keys From To Control+ö { Control+ä } Left Command+ö [ Left Command+# ] Control++ ~ Control+- / Right Option+ß \\ Right Option+ |"
+          "extra_description_text": "Mapped Keys From To Control+ö { Control+ä } Left Command+ö [ Left Command+ä ] Control++ ~ Control+- / Right Option+ß \\ Right Option+ |"
         },
         {
           "path": "json/hungarian_pc.json",
