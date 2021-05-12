@@ -214,22 +214,6 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/dual_keys.json",
-          "extra_description_path": "extra_descriptions/dual_keys.json.html",
-          "json": {
-            "title": "Dual keys (to relieve stress from your pinkies)",
-            "maintainers": [
-              "marlonrichert"
-            ],
-            "rules": [
-              {
-                "description": "Dual keys"
-              }
-            ]
-          },
-          "extra_description_text": "Dual keys This mod relieves stress from your pinkies by moving several hard-to-reach keys to more ergonomic positions. It accomplishes this by making several keys do double duty as both modifier keys and input keys, depending on whether your press them alone or hold them down. Combines well with the Ergoemacs mod. Key bindings Key When pressed alone When held down Left ⌘ ⇥ ⇧ Right ⌘ - ⇧ Left ⌥ ↩︎ ⌘ Right ⌥ = ⌘ ` ` ⌃ / / ⌃ ⇪ \\ ⌥ ' ' ⌥ ⌃ [ [ ← ] ] Notes This mod is made for using a US layout with an ISO (not ANSI) MacBook keyboard. If you want to use a different keyboard layout or otherwise remap the keys, please download the source code and modify dual_keys.json.rb."
-        },
-        {
           "path": "json/e0da_caps_lock.json",
           "json": {
             "title": "e0da Caps Lock",
@@ -785,20 +769,20 @@
           "extra_description_text": "Key Bindings (C-x key strokes) C-x C-c Quit application (post command-q) C-x C-f Open file (post command-o) C-x C-s Save file (post command-s) Key Bindings (control+keys) control+d forward delete control+h delete control+i tab control+[ escape control+m return control+bfnp arrow keys control+v page down control+a (Microsoft Office) home control+e (Microsoft Office) end Key Bindings (option+keys) option+v page up option+bf option+arrow keys option+d option+forward delete Bash Style Key Bindings control+w Delete the word behind point (option+delete) control+u Delete backward from point to the beginning of the line."
         },
         {
-          "path": "json/ergoemacs_mode.json",
-          "extra_description_path": "extra_descriptions/ergoemacs_mode.json.html",
+          "path": "json/ergo_fly_keys.json",
+          "extra_description_path": "extra_descriptions/ergo_fly_keys.json.html",
           "json": {
-            "title": "Ergoemacs mode",
+            "title": "Ergo Fly Keys",
             "maintainers": [
               "marlonrichert"
             ],
             "rules": [
               {
-                "description": "Ergoemacs mode"
+                "description": "Ergo Fly Keys"
               }
             ]
           },
-          "extra_description_text": "Ergoemacs mode Ergonomic anti-RSI keybindings for text editing, based on the US Qwerty version of ergoemacs-mode. Features Tuned to feel quick and responsive. Does not trigger accidentally while touch typing. Compatible with terminal apps. Included key bindings Space + I/J/K/L Arrow keys Space + U/O Move cursor one word backward/forward Space + H/; Move cursor to beginning/end of line Space + M/, Scroll one page up/down Space + N/. Scroll to beginning/end of document Space + D/F Backspace/Delete Space + E/R Delete one word backward/forward Space + S/G Delete to beginning/end of line Usage notes This mod is made for Qwerty keyboards. If you want to use a different keyboard layout, or another trigger key than space, please download the source code and modify ergoemacs_mode.json.rb. In Zsh, the command backward-kill-line does not have a keybinding by default and the shortcut for \"Delete to beginning of line\" will delete the whole line instead. To get it to work correctly, you need to add the following to your ~/.zshrc file: bindkey \"^U\" backward-kill-line If you are using Prezto's editor module, then this is included automatically."
+          "extra_description_text": "Ergo Fly Keys Ergonomic anti-RSI key bindings for text editing, loosely based on the US Qwerty versions of ErgoEmacs Mode and Xah Fly Keys. ergo fly keys ⌫ S ⌘⌫ A ⌥⌫ W ⌘⌦ G ⌥⌦ R ⌥ V ⇥ B ⌦ F ⇟ D ` ~ ' \" ⇞ E ↖︎ T ↘︎ C ← J ⌥ N ⌘← H ⌥← U ⌥→ P ⌘→ ; : ↓ K ↑ I ⎋ Y ↩︎ M → L ⇧shift ] } ⌘cmd [ { ⌃ctrl \\ | ⌃ctrl / ? ⇧shift - _ ⌘cmd = + Orange: Activated by holding space. Blue: Modifier key when held, normal key otherwise. Features Moves frequently-used keys that were in ergonomically bad spots to better locations. Tuned to feel quick and responsive. Does not trigger accidentally while touch typing. Works in terminal apps, too. Usage notes This mod is made for US ANSI Qwerty keyboards. If you want to use a different keyboard layout, or another trigger key than space, please download the source code and modify ergoemacs_mode.json.rb. In Zsh, the command backward-kill-line does not have a key binding by default and ␣spaceA will delete the whole line instead. To get it to work correctly, you'll need to add the following to your ~/.zshrc file: bindkey '^U' backward-kill-line"
         },
         {
           "path": "json/fc660c_arrow_keys.json",
@@ -2061,7 +2045,7 @@
               }
             ]
           },
-          "extra_description_text": "Keyboard shortcuts for Terminal apps Makes standard macOS keyboard shortcuts work in terminal apps. Included key bindings Shortcut Action Notes ⌘Z Undo ⌘⇧Z Redo [Zsh only] Zsh is the only shell that supports Redo, but unfortunately, it's not bound by default. To enable this shortcut, you need to add the following to your ~/.zshrc file: bindkey \"^[_\" redo ⌥← Move cursor one word backward ⌥→ Move cursor one word forward ⌘← Move cursor to beginning of line ⌘→ Move cursor to end of line ⇞ Page up ⇟ Page down ↖︎ Home ↘︎ End ⌥⌫ Delete one word backward ⌥⌦ Delete one word forward ⌘⌫ Delete to beginning of line In Zsh, the command backward-kill-line does not have a keybinding by default and this shortcut will delete the whole line instead. To get it to work correctly, you need to add the following to your ~/.zshrc file:. bindkey \"^U\" backward-kill-line ⌘⌦ Delete to end of line Additional notes This mod supports English and Finnish keyboards. If you want to use a different keyboard layout, please download the source code and modify terminal_navi.json.erb."
+          "extra_description_text": "Keyboard shortcuts for Terminal apps Makes standard macOS keyboard shortcuts work in terminal apps. Included key bindings Shortcut Action Notes ⌘Z Undo ⌘⇧Z Redo [Zsh only] Zsh is the only shell that supports Redo, but unfortunately, it's not bound by default. To enable this shortcut, you need to add the following to your ~/.zshrc file: bindkey \"^[_\" redo ⌥← Move cursor one word backward ⌥→ Move cursor one word forward ⌘← Move cursor to beginning of line ⌘→ Move cursor to end of line ⌥⌫ Delete one word backward ⌥⌦ Delete one word forward ⌘⌫ Delete to beginning of line In Zsh, the command backward-kill-line does not have a keybinding by default and this shortcut will delete the whole line instead. To get it to work correctly, you need to add the following to your ~/.zshrc file:. bindkey \"^U\" backward-kill-line ⌘⌦ Delete to end of line Additional notes This mod supports English and Finnish keyboards. If you want to use a different keyboard layout, please download the source code and modify terminal_navi.json.erb."
         },
         {
           "path": "json/launch_new_Chrome_or_iTerm2_windows.json",
