@@ -6051,6 +6051,12 @@
                 "description": "Change right_shift to Ctrl-Shift-z if pressed alone outside Emacs and VitualMachine"
               },
               {
+                "description": "Change left_gui to left_alt in Emacs"
+              },
+              {
+                "description": "Change left_alt to left_gui in Emacs"
+              },
+              {
                 "description": "Change left_gui-spacebar to left_alt-spacebar in Emacs"
               },
               {
