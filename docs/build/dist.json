@@ -4264,6 +4264,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/section_sign_to_backtick.json",
+          "json": {
+            "title": "Section sign (§) to backtick (`)",
+            "maintainers": [
+              "fredericrous"
+            ],
+            "rules": [
+              {
+                "description": "Remap section sign (§) from British Keyboard to US's backtick + plus minus (±) to tilde (~)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/sinoridha_personal_mapping.json",
           "json": {
             "title": "Sinoridha Function Key",
@@ -5291,6 +5306,21 @@
               },
               {
                 "description": "Razer Space to M"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/keychron_k3-swap_pound_and_hash.json",
+          "json": {
+            "title": "Keychron K3 Remap £ to # for British Keyboard",
+            "maintainers": [
+              "fredericrous"
+            ],
+            "rules": [
+              {
+                "description": "Remap £ to # only on your Keychron"
               }
             ]
           },
