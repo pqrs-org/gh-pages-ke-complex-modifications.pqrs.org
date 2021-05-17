@@ -6530,6 +6530,69 @@
           "extra_description_text": ""
         }
       ]
+    },
+    {
+      "name": "Vi and other (Workman keyboard layout)",
+      "id": "Vi and other (Workman keyboard layout)",
+      "files": [
+        {
+          "path": "json/Vi_and_other_workman.json",
+          "extra_description_path": "extra_descriptions/Vi_and_other_Workman.html",
+          "json": {
+            "rules": [
+              {
+                "description": "S+[movement] Vi Mode // s key"
+              },
+              {
+                "description": "Vi Visual Mode (Workman)"
+              },
+              {
+                "description": "Change Command + Spacebar to Backspace"
+              },
+              {
+                "description": "Change spacebar to right_shift. (Post spacebar if pressed alone)"
+              },
+              {
+                "description": "CapsLock to Hyper/Escape"
+              },
+              {
+                "description": "Change Right_command To CapsLock, Hold to Right_Command"
+              },
+              {
+                "description": "Right (left_shift+l to right)"
+              },
+              {
+                "description": "Down (left_shift+j to down)"
+              },
+              {
+                "description": "Left (left_shift+h to left)"
+              },
+              {
+                "description": "Up (left_shift+k to up)"
+              },
+              {
+                "description": "Home (left_shift+h to fn+left Workman)"
+              },
+              {
+                "description": "End (left_shift+t to fn+right Workman)"
+              },
+              {
+                "description": "Word forward (left_shift+w to option+right Workman)"
+              },
+              {
+                "description": "Word back (left_shift+b to option+left Workman)"
+              },
+              {
+                "description": "Page up (left_shift+p to page_up Workman)"
+              },
+              {
+                "description": "Page down (left_shift+d to page_down)"
+              }
+            ]
+          },
+          "extra_description_text": "Edit some key for Workman keyboard layout."
+        }
+      ]
     }
   ],
   "example": [
