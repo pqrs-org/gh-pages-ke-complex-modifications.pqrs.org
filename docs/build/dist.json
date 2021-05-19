@@ -5328,6 +5328,36 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/hhkb_rctf.json",
+          "json": {
+            "title": "HHKB RCtF (Right Cmd to Fn)",
+            "rules": [
+              {
+                "description": "HHKB RCtF: Function keys"
+              },
+              {
+                "description": "HHKB RCtF: Ins, Del"
+              },
+              {
+                "description": "HHKB RCtF: Home, End, PgUp, PgDn"
+              },
+              {
+                "description": "HHKB RCtF: PSc/SRq, ScrLk, Pus/Brk"
+              },
+              {
+                "description": "HHKB RCtF: Arrow keys"
+              },
+              {
+                "description": "HHKB RCtF: Numpad keys"
+              },
+              {
+                "description": "HHKB RCtF: Consumer keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
