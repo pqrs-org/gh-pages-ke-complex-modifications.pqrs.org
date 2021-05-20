@@ -1942,6 +1942,9 @@
                 "description": "Mac OSX RDP: Cmd+Space To Switch Input (Left Shift+Left Alt)"
               },
               {
+                "description": "Mac OSX RDP: Cmd+Space To Switch Input (Left Shift+Left Ctrl)"
+              },
+              {
                 "description": "Mac OSX RDP: Quit Application (Alt+F4 to Command+Q)"
               },
               {
