@@ -3184,6 +3184,33 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/spanish_accents.json",
+          "json": {
+            "title": "Hold and tap for Spanish accents",
+            "rules": [
+              {
+                "description": "double A to Á"
+              },
+              {
+                "description": "double E to É"
+              },
+              {
+                "description": "double I to Í"
+              },
+              {
+                "description": "double O to Ó"
+              },
+              {
+                "description": "double U to Ú"
+              },
+              {
+                "description": "double N to Ñ"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/swap_pound_and_hash.json",
           "json": {
             "title": "For British Keyboard (Exchange £ and #)",
