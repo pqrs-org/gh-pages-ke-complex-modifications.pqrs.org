@@ -5457,6 +5457,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/PC-Style_Shortcuts_Copy_Ctrl_Insert.json",
+          "json": {
+            "title": "PC-Style Shortcuts",
+            "rules": [
+              {
+                "description": "PC-Style Copy(Ctrl+Insert) for JIS keyboard"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
