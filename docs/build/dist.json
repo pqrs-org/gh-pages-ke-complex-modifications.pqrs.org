@@ -5062,7 +5062,7 @@
         {
           "path": "json/KeychronK6F1HelperShortcuts.json",
           "json": {
-            "title": "Keychron K6 Fn1 Shortcuts",
+            "title": "Keychron K6 Shortcuts",
             "rules": [
               {
                 "description": "Shift + Esc to ` Grave Accent"
@@ -5074,7 +5074,13 @@
                 "description": "Command + Esc to Command + Tilda"
               },
               {
-                "description": "Home to F11"
+                "description": "Home to Show Desktop"
+              },
+              {
+                "description": "Page up to spotlight"
+              },
+              {
+                "description": "Page down to mission control"
               }
             ]
           },
