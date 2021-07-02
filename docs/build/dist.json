@@ -5479,6 +5479,19 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/yubikey_disable_keystrokes.json",
+          "extra_description_path": "extra_descriptions/yubikey_disable_keystrokes.json.rb.html",
+          "json": {
+            "title": "Disable YubiKey 5C Nano Keystrokes @jonatasrenan",
+            "rules": [
+              {
+                "description": "Disable YubiKey 5C Nano Keystrokes @jonatasrenan"
+              }
+            ]
+          },
+          "extra_description_text": "This is for you if when you touch YubiKey 5C Nano, it types like a cat walking on your keyboard. Author: @jonatasrenan"
         }
       ]
     },
