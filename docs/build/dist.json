@@ -5060,33 +5060,6 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/KeychronK6F1HelperShortcuts.json",
-          "json": {
-            "title": "Keychron K6 Shortcuts",
-            "rules": [
-              {
-                "description": "Shift + Esc to ` Grave Accent"
-              },
-              {
-                "description": "Control + Esc to Tilde"
-              },
-              {
-                "description": "Command + Esc to Command + Tilda"
-              },
-              {
-                "description": "Home to Show Desktop"
-              },
-              {
-                "description": "Page up to spotlight"
-              },
-              {
-                "description": "Page down to mission control"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
           "path": "json/durgod-iso-uk-pt-extras-macos.json",
           "json": {
             "title": "British Keyboard (DURGOD Taurus K320) on MacBook Pro with pt-PT support",
@@ -5129,24 +5102,6 @@
               },
               {
                 "description": "ú using Alt/Option like on Windows"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/keychron_k6_escapemods.json",
-          "json": {
-            "title": "Keychron K6 Escape Key/ `/~ modifications",
-            "rules": [
-              {
-                "description": "Shift + Esc to ~"
-              },
-              {
-                "description": "Control + Esc to `"
-              },
-              {
-                "description": "Command + Esc to Command + Tilda"
               }
             ]
           },
@@ -6603,6 +6558,34 @@
       "id": "Keychron K6",
       "files": [
         {
+          "path": "json/keychron-k6-shortcuts.json",
+          "extra_description_path": "extra_descriptions/keychron-k6-shortcuts.json.html",
+          "json": {
+            "title": "Keychron K6 Shortcuts",
+            "rules": [
+              {
+                "description": "Shift + Esc to ` Grave Accent"
+              },
+              {
+                "description": "Control + Esc to Tilde"
+              },
+              {
+                "description": "Command + Esc to Command + Tilda"
+              },
+              {
+                "description": "Home to Show Desktop"
+              },
+              {
+                "description": "Page up to spotlight"
+              },
+              {
+                "description": "Page down to mission control"
+              }
+            ]
+          },
+          "extra_description_text": "Keychron K6 Shortcuts This rule adds shortcuts to Keychron K6 to follow established muscle memory for window switching from a 100% layout It also adds some extra mac specific shortcuts on less frequently used keys: Home, Page up, Page down Esc &rarr; Escape Shift + Esc &rarr; ` (grave) Control + Esc &rarr; ~ (tilda) Command + Esc &rarr; (Cycle through the current application's windows) Home &rarr; Show Desktop Page Up &rarr; Spotlight Page Down &rarr; Mission Control"
+        },
+        {
           "path": "json/keychron_k6_better_escape.json",
           "extra_description_path": "extra_descriptions/keychron_k6_better_escape.json.html",
           "json": {
@@ -6620,6 +6603,24 @@
             ]
           },
           "extra_description_text": "Keychron K6 Better Escape Key This rule modifies the Keychron K6 escape key to follow established muscle memory for window switching and use of ~. The esc key will behave as follows with modifier keys: Unmodified = escape Shift = ~ (tilde) Command = Command + ` (Cycle forward through the current application's windows) Command + Shift = Command + ~ (Cycle backward through the current application's windows)"
+        },
+        {
+          "path": "json/keychron_k6_escapemods.json",
+          "json": {
+            "title": "Keychron K6 Escape Key/ `/~ modifications",
+            "rules": [
+              {
+                "description": "Shift + Esc to ~"
+              },
+              {
+                "description": "Control + Esc to `"
+              },
+              {
+                "description": "Command + Esc to Command + Tilda"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -6895,6 +6896,31 @@
             ]
           },
           "extra_description_text": ""
+        }
+      ]
+    },
+    {
+      "name": "Logitech G502 Hero",
+      "id": "Logitech G502 Hero",
+      "files": [
+        {
+          "path": "json/logitech-g502-hero-shortcuts.json",
+          "extra_description_path": "extra_descriptions/logitech-g502-hero-shortcuts.json.html",
+          "json": {
+            "title": "Logitech G503 Hero",
+            "rules": [
+              {
+                "description": "Middle mouse button to mission control"
+              },
+              {
+                "description": "G5 button to right arrow"
+              },
+              {
+                "description": "G4 button to left arrow"
+              }
+            ]
+          },
+          "extra_description_text": "Logitech G502 Hero Mouse Shortcuts This rule adds shortcuts to Logitech G502 Hero Mouse to replace Logitech GHub's common controls Button3 (Middle Mouse Button) &rarr; Mission Control G4 &rarr; &larr; (Left Arrow) G5 &rarr; &rarr; (Right Arrow) G4 and G5 also support any modifiers so following options are possible: G4 + Control &rarr; Previous Workspace G5 + Control &rarr; Next Workspace"
         }
       ]
     },
