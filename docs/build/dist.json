@@ -6873,6 +6873,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/right_shift_to_switch_language.json",
+          "json": {
+            "title": "Right Shift to Cmd+Space if alone (to redefine language switch to right shift)",
+            "rules": [
+              {
+                "description": "Right Shift to Cmd+Space if alone"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/caps_lock_tapped_caps_held_cmd.json",
           "json": {
             "title": "Change caps_lock to dual keys, caps_lock and left_command.",
