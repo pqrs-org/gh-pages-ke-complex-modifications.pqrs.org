@@ -3124,6 +3124,78 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/jis_to_us_symbols.json",
+          "json": {
+            "title": "Japanese JIS to US Keyboard: Remap Symbol Keys",
+            "maintainers": [
+              "halfwhole"
+            ],
+            "rules": [
+              {
+                "description": "Change shift + 2 from \" to @"
+              },
+              {
+                "description": "Change shift + 6 from & to ^"
+              },
+              {
+                "description": "Change shift + 7 from ' to &"
+              },
+              {
+                "description": "Change shift + 8 from ( to *"
+              },
+              {
+                "description": "Change shift + 9 from ) to ("
+              },
+              {
+                "description": "Change shift + 0 from 0 to )"
+              },
+              {
+                "description": "Change shift + - from = to _"
+              },
+              {
+                "description": "Change ^ to ="
+              },
+              {
+                "description": "Change shift + ^ from ~ to +"
+              },
+              {
+                "description": "Change ¥ to `"
+              },
+              {
+                "description": "Change shift + ¥ from | to ~"
+              },
+              {
+                "description": "Change @ to ["
+              },
+              {
+                "description": "Change shift + @ from ` to {"
+              },
+              {
+                "description": "Change [ to ]"
+              },
+              {
+                "description": "Change shift + [ from { to }"
+              },
+              {
+                "description": "Change shift + ; from + to :"
+              },
+              {
+                "description": "Change : to '"
+              },
+              {
+                "description": "Change shift + : from * to \""
+              },
+              {
+                "description": "Change ] to \\"
+              },
+              {
+                "description": "Change shift + ] from } to |"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/german_pc_shortcuts.json",
           "json": {
             "title": "German PC-Style Shortcuts (Enable various Alt Gr key combinations)",
