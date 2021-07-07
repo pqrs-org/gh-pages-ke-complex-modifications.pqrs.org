@@ -4601,6 +4601,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/right_command_v_special_paste.json",
+          "json": {
+            "title": "Right Command + v to paste without formatting",
+            "rules": [
+              {
+                "description": "Right Command + v does special paste without formatting, equivalent to. cmd+opt+shift+v."
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
