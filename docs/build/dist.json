@@ -2689,6 +2689,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/eject_to_activate_and_toggle_mic_mute_ms_teams.json",
+          "json": {
+            "title": "Toggle mic mute in MS Teams with the Eject key",
+            "rules": [
+              {
+                "description": "Maps Eject to ⌘⇧M in Teams"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
