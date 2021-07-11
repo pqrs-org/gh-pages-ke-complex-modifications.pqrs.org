@@ -2701,6 +2701,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/shift-enter-fish-shell-autocomplete.json",
+          "json": {
+            "title": "Execute Fish shell autocomplete",
+            "rules": [
+              {
+                "description": "Left Shift + Enter maps to Right Arrow > Enter, which will execute the suggested command in Fish shell"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
