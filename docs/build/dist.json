@@ -4625,6 +4625,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/right_command_take_screenshot.json",
+          "json": {
+            "title": "Maps Right Command to Screenshot",
+            "rules": [
+              {
+                "description": "Right Command to Screenshot"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
