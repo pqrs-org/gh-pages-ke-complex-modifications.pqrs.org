@@ -3858,6 +3858,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/ctrl_b-OR-ctrl_f-TO-left-OR-right-arrow.json",
+          "json": {
+            "title": "Ctrl+b/Ctrl+f to left/right arrows",
+            "rules": [
+              {
+                "description": "Map ctrl+b/ctrl+f to left/right arrow"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/ctrl_arrows_to_option_arrows.json",
           "json": {
             "title": "Exchange control + arrows keys with option + arrows keys",
