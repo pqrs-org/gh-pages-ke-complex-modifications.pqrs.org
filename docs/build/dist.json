@@ -5,6 +5,18 @@
       "id": "modifier-keys",
       "files": [
         {
+          "path": "json/hyper_key.json",
+          "json": {
+            "title": "Caps Lock → Hyper Key (⌃⌥⇧⌘) (Caps Lock if alone)",
+            "rules": [
+              {
+                "description": "Caps Lock → Hyper Key (⌃⌥⇧⌘) (Caps Lock if alone)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/bepo-cmdqwerty-toggle.json",
           "json": {
             "title": "Bepo CmdQwerty Toggle",
