@@ -5704,6 +5704,9 @@
               },
               {
                 "description": "Hai HHKB: Mouse btn4-> back, btn5->forward"
+              },
+              {
+                "description": "Hai HHKB: Mouse btn3-> back, btn4->forward"
               }
             ]
           },
