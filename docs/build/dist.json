@@ -5,6 +5,18 @@
       "id": "modifier-keys",
       "files": [
         {
+          "path": "json/ctrl_to_hyper.json",
+          "json": {
+            "title": "Ctrl Key → Hyper Key (⌃⌥⇧⌘)",
+            "rules": [
+              {
+                "description": "Ctrl Key → Hyper Key (⌃⌥⇧⌘)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/hyper_key.json",
           "json": {
             "title": "Caps Lock → Hyper Key (⌃⌥⇧⌘) (Caps Lock if alone)",
