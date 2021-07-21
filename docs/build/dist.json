@@ -1860,6 +1860,25 @@
             ]
           },
           "extra_description_text": "This mapping will make your mac behave more it would on Windows. It is designed with an external keyboard in mind."
+        },
+        {
+          "path": "json/capslock-arrows-and-text-selection.json",
+          "json": {
+            "title": "CAPS LOCK: Converts 'jkl;' to arrow keys, and 'spacebar' to a shift+opt modifier for easy text selection",
+            "maintainer": [
+              "Egstad"
+            ],
+            "homepage": "https://github.com/egstad/KE-complex_modifications",
+            "rules": [
+              {
+                "description": "CAPS LOCK: Converts 'jkl;' to arrow keys"
+              },
+              {
+                "description": "CAPS LOCK + SPACEBAR: When held, 'spacebar' becomes 'left_shift' + 'left_opt' for easy text selection"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },

@@ -22,7 +22,13 @@
           },
           "to": [
             {
-              "key_code": "hyphen",
+              "key_code": "x",
+              "modifiers": [
+                "right_control"
+              ]
+            },
+            {
+              "key_code": "u",
               "modifiers": [
                 "left_control"
               ]
