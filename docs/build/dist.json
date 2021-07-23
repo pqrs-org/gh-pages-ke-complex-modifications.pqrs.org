@@ -2908,10 +2908,13 @@
             "title": "Neo2",
             "rules": [
               {
-                "description": "Neo2 mod 3 and 4 keys (Apple keyboard). Toggle mod4 by pressing both mod4 keys simultaneously."
+                "description": "Neo2 mod 3 and 4 keys (Apple keyboards). Rule applied to Apple-made keyboards only."
               },
               {
-                "description": "Neo2 mod 3 and 4 keys (Windows keyboard). Toggle mod4 by pressing both mod4 keys simultaneously."
+                "description": "Neo2 mod 3 and 4 keys (third party Mac keyboard). Rule applied to all keyboards."
+              },
+              {
+                "description": "Neo2 mod 3 and 4 keys (Windows keyboard). Rule applied to all non-Apple keyboards."
               },
               {
                 "description": "Neo2 layer 4"
