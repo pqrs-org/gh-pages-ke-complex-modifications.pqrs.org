@@ -259,7 +259,7 @@
             ],
             "rules": [
               {
-                "description": "(Atom, CKII, EUIV, iTerm, muCommander, PyCharm, VSCodium) Function keys work as fn keys"
+                "description": "(Atom, CKII, EUIV, iTerm, muCommander, PyCharm, VSCodium, WebStorm, AndroidStudio) Function keys work as fn keys"
               }
             ]
           },
