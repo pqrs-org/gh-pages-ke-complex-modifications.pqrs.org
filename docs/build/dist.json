@@ -670,6 +670,19 @@
           "extra_description_text": "README Mac Capslock PlusIt is modeled on capslock+ of windows platform and basically keeps the same as that of windows,Click to view windows Capslock+&nbsp;PlatformsCapsLock-Plus via Karabiner-ElementsmacOS Catalina(10.15)macOS Mojave(10.14)macOS High Sierra (10.13)macOS Sierra (10.12)macOS EI Capitan (10.11)InstallDownload Karabiner-Elements and InstallCopy URL to your browser to import configuration script.# This Repo (open in safari)karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/BryanHoo/Capslock-Plus/master/capslock-plus.jsonOpen Karabiner, Tab \"ComplexModification\", Button \"Add Item\", and enable entries you like.Default conf file path is $HOME/.config/karabiner/assets/complex_modifications. Modify it if you like.Enable functions: [App] karabiner-elements -> [Tab] Complex Modification -> Add ItemUsageBasic✱ Hyper actually maps to ⌃⌥⇧⌘ (all right modifiers) , It works well with additional left modifiers. And compatible with most application. Hold CapsLock to enable Hyper funcationality while press it will emit an Escape.OriginMaps toComment⇪ Press⎋ EscapeSingle press to escape⇪ Hold✱ HyperEnable Hyper FunctionalitynavigationHold ✱ Hyper to enable navigatorsOriginMaps toCommentS← LeftArrowcursor leftD↓ DownArrowcursor downE↑ UpArrowcursor upF→ RightArrowcursor rightA&nbsp;cursor skip words forwardG&nbsp;cursor skips the word backwardY⇞ PageUpcursor page upB⇟ PageDncursor page downP↖ Homecursor to line(doc) head;↘ Endcursor to line(doc) endJ&nbsp;cursor left and selectionK&nbsp;cursor down and selectionI&nbsp;cursor up and selectionL&nbsp;cursor left and selectionH&nbsp;cursor one word to the left and selectionN&nbsp;cursor one word to the right and selectionU&nbsp;cursor to line(doc) head and selectionO&nbsp;cursor to line(doc) end and selectionWindow ControlOriginMaps toComment/ Tab⌘⇥ Command+TabSwitch WindowApplicationsOriginMaps toCommentMOpen FinderOpen File BrowserTOpen iTerm2Great terminal for osx (Run)"
         },
         {
+          "path": "json/capslock_vim_movements.json",
+          "extra_description_path": "extra_descriptions/capslock_vim_movements.html",
+          "json": {
+            "title": "Caps Lock Vim Movements",
+            "rules": [
+              {
+                "description": "CAPS › ESC, CAPS+H/J/K/L › ←↓↑→, CAPS+D/U › PG↓↑, CAPS+↩︎ › CAPS"
+              }
+            ]
+          },
+          "extra_description_text": "Caps Lock Vim Movements Simulate Vim movements with caps lock as the main modifier. Motivation After trying a few different rules, they were too complicated and the feature set ended up not combining well with native MacOS modifiers. The objectives of this rule set are: Home-row caps lock engagement. No modifier overrides so OS defaults continue to work. Do not map keys that OS (MacOS) already support; i.e. Home can be achieved with Command + Caps + K. Key Map Key Maps To Caps lock Escape Caps lock + Return Caps lock Caps lock + H Left arrow Caps lock + J Down arrow Caps lock + K Up arrow Caps lock + L Right arrow Caps lock + D Page Down Caps lock + U Page Up Credits This rule was largely based on work done by \"CAPS LOCK: Converts 'jkl;' to arrow keys, and 'spacebar' to a shift+opt modifier for easy text selection\"."
+        },
+        {
           "path": "json/comfortable_text_navigation.json",
           "extra_description_path": "extra_descriptions/comfortable_text_navigation.html",
           "json": {
@@ -2908,10 +2921,13 @@
             "title": "Neo2",
             "rules": [
               {
-                "description": "Neo2 mod 3 and 4 keys (Apple keyboard). Toggle mod4 by pressing both mod4 keys simultaneously."
+                "description": "Neo2 mod 3 and 4 keys (Apple keyboards). Rule applied to Apple-made keyboards only."
               },
               {
-                "description": "Neo2 mod 3 and 4 keys (Windows keyboard). Toggle mod4 by pressing both mod4 keys simultaneously."
+                "description": "Neo2 mod 3 and 4 keys (third party Mac keyboard). Rule applied to all keyboards."
+              },
+              {
+                "description": "Neo2 mod 3 and 4 keys (Windows keyboard). Rule applied to all non-Apple keyboards."
               },
               {
                 "description": "Neo2 layer 4"
