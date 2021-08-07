@@ -6276,7 +6276,7 @@
               "suliveevil"
             ],
             "homepage": "https://github.com/suliveevil/Capslock",
-            "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/pqrs-org/KE-complex_modifications/raw/master/public/json/ultimate_macOS.json",
+            "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/pqrs-org/KE-complex_modifications/raw/main/public/json/ultimate_macOS.json",
             "rules": [
               {
                 "description": "ultimate macOS (version: 1556140182)"
