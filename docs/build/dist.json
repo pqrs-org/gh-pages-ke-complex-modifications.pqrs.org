@@ -563,6 +563,19 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/option-tab_to_command-tab.json",
+          "extra_description_path": "extra_descriptions/option-tab_to_command-tab.json.html",
+          "json": {
+            "title": "Bind Option+Tab to Command+Tab ('cycle through applications')",
+            "rules": [
+              {
+                "description": "Bind Option+Tab to Command+Tab"
+              }
+            ]
+          },
+          "extra_description_text": "Use '⌥+Tab' to cycle through applications (in addition to the default '⌘+Tab')"
         }
       ]
     },
