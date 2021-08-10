@@ -584,6 +584,18 @@
       "id": "emulation-modes",
       "files": [
         {
+          "path": "json/hhkb-like-arrows-and-page-control.json",
+          "json": {
+            "title": "HHKB-like arrow and page control",
+            "rules": [
+              {
+                "description": "HHKB-like arrow and page control"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/caps_lock_enhancement.json",
           "extra_description_path": "extra_descriptions/caps_lock_enhancement.json.html",
           "json": {
