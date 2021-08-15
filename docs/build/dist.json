@@ -607,6 +607,18 @@
             ]
           },
           "extra_description_text": "Use '⌥+Tab' to cycle through applications (in addition to the default '⌘+Tab')"
+        },
+        {
+          "path": "json/left_command_insert_delete_home_end_pageup_pagedown_to_media.json",
+          "json": {
+            "title": "left_command + Insert/Delete/Home/End/PageUp/PageDown to Media controls",
+            "rules": [
+              {
+                "description": "Change left_command + Insert/Delete/Home/End/PageUp/PageDown to Media controls"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
