@@ -5977,7 +5977,8 @@
             ],
             "rules": [
               {
-                "description": "Personal rules (@tekezo) (rev 30)"
+                "description": "Personal rules (@tekezo) (rev 30)",
+                "available_since": "13.5.4"
               }
             ]
           },
@@ -6008,7 +6009,7 @@
             ],
             "rules": [
               {
-                "description": "Launcher Mode v4 (rev 14)",
+                "description": "Launcher Mode v4 (rev 15)",
                 "available_since": "13.1.4"
               }
             ]
