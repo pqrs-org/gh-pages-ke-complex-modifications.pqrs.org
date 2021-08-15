@@ -808,6 +808,19 @@
           "extra_description_text": "Caps Lock Vim Movements Simulate Vim movements with caps lock as the main modifier. Motivation After trying a few different rules, they were too complicated and the feature set ended up not combining well with native MacOS modifiers. The objectives of this rule set are: Home-row caps lock engagement. No modifier overrides so OS defaults continue to work. Do not map keys that OS (MacOS) already support; i.e. Home can be achieved with Command + Caps + K. Key Map Key Maps To Caps lock Escape Caps lock + Return Caps lock Caps lock + H Left arrow Caps lock + J Down arrow Caps lock + K Up arrow Caps lock + L Right arrow Caps lock + D Page Down Caps lock + U Page Up Credits This rule was largely based on work done by \"CAPS LOCK: Converts 'jkl;' to arrow keys, and 'spacebar' to a shift+opt modifier for easy text selection\"."
         },
         {
+          "path": "json/capslock_wasd_arrows.json",
+          "extra_description_path": "extra_descriptions/capslock_wasd_arrows.html",
+          "json": {
+            "title": "WASD Arrows Layer",
+            "rules": [
+              {
+                "description": "CAPS+W Toggles W/A/S/D-As-Arrows Mode"
+              }
+            ]
+          },
+          "extra_description_text": "Caps Lock W/A/S/D Arrows Use CAPS+W to change WASD to arrow keys, plus a few others extras. Motivation I wanted to simulate a second layer of navigation keys that are similar to what you would find in a TKL/full-size board. This modification attempts achieves that by mapping keys centered around WASD. Key Map Key Maps To Caps lock + W Toggle WASD mode on/off W Up A Left S Down D Right Q Home E End R Page Up F Page Down"
+        },
+        {
           "path": "json/comfortable_text_navigation.json",
           "extra_description_path": "extra_descriptions/comfortable_text_navigation.html",
           "json": {
