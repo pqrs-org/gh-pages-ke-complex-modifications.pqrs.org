@@ -3687,6 +3687,24 @@
           "extra_description_text": "Description Right_command to korean english right_command to 2-Set korean(두벌식) ABC(로마자) Notes Originally, the mac-os input-source-change event was triggered by a key-up event. In contrast, the windows-os input-source-change event was triggered by a key-down event. So, this function is windows-os liked input source change system. If you have any issue, email me."
         },
         {
+          "path": "json/caps_lock_toggle_korean_english_include_parallels.json",
+          "json": {
+            "title": "CapLock to Korean <-> English (include parallels)",
+            "maintainers": [
+              "wooglae,kim"
+            ],
+            "rules": [
+              {
+                "description": "CapLock to Right_Alt for parallels"
+              },
+              {
+                "description": "CapLock to F19"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/korean_won_to_backtick.json",
           "json": {
             "title": "For Korean",
