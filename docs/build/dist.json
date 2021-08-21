@@ -5322,6 +5322,24 @@
         {
           "path": "json/typematrix_bepo_cut_copy_paste_fn_shortcuts.json",
           "json": {
+            "title": "Typematrix 2030 USB pc style Copy/Cut/Paste - BEPO layout",
+            "rules": [
+              {
+                "description": "Function Copy"
+              },
+              {
+                "description": "Function Cut"
+              },
+              {
+                "description": "Function Paste"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/typematrix_cut_copy_past_fn_keys.json",
+          "json": {
             "title": "Typematrix 2030 USB pc style Copy/Cut/Paste",
             "rules": [
               {
