@@ -3282,6 +3282,18 @@
           "extra_description_text": "实现功能： 单击 caps_lock 时发送 control+空格 组合键，用以切换中英文输入法。 长按 caps_lock 触发大写锁定。 再次短按 caps_lock 取消大写锁定。 用来解决使用第三方拼音输入法(搜狗拼音、百度拼音等)时无法使用系统的 \"使用中/英键切换“ABC”输入模式\" 选项问题。"
         },
         {
+          "path": "json/left_option_to_chinese.json",
+          "json": {
+            "title": "Switch to Simplified Chinese (简体中文) by pressing left-alt alone",
+            "rules": [
+              {
+                "description": "When pressing the left option/alt key alone, switch to Simplified Chinese"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/japanese.json",
           "json": {
             "title": "For Japanese （日本語環境向けの設定） (rev 6)",
