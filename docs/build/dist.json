@@ -647,6 +647,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/shift_backspace_to_forward_delete.json",
+          "json": {
+            "title": "Shift + Backspace to Forward Delete",
+            "rules": [
+              {
+                "description": "Map Shift + Backspace to Forward Delete"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
