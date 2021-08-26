@@ -4340,7 +4340,7 @@
             "title": "Exchange square brackets and curly brackets",
             "rules": [
               {
-                "description": "Swap {} and []"
+                "description": "Exchange {} and []"
               }
             ]
           },
