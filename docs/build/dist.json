@@ -832,14 +832,14 @@
           "path": "json/capslock_wasd_arrows.json",
           "extra_description_path": "extra_descriptions/capslock_wasd_arrows.html",
           "json": {
-            "title": "WASD Arrows Layer",
+            "title": "WASD Arrows Layer (rev 2)",
             "rules": [
               {
                 "description": "CAPS+W Toggles W/A/S/D-As-Arrows Mode"
               }
             ]
           },
-          "extra_description_text": "Caps Lock W/A/S/D Arrows Use CAPS+W to change WASD to arrow keys, plus a few others extras. Motivation I wanted to simulate a second layer of navigation keys that are similar to what you would find in a TKL/full-size board. This modification attempts achieves that by mapping keys centered around WASD. Key Map Key Maps To Caps lock + W Toggle WASD mode on/off W Up A Left S Down D Right Q Home E End R Page Up F Page Down"
+          "extra_description_text": "Caps Lock W/A/S/D Arrows (rev 2) Use CAPS+W or ASD to change WASD to arrow keys, plus a few others extras. Motivation I wanted to simulate a second layer of navigation keys that are similar to what you would find in a TKL/full-size board. This modification attempts achieves that by mapping keys centered around WASD. Key Map Key Maps To Caps lock + W Toggle WASD mode on/off ASD Toggle WASD mode on/off W Up A Left S Down D Right Q Home E End R Page Up F Page Down Changelog Revision 1 Original version. Revision 2 Added ability to toggle mode with \"ASD\" combo."
         },
         {
           "path": "json/comfortable_text_navigation.json",
