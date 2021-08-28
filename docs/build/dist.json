@@ -813,14 +813,20 @@
           "path": "json/capslock_vim_movements.json",
           "extra_description_path": "extra_descriptions/capslock_vim_movements.html",
           "json": {
-            "title": "Caps Lock Vim Movements",
+            "title": "Caps Lock Vim Movements (rev 2)",
             "rules": [
               {
-                "description": "CAPS › ESC, CAPS+H/J/K/L › ←↓↑→, CAPS+D/U › PG↓↑, CAPS+↩︎ › CAPS"
+                "description": "CAPS › ESC, CAPS+H/J/K/L › ←↓↑→, CAPS+D/U › PG↓↑"
+              },
+              {
+                "description": "CAPS+↩︎ › CAPS"
+              },
+              {
+                "description": "CAPS+A › CAPS"
               }
             ]
           },
-          "extra_description_text": "Caps Lock Vim Movements Simulate Vim movements with caps lock as the main modifier. Motivation After trying a few different rules, they were too complicated and the feature set ended up not combining well with native MacOS modifiers. The objectives of this rule set are: Home-row caps lock engagement. No modifier overrides so OS defaults continue to work. Do not map keys that OS (MacOS) already support; i.e. Home can be achieved with Command + Caps + K. Key Map Key Maps To Caps lock Escape Caps lock + Return Caps lock Caps lock + H Left arrow Caps lock + J Down arrow Caps lock + K Up arrow Caps lock + L Right arrow Caps lock + D Page Down Caps lock + U Page Up Credits This rule was largely based on work done by \"CAPS LOCK: Converts 'jkl;' to arrow keys, and 'spacebar' to a shift+opt modifier for easy text selection\"."
+          "extra_description_text": "Caps Lock Vim Movements (rev 2) Simulate Vim movements with caps lock as the main modifier. Motivation After trying a few different rules, they were too complicated and the feature set ended up not combining well with native MacOS modifiers. The objectives of this rule set are: Home-row caps lock engagement. No modifier overrides so OS defaults continue to work. Do not map keys that OS (MacOS) already support; i.e. Home can be achieved with Command + Caps + K. Key Map Key Maps To Caps lock Escape Caps lock + Return (if enable \"CAPS+↩︎ › CAPS\" rule) Caps lock Caps lock + A (if enable \"CAPS+A › CAPS\" rule) Caps lock Caps lock + H Left arrow Caps lock + J Down arrow Caps lock + K Up arrow Caps lock + L Right arrow Caps lock + D Page Down Caps lock + U Page Up Change Log Revision 1 Original version. Revision 2 Split \"CAPS+↩︎ › CAPS\" from main rule and added \"CAPS+A › CAPS\". Credits This rule was largely based on work done by \"CAPS LOCK: Converts 'jkl;' to arrow keys, and 'spacebar' to a shift+opt modifier for easy text selection\"."
         },
         {
           "path": "json/capslock_wasd_arrows.json",
