@@ -1358,6 +1358,19 @@
           "extra_description_text": "Numeric Keypad Mode Trigger Key + 7 / 8 / 9 / 0 Backspace / = / Slash(/) / * Trigger Key + U / I / O / P 7 / 8 / 9 / - Trigger Key + J / K / L / ; 4 / 5 / 6 / + Trigger Key + M / , / . / Slash(/) 1 / 2 / 3 / Enter Trigger Key + Space or right_command / right_option 0 / Period (.) Optional mappings Trigger Key + right_control Period (.) Trigger Key + left_command Space Choose a trigger key from: Tab, Escape, Caps Lock Choose a layout: Either spacebar or right_command to be mapped to 0 Hold down the trigger key then press one of the keys to use a numeric key Press and releasing the trigger acts as a normal key press Optionally map right_control (in case you remapped your right_option) to numeric_period Optionally map left_command to spacebar (so you can type spaced numbers without lifting trigger key)"
         },
         {
+          "path": "json/set_num_lock.json",
+          "extra_description_path": "extra_descriptions/set_num_lock.html",
+          "json": {
+            "title": "LCtrl-LShift-N to toggle num-lock",
+            "rules": [
+              {
+                "description": "LCtrl-LShift-N to toggle num-lock"
+              }
+            ]
+          },
+          "extra_description_text": "Use a shortcut to toggle a portion of your keyboard to a numeric keypad. Perfect for 60%-keyboard users. Shortcut: left_control + left_shift + N Layout of numeric keypad: 9 0 - maps to 7 8 9 o p [ maps to 4 5 6 l ; ' maps to 1 2 3 , maps to 0"
+        },
+        {
           "path": "json/pc_shortcuts.json",
           "json": {
             "title": "PC-Style Shortcuts",
