@@ -4687,10 +4687,20 @@
         {
           "path": "json/print_screen_to_command_shift_4.json",
           "json": {
-            "title": "Print Screen to Command+Shift+4",
+            "title": "Use PC Print Screen button for screen capture",
+            "maintainers": [
+              "0x15e",
+              "Metalliza"
+            ],
             "rules": [
               {
-                "description": "Use PC print screen button for screen capture"
+                "description": "Print Screen to Command+Shift+4"
+              },
+              {
+                "description": "Control+Print Screen to Control+Command+Shift+4"
+              },
+              {
+                "description": "Command+Print Screen to Command+Shift+5"
               }
             ]
           },
