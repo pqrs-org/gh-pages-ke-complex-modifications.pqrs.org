@@ -2072,6 +2072,21 @@
       "id": "application-specific",
       "files": [
         {
+          "path": "json/obsidian_emacs_vim-insert.json",
+          "json": {
+            "title": "Obsidian.app, emacs like key at vim-insert mode",
+            "rules": [
+              {
+                "description": "ctrl + bfpnae (only for Obsidian.app)"
+              },
+              {
+                "description": "ctrl + hdk (only for Obsidian.app)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/Sync_SystemVolume_to_Music.json",
           "json": {
             "title": "Sync Music and System Volume (no key repeat)",
