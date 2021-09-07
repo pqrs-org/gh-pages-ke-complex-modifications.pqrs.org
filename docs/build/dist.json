@@ -5325,6 +5325,24 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/mouse_345_mac_desktop_switcher.json",
+          "json": {
+            "title": "Mac Mouse 3/4/5 desktop switcher",
+            "rules": [
+              {
+                "description": "Mouse 4 Switch Left"
+              },
+              {
+                "description": "Mouse 5 Switch Right"
+              },
+              {
+                "description": "Mouse 3 Desktop Switcher"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/r_cmd_to_l_ctrl_and_space.json",
           "extra_description_path": "extra_descriptions/r_cmd_to_l_ctrl_and_space.json.html",
           "json": {
