@@ -3944,6 +3944,22 @@
             ]
           },
           "extra_description_text": "This is a non-modal way to live with three keyboard layouts. It maps single presses of modifier keys (leaving long presses to being original modifiers) to unconditionally enable some keyboard layout. See a blog post about switching keyboard layouts why this is good."
+        },
+        {
+          "path": "json/rdp-japanese-us.json",
+          "extra_description_path": "extra_descriptions/rdp-japanese-us.json.html",
+          "json": {
+            "title": "RDP for Japanese, US Keyboard （リモートデスクトップとUSキーボード、日本語環境の設定）",
+            "rules": [
+              {
+                "description": "[RDP] RDPアプリ以外では、コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな） (rev 3)"
+              },
+              {
+                "description": "[RDP] RDPアプリではCommandをAlt, OptionをWindowsキーに入れ替える"
+              }
+            ]
+          },
+          "extra_description_text": "リモートデスクトップとUSキーボード、日本語環境の設定 この設定は、RDPアプリ(Microsoft Remote DesktopまたはParallels Client)をUSキーボードおよび日本語環境で利用する際に有用です。 この設定では、以下2点の修正を行うことができます。 RDPアプリ以外を利用中に、コマンドキーを単体で押したときに英数・かなキーを送信することができます。 RDPアプリ使用中は、左右のCommandとOptionを入れ替えます。すなわち、CommandをAltおよびOptionをWindowsキーとして利用できます。 注意点 コマンドキーを単体で押したときに英数・かなキーを送信する設定は、For Japanese （日本語環境向けの設定） (rev 6)のコマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな） (rev 3)と同じものです。本設定使用中はこの設定は使用しないでください。 RDPアプリ使用中は、⌘-Qや⌘-Tabなどの操作は⌥-Qおよび⌥-Tabなどとなります。 RDP接続先のWindowsでalt-ime-ahkを利用している場合、Parallels ClientではAlt空打ちによるIME切り替えが動作しませんが、Mirosoft Remote Desktopでは動作します（2021年9月7日現在）。"
         }
       ]
     },
