@@ -4963,6 +4963,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/map_loption_ne_to_downup.json",
+          "json": {
+            "title": "Map Left Option with n/e to Down/Up arrows;",
+            "rules": [
+              {
+                "description": "Map Left Option with n/e; to Down/Up Arrows (QWERTY alt)"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
