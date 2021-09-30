@@ -6788,6 +6788,24 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/personal_javier_monton.json",
+          "json": {
+            "title": "Personal rules (@JavierMonton)",
+            "maintainers": [
+              "JavierMonton"
+            ],
+            "rules": [
+              {
+                "description": "ScrollLock button → Lunch iTerm"
+              },
+              {
+                "description": "Pause button → On/Off GMeet microphone (using Meet Mute)"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
