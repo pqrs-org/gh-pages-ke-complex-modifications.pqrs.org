@@ -2928,6 +2928,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/clickup.json",
+          "json": {
+            "title": "ClickUp shortcuts",
+            "rules": [
+              {
+                "description": "⌘-w to close internal windows in ClickUp"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
