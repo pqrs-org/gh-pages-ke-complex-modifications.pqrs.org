@@ -4980,6 +4980,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/f6_shutdown_dialog.json",
+          "json": {
+            "title": "Maps F6 to Ctl + Eject (Shutdown dialog)",
+            "rules": [
+              {
+                "description": "F6 to Ctl + Eject"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/map_loption_ne_to_downup.json",
           "json": {
             "title": "Map Left Option with n/e to Down/Up arrows;",

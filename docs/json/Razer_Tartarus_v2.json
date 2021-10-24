@@ -13,10 +13,6 @@
               "type": "device_if",
               "identifiers": [
                 {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
-                {
                   "product_id": 555,
                   "vendor_id": 5426
                 }
@@ -47,10 +43,6 @@
             {
               "type": "device_if",
               "identifiers": [
-                {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
                 {
                   "product_id": 555,
                   "vendor_id": 5426
@@ -83,10 +75,6 @@
               "type": "device_if",
               "identifiers": [
                 {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
-                {
                   "product_id": 555,
                   "vendor_id": 5426
                 }
@@ -117,10 +105,6 @@
             {
               "type": "device_if",
               "identifiers": [
-                {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
                 {
                   "product_id": 555,
                   "vendor_id": 5426
@@ -153,10 +137,6 @@
               "type": "device_if",
               "identifiers": [
                 {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
-                {
                   "product_id": 555,
                   "vendor_id": 5426
                 }
@@ -187,10 +167,6 @@
             {
               "type": "device_if",
               "identifiers": [
-                {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
                 {
                   "product_id": 555,
                   "vendor_id": 5426
@@ -223,10 +199,6 @@
               "type": "device_if",
               "identifiers": [
                 {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
-                {
                   "product_id": 555,
                   "vendor_id": 5426
                 }
@@ -257,10 +229,6 @@
             {
               "type": "device_if",
               "identifiers": [
-                {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
                 {
                   "product_id": 555,
                   "vendor_id": 5426
@@ -293,10 +261,6 @@
               "type": "device_if",
               "identifiers": [
                 {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
-                {
                   "product_id": 555,
                   "vendor_id": 5426
                 }
@@ -327,10 +291,6 @@
             {
               "type": "device_if",
               "identifiers": [
-                {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
                 {
                   "product_id": 555,
                   "vendor_id": 5426
@@ -363,10 +323,6 @@
               "type": "device_if",
               "identifiers": [
                 {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
-                {
                   "product_id": 555,
                   "vendor_id": 5426
                 }
@@ -397,10 +353,6 @@
             {
               "type": "device_if",
               "identifiers": [
-                {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
                 {
                   "product_id": 555,
                   "vendor_id": 5426
@@ -433,10 +385,6 @@
               "type": "device_if",
               "identifiers": [
                 {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
-                {
                   "product_id": 555,
                   "vendor_id": 5426
                 }
@@ -467,10 +415,6 @@
             {
               "type": "device_if",
               "identifiers": [
-                {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
                 {
                   "product_id": 555,
                   "vendor_id": 5426
@@ -503,10 +447,6 @@
               "type": "device_if",
               "identifiers": [
                 {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
-                {
                   "product_id": 555,
                   "vendor_id": 5426
                 }
@@ -537,10 +477,6 @@
             {
               "type": "device_if",
               "identifiers": [
-                {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
                 {
                   "product_id": 555,
                   "vendor_id": 5426
@@ -573,10 +509,6 @@
               "type": "device_if",
               "identifiers": [
                 {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
-                {
                   "product_id": 555,
                   "vendor_id": 5426
                 }
@@ -607,10 +539,6 @@
             {
               "type": "device_if",
               "identifiers": [
-                {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
                 {
                   "product_id": 555,
                   "vendor_id": 5426
@@ -643,10 +571,6 @@
               "type": "device_if",
               "identifiers": [
                 {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
-                {
                   "product_id": 555,
                   "vendor_id": 5426
                 }
@@ -677,10 +601,6 @@
             {
               "type": "device_if",
               "identifiers": [
-                {
-                  "product_id": 580,
-                  "vendor_id": 5426
-                },
                 {
                   "product_id": 555,
                   "vendor_id": 5426
