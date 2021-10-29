@@ -2940,6 +2940,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/dictation-to-mutify.json",
+          "json": {
+            "title": "Dictation to Mutify",
+            "rules": [
+              {
+                "description": "Dictation key (F5 action) to trigger Mutify mute/unmute (⇧⌘0) action. Most useful for Macs without Touchbar."
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
