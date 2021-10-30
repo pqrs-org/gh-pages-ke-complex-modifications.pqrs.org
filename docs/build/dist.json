@@ -170,6 +170,9 @@
             "rules": [
               {
                 "description": "Post Escape if Command_R is pressed alone."
+              },
+              {
+                "description": "Post Escape if Command_R is pressed alone. Control Left if held"
               }
             ]
           },
