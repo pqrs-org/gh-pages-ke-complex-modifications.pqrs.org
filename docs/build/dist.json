@@ -5439,6 +5439,18 @@
             ]
           },
           "extra_description_text": "for mac/hhkb: right_command -> left_control + spacebar, for switch input type."
+        },
+        {
+          "path": "json/open_terminal_window.json",
+          "json": {
+            "title": "Open a Terminal window with Ctrl-RAlt-T",
+            "rules": [
+              {
+                "description": "Open a terminal window with Ctrl-RAlt-T"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
