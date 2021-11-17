@@ -2955,6 +2955,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/jetbrains_rider_fn.json",
+          "json": {
+            "title": "Function keys work as Fn keys (instead of media keys) for JetBrainsRider",
+            "rules": [
+              {
+                "description": "JetBrains Rider Function keys work as Fn keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
