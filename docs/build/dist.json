@@ -2957,6 +2957,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/browser-rshift-enter-disable.json",
+          "json": {
+            "title": "Don't send shift when accidentally pressing right shift + enter in web browsers (Lshift + enter still works)",
+            "rules": [
+              {
+                "description": "Remap Rshift + enter to enter in web browsers only"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/jetbrains_rider_fn.json",
           "json": {
             "title": "Function keys work as Fn keys (instead of media keys) for JetBrainsRider",
@@ -5459,6 +5471,21 @@
             "rules": [
               {
                 "description": "Open a terminal window with Ctrl-RAlt-T"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/keyboard-brightness.json",
+          "json": {
+            "title": "Keyboard Brightness Adjustment",
+            "rules": [
+              {
+                "description": "command-f1 and f2 to adjust keyboard brightness"
+              },
+              {
+                "description": "command-f5 and f6 to adjust keyboard brightness, same keys as earlier macs"
               }
             ]
           },
