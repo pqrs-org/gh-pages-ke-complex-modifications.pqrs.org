@@ -3206,19 +3206,6 @@
           "extra_description_text": "This rule is handy when you are used to or would like to use the US English Layout but have one of the layouts with the big Return key . Then the Backslash (\\) key next to the Return (⏎) becomes really annoying. You can remap the backslash (\\) key to return_or_enter with a Simple Modification and then enable this Complex Modification to make your backslash and pipe keys accessible when you press your right Command (⌘)."
         },
         {
-          "path": "json/accute_accent_deadkey_azerty.json",
-          "extra_description_path": "extra_descriptions/accute_accent_deadkey_azerty.json.html",
-          "json": {
-            "title": "Convert ù to an accute accent (´) dead key (AZERTY) (rev 2)",
-            "rules": [
-              {
-                "description": "ù to deadkey ´ while leaving % accessible. (rev 2)"
-              }
-            ]
-          },
-          "extra_description_text": "Version 1.0 Typing an accute accented letter in AZERTT requires the Alt+Shift+1+letter combinaion. This slows down typing considerably compared to the AltGr method in Linux and Windows. This setup converts the \"ù\" key to a \"´\" deadkey to you can use it to type accents. More information: Raise an issue on the fork."
-        },
-        {
           "path": "json/DvorakLeft.json",
           "json": {
             "title": "Dvorak Keyboard Left Handed",
