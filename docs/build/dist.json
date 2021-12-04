@@ -2979,6 +2979,30 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/finder_improved_navigation.json",
+          "json": {
+            "title": "Finder improved Navigation",
+            "rules": [
+              {
+                "description": "Use F2 as Rename and set onedit"
+              },
+              {
+                "description": "Use Backspace as Go to Previous Folder in Finder if not onedit"
+              },
+              {
+                "description": "Use Return as Open if not renaming file"
+              },
+              {
+                "description": "Use Return to finish renaming when onedit=1"
+              },
+              {
+                "description": "Use Esc to finish renaming when onedit=1"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
