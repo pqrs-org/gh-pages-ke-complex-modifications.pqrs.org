@@ -6369,12 +6369,12 @@
             ],
             "rules": [
               {
-                "description": "Personal rules (@tekezo) (rev 37)",
+                "description": "Personal rules (@tekezo) (rev 39)",
                 "available_since": "13.6.0"
               }
             ]
           },
-          "extra_description_text": "Change left_control to lazy left_control (Post spacebar when pressed alone) Post spacebar when left_shift is pressed alone Change command+control+f to command+shift+[ Change command+control+j to command+shift+] Change command+control+g to command+[ Change command+control+h to command+] Change button5 + mouse motion to scroll wheel (Post command+click if button5 is clicked alone) Change button6 to command+click Change control+1 to home Change control+2 to page_down Change control+3 to page_up Change control+4 to end Change option+- to ---------- Change option+= to ========== Change fn+page_down to display_brightness_decrement_decrement Change fn+page_up to display_brightness_decrement_increment Change page_down to volume_decrement Change page_up to volume_increment Miscellaneous configuration for apps Change simultaneous escape+1 to display_brightness_decrement Change simultaneous escape+2 to display_brightness_increment"
+          "extra_description_text": "Change left_control to lazy left_control (Post spacebar when pressed alone) Post spacebar when left_shift is pressed alone Change command+control+f to command+shift+[ Change command+control+j to command+shift+] Change command+control+g to command+[ Change command+control+h to command+] Change button5 + mouse motion to scroll wheel (Post command+click if button5 is clicked alone) Change button6 to command+click Change option+- to ---------- Change option+= to ========== Change fn+page_down to display_brightness_decrement_decrement Change fn+page_up to display_brightness_decrement_increment Change page_down to volume_decrement Change page_up to volume_increment Miscellaneous configuration for apps Change simultaneous escape+1 to display_brightness_decrement Change simultaneous escape+2 to display_brightness_increment"
         },
         {
           "path": "json/personal_tekezo_simple_vi_mode.json",
@@ -6402,7 +6402,7 @@
             ],
             "rules": [
               {
-                "description": "Launcher Mode v4 (rev 17)",
+                "description": "Launcher Mode v4 (rev 18)",
                 "available_since": "13.1.4"
               }
             ]
@@ -7608,7 +7608,7 @@
         {
           "path": "json/example_halt.json",
           "json": {
-            "title": "to_if_held_down example",
+            "title": "halt example",
             "rules": [
               {
                 "description": "Open Mission Control by hold tab key"
