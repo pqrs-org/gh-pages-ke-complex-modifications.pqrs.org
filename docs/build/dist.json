@@ -6022,6 +6022,19 @@
             ]
           },
           "extra_description_text": "This is for you if when you touch YubiKey 5C Nano, it types like a cat walking on your keyboard. Author: @jonatasrenan"
+        },
+        {
+          "path": "json/Microsoft_Natural_keyboard_4000.json",
+          "extra_description_path": "extra_descriptions/Microsoft_Natural_keyboard_4000.html",
+          "json": {
+            "title": "MS Natural Keyboard 4000",
+            "rules": [
+              {
+                "description": "Microsoft Natural Ergonomic Keyboard 4000"
+              }
+            ]
+          },
+          "extra_description_text": "Microsoft Natural Ergonomic Keyboard 4000 Adjustments Device Info Specifically written for a device with these identifiers: { \"product_id\": 219, \"vendor_id\": 1118 } Mappings: MacOS: Remaps the Home and End keys to move to the start and end of the line respectively, except for in iTerm2 and Vim."
         }
       ]
     },
