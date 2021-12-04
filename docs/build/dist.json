@@ -637,6 +637,30 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/caps_lock_tapped_caps_held_cmd.json",
+          "json": {
+            "title": "Change caps_lock to dual keys, caps_lock and left_command.",
+            "rules": [
+              {
+                "description": "Change caps_lock to left_command if pressed with other keys, keep caps_lock if pressed alone. It's same as LGUI_T(KC_CAPS) in qmk"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/right_shift_to_switch_language.json",
+          "json": {
+            "title": "Right Shift to Cmd+Space if alone (to redefine language switch to right shift)",
+            "rules": [
+              {
+                "description": "Right Shift to Cmd+Space if alone"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -5067,6 +5091,57 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/gregrcp.json",
+          "json": {
+            "title": "keypad_0 to copy & keypad_plus to paste",
+            "rules": [
+              {
+                "description": "keypad_0 to Copy"
+              },
+              {
+                "description": "keypad_plus to Paste"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/nyankko.json",
+          "json": {
+            "title": "Nyankko Akko",
+            "rules": [
+              {
+                "description": "Use right_shift for selected capture"
+              },
+              {
+                "description": "Use right_control for developer console"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mouse_button4_back_mouse_button5_forward.json",
+          "json": {
+            "title": "mouse_button4_to_back_action(command + left_arrow)_and_mouse_button5_to_forward_action(command+right_arrow)",
+            "rules": [
+              {
+                "description": "Mouse button5 to back in web. NOTE: Default key setting"
+              },
+              {
+                "description": "Mouse button5 to back in web. NOTE: left_command and left_option is changed to each other. "
+              },
+              {
+                "description": "Mouse button4 to back in web. NOTE: Default key setting"
+              },
+              {
+                "description": "Mouse button4 to back in web. NOTE: left_command and left_option is changed to each other. "
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -6086,6 +6161,25 @@
             ]
           },
           "extra_description_text": "Microsoft Natural Ergonomic Keyboard 4000 Adjustments Device Info Specifically written for a device with these identifiers: { \"product_id\": 219, \"vendor_id\": 1118 } Mappings: MacOS: Remaps the Home and End keys to move to the start and end of the line respectively, except for in iTerm2 and Vim."
+        },
+        {
+          "path": "json/logitech-g502-hero-shortcuts.json",
+          "extra_description_path": "extra_descriptions/logitech-g502-hero-shortcuts.json.html",
+          "json": {
+            "title": "Logitech G503 Hero",
+            "rules": [
+              {
+                "description": "Middle mouse button to mission control"
+              },
+              {
+                "description": "G5 button to right arrow"
+              },
+              {
+                "description": "G4 button to left arrow"
+              }
+            ]
+          },
+          "extra_description_text": "Logitech G502 Hero Mouse Shortcuts This rule adds shortcuts to Logitech G502 Hero Mouse to replace Logitech GHub's common controls Button3 (Middle Mouse Button) &rarr; Mission Control G4 &rarr; &larr; (Left Arrow) G5 &rarr; &rarr; (Right Arrow) G4 and G5 also support any modifiers so following options are possible: G4 + Control &rarr; Previous Workspace G5 + Control &rarr; Next Workspace"
         }
       ]
     },
@@ -7433,7 +7527,7 @@
   ],
   "example": [
     {
-      "name": "Conditions",
+      "name": "Examples: Conditions",
       "id": "conditions",
       "files": [
         {
@@ -7496,70 +7590,10 @@
         {
           "path": "json/example_japanese_nicola.json",
           "json": {
-            "title": "Japanese NICOLA (rev 3)",
+            "title": "Japanese NICOLA example (rev 3)",
             "rules": [
               {
-                "description": "Japanese NICOLA (rev 3)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/mouse_button4_back_mouse_button5_forward.json",
-          "json": {
-            "title": "mouse_button4_to_back_action(command + left_arrow)_and_mouse_button5_to_forward_action(command+right_arrow)",
-            "rules": [
-              {
-                "description": "Mouse button5 to back in web. NOTE: Default key setting"
-              },
-              {
-                "description": "Mouse button5 to back in web. NOTE: left_command and left_option is changed to each other. "
-              },
-              {
-                "description": "Mouse button4 to back in web. NOTE: Default key setting"
-              },
-              {
-                "description": "Mouse button4 to back in web. NOTE: left_command and left_option is changed to each other. "
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/nyankko.json",
-          "json": {
-            "title": "Nyankko Akko",
-            "rules": [
-              {
-                "description": "Use right_shift for selected capture"
-              },
-              {
-                "description": "Use right_control for developer console"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/right_shift_to_switch_language.json",
-          "json": {
-            "title": "Right Shift to Cmd+Space if alone (to redefine language switch to right shift)",
-            "rules": [
-              {
-                "description": "Right Shift to Cmd+Space if alone"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/caps_lock_tapped_caps_held_cmd.json",
-          "json": {
-            "title": "Change caps_lock to dual keys, caps_lock and left_command.",
-            "rules": [
-              {
-                "description": "Change caps_lock to left_command if pressed with other keys, keep caps_lock if pressed alone. It's same as LGUI_T(KC_CAPS) in qmk"
+                "description": "Japanese NICOLA example (rev 3)"
               }
             ]
           },
@@ -7568,56 +7602,16 @@
       ]
     },
     {
-      "name": "Logitech G502 Hero",
-      "id": "Logitech G502 Hero",
-      "files": [
-        {
-          "path": "json/logitech-g502-hero-shortcuts.json",
-          "extra_description_path": "extra_descriptions/logitech-g502-hero-shortcuts.json.html",
-          "json": {
-            "title": "Logitech G503 Hero",
-            "rules": [
-              {
-                "description": "Middle mouse button to mission control"
-              },
-              {
-                "description": "G5 button to right arrow"
-              },
-              {
-                "description": "G4 button to left arrow"
-              }
-            ]
-          },
-          "extra_description_text": "Logitech G502 Hero Mouse Shortcuts This rule adds shortcuts to Logitech G502 Hero Mouse to replace Logitech GHub's common controls Button3 (Middle Mouse Button) &rarr; Mission Control G4 &rarr; &larr; (Left Arrow) G5 &rarr; &rarr; (Right Arrow) G4 and G5 also support any modifiers so following options are possible: G4 + Control &rarr; Previous Workspace G5 + Control &rarr; Next Workspace"
-        }
-      ]
-    },
-    {
-      "name": "Others",
+      "name": "Examples: Others",
       "id": "others",
       "files": [
         {
           "path": "json/example_halt.json",
           "json": {
-            "title": "halt example",
+            "title": "to_if_held_down example",
             "rules": [
               {
                 "description": "Open Mission Control by hold tab key"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/gregrcp.json",
-          "json": {
-            "title": "keypad_0 to copy & keypad_plus to paste",
-            "rules": [
-              {
-                "description": "keypad_0 to Copy"
-              },
-              {
-                "description": "keypad_plus to Paste"
               }
             ]
           },
