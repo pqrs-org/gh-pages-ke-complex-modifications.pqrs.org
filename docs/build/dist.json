@@ -5477,6 +5477,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/keybrightness_F5.json",
+          "json": {
+            "title": "Keyboard Brightness Adjustment",
+            "rules": [
+              {
+                "description": "Restore keyboard func to M1 Macs by overwriting dictation key, F5 to go up, hold F5 to go down"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
