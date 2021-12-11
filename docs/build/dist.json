@@ -5,6 +5,18 @@
       "id": "modifier-keys",
       "files": [
         {
+          "path": "json/disable_wifidiagnostics.json",
+          "json": {
+            "title": "Disable WifiDiagnostics shortcuts (Free up Hyper-W)",
+            "rules": [
+              {
+                "description": "Disable command+control+option+shift+, which triggers WiFi logging."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/personal_bbeerr_rk61.json",
           "json": {
             "title": "bbeerr's RK61 Hybrid Tier",
