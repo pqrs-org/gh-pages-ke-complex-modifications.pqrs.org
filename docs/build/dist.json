@@ -2121,6 +2121,21 @@
             ]
           },
           "extra_description_text": "Edit some key for Workman keyboard layout."
+        },
+        {
+          "path": "json/right_option_fn.json",
+          "json": {
+            "title": "Right OptionFN",
+            "rules": [
+              {
+                "description": "Right OptionFN: home row developer symbols on Lenovo Trackpoint II"
+              },
+              {
+                "description": "OptionFN: RightOption+asdfghjkl; to &[{(%#)}]|, right option to quote, printscreen to double quote"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -7603,7 +7618,7 @@
         {
           "path": "json/example_halt.json",
           "json": {
-            "title": "halt example",
+            "title": "to_if_held_down example",
             "rules": [
               {
                 "description": "Open Mission Control by hold tab key"
