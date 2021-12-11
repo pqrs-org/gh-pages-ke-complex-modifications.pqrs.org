@@ -3100,6 +3100,19 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/music_keyboard_controls.json",
+          "extra_description_path": "extra_descriptions/music_keyboard_controls.html",
+          "json": {
+            "title": "Basic Music app keyboard control",
+            "rules": [
+              {
+                "description": "Uses Ctrl shortcuts to explicitly play/pause/prev/next Music app."
+              }
+            ]
+          },
+          "extra_description_text": "Tired of Safari or other apps stealing the focus of your shiny multimedia keys. Are you playing or pausing the youtube video when you actually want to pause the Music app in the background? Use these shortcuts instead to control the Music app explicitly to avoid mistakes! The keyboard shortcuts are based on old defaults from SizzlingKeys which is not maintained any more and was only for iTunes rather than the new Apple Music app abomination. These shortcuts are most likely going to clash with something else you have, unless you have kept upgrading your mac from those times and never updated the shortcuts. So just copy the JSON and change the bindings to your liking. The three default keyboard bindings: Ctrl+Space: pauses or plays back the current Music tune. If the Music app is closed the app will be launched, but for whatever reason it won't start playing until you focus it and play something manually or repeat the keyboard shortcut. 🍎 peak software quality. Command+option+cursor right: Skips to the next song. Command+option+cursor left: Skips to the previous song. All the magic is done through shell calls to osascript. You can find more information about available iTunes/Music commands to use in osascript at websites like Doug's AppleScripts."
         }
       ]
     },
