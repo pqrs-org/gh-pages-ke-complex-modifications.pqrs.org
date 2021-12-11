@@ -4137,6 +4137,39 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/kanafn.json",
+          "json": {
+            "title": "KanaFN (“keyexchange”-compatible)",
+            "rules": [
+              {
+                "description": "KanaFN: japanese_kana to fn unlesss alone"
+              },
+              {
+                "description": "KanaFN: Kana+[ijkl] to Up, Left, Down, Right"
+              },
+              {
+                "description": "KanaFN: Kana+[h;] to Backspace, Delete"
+              },
+              {
+                "description": "KanaFN: Kana+[op] to Page Up, Page Down"
+              },
+              {
+                "description": "KanaFN: Kana+[,.] to Home, End"
+              },
+              {
+                "description": "KanaFN: Kana+N to Enter"
+              },
+              {
+                "description": "Optional: spacebar to fn unlesss alone"
+              },
+              {
+                "description": "Optional: japanese_eisuu to left_option unlesss alone"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
