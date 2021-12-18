@@ -7631,6 +7631,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/section_sign_to_forward_delete.json",
+          "json": {
+            "title": "Section Sign (§) to Forward Delete",
+            "maintainers": [
+              "Radllaufer"
+            ],
+            "rules": [
+              {
+                "description": "Remap section sign (§) to forward delete on British Keyboards. Also forward deletes up to the next space and the whole line with 'option + §' and 'command + §' respectively."
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     }
