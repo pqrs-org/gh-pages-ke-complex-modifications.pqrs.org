@@ -7609,6 +7609,21 @@
       "id": "others",
       "files": [
         {
+          "path": "json/Swap \"command + tab\" with \"control + tab\".json",
+          "json": {
+            "title": "Swap \"command + tab\" with \"control + tab\"",
+            "maintainers": [
+              "Radllaufer"
+            ],
+            "rules": [
+              {
+                "description": "Swap \"command + tab\" with \"control + tab\" for easier use inside applications. For example: switching between tabs in your browser, which now matches the other tab related shortcuts."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/fn+up-to-down.json",
           "json": {
             "title": "Map fn+up to down",
