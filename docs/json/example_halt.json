@@ -1,5 +1,5 @@
 {
-  "title": "to_if_held_down example",
+  "title": "halt example",
   "rules": [
     {
       "description": "Open Mission Control by hold tab key",

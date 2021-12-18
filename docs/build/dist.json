@@ -6512,7 +6512,7 @@
             ],
             "rules": [
               {
-                "description": "Personal rules (@tekezo) (rev 39)",
+                "description": "Personal rules (@tekezo) (rev 40)",
                 "available_since": "13.6.0"
               }
             ]
@@ -7688,7 +7688,7 @@
         {
           "path": "json/example_halt.json",
           "json": {
-            "title": "to_if_held_down example",
+            "title": "halt example",
             "rules": [
               {
                 "description": "Open Mission Control by hold tab key"
