@@ -5273,6 +5273,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/open_control_center_with_f8.json",
+          "json": {
+            "title": "Launch Control Center Using \"f8\"",
+            "rules": [
+              {
+                "description": "Map f8 button to fn+c"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
