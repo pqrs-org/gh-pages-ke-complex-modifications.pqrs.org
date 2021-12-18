@@ -7608,7 +7608,30 @@
       "name": "Others",
       "id": "others",
       "files": [
-
+        {
+          "path": "json/fn+up-to-down.json",
+          "json": {
+            "title": "Map fn+up to down",
+            "rules": [
+              {
+                "description": "fn + up to down"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/map_prtscr_to_screenshot.json",
+          "json": {
+            "title": "Maps Prtscr to Screenshot",
+            "rules": [
+              {
+                "description": "Printscreen key to Screenshot"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        }
       ]
     }
   ],
