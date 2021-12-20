@@ -7636,6 +7636,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/german_toggle_comment.json",
+          "json": {
+            "title": "German toggle comment: CMD+/ (EN) to CMD+# (DE)",
+            "rules": [
+              {
+                "description": "German toggle comment: CMD+/ (EN) to CMD+# (DE)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/map_prtscr_to_screenshot.json",
           "json": {
             "title": "Maps Prtscr to Screenshot",
