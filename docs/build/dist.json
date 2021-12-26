@@ -5285,6 +5285,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/tab_hold_hyper.json",
+          "json": {
+            "title": "Tab to Hyper When Held",
+            "rules": [
+              {
+                "description": "Map Tab to Hyper when held"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
