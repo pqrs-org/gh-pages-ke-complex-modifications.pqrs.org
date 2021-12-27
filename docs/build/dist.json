@@ -673,6 +673,28 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/fn_wasdqerf.json",
+          "extra_description_path": "extra_descriptions/fn_wasdqerf.html",
+          "json": {
+            "title": "Fn/Caps + WASD(↑←↓→) / QE(Home End) / RF(PageUp PageDown)",
+            "rules": [
+              {
+                "description": "Change Caps to Fn"
+              },
+              {
+                "description": "Change fn + W/A/S/D to Arrow Keys"
+              },
+              {
+                "description": "Change fn + Q/E to Home/End"
+              },
+              {
+                "description": "Change fn + R/F to PageUp/PageDown"
+              }
+            ]
+          },
+          "extra_description_text": "Fn/Caps + WASD(↑←↓→) / QE(Home End) / RF(PageUp PageDown) This rule is inspired by \"Caps Lock W/A/S/D Arrows\" and replaced the extra layer with the form of combination keys. Replace Caps with Fn, then modify W/A/S/D/Q/E/R/F with Fn to ↑/←/↓/→/Home/End/PageUp/PageDown. Usage notes To make this rule work properly, you need to change [System Preferences> Keyboard> Press Fn] from [Change Input Source] to [Do Nothing]. Key Map Key Maps To W Up A Left S Down D Right Q Home E End R Page Up F Page Down"
         }
       ]
     },
