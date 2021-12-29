@@ -3326,7 +3326,7 @@
                 "description": "Prevent problematic keys (?, /, #, =, and ')') from being treated as option key shortcut"
               },
               {
-                "description": "Prevent all layer 3 keys from being treated as option key shortcut"
+                "description": "Prevent all layer 3 keys from being treated as option key shortcut. Maps to 'Bugfixes' dummy dead key on Numpad 2 + left_option + left_shift"
               },
               {
                 "description": "Neo2 mod 4: Map ↖ to Home and ↘︎ to End in terminal apps (move this rule above the rule 'Neo2 layer 4')."
