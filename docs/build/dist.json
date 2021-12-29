@@ -5329,7 +5329,7 @@
         {
           "path": "json/mouse_motion_to_scroll.json",
           "json": {
-            "title": "Change mouse motion to scroll (rev 2)",
+            "title": "Change mouse motion to scroll (rev 3)",
             "maintainers": [
               "tekezo"
             ],
@@ -5348,6 +5348,10 @@
               },
               {
                 "description": "Change control + mouse motion to scroll wheel (rev 1)",
+                "available_since": "12.3.0"
+              },
+              {
+                "description": "Change fn + mouse motion to scroll wheel (rev 1)",
                 "available_since": "12.3.0"
               }
             ]
@@ -6546,12 +6550,12 @@
             ],
             "rules": [
               {
-                "description": "Personal rules (@tekezo) (rev 40)",
+                "description": "Personal rules (@tekezo) (rev 41)",
                 "available_since": "13.6.0"
               }
             ]
           },
-          "extra_description_text": "Change left_control to lazy left_control (Post spacebar when pressed alone) Post spacebar when left_shift is pressed alone Change command+control+f to command+shift+[ Change command+control+j to command+shift+] Change command+control+g to command+[ Change command+control+h to command+] Change button5 + mouse motion to scroll wheel (Post command+click if button5 is clicked alone) Change button6 to command+click Change option+- to ---------- Change option+= to ========== Change fn+page_down to display_brightness_decrement_decrement Change fn+page_up to display_brightness_decrement_increment Change page_down to volume_decrement Change page_up to volume_increment Miscellaneous configuration for apps Change simultaneous escape+1 to display_brightness_decrement Change simultaneous escape+2 to display_brightness_increment"
+          "extra_description_text": "Change left_control to lazy left_control (Post spacebar when pressed alone) Post spacebar when left_shift is pressed alone Post command+click when fn is pressed alone Change command+control+f to command+shift+[ Change command+control+j to command+shift+] Change command+control+g to command+[ Change command+control+h to command+] Change button5 + mouse motion to scroll wheel (Post command+click if button5 is clicked alone) Change button6 to command+click Change option+- to ---------- Change option+= to ========== Miscellaneous configuration for apps Change simultaneous escape+1 to display_brightness_decrement Change simultaneous escape+2 to display_brightness_increment"
         },
         {
           "path": "json/personal_tekezo_simple_vi_mode.json",
