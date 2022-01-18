@@ -711,6 +711,19 @@
             ]
           },
           "extra_description_text": "Fn/Caps + WASD(↑←↓→) / QE(Home End) / RF(PageUp PageDown) This rule is inspired by \"Caps Lock W/A/S/D Arrows\" and replaced the extra layer with the form of combination keys. Replace Caps with Fn, then modify W/A/S/D/Q/E/R/F with Fn to ↑/←/↓/→/Home/End/PageUp/PageDown. Usage notes To make this rule work properly, you need to change [System Preferences> Keyboard> Press Fn] from [Change Input Source] to [Do Nothing]. Key Map Key Maps To W Up A Left S Down D Right Q Home E End R Page Up F Page Down"
+        },
+        {
+          "path": "json/keypad_comma_to_period.json",
+          "extra_description_path": "extra_descriptions/keypad_comma_to_period_json.html",
+          "json": {
+            "title": "Keypad comma to period",
+            "rules": [
+              {
+                "description": "Keypad Period to Comma+shift (period) Belgian Keyboard"
+              }
+            ]
+          },
+          "extra_description_text": "Version 1.0 On Belgian keyboard layout, the keypad period gives a comma. This modification allows getting a period in place of a comma. More information: Raise an issue on the fork."
         }
       ]
     },
