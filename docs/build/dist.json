@@ -539,6 +539,22 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/swap_right_cmd_with_right_option.json",
+          "extra_description_path": "extra_descriptions/swap_right_cmd_with_right_option.json.html",
+          "json": {
+            "title": "Swap right cmd with right option",
+            "maintainers": [
+              "devnoname120"
+            ],
+            "rules": [
+              {
+                "description": "Swap right cmd with right option"
+              }
+            ]
+          },
+          "extra_description_text": "This swaps right cmd with right option. This is helpful for keyboard layouts (such as the qwerty-fr layout) that rely heavily on dead keys that are activated using the option key. Learn more about the qwerty-fr here."
+        },
+        {
           "path": "json/swap_alt_with_command.json",
           "json": {
             "title": "Windows Keyboard on Mac",
