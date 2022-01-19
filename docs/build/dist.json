@@ -4479,6 +4479,9 @@
               {
                 "description": "Add Ctrl+Backward-Delete to Option+Delete (delete current word).",
                 "type": "basic"
+              },
+              {
+                "description": "Map Ctrl-Backspace to forward Delete (forward delete one character at a time)."
               }
             ]
           },
@@ -7021,9 +7024,6 @@
             "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/pqrs-org/KE-complex_modifications/raw/main/public/json/ultimate_macOS.json",
             "rules": [
               {
-                "description": "ultimate macOS (version: 1556140182)"
-              },
-              {
                 "description": "KBD: BluetoothConverter、IKBC_C87、XD60: Swap Win/CMD and Alt/Opt"
               },
               {
@@ -7676,36 +7676,6 @@
       "id": "others",
       "files": [
         {
-          "path": "json/Swap \"command + tab\" with \"control + tab\".json",
-          "json": {
-            "title": "Swap \"command + tab\" with \"control + tab\"",
-            "maintainers": [
-              "Radllaufer"
-            ],
-            "rules": [
-              {
-                "description": "Swap \"command + tab\" with \"control + tab\" for easier use inside applications. For example: switching between tabs in your browser, which now matches the other tab related shortcuts."
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/Toggle delete with lock key For Magic Keyboard.json",
-          "json": {
-            "title": "Toggle delete with lock key For Magic Keyboard",
-            "maintainers": [
-              "eunrui"
-            ],
-            "rules": [
-              {
-                "description": "Magic Keyboard 防锁屏误触 短按删除 长按锁屏"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
           "path": "json/fn+up-to-down.json",
           "json": {
             "title": "Map fn+up to down",
@@ -7751,6 +7721,36 @@
             "rules": [
               {
                 "description": "Remap section sign (§) to forward delete on British Keyboards. Also forward deletes up to the next space and the whole line with 'option + §' and 'command + §' respectively."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/swap-command-tab-with-control-tab.json",
+          "json": {
+            "title": "Swap \"command + tab\" with \"control + tab\"",
+            "maintainers": [
+              "Radllaufer"
+            ],
+            "rules": [
+              {
+                "description": "Swap \"command + tab\" with \"control + tab\" for easier use inside applications. For example: switching between tabs in your browser, which now matches the other tab related shortcuts."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/toggle-delete-with-lock-key-for-magic-keyboard.json",
+          "json": {
+            "title": "Toggle delete with lock key For Magic Keyboard",
+            "maintainers": [
+              "eunrui"
+            ],
+            "rules": [
+              {
+                "description": "Magic Keyboard 防锁屏误触 短按删除 长按锁屏"
               }
             ]
           },
