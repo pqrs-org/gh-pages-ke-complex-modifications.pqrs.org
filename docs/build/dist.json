@@ -5816,6 +5816,24 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/mouse_345_changer.json",
+          "json": {
+            "title": "MacLee's MacOS Mouse 3/4/5 Changer (3: close tab, 4/5: move tabs)",
+            "rules": [
+              {
+                "description": "Mouse 3 Close Single Tab"
+              },
+              {
+                "description": "Mouse 4 Backward Tab Move"
+              },
+              {
+                "description": "Mouse 5 Forward Tab Move"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
