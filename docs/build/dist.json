@@ -7775,6 +7775,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/shifts_for_parenthesis.json",
+          "json": {
+            "title": "Tap left shift to open and right to close parenthesis",
+            "rules": [
+              {
+                "description": "Shift_L tap -> '(', Shift_R tap -> ')'"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/swap-command-tab-with-control-tab.json",
           "json": {
             "title": "Swap \"command + tab\" with \"control + tab\"",
