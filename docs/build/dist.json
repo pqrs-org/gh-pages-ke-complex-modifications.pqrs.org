@@ -7748,6 +7748,24 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/mac_z_copy_x_paste.json",
+          "json": {
+            "title": "[mac] z to copy & x to paste for 2 keypad",
+            "maintainers": [
+              "goldsky"
+            ],
+            "rules": [
+              {
+                "description": "z to copy"
+              },
+              {
+                "description": "x to paste"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/map_prtscr_to_screenshot.json",
           "json": {
             "title": "Maps Prtscr to Screenshot",
