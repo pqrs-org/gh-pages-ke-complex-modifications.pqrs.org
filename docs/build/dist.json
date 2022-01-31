@@ -3159,6 +3159,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/shottr_map_cmd_c_to_copy.json",
+          "json": {
+            "title": "Shottr — Cmd+c to copy screenshot to clipboard",
+            "rules": [
+              {
+                "description": "Remap Cmd+shift+c to Cmd+c"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/finder_improved_navigation.json",
           "json": {
             "title": "Finder improved Navigation",
