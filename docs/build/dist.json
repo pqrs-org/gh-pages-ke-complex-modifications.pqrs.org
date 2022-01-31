@@ -6453,6 +6453,22 @@
             ]
           },
           "extra_description_text": "Logitech G502 Hero Mouse Shortcuts This rule adds shortcuts to Logitech G502 Hero Mouse to replace Logitech GHub's common controls Button3 (Middle Mouse Button) &rarr; Mission Control G4 &rarr; &larr; (Left Arrow) G5 &rarr; &rarr; (Right Arrow) G4 and G5 also support any modifiers so following options are possible: G4 + Control &rarr; Previous Workspace G5 + Control &rarr; Next Workspace"
+        },
+        {
+          "path": "json/z_copy_x_paste.json",
+          "extra_description_path": "extra_descriptions/z_copy_x_paste.html",
+          "json": {
+            "title": "Swap z to [copy] & x to [paste] for 2 keypad keyboard like osu nono",
+            "maintainers": [
+              "goldsky"
+            ],
+            "rules": [
+              {
+                "description": "Swap z to [copy] & x to [paste] for 2 keypad keyboard like osu nono"
+              }
+            ]
+          },
+          "extra_description_text": "Z: copy & X: paste Switch default keys z & x to [copy] and [paste]"
         }
       ]
     },
@@ -7766,24 +7782,6 @@
             "rules": [
               {
                 "description": "German toggle comment: CMD+/ (EN) to CMD+# (DE)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/mac_z_copy_x_paste.json",
-          "json": {
-            "title": "[mac] z to copy & x to paste for 2 keypad",
-            "maintainers": [
-              "goldsky"
-            ],
-            "rules": [
-              {
-                "description": "z to copy"
-              },
-              {
-                "description": "x to paste"
               }
             ]
           },
