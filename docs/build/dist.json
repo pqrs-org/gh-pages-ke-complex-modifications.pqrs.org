@@ -7752,6 +7752,18 @@
       "id": "others",
       "files": [
         {
+          "path": "json/Paste_and_Match_Style_Windows_KB.json",
+          "json": {
+            "title": "Command + Shift + v to paste without formatting",
+            "rules": [
+              {
+                "description": "Command + Shift + v does special paste without formatting, equivalent to. cmd+opt+shift+v."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/far2l_fn.json",
           "json": {
             "title": "Function keys work as Fn keys (instead of media keys) for Far Manager 2",
