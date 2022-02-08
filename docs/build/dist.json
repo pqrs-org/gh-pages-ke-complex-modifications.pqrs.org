@@ -7727,6 +7727,34 @@
       ]
     },
     {
+      "name": "Keychron K14",
+      "id": "Keychron K14",
+      "files": [
+        {
+          "path": "json/keychron-k14_tilde.json",
+          "extra_description_path": "extra_descriptions/keychron-k14_tilde.html",
+          "json": {
+            "title": "K14 tilde",
+            "rules": [
+              {
+                "description": "Opt+Esc to `"
+              },
+              {
+                "description": "Shift+Esc to ~"
+              },
+              {
+                "description": "Cmd+Esc to Cmd+`"
+              },
+              {
+                "description": "Cmd+Shift+Esc to Cmd+Shift+`"
+              }
+            ]
+          },
+          "extra_description_text": "Keychron K14 This rule brings the tilde/grave accent (~/`) key to the Keychron K14. Changes Cmd+Esc to Cmd+` Changes Opt+Esc to ` Changes Shift+Esc to ~ Changes Cmd+Shift+Esc to Cmd+Shift+`"
+        }
+      ]
+    },
+    {
       "name": "KKmoon",
       "id": "KKmoon",
       "files": [
