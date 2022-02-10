@@ -7598,6 +7598,22 @@
             ]
           },
           "extra_description_text": "Keychron K2 This rule modifies the Keychron K2 keyboard layout to more closely resemble an Apple keyboard. Changes right_control to right_option Swaps right_command and fn Disable page_up, page_down, home, and end"
+        },
+        {
+          "path": "json/keychron_k2-remap_us_keyboard_for_ru_mac.json",
+          "extra_description_path": "extra_descriptions/keychron_k2-remap_us_keyboard_for_ru_mac.json.html",
+          "json": {
+            "title": "Remap some Keychrom K2(US) keys to make it less painful to switch from Macbook(RU) keyboard",
+            "rules": [
+              {
+                "description": "Use cmd+~ instead of cmd+section_sign"
+              },
+              {
+                "description": "Remap app window switcher from cmd+~ to option+tab"
+              }
+            ]
+          },
+          "extra_description_text": "Keychron K2: Remap US keys for use with RU Mac This rule modifies Keychron K2 US-layout keyboard to be more usable on Macbook with RU-layout keyboard. Use cmd+~ instead of cmd+§ Remap app window switcher from cmd+~ to option+~"
         }
       ]
     },
