@@ -7808,6 +7808,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/esc-caps-toggle.json",
+          "json": {
+            "title": "Escape enhancements",
+            "rules": [
+              {
+                "description": "Escape toggles capslock if enabled"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/far2l_fn.json",
           "json": {
             "title": "Function keys work as Fn keys (instead of media keys) for Far Manager 2",
