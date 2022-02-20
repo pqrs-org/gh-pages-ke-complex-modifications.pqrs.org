@@ -7923,6 +7923,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/vi_style_arrows_macos_dvorak_layout.json",
+          "json": {
+            "title": "Vi Style Arrows (MacOS Dvorak layout support)",
+            "rules": [
+              {
+                "description": "Change Control + h/j/k/l (j/c/v/p in MacOS Dvorak Layout) to Arrows"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     }
