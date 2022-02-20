@@ -7856,6 +7856,39 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/jack_shortcuts.json",
+          "json": {
+            "title": "Jack's Fn Shortcuts",
+            "rules": [
+              {
+                "description": "Fn + W/A/S/D to arrow keys"
+              },
+              {
+                "description": "Fn + E/Q to Home/End"
+              },
+              {
+                "description": "Fn + Tab to Delete"
+              },
+              {
+                "description": "Fn + 1 to Enter"
+              },
+              {
+                "description": "Fn + P to Screenshot"
+              },
+              {
+                "description": "Fn + R/F to Page Up/Page Down"
+              },
+              {
+                "description": "Fn + T to Terminal"
+              },
+              {
+                "description": "Fn + L to Lock Screen"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/map_prtscr_to_screenshot.json",
           "json": {
             "title": "Maps Prtscr to Screenshot",
