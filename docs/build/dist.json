@@ -4959,6 +4959,9 @@
             "title": "Change mouse buttons (rev 2)",
             "rules": [
               {
+                "description": "Change button4,5 to CTRL+C,CTRL+V (rev 1)"
+              },
+              {
                 "description": "Change button4,5 to back,forward (rev 1)"
               },
               {
