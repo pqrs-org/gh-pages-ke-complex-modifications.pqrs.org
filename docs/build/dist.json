@@ -7892,6 +7892,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/left_option_plus_e_to_left_command_left_option_e.json",
+          "json": {
+            "title": "Map Left Option + E to Nothing",
+            "rules": [
+              {
+                "description": "Map Left Option + E to Nothing"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/map_prtscr_to_screenshot.json",
           "json": {
             "title": "Maps Prtscr to Screenshot",
