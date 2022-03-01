@@ -7811,6 +7811,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/cmd_backslash_to_cmd_tab.json",
+          "json": {
+            "title": "Command_R + BackSlash to Command + Tab",
+            "rules": [
+              {
+                "description": "Command_R + BackSlash to Command +Tab"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/esc-caps-toggle.json",
           "json": {
             "title": "Escape enhancements",
