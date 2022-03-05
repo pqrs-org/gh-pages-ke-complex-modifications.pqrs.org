@@ -1968,6 +1968,9 @@
             "rules": [
               {
                 "description": "Text Navigation Forward/Backward (fn + left_shift + jl to alt + arrow keys)"
+              },
+              {
+                "description": "Text Navigation Forward/Backward (left_command + left_shift + jl to alt + arrow keys)"
               }
             ]
           },
