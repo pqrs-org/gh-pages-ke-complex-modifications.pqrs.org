@@ -7961,6 +7961,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/shift_f19_to_capslock.json",
+          "json": {
+            "title": "Change shift+f19 to capslock",
+            "rules": [
+              {
+                "description": "Change shift+f19 to capslock"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/shifts_for_parenthesis.json",
           "json": {
             "title": "Tap left shift to open and right to close parenthesis",
