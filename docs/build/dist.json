@@ -3221,6 +3221,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/f12-show-hide-iterm.json",
+          "json": {
+            "title": "Use F12 to show/hide iTerm (Quake-style \"instant terminal\")",
+            "rules": [
+              {
+                "description": "Launch/show iTerm if it is not in foreground"
+              },
+              {
+                "description": "Minimize iTerm if it is in foreground"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
