@@ -7829,6 +7829,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/addspaceaftercomma.json",
+          "json": {
+            "title": "commaspace",
+            "rules": [
+              {
+                "description": "add space after using comma"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/cmd_backslash_to_cmd_tab.json",
           "json": {
             "title": "Command_R + BackSlash to Command + Tab",
