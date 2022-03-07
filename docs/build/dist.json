@@ -1564,6 +1564,9 @@
                 "description": "PC-Style Control+Delete/Backspace"
               },
               {
+                "description": "PC-Style Control+Delete"
+              },
+              {
                 "description": "PC-Style Control+K"
               }
             ]
