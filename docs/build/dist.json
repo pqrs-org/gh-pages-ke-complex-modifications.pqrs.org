@@ -7844,6 +7844,28 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/caps_lock_magic.json",
+          "json": {
+            "title": "Capslock Magic",
+            "url": "https://github.com/miozus/CapslockMagic/raw/master/tools/karabiner/caps_lock_magic.yml",
+            "version": "1.0.0",
+            "maintainers": [
+              "miozus"
+            ],
+            "author": "miozus",
+            "json_url": "https://github.com/miozus/CapslockMagic/raw/master/tools/karabiner/caps_lock_magic.json",
+            "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=url=https://github.com/pqrs-org/KE-complex_modifications/raw/main/public/json/caps_lock_magic.json",
+            "gallery_url": "https://ke-complex-modifications.pqrs.org/#emulation-modes",
+            "repo": "https://github.com/miozus/CapslockMagic",
+            "rules": [
+              {
+                "description": "Semicolon Pull Down Symbol"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/caps_lock_tapped_escape_held_left_control.json",
           "json": {
             "title": "Change caps_lock to dual keys, escape and left_control.",
