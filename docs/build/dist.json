@@ -7844,6 +7844,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/caps_lock_tapped_escape_held_left_control.json",
+          "json": {
+            "title": "Change caps_lock to dual keys, escape and left_control.",
+            "rules": [
+              {
+                "description": "Change caps_lock to left_control if pressed with other keys, change caps_lock to escape if pressed alone."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/cmd_backslash_to_cmd_tab.json",
           "json": {
             "title": "Command_R + BackSlash to Command + Tab",
