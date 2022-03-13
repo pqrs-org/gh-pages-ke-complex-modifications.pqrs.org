@@ -7961,6 +7961,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/map_command_closebracket_equal_semicolon.json",
+          "json": {
+            "title": "Command + close bracket to open bracket; equal to hyphen; semicolon to quote",
+            "rules": [
+              {
+                "description": "Fix 3 dead keys: Command + close bracket/equal/semicolon to open bracket/hyphen/quote"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/map_prtscr_to_screenshot.json",
           "json": {
             "title": "Maps Prtscr to Screenshot",
