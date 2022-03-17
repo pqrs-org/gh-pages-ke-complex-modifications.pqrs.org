@@ -284,6 +284,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/f4_to_cmd_space.json",
+          "json": {
+            "title": "[macOS] Map F4 to Command+Space",
+            "rules": [
+              {
+                "description": "Map F4 to Command+Space"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/e0da_caps_lock.json",
           "json": {
             "title": "e0da Caps Lock",
