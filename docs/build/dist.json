@@ -5188,6 +5188,27 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/shift-delete-to-delete-forward.json",
+          "json": {
+            "title": "Shift-Delete to Delete Forward (+Option = delete word, +Command = delete line)",
+            "rules": [
+              {
+                "description": "Shift-Delete to Delete-Forward (deletes next character, use both shift keys to bypass)"
+              },
+              {
+                "description": "Option-Shift-Delete to Option-Delete-Forward (deletes next word, use both shift keys to bypass)"
+              },
+              {
+                "description": "Command-Shift-Delete to Ctrl-K (deletes rest of line, use both shift keys to bypass)"
+              },
+              {
+                "description": "Command-Delete-Forward to Ctrl-K (deletes rest of line, use both command keys to bypass)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/sinoridha_personal_mapping.json",
           "json": {
             "title": "Sinoridha Function Key",
