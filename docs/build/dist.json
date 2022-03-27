@@ -6478,6 +6478,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/hhkb_fn_comma_period_to_ltgt.json",
+          "json": {
+            "title": "HHKB mapping for programming (Fn+comma → <, Fn+period → >)",
+            "rules": [
+              {
+                "description": "Fn+comma (End) => less than (>)"
+              },
+              {
+                "description": "Fn+period (PgDn) => greater than (>)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/PC-Style_Shortcuts_Copy_Ctrl_Insert.json",
           "json": {
             "title": "PC-Style Shortcuts",
