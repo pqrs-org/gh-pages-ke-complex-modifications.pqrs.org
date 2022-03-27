@@ -8095,6 +8095,27 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/switchable_vimish_navigation.json",
+          "json": {
+            "title": "Switchable Vimish Navigation",
+            "rules": [
+              {
+                "description": "Press Control to toggle Vimish navigation"
+              },
+              {
+                "description": "Single/Double Tap Control to turn off/on Vimish navigation"
+              },
+              {
+                "description": "Double Tap and Hold Control to turn on Vimish navigation"
+              },
+              {
+                "description": "H/J/K/L -> ← ↓ ↑ → "
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/toggle-delete-with-lock-key-for-magic-keyboard.json",
           "json": {
             "title": "Toggle delete with lock key For Magic Keyboard",
