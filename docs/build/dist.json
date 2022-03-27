@@ -7960,6 +7960,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/french_pc_single_stroke_keys.json",
+          "json": {
+            "title": "Make tilde and backticks work with one keystroke on French PC key layout.",
+            "rules": [
+              {
+                "description": "One stroke tilde."
+              },
+              {
+                "description": "One stroke backtick."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/german_toggle_comment.json",
           "json": {
             "title": "German toggle comment: CMD+/ (EN) to CMD+# (DE)",
