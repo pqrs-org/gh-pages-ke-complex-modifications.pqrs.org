@@ -5187,7 +5187,7 @@
         {
           "path": "json/shift-delete-to-delete-forward.json",
           "json": {
-            "title": "Shift-Delete to Delete-Forward (+Option = delete word, +Command = delete line)",
+            "title": "Shift-Delete to Delete Forward (+Option = delete word, +Command = delete line)",
             "rules": [
               {
                 "description": "Shift-Delete to Delete-Forward (deletes next character, use both shift keys to bypass)"
@@ -8080,6 +8080,18 @@
             "rules": [
               {
                 "description": "Remap section sign (§) to forward delete on British Keyboards. Also forward deletes up to the next space and the whole line with 'option + §' and 'command + §' respectively."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/shapr3d_middle_mouse_rotate.json",
+          "json": {
+            "title": "Shapr3d rotation",
+            "rules": [
+              {
+                "description": "mouse button 3 to mouse button 2 + shift"
               }
             ]
           },
