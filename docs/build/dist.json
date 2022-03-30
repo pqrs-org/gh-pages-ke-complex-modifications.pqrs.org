@@ -7903,6 +7903,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/ScreenshotToBackspace.json",
+          "json": {
+            "title": "Maps Screenshot to Backspace (Keychron K3)",
+            "rules": [
+              {
+                "description": "Screenshot to Backspace"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/addspaceaftercomma.json",
           "json": {
             "title": "commaspace",
