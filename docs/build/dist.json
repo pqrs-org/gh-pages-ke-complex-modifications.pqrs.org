@@ -8122,6 +8122,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/swap-command-tab-with-control-tab-optional-shift.json",
+          "json": {
+            "title": "Swap \"command + tab\" with \"control + tab\" optional shift",
+            "rules": [
+              {
+                "description": "Swap \"command + tab\" with \"control + tab\" optional shift."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/swap-command-tab-with-control-tab.json",
           "json": {
             "title": "Swap \"command + tab\" with \"control + tab\"",
