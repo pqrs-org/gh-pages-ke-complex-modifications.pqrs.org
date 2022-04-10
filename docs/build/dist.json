@@ -8096,6 +8096,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/rcmd_to_lcmd_option.json",
+          "json": {
+            "title": "Right Cmd to Left Cmd + Left Option ",
+            "rules": [
+              {
+                "description": "Change Right CMD to Left CMD + Left Option, util for tab navigation with modification WASD or HJKL"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/section_sign_to_forward_delete.json",
           "json": {
             "title": "Section Sign (§) to Forward Delete",
