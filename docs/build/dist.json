@@ -3239,6 +3239,19 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/f5_ms_teams_zoom_mic_mute.json",
+          "extra_description_path": "extra_descriptions/f5_ms_teams_zoom_mic_mute.html",
+          "json": {
+            "title": "Toggle mic mute in MS Teams or ZOOM with the f5 key",
+            "rules": [
+              {
+                "description": "Maps F5 to ⌘⇧M in MS Teams or ⌘⇧A to ZOOM. F5 has an MIC symbol on recent MacOS keyboards."
+              }
+            ]
+          },
+          "extra_description_text": "Mute MS Teams or ZOOM with F5 use F5 to toggle MUTE ether on MS Teams or ZOOM Motivation After trying to use the eject key version of this cmdline execute i found that my M1 Macbook Pro has a Mic symbol on the f5 key, so i decided to try to use that key to mute in my daily used videocall applications instead. how to use Use karabiner-elements Function keys tab to map the 'dictate' key to use 'f5' instead if you use the function keys. Install this extension under tab 'Complex modifications'. During a Call on ZOOM or MS Teams the mute and unmute should work even in background. It searches in active processes and if one is found it executes the corresponding ⌘⇧M for Teams or ⌘⇧A for ZOOM. Credits This rule was based on work done by \"Toggle mic mute in MS Teams with the Eject key\" and the Github PR #975 \"capslock_to_mute_teams_zoom.json\"."
+        },
+        {
           "path": "json/music_keyboard_controls.json",
           "extra_description_path": "extra_descriptions/music_keyboard_controls.html",
           "json": {
