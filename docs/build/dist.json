@@ -7441,6 +7441,27 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/personal_iwaltgen.json",
+          "json": {
+            "title": "Personal rules (@iwaltgen)",
+            "maintainers": [
+              "iwaltgen"
+            ],
+            "rules": [
+              {
+                "description": "Chagne command+space to right command (gureum.io)"
+              },
+              {
+                "description": "Vi Mode control+[hjkl]"
+              },
+              {
+                "description": "Change shift+delete to forward delete"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
