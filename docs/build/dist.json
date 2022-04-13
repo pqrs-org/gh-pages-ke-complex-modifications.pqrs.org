@@ -754,6 +754,87 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/right_command_vi_like.json",
+          "json": {
+            "title": "right command vi like v2",
+            "rules": [
+              {
+                "description": "right command to ` if pressed alone"
+              },
+              {
+                "description": "right command + H to left arrow"
+              },
+              {
+                "description": "right command + J to down arrow"
+              },
+              {
+                "description": "right command + K to up arrow"
+              },
+              {
+                "description": "right command + L to right arrow"
+              },
+              {
+                "description": "right command + E to end of line"
+              },
+              {
+                "description": "right command + A to begin of line"
+              },
+              {
+                "description": "right command + W to word forward (option + right arrow)"
+              },
+              {
+                "description": "right command + B to word backward"
+              },
+              {
+                "description": "right command + U to page up"
+              },
+              {
+                "description": "right command + D to page down"
+              },
+              {
+                "description": "right command + Y to yark"
+              },
+              {
+                "description": "right command + P to paste"
+              },
+              {
+                "description": "right command + S to delete till begin of line"
+              },
+              {
+                "description": "right command + C to delete current line"
+              },
+              {
+                "description": "right command + left shift + C to delete till end of line"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/reasonable_change.json",
+          "json": {
+            "title": "reasonable change",
+            "rules": [
+              {
+                "description": "control + H to backspace"
+              },
+              {
+                "description": "shift + control + H to delete"
+              },
+              {
+                "description": "capslock to esc if pressed alone else control"
+              },
+              {
+                "description": "control + M to return"
+              },
+              {
+                "description": "shift + backspace to delete"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
