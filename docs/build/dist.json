@@ -8261,6 +8261,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/shift_keys_training_wheels.json",
+          "json": {
+            "title": "Shift key training wheels",
+            "rules": [
+              {
+                "description": "Disable incorrect shift + letter combos"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/shifts_for_parenthesis.json",
           "json": {
             "title": "Tap left shift to open and right to close parenthesis",
