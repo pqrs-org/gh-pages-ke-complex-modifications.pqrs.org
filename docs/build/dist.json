@@ -3498,6 +3498,9 @@
               },
               {
                 "description": "Colemak Mod-DHk (ANSI)"
+              },
+              {
+                "description": "Colemak Mod-DHm (matrix / ortho keyboards)"
               }
             ]
           },
