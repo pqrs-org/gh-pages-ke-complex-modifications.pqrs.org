@@ -7765,6 +7765,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/comfortable_ctrl_w_to_delete_backward_word.json",
+          "json": {
+            "title": "Comfortable CTRL-W to delete-backward-word",
+            "rules": [
+              {
+                "description": "Caps lock to CTRL"
+              },
+              {
+                "description": "CTRL-W to delete-backward-word"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
