@@ -8366,6 +8366,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/usinternational_pc_single_stroke_quotes.json",
+          "json": {
+            "title": "Make single and double quotes non-dead (typed with one keystroke) on the US International - PC keyboard layout.",
+            "rules": [
+              {
+                "description": "One stroke single quote"
+              },
+              {
+                "description": "One stroke double quote"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/vi_style_arrows_macos_dvorak_layout.json",
           "json": {
             "title": "Vi Style Arrows (MacOS Dvorak layout support)",
