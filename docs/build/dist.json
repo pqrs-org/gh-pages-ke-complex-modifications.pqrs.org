@@ -3553,7 +3553,7 @@
                 "description": "Prevent all layer 3 keys from being treated as option key shortcut."
               },
               {
-                "description": "Neo2 mod 4: Map ↖ to Home and ↘︎ to End in terminal apps (move this rule above other Neo2 rules)."
+                "description": "Neo2 mod 4: Map ↖ to Home and ↘︎ to End in terminal apps, remote desktop apps and virtual machines.  (move this rule above other Neo2 rules)."
               }
             ]
           },
