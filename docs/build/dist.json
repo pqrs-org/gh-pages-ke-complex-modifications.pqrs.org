@@ -835,6 +835,28 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/german_umlauts_caps.json",
+          "extra_description_path": "extra_descriptions/german_umlauts_caps.html",
+          "json": {
+            "title": "Use Caps Lock for German Umlauts and Eszett",
+            "rules": [
+              {
+                "description": "Use the caps lock key state for other rules"
+              },
+              {
+                "description": "Convert Caps Lock with [aou] to [äöü]"
+              },
+              {
+                "description": "Convert Caps Lock (in combination with Shift) with [aou] to [ÄÖÜ]"
+              },
+              {
+                "description": "Convert Caps Lock with [s] to [ß] (Eszett)"
+              }
+            ]
+          },
+          "extra_description_text": "Description Use the Caps Lock key as a modifier key, but for getting access to the German letters. Easy access to äöü, ÄÖÜ, and ß. All of the rules are toggleable on/off BE AWARE, there is a rule to disable use of the Caps Lock key. What Keyboards are Supported Any keyboard with the standard Latin characterset is supported. The purpose of this modification is to enable use of the German characters on a keyboard that doesn't have them. As long as you have a Caps Lock key, as well as [aous], you're good to go. That said, it's limited to ANSI or ISO keyboards with an English input language. Motivation I don't like the press-and-hold default system for getting access to the German characters. On Windows, I had used AutoHotKey to create a script that disables the caps lock key, and uses it as amodifier to get access to the characters. I ported that over to my new macOS machine. Key Map Key Maps To CapsLock + a ä CapsLock + o ö CapsLock + u ü CapsLock + s ß CapsLock + Shift + a Ä CapsLock + Shift + o Ö CapsLock + Shift + u Ü Changelog Revision 1 Original version."
         }
       ]
     },
