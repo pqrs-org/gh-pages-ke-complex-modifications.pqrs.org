@@ -1,5 +1,5 @@
 {
-	"title": "Hai HHKB Launch apps (Brave, VS Code, Signal, Postman, Sublime Merge, iTerm)",
+	"title": "Hai HHKB Launch apps (Brave, VS Code, Signal, Slack, Postman, Sublime Merge, iTerm)",
 	"rules": [
 		{
 			"description": "right_option + B -> Brave",
@@ -53,6 +53,25 @@
 					"to": [
 						{
 							"shell_command": "open '/Applications/Signal.app'"
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": "right_option + K -> Slack",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "k",
+						"modifiers": {
+							"mandatory": ["right_option"]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open '/Applications/Slack.app'"
 						}
 					]
 				}
