@@ -6817,6 +6817,33 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/hai_hhkb_open_apps.json",
+          "json": {
+            "title": "Hai HHKB Launch apps",
+            "rules": [
+              {
+                "description": "right_option + B -> Brave"
+              },
+              {
+                "description": "right_option + E -> VS code"
+              },
+              {
+                "description": "right_option + S -> Signal"
+              },
+              {
+                "description": "right_option + P -> Postman"
+              },
+              {
+                "description": "right_option + F -> Finder"
+              },
+              {
+                "description": "right_option + T -> iTerm"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/personal_minacle.json",
           "extra_description_path": "extra_descriptions/personal_minacle.json.html",
           "json": {
@@ -8175,33 +8202,6 @@
             "rules": [
               {
                 "description": "German toggle comment: CMD+/ (EN) to CMD+# (DE)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/hai_hhkb_open_apps.json",
-          "json": {
-            "title": "Hai HHKB Launch apps",
-            "rules": [
-              {
-                "description": "right_option + B -> Brave"
-              },
-              {
-                "description": "right_option + E -> VS code"
-              },
-              {
-                "description": "right_option + S -> Signal"
-              },
-              {
-                "description": "right_option + P -> Postman"
-              },
-              {
-                "description": "right_option + F -> Finder"
-              },
-              {
-                "description": "right_option + T -> iTerm"
               }
             ]
           },
