@@ -6825,13 +6825,19 @@
                 "description": "right_option + B -> Brave"
               },
               {
-                "description": "right_option + E -> VS code"
+                "description": "right_option + V -> VS code"
               },
               {
                 "description": "right_option + S -> Signal"
               },
               {
                 "description": "right_option + P -> Postman"
+              },
+              {
+                "description": "right_option + l -> Sublime Text"
+              },
+              {
+                "description": "right_option + G -> Sublime Merge"
               },
               {
                 "description": "right_option + F -> Finder"
