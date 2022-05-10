@@ -6817,7 +6817,7 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/hai_hhkb_open_apps.json",
+          "path": "json/hai_hhkb_open_apps_shortcuts.json",
           "json": {
             "title": "Hai HHKB Launch apps",
             "rules": [
