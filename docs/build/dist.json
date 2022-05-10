@@ -6817,7 +6817,7 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/hai_hhkb_open_apps_shortcuts.json",
+          "path": "json/hai_hhkb_open_apps.json",
           "json": {
             "title": "Hai HHKB Launch apps (Brave, VS Code, Signal, Postman, Sublime Merge, iTerm)",
             "rules": [
