@@ -8181,6 +8181,33 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/hhkb-open-apps.json",
+          "json": {
+            "title": "Launch apps",
+            "rules": [
+              {
+                "description": "right_option + B -> Brave"
+              },
+              {
+                "description": "right_option + E -> VS code"
+              },
+              {
+                "description": "right_option + S -> Signal"
+              },
+              {
+                "description": "right_option + P -> Postman"
+              },
+              {
+                "description": "right_option + F -> Finder"
+              },
+              {
+                "description": "right_option + T -> iTerm"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/jack_shortcuts.json",
           "json": {
             "title": "Jack's Fn Shortcuts",
