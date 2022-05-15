@@ -7635,10 +7635,13 @@
             ],
             "rules": [
               {
-                "description": "Chagne command+space to right command (gureum.io)"
+                "description": "Change command+space to ctrl+shift+space (switch IME)"
               },
               {
-                "description": "Vi Mode control+[hjkl]"
+                "description": "Esc to Vim Mode"
+              },
+              {
+                "description": "Vim Mode control+[hjkl]"
               },
               {
                 "description": "Change shift+delete to forward delete"
