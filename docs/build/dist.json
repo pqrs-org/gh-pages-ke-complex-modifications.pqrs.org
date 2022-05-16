@@ -7638,6 +7638,9 @@
                 "description": "Change command+space to ctrl+shift+space (switch IME)"
               },
               {
+                "description": "Change Korean Won symbol(₩) to backtick"
+              },
+              {
                 "description": "Esc to Vim Mode"
               },
               {
