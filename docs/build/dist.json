@@ -8436,6 +8436,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/switchLanguage_to_kor_eng_ja.json",
+          "json": {
+            "title": "switch Language with option+1/2/3(kor, eng, ja)",
+            "rules": [
+              {
+                "description": "Use option+1/2/3 to switch language."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/switchable_vimish_navigation.json",
           "json": {
             "title": "Switchable Vimish Navigation",
