@@ -7570,6 +7570,9 @@
               },
               {
                 "description": "Disable command+v to paste"
+              },
+              {
+                "description": "Disable command+d"
               }
             ]
           },
