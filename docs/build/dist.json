@@ -8349,6 +8349,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/map_cmd_q_to_cmd_shift_q.json",
+          "json": {
+            "title": "map cmd+q to cmd+shift+q",
+            "rules": [
+              {
+                "description": "Make cmd+q comb just turn the caps lock key, and make cmd+shift+q map to cmd+q (quit app)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/map_command_closebracket_equal_semicolon.json",
           "json": {
             "title": "Command + close bracket to open bracket; equal to hyphen; semicolon to quote",
