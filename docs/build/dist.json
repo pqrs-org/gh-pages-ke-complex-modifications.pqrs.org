@@ -6846,10 +6846,13 @@
         {
           "path": "json/hai_hhkb_open_apps.json",
           "json": {
-            "title": "Hai HHKB Launch apps (Brave, VS Code, Signal, Slack, Postman, Sublime Merge, iTerm, Thunderbird)",
+            "title": "Hai HHKB Launch apps (Brave, VS Code, Signal, Slack, Postman, Sublime Merge, iTerm, Thunderbird, iMessage)",
             "rules": [
               {
                 "description": "right_option + B -> Brave"
+              },
+              {
+                "description": "right_option + M -> iMessage"
               },
               {
                 "description": "right_option + V -> VS code"
