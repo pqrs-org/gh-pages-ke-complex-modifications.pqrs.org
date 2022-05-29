@@ -7978,6 +7978,9 @@
           "extra_description_path": "extra_descriptions/keychron-k6-shortcuts.json.html",
           "json": {
             "title": "Keychron K6 Shortcuts",
+            "maintainers": [
+              "sourabhv"
+            ],
             "rules": [
               {
                 "description": "Shift + Esc to ` Grave Accent"
