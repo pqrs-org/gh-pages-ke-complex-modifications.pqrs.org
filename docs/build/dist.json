@@ -6734,6 +6734,25 @@
             ]
           },
           "extra_description_text": "Z: copy & X: paste Switch default keys z & x to [copy] and [paste]"
+        },
+        {
+          "path": "json/plexgear_WL-PR1000_HAS.json",
+          "extra_description_path": "extra_descriptions/plexgear_WL-PR1000_HAS.html",
+          "json": {
+            "title": "Plexgear WL-PR1000 HAS wireless mouse side buttons to left and right",
+            "maintainers": [
+              "stoivo"
+            ],
+            "rules": [
+              {
+                "description": "HAS wireless mouse alt+f4 to right_arrow"
+              },
+              {
+                "description": "HAS wireless mouse pay_or_pause to left_arrow"
+              }
+            ]
+          },
+          "extra_description_text": "Plexgear WL-PR1000 HAS Plexgear Laser Presenter WL-PR1000 Make the two buttons on the right side go left and right. (originaly it is play_or_pause and alt+f4) Usefull for Navigation in OpenLP and prezi like tools."
         }
       ]
     },
