@@ -4502,6 +4502,30 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/azerty_windows_like_combinations.json",
+          "json": {
+            "title": "Windows-like combinations for French-AZERTY layout",
+            "rules": [
+              {
+                "description": "Right command and 6 for | pipe"
+              },
+              {
+                "description": "Right command and 8 for \\ backslash"
+              },
+              {
+                "description": "Replace § with - hyphen"
+              },
+              {
+                "description": "Right command and 5 for [ and right command and °) for ]"
+              },
+              {
+                "description": "Right command and 4 for { and right command and -_ for }"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
