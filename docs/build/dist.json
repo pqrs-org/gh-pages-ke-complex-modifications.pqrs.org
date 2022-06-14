@@ -8221,6 +8221,48 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/accent_marks.json",
+          "json": {
+            "title": "Spanish keys for english keyboard",
+            "rules": [
+              {
+                "description": "Add n with sign"
+              },
+              {
+                "description": "Add a with accent mark"
+              },
+              {
+                "description": "Add e with accent mark"
+              },
+              {
+                "description": "Add i with accent mark"
+              },
+              {
+                "description": "Add o with accent mark"
+              },
+              {
+                "description": "Add a with accent mark"
+              },
+              {
+                "description": "Add A with accent mark"
+              },
+              {
+                "description": "Add E with accent mark"
+              },
+              {
+                "description": "Add I with accent mark"
+              },
+              {
+                "description": "Add O with accent mark"
+              },
+              {
+                "description": "Add U with accent mark"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/addspaceaftercomma.json",
           "json": {
             "title": "commaspace",
