@@ -8663,6 +8663,30 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/virtual_machine_alt.json",
+          "json": {
+            "title": "Virtual Machine and Remote Desktop - Swap Command / Alt - (Microsoft or other)",
+            "rules": [
+              {
+                "description": "Swap left command and control in virtual machine/remote desktop"
+              },
+              {
+                "description": "Swap right command and control in virtual machine/remote desktop"
+              },
+              {
+                "description": "Use standard function keys in virtual machine/remote desktop"
+              },
+              {
+                "description": "Press Fn + function keys to use special features in virtual machine/remote desktop"
+              },
+              {
+                "description": "Swap >/< and Â°/Â§ in virtual machine/remote desktop"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     }
