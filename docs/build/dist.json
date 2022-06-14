@@ -8473,6 +8473,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/rdp_pckb_alt-cmd_to_ctr-alt.json",
+          "json": {
+            "title": "Remap PC-Keyboard Alt/Cmd to Ctrl/Alt in RDP sessions.",
+            "rules": [
+              {
+                "description": "Mac OSX RDP: RAW Key Opt to Ctrl"
+              },
+              {
+                "description": "Mac OSX RDP: RAW Key Cmd to Alt"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/section_sign_to_forward_delete.json",
           "json": {
             "title": "Section Sign (§) to Forward Delete",
