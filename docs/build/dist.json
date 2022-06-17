@@ -691,6 +691,27 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/ctrl-arrow-volume-brightness.json",
+          "json": {
+            "title": "Control + Arrow to Volume & Display Brightness Control",
+            "rules": [
+              {
+                "description": "Control + Up to volume_increment"
+              },
+              {
+                "description": "Control + Down to volume_decrement"
+              },
+              {
+                "description": "Control + Left to display_brightness_decrement"
+              },
+              {
+                "description": "Control + Right to display_brightness_increment"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/right_shift_to_switch_language.json",
           "json": {
             "title": "Right Shift to Cmd+Space if alone (to redefine language switch to right shift)",
