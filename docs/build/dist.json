@@ -8380,6 +8380,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/colemak-caps-lock-backspace-delete-swap.json",
+          "json": {
+            "title": "Caps lock to backspace and backspace to delete forward, but only on Colemak",
+            "rules": [
+              {
+                "description": "Caps lock to backspace, but only on Colemak"
+              },
+              {
+                "description": "Backspace to delete forward, but only on Colemak"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/esc-caps-toggle.json",
           "json": {
             "title": "Escape enhancements",
