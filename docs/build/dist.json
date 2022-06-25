@@ -8230,6 +8230,21 @@
       "id": "others",
       "files": [
         {
+          "path": "json/IME.json",
+          "json": {
+            "title": "IME",
+            "rules": [
+              {
+                "description": "CapsLock to Ctrl+Option+SpaceBar (when there is no modifier keystroke)"
+              },
+              {
+                "description": "Ctrl+CapsLock to Option+Enter (Chinese Character)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/Paste_and_Match_Style_Windows_KB.json",
           "json": {
             "title": "Command + Shift + v to paste without formatting",
@@ -8350,6 +8365,21 @@
               },
               {
                 "description": "right_option + A -> Activity Monitor"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/backspace_to_delete.json",
+          "json": {
+            "title": "Delete when modifier+Backspace",
+            "rules": [
+              {
+                "description": "Option+Backspace to Delete"
+              },
+              {
+                "description": "Shift+Backspace to Delete"
               }
             ]
           },
@@ -8590,6 +8620,27 @@
             "rules": [
               {
                 "description": "Mouse keys Minimal"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/option+arrow_to_pagecontrol.json",
+          "json": {
+            "title": "Option+arrow to PageUp/PageDown/Home/End",
+            "rules": [
+              {
+                "description": "Option(right)+Up arrow to PageUp"
+              },
+              {
+                "description": "Option(right)+Up arrow to PageDown"
+              },
+              {
+                "description": "Option(right)+Left arrow to Home"
+              },
+              {
+                "description": "Option(right)+Right arrow to End"
               }
             ]
           },
