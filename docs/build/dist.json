@@ -8674,6 +8674,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/right_shift_home_and_end.json",
+          "json": {
+            "title": "Right Shift Home/End to Shift + Start/End line",
+            "rules": [
+              {
+                "description": "Right Shift Home to Right Shift Command Left"
+              },
+              {
+                "description": "Right Shift End to Right Shift Command Right"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/section_sign_to_forward_delete.json",
           "json": {
             "title": "Section Sign (§) to Forward Delete",
