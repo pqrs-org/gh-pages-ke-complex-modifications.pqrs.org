@@ -6183,6 +6183,27 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/option_pgup_pgdown_home_end_to_ctrl_arrows.json",
+          "json": {
+            "title": "Option+ PageUp, PageDown, Home, End to Control+Arrows (Mission Control)",
+            "rules": [
+              {
+                "description": "Option+PageDown to Control+ArrowRight (Mission Control: Move right a space)"
+              },
+              {
+                "description": "Option+PageUp to Control+ArrowLeft (Mission Control: Move left a space)"
+              },
+              {
+                "description": "Option+Home to Control+ArrowUp (Mission Control: Mission Control)"
+              },
+              {
+                "description": "Option+End to Control+ArrowDown (Mission Control: Application windows)"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
