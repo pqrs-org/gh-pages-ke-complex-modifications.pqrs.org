@@ -8683,6 +8683,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/option+escape-to-grave_accent.json",
+          "json": {
+            "title": "Option + Esc to Grave Accent",
+            "rules": [
+              {
+                "description": "Option + Esc to Grave Accent"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/rcmd_to_lcmd_option.json",
           "json": {
             "title": "Right Cmd to Left Cmd + Left Option ",
