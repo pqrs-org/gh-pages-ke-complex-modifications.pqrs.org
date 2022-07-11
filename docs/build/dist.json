@@ -8737,6 +8737,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/section_sign_to_backtick_in_English_keyboards.json",
+          "json": {
+            "title": "Section sign (§) to backtick (`) in English keyboards",
+            "maintainers": [
+              "kuzdogan"
+            ],
+            "rules": [
+              {
+                "description": "Remap section sign (§) to backtick (`) + plus minus (±) to tilde (~) in English keyboards"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/section_sign_to_forward_delete.json",
           "json": {
             "title": "Section Sign (§) to Forward Delete",
