@@ -8899,6 +8899,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/tab-to-mash.json",
+          "json": {
+            "title": "Tab to Mash When Held",
+            "rules": [
+              {
+                "description": "Tab one shot, as normal. Mash/Hyper-lite when held (Cmd+Opt+Ctrl)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/toggle-delete-with-lock-key-for-magic-keyboard.json",
           "json": {
             "title": "Toggle delete with lock key For Magic Keyboard",
