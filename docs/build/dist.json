@@ -2421,6 +2421,123 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/rk_windows-ified_custom_mappings.json",
+          "json": {
+            "title": "Windows-ify Key Mappings on Mac OS",
+            "rules": [
+              {
+                "description": "Ctrl+C, Ctrl+V, Ctrl+X => Cmd+C (Copy), Cmd+V (Paste), Cmd+X (Cut)"
+              },
+              {
+                "description": "Ctrl+Z => Cmd+Z (Undo)"
+              },
+              {
+                "description": "Ctrl+Y => Cmd+Shift+Y (Redo)"
+              },
+              {
+                "description": "Ctrl+A => Cmd+A (Select all)"
+              },
+              {
+                "description": "Ctrl+S => Cmd+S (Save)"
+              },
+              {
+                "description": "Ctrl+N => Cmd+N (New)"
+              },
+              {
+                "description": "Ctrl+F => Cmd+F (Find)"
+              },
+              {
+                "description": "Ctrl+H => Cmd+Option+F (Find and Replace - Only in Code)"
+              },
+              {
+                "description": "Ctrl+H => Cmd+Y (History - Only in Chrome)"
+              },
+              {
+                "description": "Ctrl+J => Cmd+Option+L (Open Downloads - Only in Code)"
+              },
+              {
+                "description": "Ctrl+W => Cmd+W (Close)"
+              },
+              {
+                "description": "Alt+F4 => Cmd+Q (Exit application)"
+              },
+              {
+                "description": "Home => Cmd+Left arrow (Move cursor to beginning of line)"
+              },
+              {
+                "description": "Shift+Home => Cmd+Shift+Left arrow (Move cursor to beginning of line with selection)"
+              },
+              {
+                "description": "Ctrl+Home, Ctrl+Shift+Home => Cmd+Up arrow, Cmd+Shift+Up arrow (Move cursor to beginning of file with and without selection)"
+              },
+              {
+                "description": "End => Cmd+Right arrow (Move cursor to end of line)"
+              },
+              {
+                "description": "Shift+End => Cmd+Shift+Right arrow (Move cursor to end of line with selection)"
+              },
+              {
+                "description": "Ctrl+End, Ctrl+Shift+End => Cmd+down arrow, Cmd+Shift+down arrow (Move cursor to end of file with and without selection)"
+              },
+              {
+                "description": "Ctrl+T => Cmd+T (New tab)"
+              },
+              {
+                "description": "Ctrl+B => Cmd+B (Bold)"
+              },
+              {
+                "description": "Ctrl+I => Cmd+I (Italic)"
+              },
+              {
+                "description": "Ctrl+L => Cmd+L (Open url location) (Only in browsers)"
+              },
+              {
+                "description": "Ctrl+R => Cmd+R (Reload) (Only in browsers)"
+              },
+              {
+                "description": "F5 => Cmd+r (Reload)"
+              },
+              {
+                "description": "Ctrl+(Shift)+Right/left arrow => Alt+(Shift)+Right/left arrow (Move cursor one word with selection and without selection)"
+              },
+              {
+                "description": "Ctrl+Backspace/Delete => Option+(Fn)+Delete (Remove a whole word ahead or behind)"
+              },
+              {
+                "description": "Ctrl+Up/down arrow => Up/down arrow (Move cursor up/down)"
+              },
+              {
+                "description": "Cmd+L => Cmd+Option+Q (Lock Screen)"
+              },
+              {
+                "description": "Ctrl+Esc => Open Launchpad"
+              },
+              {
+                "description": "Ctrl+Shift+Esc => Open Activity Monitor"
+              },
+              {
+                "description": "Return => Cmd+o (Open) (Only in Finder)"
+              },
+              {
+                "description": "F2 => Return (Rename) (Only in Finder)"
+              },
+              {
+                "description": "Delete => Cmd+backspace (Delete) (Only in Finder)"
+              },
+              {
+                "description": "Backspace => Cmd+up (Go back) (Only in Finder)"
+              },
+              {
+                "description": "Ctrl+Left Click => Cmd+Left Click (select multiple items)"
+              },
+              {
+                "description": "Print Screen => Cmd+Shift+9 (Lightshot Screen Capture)"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
