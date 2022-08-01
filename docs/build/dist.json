@@ -8524,6 +8524,42 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/azerty_style_windows_keyboard_on_mac.json",
+          "json": {
+            "title": "Cassim's version of Windows-like combinations for French-AZERTY layout",
+            "rules": [
+              {
+                "description": "Right command and < for «"
+              },
+              {
+                "description": "Right command and left shift and > for »"
+              },
+              {
+                "description": "left command and < for «"
+              },
+              {
+                "description": "left command and option and »"
+              },
+              {
+                "description": "Right command and 6 for | pipe"
+              },
+              {
+                "description": "Right command and 8 for \\ backslash"
+              },
+              {
+                "description": "Replace § with - hyphen"
+              },
+              {
+                "description": "Right command and 5 for [ and right command and °) for ]"
+              },
+              {
+                "description": "Right command and 4 for { and right command and -_ for }"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/backspace_to_delete.json",
           "json": {
             "title": "Delete when modifier+Backspace",
