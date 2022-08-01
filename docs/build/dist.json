@@ -8860,6 +8860,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/option_number_to_desktop.json",
+          "json": {
+            "title": "Focus desktops with option + numbers",
+            "rules": [
+              {
+                "description": "Change option + 1-5 to control + 1-5"
+              },
+              {
+                "description": "Change control + 1-5 to option + 1-5 (for special characters)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/rcmd_to_lcmd_option.json",
           "json": {
             "title": "Right Cmd to Left Cmd + Left Option ",
