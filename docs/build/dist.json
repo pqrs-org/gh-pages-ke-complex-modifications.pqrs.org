@@ -7108,6 +7108,9 @@
                 "description": "right_option + M -> Mail"
               },
               {
+                "description": "right_option + N -> Notes"
+              },
+              {
                 "description": "right_option + M -> Thunderbird"
               },
               {
