@@ -5275,7 +5275,7 @@
           "path": "json/media_key_only_control_itunes.json",
           "extra_description_path": "extra_descriptions/media_key_only_control_itunes.html",
           "json": {
-            "title": "Media key only control iTunes",
+            "title": "Media keys only control iTunes",
             "rules": [
               {
                 "description": "F7 (back track, rewind) key should only control iTunes."
@@ -5303,25 +5303,25 @@
           "path": "json/media_key_only_control_music_app.json",
           "extra_description_path": "extra_descriptions/media_key_only_control_music_app.html",
           "json": {
-            "title": "Media key only control Apple Music.app",
+            "title": "Media keys only control Apple Music.app",
             "rules": [
               {
-                "description": "(back track/rewind) key should only control Music."
+                "description": "⏪ (back track) key should only control Music."
               },
               {
-                "description": "(play/pause) key should only control Music."
+                "description": "⏯ (play/pause) key should only control Music."
               },
               {
-                "description": "(next track, fast forward) key should only control Music."
+                "description": "⏩ (next track) key should only control Music."
               },
               {
-                "description": "Fn+(back track, rewind) key should only control Music."
+                "description": "Fn+⏪ (back track) key should only control Music."
               },
               {
-                "description": "Fn+(play/pause) key should only control Music."
+                "description": "Fn+⏯ (play/pause) key should only control Music."
               },
               {
-                "description": "Fn+(next track, fast forward) key should only control Music."
+                "description": "Fn+⏩ (next trackx) key should only control Music."
               }
             ]
           },
