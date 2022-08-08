@@ -5297,7 +5297,35 @@
               }
             ]
           },
-          "extra_description_text": "Description From Mac OS High Sierra, Apple added new feature that media keys can control not only iTunes, but also safari, chrome (youtube, facebook video), spotify, or other media players. This would be annoying feature to someone who wanted to media keys only works for iTunes player, as before. If you want to make media key (F7,F8,F9) only control iTunes, enable this option. Source Reference https://apple.stackexchange.com/a/300903"
+          "extra_description_text": "Description Since Mac OS High Sierra, Apple changed how media keys work. Now they not only control iTunes, but also Safari, Chrome (YouTube, Facebook Video), Spotify, or other media players. It depends on which application is in the foreground. The new default behavior might be annoying to someone who expects media keys to only control iTunes, as before. If you want to make media keys (F7,F8,F9) only control iTunes, enable this mod. Use the regular F7-F9 modifiers provided here unless you enabled the \"Use F1, F2, etc. keys as standard function keys\" option in System Preferences. In this case use the Fn+F7 ... Fn+F9 modifiers. Source Reference https://apple.stackexchange.com/a/300903"
+        },
+        {
+          "path": "json/media_key_only_control_music_app.json",
+          "extra_description_path": "extra_descriptions/media_key_only_control_music_app.html",
+          "json": {
+            "title": "Media key only control Apple Music.app",
+            "rules": [
+              {
+                "description": "(back track/rewind) key should only control Music."
+              },
+              {
+                "description": "(play/pause) key should only control Music."
+              },
+              {
+                "description": "(next track, fast forward) key should only control Music."
+              },
+              {
+                "description": "Fn+(back track, rewind) key should only control Music."
+              },
+              {
+                "description": "Fn+(play/pause) key should only control Music."
+              },
+              {
+                "description": "Fn+(next track, fast forward) key should only control Music."
+              }
+            ]
+          },
+          "extra_description_text": "Description Since Mac OS High Sierra, media keys (⏪, ⏯, ⏩) on Apple keyboards not only control Apple Music.app, but also Safari, Chrome (YouTube, Facebook Video), Spotify, or other media players. It depends on which application is in the foreground. This defeats the purpose of those keys as the application you want to control is already in focus. Making those keys only control Music.app has the advantage of being able to, say, pause music when you want to watch a video on YouTube in the foreground. Use the regular ⏪, ⏯, ⏩ modifiers provided here unless you enabled the \"Use F1, F2, etc. keys as standard function keys\" option in System Preferences. In this case use the Fn+⏪, Fn+⏯, Fn+⏩ modifiers. Source Reference https://apple.stackexchange.com/a/300903"
         },
         {
           "path": "json/modifiers_to_arrows.json",
