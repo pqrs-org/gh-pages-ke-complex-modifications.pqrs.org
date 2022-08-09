@@ -8453,6 +8453,78 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/Tye-Tartarus-v2.json",
+          "json": {
+            "title": "Tye Tartarus v2.json",
+            "maintainers": [
+              "tyeraymond-design"
+            ],
+            "rules": [
+              {
+                "description": "Razer 01 to command z"
+              },
+              {
+                "description": "Razer 02 to command shift z"
+              },
+              {
+                "description": "Razer 03 to command plus"
+              },
+              {
+                "description": "Razer 04 to shift command plus"
+              },
+              {
+                "description": "Razer 05 to alt eyedropper"
+              },
+              {
+                "description": "Razer 06 to increase brush"
+              },
+              {
+                "description": "Razer 07 to decrease brush"
+              },
+              {
+                "description": "Razer 08 to move canvas"
+              },
+              {
+                "description": "Razer 09 to rotate"
+              },
+              {
+                "description": "Razer 10 to x rotate"
+              },
+              {
+                "description": "Razer 11 to c"
+              },
+              {
+                "description": "Razer 12 to select layer"
+              },
+              {
+                "description": "Razer 13 to m select"
+              },
+              {
+                "description": "Razer 14 to w auto select"
+              },
+              {
+                "description": "Razer 15 to p pen"
+              },
+              {
+                "description": "Razer 16 to b brush"
+              },
+              {
+                "description": "Razer 17 to e eraser"
+              },
+              {
+                "description": "Razer 18 to copy"
+              },
+              {
+                "description": "Razer 19 to paste"
+              },
+              {
+                "description": "Razer Trigger to no change"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/accent_marks.json",
           "json": {
             "title": "Spanish keys for english keyboard",
