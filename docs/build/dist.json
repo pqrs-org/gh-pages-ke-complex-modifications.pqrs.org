@@ -8870,6 +8870,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/language-switching-for-vi-style-mods.json",
+          "json": {
+            "title": "Language switching for vi style modification",
+            "rules": [
+              {
+                "description": "left_control+↩︎ › CAPS"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/left_option_plus_e_to_left_command_left_option_e.json",
           "json": {
             "title": "Map Left Option + E to Nothing",
