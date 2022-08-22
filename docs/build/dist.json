@@ -902,18 +902,6 @@
             ]
           },
           "extra_description_text": ""
-        },
-        {
-          "path": "json/right_shift_plus_numbers_to_function_keys.json",
-          "json": {
-            "title": "RShift + Numbers to F-keys",
-            "rules": [
-              {
-                "description": "RShift + Numbers to F-keys"
-              }
-            ]
-          },
-          "extra_description_text": ""
         }
       ]
     },
@@ -5853,6 +5841,18 @@
             "rules": [
               {
                 "description": "Map Tab to Hyper when held"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/right_shift_plus_numbers_to_function_keys.json",
+          "json": {
+            "title": "RShift + Numbers to F-keys",
+            "rules": [
+              {
+                "description": "RShift + Numbers to F-keys"
               }
             ]
           },
