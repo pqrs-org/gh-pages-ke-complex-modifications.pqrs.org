@@ -8306,6 +8306,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/keychron_k6_remap_page_down_page_up.json",
+          "json": {
+            "title": "Keychron 6 Remap PageUp & PageDown to CMD + Left Arrow & CMD + Right Arrow",
+            "rules": [
+              {
+                "description": "(Shift +) Page Down to CMD + Right Arrow"
+              },
+              {
+                "description": "(Shift +) Page Up to CMD + Left Arrow"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
