@@ -8965,7 +8965,7 @@
             "title": "Mouse keys Minimal",
             "rules": [
               {
-                "description": "Mouse keys Minimal"
+                "description": "Use your keyboard as a Mouse (Fast move, slow move, clicks)"
               }
             ]
           },
