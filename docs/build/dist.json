@@ -5865,6 +5865,18 @@
       "id": "os-functionality",
       "files": [
         {
+          "path": "json/printscreen_command+shift+5.json",
+          "json": {
+            "title": "<Macos> Simple PrintScreen to Command+Shift+5",
+            "rules": [
+              {
+                "description": "Print Screen to Command+Shift+5"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/mouse_motion_to_scroll.json",
           "json": {
             "title": "Change mouse motion to scroll (rev 3)",
