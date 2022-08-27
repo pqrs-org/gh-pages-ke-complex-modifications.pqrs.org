@@ -5877,6 +5877,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/show_desktop.json",
+          "json": {
+            "title": "show desktop",
+            "rules": [
+              {
+                "description": "Command + D to Command + Option + H + M"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/mouse_motion_to_scroll.json",
           "json": {
             "title": "Change mouse motion to scroll (rev 3)",
