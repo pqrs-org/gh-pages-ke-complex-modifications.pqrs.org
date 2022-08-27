@@ -9032,6 +9032,24 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/printscreen_with_alt_or_ctrl.json",
+          "json": {
+            "title": "Printscreen, Alt+Printscreen, Ctrl+Printscrren to Capture",
+            "rules": [
+              {
+                "description": "Printscreen key to whole capture (command+shift+3)"
+              },
+              {
+                "description": "Alt+Printscreen key to portion capture (command+shift+4)"
+              },
+              {
+                "description": "Ctrl+Printscreen key to panel capature (command+shift+5)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/rcmd_to_lcmd_option.json",
           "json": {
             "title": "Right Cmd to Left Cmd + Left Option ",
