@@ -5403,6 +5403,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/mouse_button_for_msteams.json",
+          "json": {
+            "title": "mouse_key_gesture_for_microsoft_teams",
+            "rules": [
+              {
+                "description": "MSTeams Back button4 to ⌥⌘ + ←"
+              },
+              {
+                "description": "MSTeams Forward button5 to ⌥⌘ + →"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/mouse_button4_to_double_click.json",
           "json": {
             "title": "MouseButton4 to DoubleClick (don’t forget to enable your mouse under Devices)",
