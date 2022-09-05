@@ -4155,24 +4155,24 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/us-cro.json",
+          "path": "json/us-with-hr.json",
           "json": {
             "title": "US keyboard with Croatian letters on right command key",
             "rules": [
               {
-                "description": "right_command + '[' = 'š'"
+                "description": "`right_command` + `[` = `š`"
               },
               {
-                "description": "'right_command' + ']' = 'đ'"
+                "description": "`right_command` + `]` = `đ`"
               },
               {
-                "description": "'right_command' + '\\' = 'ž'"
+                "description": "`right_command` + `\\` = `ž`"
               },
               {
-                "description": "'right_command' + ';' = 'č'"
+                "description": "`right_command` + `;` = `č`"
               },
               {
-                "description": "'right_command' + `'` = 'ć'"
+                "description": "`right_command` + `'` = `ć`"
               }
             ]
           },
