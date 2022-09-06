@@ -4158,6 +4158,9 @@
           "path": "json/us-with-hr.json",
           "json": {
             "title": "US keyboard with Croatian letters on right command key",
+            "maintainers": [
+              "mightymatth"
+            ],
             "rules": [
               {
                 "description": "`right_command` + `[` = `š`"
