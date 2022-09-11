@@ -296,6 +296,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/double_tap_keypad_enter_to_double_tap_fn.json",
+          "json": {
+            "title": "Double tap keypad_enter to double tap fn (start dictation.) Single tap for keypad_enter after a short delay (250ms.)",
+            "rules": [
+              {
+                "description": "This rule solves a problem with the Microsoft Surface Ergonomic Keyboard. The `Fn` key can't be used to start dictation, since it only toggles an internal state on and off, and it does not actually send any keypress event. This rule allows you to start dictation by double tapping the keypad enter key, which will send Fn twice. If you only press the keypad enter key once, it will send the original enter key after a short delay (250ms)."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/f4_to_cmd_space.json",
           "json": {
             "title": "[macOS] Map F4 to Command+Space",
