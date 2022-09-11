@@ -8942,6 +8942,33 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/karabiner-macro-volume-brightness.json",
+          "json": {
+            "title": "TES68 Volume and Brightness Macros + Up/Down Arrows",
+            "rules": [
+              {
+                "description": "Page Up as Volume Mod"
+              },
+              {
+                "description": "Page Down as Brightness Mod"
+              },
+              {
+                "description": "Volume Up - Page Up + Up Arrow"
+              },
+              {
+                "description": "Volume Down - Page Up + Down Arrow"
+              },
+              {
+                "description": "Brightness Up - Page Down + Up Arrow"
+              },
+              {
+                "description": "Brightness Down - Page Down + Down Arrow"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/language-switching-for-vi-style-mods.json",
           "json": {
             "title": "Language switching for vi style modification",
