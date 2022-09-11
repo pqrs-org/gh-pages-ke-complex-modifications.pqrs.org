@@ -8816,6 +8816,33 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/colemak_french_accents.json",
+          "json": {
+            "title": "Colemak accents for French Language (Colemak layout set on MacOS)",
+            "rules": [
+              {
+                "description": "general: grave accent / right command + r [physical command + s] =>> [right option + `]"
+              },
+              {
+                "description": "general: circumflex (circonflexe) accent / right command + x [physical command + x] =>> [right option + l]"
+              },
+              {
+                "description": "general: dieresis (trema) accent / right command + t [physical command + f] =>> [right option + l]"
+              },
+              {
+                "description": "specific: e acute / right command + e [physical command + k] =>> e acute accent [right option + k, k]  "
+              },
+              {
+                "description": "specific: a grave / right command + a [physical command + a] =>> a grave accent [right option + `, a]  "
+              },
+              {
+                "description": "specific: u grave / right command + u [physical command + i] =>> u grave [right option + `, i]  "
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/esc-caps-toggle.json",
           "json": {
             "title": "Escape enhancements",
