@@ -8651,6 +8651,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/app_switcher.json",
+          "json": {
+            "title": "Mouse 4/5 to switch Application on Mac",
+            "rules": [
+              {
+                "description": "Mouse 4 Switch Left"
+              },
+              {
+                "description": "Mouse 5 Switch Right"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/apps_launch_any_layout.json",
           "json": {
             "title": "Launch apps from any layout (Safari, Brave, Chrome, Finder, VS Code, PyCharm, Mail, Slack, Telegram, Figma, Sublime, iTerm, Activity Monitor)",
