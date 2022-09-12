@@ -4691,6 +4691,19 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/cmd_shift_to_ctrl_option_space.json",
+          "extra_description_path": "extra_descriptions/cmd_shift_to_ctrl_option_space.json.html",
+          "json": {
+            "title": "Windows style input change Alt + Shift for Mac",
+            "rules": [
+              {
+                "description": "Cmd + Shift to Ctrl + Option + Space"
+              }
+            ]
+          },
+          "extra_description_text": "Windows style language change for Mac. Cmd + Shift (Alt + Shift on Windows) to Ctrl + Option + Space Notes Make sure your shortcut for \"Select next source in Input menu\" is set to ⌃⌥Space Check Setting > Keyboard > Shortcuts > Input Sources"
         }
       ]
     },
