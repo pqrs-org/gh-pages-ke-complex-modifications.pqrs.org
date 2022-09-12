@@ -9143,6 +9143,36 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/personal_seung-00.json",
+          "json": {
+            "title": "Personal rules (@seung-00)",
+            "rules": [
+              {
+                "description": "Switch language by pressing control(L) twice (NOTE: https://www.jetbrains.com/help/idea/running-anything.html#open_run_anything_popup)"
+              },
+              {
+                "description": "control(L) + a to Home and control + e to End"
+              },
+              {
+                "description": "Left ctrl + hjkl to arrow keys Vim"
+              },
+              {
+                "description": "opt(R) + t => Open Typora"
+              },
+              {
+                "description": "opt(R) + i => Open IntelliJ"
+              },
+              {
+                "description": "opt(R) + n => Open Notion"
+              },
+              {
+                "description": "opt(R) + k => Open KakaoTalk"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/printscreen_with_alt_or_ctrl.json",
           "json": {
             "title": "Printscreen, Alt+Printscreen, Ctrl+Printscrren to Capture",
