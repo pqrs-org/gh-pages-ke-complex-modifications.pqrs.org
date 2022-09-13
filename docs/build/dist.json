@@ -8868,6 +8868,27 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/durgod-hades-uk.json",
+          "json": {
+            "title": "DURGOD Hades UK Layout - Sam McKay",
+            "rules": [
+              {
+                "description": "Windows Alt"
+              },
+              {
+                "description": "| \\"
+              },
+              {
+                "description": "# ~"
+              },
+              {
+                "description": "@ '"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/esc-caps-toggle.json",
           "json": {
             "title": "Escape enhancements",
