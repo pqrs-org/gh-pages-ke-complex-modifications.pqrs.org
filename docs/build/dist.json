@@ -7298,8 +7298,8 @@
             ],
             "rules": [
               {
-                "description": "Personal rules (@tekezo) (rev 42)",
-                "available_since": "13.6.0"
+                "description": "Personal rules (@tekezo) (rev 43)",
+                "available_since": "14.9.0"
               }
             ]
           },
