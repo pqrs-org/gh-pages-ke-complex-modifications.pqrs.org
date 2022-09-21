@@ -8516,7 +8516,13 @@
             "title": "8Bitdo Mute button on teams",
             "rules": [
               {
+                "description": "Bring teams to from and mutes it with the left key"
+              },
+              {
                 "description": "Turn the left key into the mute button"
+              },
+              {
+                "description": "Teams PTT"
               }
             ]
           },
