@@ -914,6 +914,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/ctrl-g-to-escape.json",
+          "json": {
+            "title": "esc = ctrl + g",
+            "rules": [
+              {
+                "description": "Control + g => Escape"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
