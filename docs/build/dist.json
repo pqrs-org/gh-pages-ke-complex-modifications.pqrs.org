@@ -150,32 +150,6 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/caps_num_to_func_keys.json",
-          "json": {
-            "title": "Capslock + number => Function keys",
-            "author": "https://github.com/rlei",
-            "repo": "https://github.com/rlei/KE-complex_modifications",
-            "rules": [
-              {
-                "description": "Caps lock and 1234...890-+ to F1..F12"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/capslock-navigate-tabs.json",
-          "json": {
-            "title": "[macOS] Use Caps Lock + Arrows to Navigate Tabs",
-            "rules": [
-              {
-                "description": "Navigate Tabs with CapsLock + Any Arrows"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
           "path": "json/change_command_l.json",
           "json": {
             "title": "Change Command_L Key (Left Command)",
@@ -302,18 +276,6 @@
             "rules": [
               {
                 "description": "This rule solves a problem with the Microsoft Surface Ergonomic Keyboard. The `Fn` key can't be used to start dictation, since it only toggles an internal state on and off, and it does not actually send any keypress event. This rule allows you to start dictation by double tapping the keypad enter key, which will send Fn twice. If you only press the keypad enter key once, it will send the original enter key after a short delay (250ms)."
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/f4_to_cmd_space.json",
-          "json": {
-            "title": "[macOS] Map F4 to Command+Space",
-            "rules": [
-              {
-                "description": "Map F4 to Command+Space"
               }
             ]
           },
@@ -688,48 +650,12 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/backspace_enhancements.json",
-          "json": {
-            "title": "Backspace Enhancements",
-            "rules": [
-              {
-                "description": "Map Shift + Backspace to Forward Delete"
-              },
-              {
-                "description": "Map = and Backspace to Forward Delete"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
           "path": "json/caps_lock_tapped_caps_held_cmd.json",
           "json": {
             "title": "Change caps_lock to dual keys, caps_lock and left_command.",
             "rules": [
               {
                 "description": "Change caps_lock to left_command if pressed with other keys, keep caps_lock if pressed alone. It's same as LGUI_T(KC_CAPS) in qmk"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/ctrl-arrow-volume-brightness.json",
-          "json": {
-            "title": "Control + Arrow to Volume & Display Brightness Control",
-            "rules": [
-              {
-                "description": "Control + Up to volume_increment"
-              },
-              {
-                "description": "Control + Down to volume_decrement"
-              },
-              {
-                "description": "Control + Left to display_brightness_decrement"
-              },
-              {
-                "description": "Control + Right to display_brightness_increment"
               }
             ]
           },
@@ -768,37 +694,6 @@
             ]
           },
           "extra_description_text": "Fn/Caps + WASD(↑←↓→) / QE(Home End) / RF(PageUp PageDown) This rule is inspired by \"Caps Lock W/A/S/D Arrows\" and replaced the extra layer with the form of combination keys. Replace Caps with Fn, then modify W/A/S/D/Q/E/R/F with Fn to ↑/←/↓/→/Home/End/PageUp/PageDown. Usage notes To make this rule work properly, you need to change [System Preferences> Keyboard> Press Fn] from [Change Input Source] to [Do Nothing]. Key Map Key Maps To W Up A Left S Down D Right Q Home E End R Page Up F Page Down"
-        },
-        {
-          "path": "json/keypad_comma_to_period.json",
-          "extra_description_path": "extra_descriptions/keypad_comma_to_period_json.html",
-          "json": {
-            "title": "Keypad comma to period",
-            "rules": [
-              {
-                "description": "Keypad Period to Comma+shift (period) Belgian Keyboard"
-              }
-            ]
-          },
-          "extra_description_text": "Version 1.0 On Belgian keyboard layout, the keypad period gives a comma. This modification allows getting a period in place of a comma. More information: Raise an issue on the fork."
-        },
-        {
-          "path": "json/change_grave_accent_to_esc.json",
-          "json": {
-            "title": "Change Grave Accent(`) to Esc (Filco Minila-R)",
-            "maintainers": [
-              "RishyPa"
-            ],
-            "rules": [
-              {
-                "description": "` to esc"
-              },
-              {
-                "description": "option + ` to `"
-              }
-            ]
-          },
-          "extra_description_text": ""
         },
         {
           "path": "json/right_command_vi_like.json",
@@ -858,30 +753,6 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/reasonable_change.json",
-          "json": {
-            "title": "reasonable change",
-            "rules": [
-              {
-                "description": "control + H to backspace"
-              },
-              {
-                "description": "shift + control + H to delete"
-              },
-              {
-                "description": "capslock to esc if pressed alone else control"
-              },
-              {
-                "description": "control + M to return"
-              },
-              {
-                "description": "shift + backspace to delete"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
           "path": "json/german_umlauts_caps.json",
           "extra_description_path": "extra_descriptions/german_umlauts_caps.html",
           "json": {
@@ -910,18 +781,6 @@
             "rules": [
               {
                 "description": "Caps Lock → Meh Key (⌃⌥⇧) (Caps Lock if alone)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/ctrl-g-to-escape.json",
-          "json": {
-            "title": "esc = ctrl + g",
-            "rules": [
-              {
-                "description": "Control + g => Escape"
               }
             ]
           },
@@ -5908,6 +5767,147 @@
             "rules": [
               {
                 "description": "RShift + Numbers to F-keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/caps_num_to_func_keys.json",
+          "json": {
+            "title": "Capslock + number => Function keys",
+            "author": "https://github.com/rlei",
+            "repo": "https://github.com/rlei/KE-complex_modifications",
+            "rules": [
+              {
+                "description": "Caps lock and 1234...890-+ to F1..F12"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/capslock-navigate-tabs.json",
+          "json": {
+            "title": "[macOS] Use Caps Lock + Arrows to Navigate Tabs",
+            "rules": [
+              {
+                "description": "Navigate Tabs with CapsLock + Any Arrows"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/f4_to_cmd_space.json",
+          "json": {
+            "title": "[macOS] Map F4 to Command+Space",
+            "rules": [
+              {
+                "description": "Map F4 to Command+Space"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/keypad_comma_to_period.json",
+          "extra_description_path": "extra_descriptions/keypad_comma_to_period_json.html",
+          "json": {
+            "title": "Keypad comma to period",
+            "rules": [
+              {
+                "description": "Keypad Period to Comma+shift (period) Belgian Keyboard"
+              }
+            ]
+          },
+          "extra_description_text": "Version 1.0 On Belgian keyboard layout, the keypad period gives a comma. This modification allows getting a period in place of a comma. More information: Raise an issue on the fork."
+        },
+        {
+          "path": "json/change_grave_accent_to_esc.json",
+          "json": {
+            "title": "Change Grave Accent(`) to Esc (Filco Minila-R)",
+            "maintainers": [
+              "RishyPa"
+            ],
+            "rules": [
+              {
+                "description": "` to esc"
+              },
+              {
+                "description": "option + ` to `"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/reasonable_change.json",
+          "json": {
+            "title": "reasonable change",
+            "rules": [
+              {
+                "description": "control + H to backspace"
+              },
+              {
+                "description": "shift + control + H to delete"
+              },
+              {
+                "description": "capslock to esc if pressed alone else control"
+              },
+              {
+                "description": "control + M to return"
+              },
+              {
+                "description": "shift + backspace to delete"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/backspace_enhancements.json",
+          "json": {
+            "title": "Backspace Enhancements",
+            "rules": [
+              {
+                "description": "Map Shift + Backspace to Forward Delete"
+              },
+              {
+                "description": "Map = and Backspace to Forward Delete"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/ctrl-arrow-volume-brightness.json",
+          "json": {
+            "title": "Control + Arrow to Volume & Display Brightness Control",
+            "rules": [
+              {
+                "description": "Control + Up to volume_increment"
+              },
+              {
+                "description": "Control + Down to volume_decrement"
+              },
+              {
+                "description": "Control + Left to display_brightness_decrement"
+              },
+              {
+                "description": "Control + Right to display_brightness_increment"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/ctrl-g-to-escape.json",
+          "json": {
+            "title": "esc = ctrl + g",
+            "rules": [
+              {
+                "description": "Control + g => Escape"
               }
             ]
           },
