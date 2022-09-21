@@ -6109,18 +6109,18 @@
           "path": "json/mouse_keys_mode_v4.json",
           "extra_description_path": "extra_descriptions/mouse_keys_mode_v4.json.html",
           "json": {
-            "title": "Mouse Keys Mode v4 (rev 2)",
+            "title": "Mouse Keys Mode v4 (rev 3)",
             "maintainers": [
               "tekezo"
             ],
             "rules": [
               {
-                "description": "Mouse Keys Mode v4 (rev 2)",
+                "description": "Mouse Keys Mode v4 (rev 3)",
                 "available_since": "13.6.0"
               }
             ]
           },
-          "extra_description_text": "Mouse keys Mode v4 You can operate mouse via keyboard. (motion, click and scroll) Mouse keys mode is active by the following procedure. d key_down any keys of mouse keys key_down (h, j, k, l,...) any keys of mouse keys key_up (h, j, k, l,...) Then mouse keys is active until you release d key. Example: Press d Press h Press j Release h Release j Release d Key bindings: h: mouse left j: mouse down k: mouse up l: mouse right v: left click b: middle click n: right click f: fast mode (fast mouse move by f+hjkl) g: slow mode (slow mouse move by g+hjkl) s: scroll mode (scroll by s+hjkl) i: set mouse cursor position to the center of main display o: set mouse cursor position to the center of second display"
+          "extra_description_text": "Mouse keys Mode v4 You can operate mouse via keyboard. (motion, click and scroll) Mouse keys mode is active by the following procedure. d key_down any keys of mouse keys key_down (h, j, k, l,...) any keys of mouse keys key_up (h, j, k, l,...) Then mouse keys is active until you release d key. Example: Press d Press h Press j Release h Release j Release d Key bindings: h: mouse left j: mouse down k: mouse up l: mouse right v: left click b: middle click n: right click f: fast mode (fast mouse move by f+hjkl) g: slow mode (slow mouse move by g+hjkl) s: scroll mode (scroll by s+hjkl) u: set mouse cursor position to the center of current display i: set mouse cursor position to the center of main display o: set mouse cursor position to the center of second display p: set mouse cursor position to the center of third display"
         },
         {
           "path": "json/mouse_keys_full_xgwang_me.json",
