@@ -8499,6 +8499,18 @@
       "id": "others",
       "files": [
         {
+          "path": "json/8BitDoMuteTeams.json",
+          "json": {
+            "title": "8Bitdo Mute button on teams",
+            "rules": [
+              {
+                "description": "Turn the left key into the mute button"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/Fn+space=emoji.json",
           "json": {
             "title": "Fn + space = emoji menu (command+control+space)",
