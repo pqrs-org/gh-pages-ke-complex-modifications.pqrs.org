@@ -4320,6 +4320,28 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/cyrillic-period-and-comma.json",
+          "extra_description_path": "extra_descriptions/cyrillic-period-and-comma.html",
+          "json": {
+            "title": "Swap slash(/) to period (.) and question mark (?) to comma(,) in Cyrillic layouts",
+            "rules": [
+              {
+                "description": "Map slash (/) to period (.)"
+              },
+              {
+                "description": "Map question mark (?) to comma (,)"
+              },
+              {
+                "description": "Map comma (,) to slash (/)"
+              },
+              {
+                "description": "Map period (.) to question mark (?)"
+              }
+            ]
+          },
+          "extra_description_text": "Probably the most frustrating experience when migrating to Mac from other operating systems for users of Cyrillic layouts is the default location of the period and comma symbols. Every time you need to put a punctuation mark you have to do so by pressing the Shift key which is extremely annoying. So, these bindings will restore their default position used in PC keyboards."
+        },
+        {
           "path": "json/norwegian_programming.json",
           "json": {
             "title": "Norwegian mapping for programming (\\, {}, <>)",
