@@ -8602,6 +8602,129 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/Pc_Style_Shortcuts_HarunMod.json",
+          "json": {
+            "title": "HarunMod",
+            "rules": [
+              {
+                "description": "Home key to the beginning of the line (Control + a)"
+              },
+              {
+                "description": "End key to the end of the line (Control + e)"
+              },
+              {
+                "description": "Home key to the beginning of the sentence (Command + Left). Doesnt work in terminal"
+              },
+              {
+                "description": "End key to the end of the sentence (Command + Right). Doesnt work in terminal"
+              },
+              {
+                "description": "PC-Style Home/End"
+              },
+              {
+                "description": "PC-Style Paste(Shift+Insert) for JIS keyboard"
+              },
+              {
+                "description": "PC-Style Paste(Shift+Fn) for ANSI keyboard"
+              },
+              {
+                "description": "Option(Alt)+Tab as Switch Application (Command+Tab)"
+              },
+              {
+                "description": "PC-Style Control+Up/Down/Left/Right"
+              },
+              {
+                "description": "PC-Style Copy/Paste/Cut"
+              },
+              {
+                "description": "PC-Style Undo"
+              },
+              {
+                "description": "PC-Style Redo"
+              },
+              {
+                "description": "PC-Style Select-All"
+              },
+              {
+                "description": "PC-Style Save"
+              },
+              {
+                "description": "PC-Style New"
+              },
+              {
+                "description": "PC-Style Reload(F5, Ctrl+R)"
+              },
+              {
+                "description": "PC-Style New Tab"
+              },
+              {
+                "description": "PC-Style Find"
+              },
+              {
+                "description": "PC-Style Open"
+              },
+              {
+                "description": "PC-Style Bold/Italic/Underline(Ctrl+B/I/U)"
+              },
+              {
+                "description": "PC-Style Close Window"
+              },
+              {
+                "description": "PC-Style Emoji Picker (Command+.)"
+              },
+              {
+                "description": "PC-Style Spotlight Search (Command+S)"
+              },
+              {
+                "description": "PC-Style Switch Input (Command+Space)"
+              },
+              {
+                "description": "PC-Style Lock Screen"
+              },
+              {
+                "description": "PC-Style Screenshot to File (PrintScreen to select)"
+              },
+              {
+                "description": "PC-Style Screenshot to Clipboard (PrintScreen to select)"
+              },
+              {
+                "description": "PC-Style Screenshot (PrintScreen for whole, Shift+PrintScreen to select)"
+              },
+              {
+                "description": "PC-Style Quit Application (Alt+F4 to Command+Q)"
+              },
+              {
+                "description": "Command+E Opens Finder"
+              },
+              {
+                "description": "Control+Esc Opens Launchpad"
+              },
+              {
+                "description": "Control+Shift+Esc Opens Activity Monitor"
+              },
+              {
+                "description": "PC-Style Browser open location (Ctrl+L)"
+              },
+              {
+                "description": "PC-Style Back/Forward (Alt+Left Arrow/Alt+Right Arrow)"
+              },
+              {
+                "description": "PC-Style Browser Zoom (Ctrl+Plus/Minus/0)"
+              },
+              {
+                "description": "PC-Style Control+Delete/Backspace"
+              },
+              {
+                "description": "PC-Style Control+Delete"
+              },
+              {
+                "description": "PC-Style Control+K"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/ScreenshotToBackspace.json",
           "json": {
             "title": "Maps Screenshot to Backspace (Keychron K3)",
