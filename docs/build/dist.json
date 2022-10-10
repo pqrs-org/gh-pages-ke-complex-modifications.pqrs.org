@@ -5448,6 +5448,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/right_option_to_underscore.json",
+          "json": {
+            "title": "Map Right Option Key to Underscore",
+            "rules": [
+              {
+                "description": "Map Right Option Key to Underscore"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/screenshot_f3.json",
           "json": {
             "title": "Maps F3 to Clipboard Screenshot",
