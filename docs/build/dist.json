@@ -9124,6 +9124,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/fn_return_insert.json",
+          "json": {
+            "title": "Fn + Enter to Insert",
+            "rules": [
+              {
+                "description": "Map Fn + Enter to Insert"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/french_pc_single_stroke_keys.json",
           "json": {
             "title": "Make tilde and backticks work with one keystroke on French PC key layout.",
