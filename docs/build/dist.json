@@ -8049,6 +8049,30 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/personal_toshi-ue.json",
+          "json": {
+            "title": "Personal rules (@toshi-ue)",
+            "rules": [
+              {
+                "description": "Swap numbers and symbols"
+              },
+              {
+                "description": "(JIS) F11 - Discard changes in Terminal app"
+              },
+              {
+                "description": "(JIS) F12 - Discard changes in Terminal app"
+              },
+              {
+                "description": "Thumb shift"
+              },
+              {
+                "description": "(JIS)Swap ¥ and Alt+¥"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
