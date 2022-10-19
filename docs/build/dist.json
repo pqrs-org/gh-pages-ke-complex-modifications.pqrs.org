@@ -4597,6 +4597,19 @@
             ]
           },
           "extra_description_text": "Windows style language change for Mac. Cmd + Shift (Alt + Shift on Windows) to Ctrl + Option + Space Notes Make sure your shortcut for \"Select next source in Input menu\" is set to ⌃⌥Space Check Setting > Keyboard > Shortcuts > Input Sources"
+        },
+        {
+          "path": "json/left_shift_change_english_input.json",
+          "extra_description_path": "extra_descriptions/left_shift_change_english_input.json.html",
+          "json": {
+            "title": "Left Shift → Change to/from English input",
+            "rules": [
+              {
+                "description": "Use left shift to Change to/from English input"
+              }
+            ]
+          },
+          "extra_description_text": "Need to enable MacOS built in Option: Use the Caps Lock Key to switch to and from ABC. Then use left_shift as the caps_lock Tap caps_lock to change to/from ABC Hold Shift to use as normal shift Nice for people interchangeably use Windows and Mac, as Win use shift to switch to/from ABC"
         }
       ]
     },
