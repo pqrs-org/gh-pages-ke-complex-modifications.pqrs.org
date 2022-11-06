@@ -3237,6 +3237,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/swap_fn_and_cmd_except_in_terminal.json",
+          "json": {
+            "title": "Swap FN and left_command except in Terminals",
+            "rules": [
+              {
+                "description": "Swap FN and left command except in Terminals"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/KeynoteAndIllustrator.json",
           "json": {
             "title": "Mouse 4,5 -> Keynote Zoom",
