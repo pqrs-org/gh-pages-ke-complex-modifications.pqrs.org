@@ -2077,9 +2077,6 @@
           "path": "json/Vimode_with_smart_caps.json",
           "json": {
             "title": "Vimode with smart caps",
-            "maintainers": [
-              "Lance1o7"
-            ],
             "rules": [
               {
                 "description": "CAPSLOCK + hjkl to arrow keys (Post ESCAPE if press CAPSLOCK alone)"
@@ -2089,9 +2086,6 @@
               },
               {
                 "description": "Change left_shift + Command_L to escape only if pressed at the same time."
-              },
-              {
-                "description": "Post COMMAND + A/C/V/X/Z to, when CAPSLOCK + A/C/V/X/Z is pressed"
               }
             ]
           },
@@ -6015,6 +6009,30 @@
             "rules": [
               {
                 "description": "Command + D to Command + Option + H + M"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/CapsLockToSearch.json",
+          "json": {
+            "title": "Caps Lock to Chromebook Search Key",
+            "rules": [
+              {
+                "description": "Caps Lock to Chromebook Search Key"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/cmd_del_to_cmd_bksp.json",
+          "json": {
+            "title": "Change Command-Delete to Command-Backspace",
+            "rules": [
+              {
+                "description": "Change Command-Delete to Command-Backspace"
               }
             ]
           },
