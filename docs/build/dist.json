@@ -9722,6 +9722,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/universal_emacs_keybindings.json",
+          "json": {
+            "title": "Universal Emacs Keybindings",
+            "maintainers": [
+              "justintanner"
+            ],
+            "rules": [
+              {
+                "description": "Emacs Emulation in all apps without emacs keybindings (v1)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/usinternational_pc_single_stroke_quotes.json",
           "json": {
             "title": "Make single and double quotes non-dead (typed with one keystroke) on the US International - PC keyboard layout.",
