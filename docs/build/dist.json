@@ -8116,6 +8116,42 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/personal_chxmvn.json",
+          "json": {
+            "title": "Personal rules (@chxmvn)",
+            "rules": [
+              {
+                "description": "Ctrl+Y => Cmd+Shift+Y (Redo) (German keyboard layout)"
+              },
+              {
+                "description": "Ctrl+Z => Cmd+Z (Undo) (German keyboard layout)"
+              },
+              {
+                "description": "Left Option+Left Shift => < (Non US Backslash) (German keyboard layout for QWERTY)"
+              },
+              {
+                "description": "Left Option+Z => < (Non US Backslash) (German keyboard layout for QWERTY)"
+              },
+              {
+                "description": "Right Control+Z => | (Non US Backslash) (German keyboard layout for QWERTY)"
+              },
+              {
+                "description": "Right Control+F1 (Screenshot of the selected area) (Desktop)"
+              },
+              {
+                "description": "Right Control+F2 (Screenshot of the selected area) (Clipboard)"
+              },
+              {
+                "description": "Right Control+F3 (Screenshot options)"
+              },
+              {
+                "description": "Scroll-Lock => Ctrl+Command+Q"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
