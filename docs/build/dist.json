@@ -2077,6 +2077,9 @@
           "path": "json/Vimode_with_smart_caps.json",
           "json": {
             "title": "Vimode with smart caps",
+            "maintainers": [
+              "Lance1o7"
+            ],
             "rules": [
               {
                 "description": "CAPSLOCK + hjkl to arrow keys (Post ESCAPE if press CAPSLOCK alone)"
@@ -2086,6 +2089,9 @@
               },
               {
                 "description": "Change left_shift + Command_L to escape only if pressed at the same time."
+              },
+              {
+                "description": "Post COMMAND + A/C/V/X/Z to, when CAPSLOCK + A/C/V/X/Z is pressed"
               }
             ]
           },
@@ -8139,21 +8145,36 @@
           "path": "json/personal_chxmvn.json",
           "json": {
             "title": "Personal rules (@chxmvn)",
+            "maintainers": [
+              "CHMarvin"
+            ],
             "rules": [
               {
-                "description": "Ctrl+Y => Cmd+Shift+Y (Redo) (German keyboard layout)"
+                "description": "Y => Z (German layout)"
               },
               {
-                "description": "Ctrl+Z => Cmd+Z (Undo) (German keyboard layout)"
+                "description": "Z => Y (German layout)"
               },
               {
-                "description": "Left Option+Left Shift => < (Non US Backslash) (German keyboard layout for QWERTY)"
+                "description": "Ctrl+Y => Cmd+Shift+Y (Redo) (German layout)"
               },
               {
-                "description": "Left Option+Z => < (Non US Backslash) (German keyboard layout for QWERTY)"
+                "description": "Ctrl+Z => Cmd+Z (Undo) (German layout)"
               },
               {
-                "description": "Right Control+Z => | (Non US Backslash) (German keyboard layout for QWERTY)"
+                "description": "Ctrl+Y => Cmd+Shift+Y (Redo) (US International layout)"
+              },
+              {
+                "description": "Ctrl+Z => Cmd+Z (Undo) (US International layout)"
+              },
+              {
+                "description": "Left Option+Left Shift => < (Non US Backslash) (German layout)"
+              },
+              {
+                "description": "Left Option+Z => < (Non US Backslash) (German layout)"
+              },
+              {
+                "description": "Right Control+Z => | (Non US Backslash) (German layout)"
               },
               {
                 "description": "Right Control+F1 (Screenshot of the selected area) (Desktop)"
