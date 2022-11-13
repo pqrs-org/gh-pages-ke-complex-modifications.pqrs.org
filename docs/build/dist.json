@@ -785,6 +785,36 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/emacs_key_bindings_move_delete_select.json",
+          "json": {
+            "title": "Emacs key bindings (Move, Delete, Select)",
+            "rules": [
+              {
+                "description": "Delete the previous word [option + h] (M-h -> option + backspace)"
+              },
+              {
+                "description": "Delete the next word [option + d] (M-d -> option + delete)"
+              },
+              {
+                "description": "Move to the previous word [option + f] (M-f -> option + right_arrow)"
+              },
+              {
+                "description": "Move to the next word [option + b] (M-b -> option + left_arrow)"
+              },
+              {
+                "description": "Select the previous word [option + shift + f] (M-f + shift -> option + shift + right_arrow)"
+              },
+              {
+                "description": "Select the next word [option + shift + b] (M-b + shift -> option + shift + left_arrow)"
+              },
+              {
+                "description": "Select the current word [option + w]"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -2077,6 +2107,9 @@
           "path": "json/Vimode_with_smart_caps.json",
           "json": {
             "title": "Vimode with smart caps",
+            "maintainers": [
+              "Lance1o7"
+            ],
             "rules": [
               {
                 "description": "CAPSLOCK + hjkl to arrow keys (Post ESCAPE if press CAPSLOCK alone)"
@@ -2086,6 +2119,9 @@
               },
               {
                 "description": "Change left_shift + Command_L to escape only if pressed at the same time."
+              },
+              {
+                "description": "Post COMMAND + A/C/V/X/Z to, when CAPSLOCK + A/C/V/X/Z is pressed"
               }
             ]
           },
