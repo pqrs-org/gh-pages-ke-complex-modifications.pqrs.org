@@ -2107,9 +2107,6 @@
           "path": "json/Vimode_with_smart_caps.json",
           "json": {
             "title": "Vimode with smart caps",
-            "maintainers": [
-              "Lance1o7"
-            ],
             "rules": [
               {
                 "description": "CAPSLOCK + hjkl to arrow keys (Post ESCAPE if press CAPSLOCK alone)"
@@ -2119,9 +2116,6 @@
               },
               {
                 "description": "Change left_shift + Command_L to escape only if pressed at the same time."
-              },
-              {
-                "description": "Post COMMAND + A/C/V/X/Z to, when CAPSLOCK + A/C/V/X/Z is pressed"
               }
             ]
           },
@@ -8166,6 +8160,24 @@
               },
               {
                 "description": "(JIS)Swap ¥ and Alt+¥"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/personal_dchf12.json",
+          "json": {
+            "title": "Personal rules (@dchf12)",
+            "rules": [
+              {
+                "description": "Swap left-ctrl and left-command except in iTerm2"
+              },
+              {
+                "description": "Change left_shift to caps_lock if pressed alone."
+              },
+              {
+                "description": "Press the left command twice to activate Finder"
               }
             ]
           },
