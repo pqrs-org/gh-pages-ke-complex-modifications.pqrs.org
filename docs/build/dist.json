@@ -2107,6 +2107,9 @@
           "path": "json/Vimode_with_smart_caps.json",
           "json": {
             "title": "Vimode with smart caps",
+            "maintainers": [
+              "Lance1o7"
+            ],
             "rules": [
               {
                 "description": "CAPSLOCK + hjkl to arrow keys (Post ESCAPE if press CAPSLOCK alone)"
@@ -2116,6 +2119,9 @@
               },
               {
                 "description": "Change left_shift + Command_L to escape only if pressed at the same time."
+              },
+              {
+                "description": "Post COMMAND + A/C/V/X/Z to, when CAPSLOCK + A/C/V/X/Z is pressed"
               }
             ]
           },
@@ -8186,37 +8192,130 @@
         {
           "path": "json/personal_chxmvn.json",
           "json": {
-            "title": "Personal rules (@chxmvn)",
+            "title": "Personal rules (@CHMarvin)",
             "maintainers": [
               "CHMarvin"
             ],
             "rules": [
               {
-                "description": "Y => Z (German layout)"
+                "description": "Option+A/O/U to Ä/Ö/Ü (For US keyboard if you want to use German umlauts)"
               },
               {
-                "description": "Z => Y (German layout)"
+                "description": "Y, Z => Z, Y (For US keyboard if you want the German keyboard layout)"
               },
               {
-                "description": "Ctrl+Y => Cmd+Shift+Y (Redo) (German layout)"
+                "description": "Left Ctrl => Command (Except in Terminal, TeamViewer, AnyDesk, RDP clients, etc.)"
               },
               {
-                "description": "Ctrl+Z => Cmd+Z (Undo) (German layout)"
+                "description": "Option+Tab => Command+Tab (Except in Terminal, TeamViewer, AnyDesk, RDP clients, etc.)"
               },
               {
-                "description": "Ctrl+Y => Cmd+Shift+Y (Redo) (US International layout)"
+                "description": "Option+Backtick => Command+Backtick (Except in Terminal, TeamViewer, AnyDesk, RDP clients, etc.)"
               },
               {
-                "description": "Ctrl+Z => Cmd+Z (Undo) (US International layout)"
+                "description": "Left Command+Right Command (Only escape if pressed at the same time)"
               },
               {
-                "description": "Left Option+Left Shift => < (Non US Backslash) (German layout)"
+                "description": "Ctrl+C, Ctrl+V, Ctrl+X => Command+C (Copy), Command+V (Paste), Command+X (Cut)"
               },
               {
-                "description": "Left Option+Z => < (Non US Backslash) (German layout)"
+                "description": "Ctrl+A => Command+A (Select all)"
               },
               {
-                "description": "Right Control+Z => | (Non US Backslash) (German layout)"
+                "description": "Ctrl+S => Command+S (Save)"
+              },
+              {
+                "description": "Ctrl+N => Command+N (New)"
+              },
+              {
+                "description": "Ctrl+F => Command+F (Find)"
+              },
+              {
+                "description": "Ctrl+W => Command+W (Close)"
+              },
+              {
+                "description": "Alt+F4 => Command+Q (Exit application)"
+              },
+              {
+                "description": "Home => Command+Left Arrow (Move cursor to beginning of line)"
+              },
+              {
+                "description": "Shift+Home => Command+Shift+Left Arrow (Move cursor to beginning of line with selection)"
+              },
+              {
+                "description": "Ctrl+Home, Ctrl+Shift+Home => Command+Up Arrow, Command+Shift+Up Arrow (Move cursor to beginning of file with and without selection)"
+              },
+              {
+                "description": "End => Command+Right Arrow (Move cursor to end of line)"
+              },
+              {
+                "description": "Shift+End => Command+Shift+Right Arrow (Move cursor to end of line with selection)"
+              },
+              {
+                "description": "Ctrl+End, Ctrl+Shift+End => Command+Down Arrow, Command+Shift+Down Arrow (Move cursor to end of file with and without selection)"
+              },
+              {
+                "description": "Ctrl+T => Command+T (New tab)"
+              },
+              {
+                "description": "Ctrl+B => Command+B (Bold)"
+              },
+              {
+                "description": "Ctrl+I => Command+I (Italic)"
+              },
+              {
+                "description": "Ctrl+L => Command+L (Open url location) (Only in browsers)"
+              },
+              {
+                "description": "Ctrl+R => Command+R (Reload) (Only in browsers)"
+              },
+              {
+                "description": "Ctrl+Tab => Command+Tab (Switch application)"
+              },
+              {
+                "description": "Command+Tab => Command+Alt+0 (Reassigned command for opening Mission control)"
+              },
+              {
+                "description": "Ctrl+(Shift)+Right/Left Arrow => Alt+(Shift)+Right/Left Arrow (Move cursor one word with selection and without selection)"
+              },
+              {
+                "description": "Ctrl+Up/Down Arrow => Up/Down Arrow (Move cursor)"
+              },
+              {
+                "description": "Command+L => Logout (CGSession -suspend)"
+              },
+              {
+                "description": "Ctrl+Esc => Open Launchpad"
+              },
+              {
+                "description": "Ctrl+Shift+Esc => Open Activity Monitor"
+              },
+              {
+                "description": "Delete => Command+Backspace (Delete) (Only in Finder)"
+              },
+              {
+                "description": "Button 4, 5 => Back, Forward (Only in Finder)"
+              },
+              {
+                "description": "Ctrl+Left Click => Command+Left Click (Select multiple items)"
+              },
+              {
+                "description": "Ctrl+Y, Ctrl+Z => Command+Shift+Y, Command+Z (Redo & Undo)"
+              },
+              {
+                "description": "Left Option+Left Shift => < (Non US Backslash) (For US keyboard while using German layout)"
+              },
+              {
+                "description": "Left Option+Z => < (Non US Backslash) (For US keyboard while using German layout)"
+              },
+              {
+                "description": "Right Control+Z => | (Non US Backslash) (For US keyboard while using German layout)"
+              },
+              {
+                "description": "2x Right/Left-Shift => ~/ (Only in Terminal and iTerm)"
+              },
+              {
+                "description": "F2 => Return (Rename) (Only in Finder)"
               },
               {
                 "description": "Right Control+F1 (Screenshot of the selected area) (Desktop)"
@@ -8226,6 +8325,18 @@
               },
               {
                 "description": "Right Control+F3 (Screenshot options)"
+              },
+              {
+                "description": "F5 => Command+R (Reload)"
+              },
+              {
+                "description": "F5 => Command+Shift+M (Mute microphone in Zoom or Microsoft Teams)"
+              },
+              {
+                "description": "F12 => iTerm (Show and hide iTerm)"
+              },
+              {
+                "description": "Ctrl+F12 => Dev Tools (For all type of browsers)"
               },
               {
                 "description": "Scroll-Lock => Ctrl+Command+Q"
