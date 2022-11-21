@@ -3877,6 +3877,18 @@
       "id": "international",
       "files": [
         {
+          "path": "json/left_cmd-EN-right_cmd-CH-right_option-JA.json",
+          "json": {
+            "title": " Switch EN/CH/JA with left_cmd, right_cmd, and right_option",
+            "rules": [
+              {
+                "description": "left_cmd to English, right_cmd to Simplified Chinese, right_option to Japanese"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/caps_lock_toggle_chinese_english.json",
           "extra_description_path": "extra_descriptions/caps_lock_toggle_chinese_english.html",
           "json": {
