@@ -4080,6 +4080,19 @@
           "extra_description_text": "Mapped Keys From To Control+ö { Control+ä } Left Command+ö [ Left Command+ä ] Control++ ~ Control+- / Right Option+ß \\ Right Option+ |"
         },
         {
+          "path": "json/german_iso_pc_mapping.json",
+          "extra_description_path": "extra_descriptions/german_iso_pc_mapping.json.html",
+          "json": {
+            "title": "German PC-Style Mapping (PC/ISO to MacOS)",
+            "rules": [
+              {
+                "description": "Map a PC/ISO style German keyboard layout to MacOS (AltGr/Command/Option keys)"
+              }
+            ]
+          },
+          "extra_description_text": "About Largely based on the \"German PC-Style Shortcuts\" keymap above, but more complete. Maps keys from a German PC/ISO (\"Windows\") layout to their actual keycodes in MacOS and swaps left command and option keys akin to MacOS keyboards. Full Keymap Full German PC/ISO \"Alt Gr[aph]\" mapping for MacOS X (highlighted in Blue in the graphic below). CC BY-SA 3.0, Link Mapped Keys From To Option (Right)+< | Option (Right)+Q @ Option (Right)+E € Option (Right)+7 { Option (Right)+8 [ Option (Right)+9 ] Option (Right)+0 } Option (Right)+ß \\ Option (Right)++ ~ Alt (Left) Command (⌘) Windows (Left) Option (⌥)"
+        },
+        {
           "path": "json/hungarian_pc.json",
           "json": {
             "title": "Hungarian PC-Style layout (Enable various Alt Gr key combinations)",
