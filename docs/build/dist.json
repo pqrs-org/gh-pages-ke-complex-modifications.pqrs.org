@@ -2107,9 +2107,6 @@
           "path": "json/Vimode_with_smart_caps.json",
           "json": {
             "title": "Vimode with smart caps",
-            "maintainers": [
-              "Lance1o7"
-            ],
             "rules": [
               {
                 "description": "CAPSLOCK + hjkl to arrow keys (Post ESCAPE if press CAPSLOCK alone)"
@@ -2119,9 +2116,6 @@
               },
               {
                 "description": "Change left_shift + Command_L to escape only if pressed at the same time."
-              },
-              {
-                "description": "Post COMMAND + A/C/V/X/Z to, when CAPSLOCK + A/C/V/X/Z is pressed"
               }
             ]
           },
@@ -8912,13 +8906,13 @@
         {
           "path": "json/Logitech_dongle_Swap_left_cmd_with_left_option.json",
           "json": {
-            "title": "Logitech dongle - Swap left cmd with left option",
+            "title": "Logitech MX Keys with dongle - Swap left cmd with left option",
             "maintainers": [
-              "DamianJ"
+              "damianjankowski"
             ],
             "rules": [
               {
-                "description": "Logitech dongle - Swap left cmd with left option"
+                "description": "Swap left cmd with left option. \nKeyboard: Logitech MX Keys with USB dongle \nOS: MacOS."
               }
             ]
           },
@@ -8927,13 +8921,13 @@
         {
           "path": "json/Logitech_dongle_Swap_right_cmd_with_right_option.json",
           "json": {
-            "title": "Logitech dongle - Swap right cmd with right option",
+            "title": "Logitech MX Keys with dongle - Swap right cmd with right option",
             "maintainers": [
-              "devnoname120"
+              "damianjankowski"
             ],
             "rules": [
               {
-                "description": "Logitech dongle - Swap right cmd with right option"
+                "description": "Swap right cmd with right option. OS: MacOS. \nKeyboard: Logitech MX Keys with USB dongle \nOS: MacOS."
               }
             ]
           },
