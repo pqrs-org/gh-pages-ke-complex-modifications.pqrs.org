@@ -6590,6 +6590,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/cmd+shift+k_delete_line.json",
+          "json": {
+            "title": "cmd+shift+k delete line",
+            "rules": [
+              {
+                "description": "cmd+shift+k delete line"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
