@@ -2546,6 +2546,27 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/remote_desktop_separated_rules.json",
+          "json": {
+            "title": "Remote Desktop (separated rules)",
+            "rules": [
+              {
+                "description": "(Remote Desktop) Left command to left control"
+              },
+              {
+                "description": "(Remote Desktop) Left option to left command"
+              },
+              {
+                "description": "(Remote Desktop) Left control to left command"
+              },
+              {
+                "description": "(Remote Desktop) Caps lock to left control"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/remote-desktop.json",
           "json": {
             "title": "Remote Desktop",
