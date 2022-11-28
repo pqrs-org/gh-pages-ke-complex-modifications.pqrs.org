@@ -2107,9 +2107,6 @@
           "path": "json/Vimode_with_smart_caps.json",
           "json": {
             "title": "Vimode with smart caps",
-            "maintainers": [
-              "Lance1o7"
-            ],
             "rules": [
               {
                 "description": "CAPSLOCK + hjkl to arrow keys (Post ESCAPE if press CAPSLOCK alone)"
@@ -2119,9 +2116,6 @@
               },
               {
                 "description": "Change left_shift + Command_L to escape only if pressed at the same time."
-              },
-              {
-                "description": "Post COMMAND + A/C/V/X/Z to, when CAPSLOCK + A/C/V/X/Z is pressed"
               }
             ]
           },
@@ -8250,9 +8244,9 @@
         {
           "path": "json/personal_chxmvn.json",
           "json": {
-            "title": "Personal rules (@CHMarvin)",
+            "title": "Personal rules (@ccmvn)",
             "maintainers": [
-              "CHMarvin"
+              "ccmvn"
             ],
             "rules": [
               {
@@ -8353,6 +8347,9 @@
               },
               {
                 "description": "Button 4, 5 => Back, Forward (Only in Finder)"
+              },
+              {
+                "description": "Space => Command+O (Open) (Only in Finder)"
               },
               {
                 "description": "Ctrl+Left Click => Command+Left Click (Select multiple items)"
