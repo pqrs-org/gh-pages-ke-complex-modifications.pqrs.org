@@ -3528,6 +3528,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/tradingview_ctrl_n.json",
+          "json": {
+            "title": "TradingView shortcut (Ctrl + N)",
+            "rules": [
+              {
+                "description": "Ctrl + N: New Chart -> down_arrow"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
