@@ -3500,6 +3500,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/parallels_right_cmd_to_insert.json",
+          "json": {
+            "title": "Right command is insert in Parallels (for Windows Narrator)",
+            "rules": [
+              {
+                "description": "Right command is insert in Parallels"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/f12-show-hide-iterm.json",
           "json": {
             "title": "Use F12 to show/hide iTerm (Quake-style \"instant terminal\")",
