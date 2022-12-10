@@ -9852,6 +9852,30 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/nuphy_air60_escape.json",
+          "json": {
+            "title": "Nuphy Air60 Escape Key Modifications",
+            "rules": [
+              {
+                "description": "Shift + Esc to ~"
+              },
+              {
+                "description": "Control + Esc to `"
+              },
+              {
+                "description": "Option + Esc to Option + `"
+              },
+              {
+                "description": "Command + Esc to Command + `"
+              },
+              {
+                "description": "Command + Shift + Esc to Command + ~"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/option+arrow_to_pagecontrol.json",
           "json": {
             "title": "Option+arrow to PageUp/PageDown/Home/End",
