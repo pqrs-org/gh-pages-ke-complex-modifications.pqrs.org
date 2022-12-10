@@ -2107,9 +2107,6 @@
           "path": "json/Vimode_with_smart_caps.json",
           "json": {
             "title": "Vimode with smart caps",
-            "maintainers": [
-              "Lance1o7"
-            ],
             "rules": [
               {
                 "description": "CAPSLOCK + hjkl to arrow keys (Post ESCAPE if press CAPSLOCK alone)"
@@ -2119,9 +2116,6 @@
               },
               {
                 "description": "Change left_shift + Command_L to escape only if pressed at the same time."
-              },
-              {
-                "description": "Post COMMAND + A/C/V/X/Z to, when CAPSLOCK + A/C/V/X/Z is pressed"
               }
             ]
           },
@@ -9612,6 +9606,114 @@
               },
               {
                 "description": "Hai HHKB: fn + 12 = F12"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/iso-fr_tkl.json",
+          "json": {
+            "title": "Complete layout for ISO-FR AZERTY keyboards (TKL Keyboard) + Basics Ctrl + [?] shortcuts",
+            "rules": [
+              {
+                "description": "Tild (~) with right_option + é"
+              },
+              {
+                "description": "Hashtag (#) with right_option + “ "
+              },
+              {
+                "description": "Curly bracket ({) with  right_option + 4"
+              },
+              {
+                "description": "Open bracket ([) with right_option + 5"
+              },
+              {
+                "description": "Hyphen (-) with 6"
+              },
+              {
+                "description": "Pipe (|) with right_option + 6"
+              },
+              {
+                "description": "Grave accent (`) with right_option + 7"
+              },
+              {
+                "description": "Backslash (\\) with right_option + 8"
+              },
+              {
+                "description": "Underscore (_) with 8"
+              },
+              {
+                "description": "hat (^) with right_option + 9"
+              },
+              {
+                "description": "At (@) with right_option + 0"
+              },
+              {
+                "description": "Close bracket (]) with right_option + )"
+              },
+              {
+                "description": "Equal sign with -"
+              },
+              {
+                "description": "Plus sign with shift + hyphen"
+              },
+              {
+                "description": "Close curly bracket (}) with right_option + hyphen"
+              },
+              {
+                "description": "British pound (£) symbol with left_shift + $"
+              },
+              {
+                "description": "Asterisk (*)"
+              },
+              {
+                "description": "Micro (µ) symbol with shift + ` "
+              },
+              {
+                "description": "Exlamation point(!)"
+              },
+              {
+                "description": "Alinea (§)"
+              },
+              {
+                "description": "Angular bracket (<)"
+              },
+              {
+                "description": "Angular bracket (>)"
+              },
+              {
+                "description": "Command + a with Ctrl + a"
+              },
+              {
+                "description": "Command + s with Control + s"
+              },
+              {
+                "description": "Command + x with Ctrl + x"
+              },
+              {
+                "description": "Command + z with Ctrl + z"
+              },
+              {
+                "description": "Command + shift + z with Ctrl + shift+ z"
+              },
+              {
+                "description": "Command + e with Ctrl + e"
+              },
+              {
+                "description": "Command + y with Ctrl + y"
+              },
+              {
+                "description": "Command + f with Ctrl + f"
+              },
+              {
+                "description": "Command + h with Ctrl + h"
+              },
+              {
+                "description": "Command + c with Ctrl + c"
+              },
+              {
+                "description": "Command + v with Ctrl + v"
               }
             ]
           },
