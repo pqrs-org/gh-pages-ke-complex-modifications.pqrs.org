@@ -4094,6 +4094,78 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/jis_pretend_remote_us.json",
+          "json": {
+            "title": "US (remote) ← JIS (local) : リモートの US キーボードを JIS キーボードとして使えるようにする",
+            "maintainers": [
+              "tonextone"
+            ],
+            "rules": [
+              {
+                "description": "\""
+              },
+              {
+                "description": "&"
+              },
+              {
+                "description": "'"
+              },
+              {
+                "description": "("
+              },
+              {
+                "description": ")"
+              },
+              {
+                "description": "="
+              },
+              {
+                "description": "^"
+              },
+              {
+                "description": "~"
+              },
+              {
+                "description": "\\"
+              },
+              {
+                "description": "|"
+              },
+              {
+                "description": "@"
+              },
+              {
+                "description": "`"
+              },
+              {
+                "description": "["
+              },
+              {
+                "description": "]"
+              },
+              {
+                "description": "{"
+              },
+              {
+                "description": "}"
+              },
+              {
+                "description": "+"
+              },
+              {
+                "description": ":"
+              },
+              {
+                "description": "*"
+              },
+              {
+                "description": "_"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/german_pc_shortcuts.json",
           "json": {
             "title": "German PC-Style Shortcuts (Enable various Alt Gr key combinations)",
