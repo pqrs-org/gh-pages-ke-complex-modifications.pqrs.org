@@ -8451,9 +8451,6 @@
                 "description": "Button 4, 5 => Back, Forward (Only in Finder)"
               },
               {
-                "description": "Space => Command+O (Open) (Only in Finder)"
-              },
-              {
                 "description": "Ctrl+Left Click => Command+Left Click (Select multiple items)"
               },
               {
