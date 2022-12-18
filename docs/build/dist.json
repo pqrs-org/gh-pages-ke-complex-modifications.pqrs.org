@@ -9690,6 +9690,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/hhkb_arrows_for_realforce_r3.json",
+          "json": {
+            "title": "HHKB arrows for RealForce R3",
+            "rules": [
+              {
+                "description": "Right control + ['/; to Arrow keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/iso-fr_tkl.json",
           "json": {
             "title": "Complete layout for ISO-FR AZERTY keyboards (TKL Keyboard) + Basics Ctrl + [?] shortcuts",
