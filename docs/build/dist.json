@@ -4095,6 +4095,7 @@
         },
         {
           "path": "json/jis_pretend_remote_us.json",
+          "extra_description_path": "extra_descriptions/jis_pretend_remote_us.html",
           "json": {
             "title": "US (remote) ← JIS (local) : リモートの US キーボードを JIS キーボードとして使えるようにする",
             "maintainers": [
@@ -4117,53 +4118,56 @@
                 "description": ")"
               },
               {
-                "description": "="
+                "description": "(null)"
               },
               {
-                "description": "^"
+                "description": "="
               },
               {
                 "description": "~"
               },
               {
-                "description": "\\"
+                "description": "^"
               },
               {
                 "description": "|"
               },
               {
-                "description": "@"
+                "description": "\\"
               },
               {
                 "description": "`"
               },
               {
-                "description": "["
-              },
-              {
-                "description": "]"
+                "description": "@"
               },
               {
                 "description": "{"
               },
               {
+                "description": "["
+              },
+              {
                 "description": "}"
+              },
+              {
+                "description": "]"
               },
               {
                 "description": "+"
               },
               {
-                "description": ":"
+                "description": "*"
               },
               {
-                "description": "*"
+                "description": ":"
               },
               {
                 "description": "_"
               }
             ]
           },
-          "extra_description_text": ""
+          "extra_description_text": "from.modifiers.optional = [\"any\"] にしてあるので、 from.modifiers の詳細度が高い順に記述すること。 例えば、 \"@\" ( from = open_bracket ) \"`\" ( from = shift + open_bracket ) の順で書いてしまうと、どちらも \"@\" にマッチしてしまうので、 \"`\" ( from = shift + open_bracket ) \"@\" ( from = open_bracket ) の順に書くこと。 ※ from.modifiers.optional = [\"any\"] にしてあるのは、私がモディファイアを複数同時に使うため ( emacs で C-@ , C-M-% , ... )"
         },
         {
           "path": "json/german_pc_shortcuts.json",
