@@ -537,6 +537,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/left_shift_esc_to_tilde_and_right_shift_esc_to_grave_accent.json",
+          "json": {
+            "title": "Right Shift + Esc To ` | Left Shift + Esc To ~",
+            "rules": [
+              {
+                "description": "Right Shift + Esc To `"
+              },
+              {
+                "description": "Left Shift + Esc To ~"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/swap_right_cmd_with_right_option.json",
           "extra_description_path": "extra_descriptions/swap_right_cmd_with_right_option.json.html",
           "json": {
