@@ -8324,6 +8324,9 @@
               },
               {
                 "description": "(JIS)Swap ¥ and Alt+¥"
+              },
+              {
+                "description": "Control + u to Enter key"
               }
             ]
           },
