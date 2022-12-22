@@ -10102,48 +10102,6 @@
               },
               {
                 "description": "(JIS)Swap ¥ and Alt+¥"
-              },
-              {
-                "description": "Control + j to Enter key"
-              },
-              {
-                "description": "Control + y to ->"
-              },
-              {
-                "description": "Control + u to =>"
-              },
-              {
-                "description": "Control + = to ="
-              },
-              {
-                "description": "Control + ^ to ~"
-              },
-              {
-                "description": "Control + ¥ to |"
-              },
-              {
-                "description": "Control + @ to `"
-              },
-              {
-                "description": "Control + ; to +"
-              },
-              {
-                "description": "Control + : to *"
-              },
-              {
-                "description": "Control + ] to }"
-              },
-              {
-                "description": "Control + , to <"
-              },
-              {
-                "description": "Control + . to >"
-              },
-              {
-                "description": "Control + / to ?"
-              },
-              {
-                "description": "Control + _ to _"
               }
             ]
           },
