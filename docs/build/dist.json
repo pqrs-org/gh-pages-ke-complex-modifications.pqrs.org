@@ -8317,64 +8317,10 @@
         {
           "path": "json/personal_toshi-ue.json",
           "json": {
-            "title": "Personal rules - JIS(@toshi-ue)",
+            "title": "Personal rules JIS (@toshi-ue) blank...",
             "rules": [
               {
-                "description": "Swap numbers and symbols"
-              },
-              {
-                "description": "(JIS) F11 - Discard changes in Terminal app"
-              },
-              {
-                "description": "(JIS) F12 - Discard changes in Terminal app"
-              },
-              {
-                "description": "Thumb shift"
-              },
-              {
-                "description": "(JIS)Swap ¥ and Alt+¥"
-              },
-              {
-                "description": "Control + j to Enter key"
-              },
-              {
-                "description": "Control + y to ->"
-              },
-              {
-                "description": "Control + u to =>"
-              },
-              {
-                "description": "Control + = to ="
-              },
-              {
-                "description": "Control + ^ to ~"
-              },
-              {
-                "description": "Control + ¥ to |"
-              },
-              {
-                "description": "Control + @ to `"
-              },
-              {
-                "description": "Control + ; to +"
-              },
-              {
-                "description": "Control + : to *"
-              },
-              {
-                "description": "Control + ] to }"
-              },
-              {
-                "description": "Control + , to <"
-              },
-              {
-                "description": "Control + . to >"
-              },
-              {
-                "description": "Control + / to ?"
-              },
-              {
-                "description": "Control + _ to _"
+                "description": "..."
               }
             ]
           },
@@ -10090,6 +10036,216 @@
               },
               {
                 "description": "opt(R) + k => Open KakaoTalk"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/personal_toshi-ue_control_plus_keys.json",
+          "json": {
+            "title": "Personal rules JIS (@toshi-ue) Control + keys to Shift + keys",
+            "rules": [
+              {
+                "description": "Control + j to Enter key"
+              },
+              {
+                "description": "Control + y to ->"
+              },
+              {
+                "description": "Control + u to =>"
+              },
+              {
+                "description": "Control + = to ="
+              },
+              {
+                "description": "Control + ^ to ~"
+              },
+              {
+                "description": "Control + ¥ to |"
+              },
+              {
+                "description": "Control + @ to `"
+              },
+              {
+                "description": "Control + ; to +"
+              },
+              {
+                "description": "Control + : to *"
+              },
+              {
+                "description": "Control + ] to }"
+              },
+              {
+                "description": "Control + , to <"
+              },
+              {
+                "description": "Control + . to >"
+              },
+              {
+                "description": "Control + / to ?"
+              },
+              {
+                "description": "Control + _ to _"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/personal_toshi-ue_others.json",
+          "json": {
+            "title": "Personal rules JIS (@toshi-ue) others...",
+            "rules": [
+              {
+                "description": "Thumb shift"
+              },
+              {
+                "description": "(JIS)Swap ¥ and Alt+¥"
+              },
+              {
+                "description": "Control + j to Enter key"
+              },
+              {
+                "description": "Control + y to ->"
+              },
+              {
+                "description": "Control + u to =>"
+              },
+              {
+                "description": "Control + = to ="
+              },
+              {
+                "description": "Control + ^ to ~"
+              },
+              {
+                "description": "Control + ¥ to |"
+              },
+              {
+                "description": "Control + @ to `"
+              },
+              {
+                "description": "Control + ; to +"
+              },
+              {
+                "description": "Control + : to *"
+              },
+              {
+                "description": "Control + ] to }"
+              },
+              {
+                "description": "Control + , to <"
+              },
+              {
+                "description": "Control + . to >"
+              },
+              {
+                "description": "Control + / to ?"
+              },
+              {
+                "description": "Control + _ to _"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/personal_toshi-ue_swap_numbers_and_symbols.json",
+          "json": {
+            "title": "Personal rules JIS (@toshi-ue) Swap numbers and symbols",
+            "rules": [
+              {
+                "description": "Swap 1 and !"
+              },
+              {
+                "description": "Swap 2 and \""
+              },
+              {
+                "description": "Swap 3 and #"
+              },
+              {
+                "description": "Swap 4 and $"
+              },
+              {
+                "description": "Swap 5 and %"
+              },
+              {
+                "description": "Swap 6 and &"
+              },
+              {
+                "description": "Swap 7 and '"
+              },
+              {
+                "description": "Swap 8 and ("
+              },
+              {
+                "description": "Swap 9 and )"
+              },
+              {
+                "description": "Swap - and ="
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/personal_toshi-ue_vi_mode.json",
+          "json": {
+            "title": "Personal rules JIS (@toshi-ue) vi mode shortcut command in terminal apps",
+            "rules": [
+              {
+                "description": "Discard changes in Terminal app"
+              },
+              {
+                "description": "Save changes in Terminal app"
+              },
+              {
+                "description": "Thumb shift"
+              },
+              {
+                "description": "(JIS)Swap ¥ and Alt+¥"
+              },
+              {
+                "description": "Control + j to Enter key"
+              },
+              {
+                "description": "Control + y to ->"
+              },
+              {
+                "description": "Control + u to =>"
+              },
+              {
+                "description": "Control + = to ="
+              },
+              {
+                "description": "Control + ^ to ~"
+              },
+              {
+                "description": "Control + ¥ to |"
+              },
+              {
+                "description": "Control + @ to `"
+              },
+              {
+                "description": "Control + ; to +"
+              },
+              {
+                "description": "Control + : to *"
+              },
+              {
+                "description": "Control + ] to }"
+              },
+              {
+                "description": "Control + , to <"
+              },
+              {
+                "description": "Control + . to >"
+              },
+              {
+                "description": "Control + / to ?"
+              },
+              {
+                "description": "Control + _ to _"
               }
             ]
           },
