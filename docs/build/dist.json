@@ -2122,6 +2122,9 @@
           "path": "json/Vimode_with_smart_caps.json",
           "json": {
             "title": "Vimode with smart caps",
+            "maintainers": [
+              "Lance1o7"
+            ],
             "rules": [
               {
                 "description": "CAPSLOCK + hjkl to arrow keys (Post ESCAPE if press CAPSLOCK alone)"
@@ -2131,6 +2134,9 @@
               },
               {
                 "description": "Change left_shift + Command_L to escape only if pressed at the same time."
+              },
+              {
+                "description": "Post COMMAND + A/C/V/X/Z to, when CAPSLOCK + A/C/V/X/Z is pressed"
               }
             ]
           },
@@ -6956,6 +6962,60 @@
               },
               {
                 "description": "ú using Alt/Option like on Windows"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/razer_naga_pro.json",
+          "json": {
+            "title": "Razer Naga Pro",
+            "maintainers": [
+              "mark-nicepants"
+            ],
+            "rules": [
+              {
+                "description": "Razer Pro - 9 to <Forward> in Chrome"
+              },
+              {
+                "description": "Razer Pro - 12 to <Back> in Chrome"
+              },
+              {
+                "description": "Razer Pro - 1 to Shift+Option+1"
+              },
+              {
+                "description": "Razer Pro - 2 to Shift+Option+2"
+              },
+              {
+                "description": "Razer Pro - 3 to Shift+Option+3"
+              },
+              {
+                "description": "Razer Pro - 4 to Shift+Option+4"
+              },
+              {
+                "description": "Razer Pro - 5 to Shift+Option+5"
+              },
+              {
+                "description": "Razer Pro - 6 to Shift+Option+6"
+              },
+              {
+                "description": "Razer Pro - 7 to Shift+Option+7"
+              },
+              {
+                "description": "Razer Pro - 8 to Shift+Option+8"
+              },
+              {
+                "description": "Razer Pro - 9 to Shift+Option+9"
+              },
+              {
+                "description": "Razer Pro - 10 to Shift+Option+0"
+              },
+              {
+                "description": "Razer Pro - 11 to Shift+Option+-"
+              },
+              {
+                "description": "Razer Pro - 12 to Shift+Option+="
               }
             ]
           },
