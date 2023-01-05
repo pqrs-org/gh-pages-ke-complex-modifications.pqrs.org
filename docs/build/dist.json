@@ -3573,6 +3573,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/logitech_mx_vertical_back_forward_with_vs_code.json",
+          "json": {
+            "title": "Back/Forward for Logitech MX Vertical in VS Code & macOS",
+            "rules": [
+              {
+                "description": "Change mouse button 4/5 to navigate back/forward in VSCode"
+              },
+              {
+                "description": "When VS Code is not active, use standard browser back/forward commands"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
