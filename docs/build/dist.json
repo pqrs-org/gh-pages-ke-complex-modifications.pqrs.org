@@ -10036,6 +10036,36 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/personal_gabrys.json",
+          "json": {
+            "title": "Personal rules for Gabrys (@gabrys)",
+            "rules": [
+              {
+                "description": "Map Globe to Ctrl in terminal and to Cmd outside terminal"
+              },
+              {
+                "description": "Map Ctrl-Left/Right to Option-Left/Right in terminal"
+              },
+              {
+                "description": "Map Option+Tab to Cmd+Tab"
+              },
+              {
+                "description": "Map Cmd+Left/Right to Home/End in terminal"
+              },
+              {
+                "description": "Map Ctrl+Backspace to Delete in terminal"
+              },
+              {
+                "description": "Map Cmd+Backspace to Delete outside terminal"
+              },
+              {
+                "description": "Map Cmd (when pressed alone) to Mission Control"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/personal_seung-00.json",
           "json": {
             "title": "Personal rules (@seung-00)",
