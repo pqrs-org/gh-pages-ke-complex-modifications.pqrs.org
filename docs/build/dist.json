@@ -2122,9 +2122,6 @@
           "path": "json/Vimode_with_smart_caps.json",
           "json": {
             "title": "Vimode with smart caps",
-            "maintainers": [
-              "Lance1o7"
-            ],
             "rules": [
               {
                 "description": "CAPSLOCK + hjkl to arrow keys (Post ESCAPE if press CAPSLOCK alone)"
@@ -2134,9 +2131,6 @@
               },
               {
                 "description": "Change left_shift + Command_L to escape only if pressed at the same time."
-              },
-              {
-                "description": "Post COMMAND + A/C/V/X/Z to, when CAPSLOCK + A/C/V/X/Z is pressed"
               }
             ]
           },
@@ -9499,6 +9493,32 @@
             "rules": [
               {
                 "description": "Change caps_lock to Fn on press and hold"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/capslock_mode.json",
+          "json": {
+            "title": "Capslock Mode",
+            "maintainers": [
+              "Titancube"
+            ],
+            "author": "https://github.com/Titancube",
+            "repo": "https://github.com/Titancube/KE-complex_modifications",
+            "rules": [
+              {
+                "description": "Capslock to Hyper"
+              },
+              {
+                "description": "Arrows"
+              },
+              {
+                "description": "Tilde, Swung dash (`, ~)"
+              },
+              {
+                "description": "Number rows to F1 ~ F12"
               }
             ]
           },
