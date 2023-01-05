@@ -6744,6 +6744,24 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/mission_control_all_on_f3_app_on_command_f3_desktop_on_option_f3.json",
+          "json": {
+            "title": "Mission Control: All on F3, App on ⌘F3, Desktop on ⌥F3",
+            "rules": [
+              {
+                "description": "Mission Control: All Windows on F3"
+              },
+              {
+                "description": "Mission Control: Application Windows on ⌘F3"
+              },
+              {
+                "description": "Mission Control: Desktop on ⌥F3"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
