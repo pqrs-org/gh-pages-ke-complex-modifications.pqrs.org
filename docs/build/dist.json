@@ -6242,6 +6242,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/fn_s_to_sleep.json",
+          "json": {
+            "title": "Lock screen and sleep by fn+s",
+            "maintainers": [
+              "tekezo"
+            ],
+            "rules": [
+              {
+                "description": "Lock screen and sleep by fn+s (rev 1)"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
