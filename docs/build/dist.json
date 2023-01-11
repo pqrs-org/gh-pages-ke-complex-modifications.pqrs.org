@@ -2719,6 +2719,114 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/uk_macos_rdp.json",
+          "json": {
+            "title": "MacOS to RDP – British Keyboard Layout / UK Keyboard Layout",
+            "maintainers": [
+              "bameyrick"
+            ],
+            "rules": [
+              {
+                "description": "@ key"
+              },
+              {
+                "description": "\" key"
+              },
+              {
+                "description": "\\ key"
+              },
+              {
+                "description": "` key"
+              },
+              {
+                "description": "| key"
+              },
+              {
+                "description": "~ key"
+              },
+              {
+                "description": "# key (left option)"
+              },
+              {
+                "description": "# key (right option)"
+              },
+              {
+                "description": "Home key to the beginning of the sentence (Command + Left)"
+              },
+              {
+                "description": "End key to the end of the sentence (Command + Right)"
+              },
+              {
+                "description": "Option(Alt)+Tab as Switch Application (Command+Tab)"
+              },
+              {
+                "description": "Copy/Paste/Cut"
+              },
+              {
+                "description": "Alt+Left/Right to Control+Left/Right"
+              },
+              {
+                "description": "Undo"
+              },
+              {
+                "description": "Redo"
+              },
+              {
+                "description": "Select-All"
+              },
+              {
+                "description": "Save"
+              },
+              {
+                "description": "New"
+              },
+              {
+                "description": "Reload browser page Command+R to F5"
+              },
+              {
+                "description": "New Tab"
+              },
+              {
+                "description": "Find"
+              },
+              {
+                "description": "Open"
+              },
+              {
+                "description": "Close Window"
+              },
+              {
+                "description": "Fn+Space To Switch Input (Left Shift+Left Alt)"
+              },
+              {
+                "description": "Cmd+Space To Switch Input (Left Shift+Left Alt)"
+              },
+              {
+                "description": "Cmd+Space To Switch Input (Left Shift+Left Ctrl)"
+              },
+              {
+                "description": "Quit Application (Alt+F4 to Command+Q)"
+              },
+              {
+                "description": "Browser open location (Ctrl+L)"
+              },
+              {
+                "description": "Browser inspect element (Ctrl+L)"
+              },
+              {
+                "description": "Command to control (left)"
+              },
+              {
+                "description": "Command to control (right)"
+              },
+              {
+                "description": "VSCode open terminal"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/french_mac_keyboard_remote_desktop.json",
           "extra_description_path": "extra_descriptions/french_mac_keyboard_remote_desktop.json.html",
           "json": {
