@@ -8545,6 +8545,9 @@
               },
               {
                 "description": "Pause button → On/Off GMeet microphone (using Meet Mute)"
+              },
+              {
+                "description": "~ (home symbol) in Alt Gr 4"
               }
             ]
           },
