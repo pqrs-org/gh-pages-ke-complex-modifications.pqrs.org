@@ -7351,13 +7351,19 @@
           "path": "json/microsoft_sculpt_ergonomic_desktop.json",
           "extra_description_path": "extra_descriptions/microsoft_sculpt_ergonomic_desktop.json.html",
           "json": {
-            "title": "Microsoft Sculpt Ergonomic Desktop (L5V-00001)",
+            "title": "Microsoft Sculpt Ergonomic Desktop (L5V)",
             "rules": [
               {
-                "description": "Swap left Alt key and Windows key"
+                "description": "Swap 'left Alt ⎇' key and 'Windows key'"
               },
               {
-                "description": "Swap right Alt key and Menu/Application key"
+                "description": "Swap 'right Alt ⎇' key and 'Menu/Application' key"
+              },
+              {
+                "description": "Map 'Home' key to '⌘ + Left arrow'"
+              },
+              {
+                "description": "Map 'End' key to '⌘ + Right arrow'"
               },
               {
                 "description": "Map 'Task View' key (F2 key) to launching 'Mission Control.app'"
@@ -7381,10 +7387,16 @@
                 "description": "Map 'Windows Settings' key (F8 key) to launching 'System Preferences.app'"
               },
               {
-                "description": "Map 'Back' button to 'Back' action"
+                "description": "Map 'Back' mouse button to 'Mission Control.app' action"
               },
               {
-                "description": "Map Windows button to launching 'Launchpad.app'"
+                "description": "Map 'Windows' mouse button to launching 'Launchpad.app'"
+              },
+              {
+                "description": "Toggle 'Numlock' on Numpad"
+              },
+              {
+                "description": "If 'Numlock' enabled map Numpad keys as arrows (7 = Home,1 = End,9 = Page Up,3 = Page Down,8 = Up arrow,2 = Down arrow,4 = Left arrow,6 = Right arrow) and as copy/cut/paste (Shift+. = ⌘+x,Shift+0 = ⌘+v,Ctrl+0 = ⌘+c)"
               }
             ]
           },
