@@ -9162,6 +9162,34 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/keychron_k6_useful_escape_caps_lock.json",
+          "extra_description_path": "extra_descriptions/keychron_k6_useful_escape_caps_lock.json.html",
+          "json": {
+            "title": "Keychron K6 Useful Escape & Caps Lock Hyper Mod",
+            "rules": [
+              {
+                "description": "Left Shift + Esc: ~ (tilde)"
+              },
+              {
+                "description": "Right Shift + Esc: ` (grave)"
+              },
+              {
+                "description": "Control + Esc: Control + `"
+              },
+              {
+                "description": "Command + Esc: ⌘ + ` (app window cycle)"
+              },
+              {
+                "description": "Caps Lock (held): ⌃⌥⇧⌘ (Hyper Key)"
+              },
+              {
+                "description": "Hyper Key + Esc: Shift + Escape"
+              }
+            ]
+          },
+          "extra_description_text": "Keychron K6 Useful Escape & Caps Lock Hyper Mod This rule adds Escape hotkeys for Keychron K6 users to maintain muscle memory between the built-in MacBook keyboard and the K6. It also adds the Hyper Key mod (⌃⌥⇧⌘) to Caps Lock when held for creating complex hotkeys that are easy to input. Caps Lock still works by simply pressing the key alone. Some rules are borrowed from @sourabhv with slight tweaks: Left Shift + Esc acts as ~ Control + Escape acts as Control + ` This matches the key positioning for users who also use the built-in keyboard. Full list of modifications: Unmodified Esc: Escape Left Shift + Esc: ~ (tilde) Right Shift + Esc: ` (grave) Control + Esc: Control + ` Command + Esc: ⌘ + ` (app window cycle) Caps Lock (held): ⌃⌥⇧⌘ (Hyper Key) Caps Lock (alone): Regular Caps Lock Hyper Key + Esc: Shift + Escape"
         }
       ]
     },
