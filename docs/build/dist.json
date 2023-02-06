@@ -830,6 +830,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/meta_tab.json",
+          "json": {
+            "title": "Tab as a meta key for indentation/focus",
+            "rules": [
+              {
+                "description": "Tab + Arrows"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
