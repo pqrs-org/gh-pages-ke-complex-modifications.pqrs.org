@@ -7779,13 +7779,13 @@
             "title": "Hai HHKB Launch apps (Brave, VS Code, Signal, Slack, Postman, Sublime Merge, iTerm, Thunderbird, iMessage, Mail, Draw.IO, Sequel Ace)",
             "rules": [
               {
-                "description": "right_option + A -> Sequal Ace"
+                "description": "right_option + D(Database) -> Sequal Ace"
               },
               {
-                "description": "right_option + B -> Brave"
+                "description": "right_option + B(Browser) -> Brave"
               },
               {
-                "description": "right_option + D -> Draw.IO"
+                "description": "right_option + P -> Draw.IO"
               },
               {
                 "description": "right_option + Q -> iMessage"
@@ -7800,7 +7800,7 @@
                 "description": "right_option + K -> Slack"
               },
               {
-                "description": "right_option + P -> Postman"
+                "description": "right_option + A(API) -> Postman"
               },
               {
                 "description": "right_option + l -> Sublime Text"
@@ -7821,7 +7821,7 @@
                 "description": "right_option + M -> Thunderbird"
               },
               {
-                "description": "right_option + T -> iTerm"
+                "description": "right_option + T(Terminal) -> iTerm"
               }
             ]
           },
