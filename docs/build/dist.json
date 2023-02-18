@@ -1597,7 +1597,10 @@
                 "description": "PC-Style Home/End"
               },
               {
-                "description": "PC-Style Paste(Shift+Insert) for JIS keyboard"
+                "description": "PC-Style Copy (Ctrl+Insert) for JIS/PC keyboard"
+              },
+              {
+                "description": "PC-Style Paste (Shift+Insert) for JIS/PC keyboard"
               },
               {
                 "description": "PC-Style Paste(Shift+Fn) for ANSI keyboard"
