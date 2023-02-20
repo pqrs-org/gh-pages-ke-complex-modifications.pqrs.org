@@ -5,6 +5,19 @@
       "id": "modifier-keys",
       "files": [
         {
+          "path": "json/caps_lock_twice.json",
+          "json": {
+            "title": "CAPS LOCK twice & held_down to CTRL",
+            "author": "Ramiro Garcia (https://github.com/ranemirusG)",
+            "rules": [
+              {
+                "description": "Press twice caps_lock to activate caps_lock & otherwise held_down and use as CTRL"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/disable_wifidiagnostics.json",
           "json": {
             "title": "Disable WifiDiagnostics shortcuts (Free up Hyper-W)",
@@ -849,6 +862,19 @@
       "name": "Emulation Modes",
       "id": "emulation-modes",
       "files": [
+        {
+          "path": "json/toggle_vim.json",
+          "json": {
+            "title": "Toggle to vim hjkl in specified apps",
+            "author": "Ramiro Garcia (https://github.com/ranemirusG)",
+            "rules": [
+              {
+                "description": "left_option twice toggle to get into vim-like hjkl arrows in specified apps"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
         {
           "path": "json/hhkb-like-arrows-and-page-control.json",
           "json": {
@@ -6387,6 +6413,19 @@
       "name": "OS Functionality",
       "id": "os-functionality",
       "files": [
+        {
+          "path": "json/search_in_dict.json",
+          "json": {
+            "title": "Search in Dictionary.app",
+            "author": "Ramiro Garcia (https://github.com/ranemirusG)",
+            "rules": [
+              {
+                "description": "Use LEFT OPTION + s to search copied word in Dictionary.app"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
         {
           "path": "json/printscreen_command+shift+5.json",
           "json": {
