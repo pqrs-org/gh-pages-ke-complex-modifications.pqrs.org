@@ -9376,6 +9376,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/DvorakRight.json",
+          "json": {
+            "title": "Right-Hand Dvorak Keyboard",
+            "rules": [
+              {
+                "description": "Remap keys to use Right-Hand Dvorak keyboard layout"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/Fn+space=emoji.json",
           "json": {
             "title": "Fn + space = emoji menu (command+control+space)",
