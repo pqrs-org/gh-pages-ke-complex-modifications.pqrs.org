@@ -10005,6 +10005,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/fn_open_bracket_to_esc.json",
+          "json": {
+            "title": "Fn + [ to Esc",
+            "rules": [
+              {
+                "description": "Change Fn + [ to Esc"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/fn_return_insert.json",
           "json": {
             "title": "Fn + Enter to Insert",
