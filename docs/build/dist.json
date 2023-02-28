@@ -1211,25 +1211,25 @@
           "path": "json/emacs_key_bindings.json",
           "extra_description_path": "extra_descriptions/emacs_key_bindings.json.html",
           "json": {
-            "title": "Emacs key bindings (rev 12)",
+            "title": "Emacs key bindings (rev 13)",
             "maintainers": [
               "tekezo"
             ],
             "rules": [
               {
-                "description": "Emacs key bindings [C-x key strokes] (rev 2)"
-              },
-              {
-                "description": "Emacs key bindings [control+keys] (rev 10)"
+                "description": "Emacs key bindings [control+keys] (rev 11)"
               },
               {
                 "description": "Emacs key bindings [option+keys] (rev 5)"
               },
               {
+                "description": "Emacs key bindings [C-x key strokes] (rev 2)"
+              },
+              {
                 "description": "Bash style Emacs key bindings (rev 2)"
               },
               {
-                "description": "For Visual Studio Code: Emacs key bindings [control+keys] (rev 10)"
+                "description": "For Visual Studio Code: Emacs key bindings [control+keys] (rev 11)"
               },
               {
                 "description": "For Visual Studio Code: Emacs key bindings [option+keys] (rev 5)"
@@ -1239,7 +1239,7 @@
               }
             ]
           },
-          "extra_description_text": "Key Bindings (C-x key strokes) C-x C-c Quit application (post command-q) C-x C-f Open file (post command-o) C-x C-s Save file (post command-s) Key Bindings (control+keys) control+d forward delete control+h delete control+i tab control+[ escape control+m return control+bfnp arrow keys control+v page down control+a (Microsoft Office) home control+e (Microsoft Office) end Key Bindings (option+keys) option+v page up option+bf option+arrow keys option+d option+forward delete Bash Style Key Bindings control+w Delete the word behind point (option+delete) control+u Delete backward from point to the beginning of the line."
+          "extra_description_text": "Key Bindings (control+keys) control+d forward delete control+h delete control+i tab control+[ escape control+m return control+bfnp arrow keys control+v page down control+a (Microsoft Office) home control+e (Microsoft Office) end control+k (Microsoft Office) shift+end, forward delete Key Bindings (option+keys) option+v page up option+bf option+arrow keys option+d option+forward delete Key Bindings (C-x key strokes) C-x C-c Quit application (post command-q) C-x C-f Open file (post command-o) C-x C-s Save file (post command-s) Bash Style Key Bindings control+w Delete the word behind point (option+delete) control+u Delete backward from point to the beginning of the line."
         },
         {
           "path": "json/ergo_fly_keys.json",
