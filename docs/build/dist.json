@@ -10581,6 +10581,9 @@
               },
               {
                 "description": "Swap 9 and )"
+              },
+              {
+                "description": "Swap - and ="
               }
             ]
           },
