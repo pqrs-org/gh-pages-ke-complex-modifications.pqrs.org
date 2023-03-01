@@ -10305,6 +10305,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/left_shift_and_spacebar_to_backspace.json",
+          "json": {
+            "title": "Left Shift + Spacebar => Backspace",
+            "rules": [
+              {
+                "description": "Left Shift + Spacebar => Backspace"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/map_cmd_q_to_cmd_shift_q.json",
           "json": {
             "title": "map cmd+q to cmd+shift+q",
