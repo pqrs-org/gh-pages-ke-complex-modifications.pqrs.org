@@ -3719,7 +3719,7 @@
         {
           "path": "json/parallels_right_cmd_to_insert.json",
           "json": {
-            "title": "Right command is insert in Parallels (for Windows Narrator)",
+            "title": "Right command is insert in Parallels (for JAWS, NVDA, Narrator)",
             "rules": [
               {
                 "description": "Right command is insert in Parallels"
