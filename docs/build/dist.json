@@ -5687,7 +5687,7 @@
                 "description": "Fn+⏯ (play/pause) key should only control Music."
               },
               {
-                "description": "Fn+⏩ (next trackx) key should only control Music."
+                "description": "Fn+⏩ (next track) key should only control Music."
               }
             ]
           },
