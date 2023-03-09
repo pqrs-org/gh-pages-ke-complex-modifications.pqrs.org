@@ -5046,58 +5046,70 @@
         {
           "path": "json/iso_pt-pt_keyboard.json",
           "json": {
-            "title": "ISO PT-PT keyboard",
+            "title": "ISO PT-PT keyboard to Mac PT-PT",
             "rules": [
               {
-                "description": "Backslash"
+                "description": "\\ Backslash"
               },
               {
-                "description": "Pipe (left shift)"
+                "description": "| Pipe (left shift)"
               },
               {
-                "description": "Pipe (right shift)"
+                "description": "| Pipe (right shift)"
               },
               {
-                "description": "Tilde"
+                "description": "~ Tilde"
               },
               {
-                "description": "Circumflex (right shift)"
+                "description": "^ Circumflex (right shift)"
               },
               {
-                "description": "Circumflex (left shift)"
+                "description": "^ Circumflex (left shift)"
               },
               {
-                "description": "Plus"
+                "description": "+ Plus"
               },
               {
-                "description": "Times (right shift)"
+                "description": "* Times (right shift)"
               },
               {
-                "description": "Times (left shift)"
+                "description": "* Times (left shift)"
               },
               {
-                "description": "Male ordinal indicator"
+                "description": "º Male ordinal indicator"
               },
               {
-                "description": "Female ordinal indicator (right shift)"
+                "description": "ª Female ordinal indicator (right shift)"
               },
               {
-                "description": "Female ordinal indicator (left shift)"
+                "description": "ª Female ordinal indicator (left shift)"
               },
               {
-                "description": "Right curly bracket"
+                "description": "} Right curly bracket"
               },
               {
-                "description": "Left curly bracket"
+                "description": "{ Left curly bracket"
               },
               {
-                "description": "Guillemets"
+                "description": "« Guillemets"
               },
               {
-                "description": "Guillemets (left shift)"
+                "description": "» Guillemets (left shift)"
               },
               {
-                "description": "Guillemets (right shift)"
+                "description": "» Guillemets (right shift)"
+              },
+              {
+                "description": "£ Pound"
+              },
+              {
+                "description": "§ Section sign"
+              },
+              {
+                "description": "€ Euro"
+              },
+              {
+                "description": "¨ Umlaut"
               }
             ]
           },
