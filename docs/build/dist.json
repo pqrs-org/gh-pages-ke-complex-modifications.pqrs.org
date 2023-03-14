@@ -9928,6 +9928,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/capslock_as_esc.json",
+          "json": {
+            "title": "CapsLock as ESC",
+            "rules": [
+              {
+                "description": "CapsLock as ESC, without delay"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/capslock_mode.json",
           "json": {
             "title": "Capslock Mode",
