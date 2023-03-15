@@ -151,6 +151,9 @@
           "path": "json/caps_media.json",
           "json": {
             "title": "Capslock + Arrows for media keys",
+            "maintainers": [
+              "mngyuan"
+            ],
             "rules": [
               {
                 "description": "CapsLock to Hyper/Escape"
