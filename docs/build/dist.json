@@ -3787,6 +3787,31 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/ncspot.json",
+          "extra_description_path": "extra_descriptions/ncspot.json.html",
+          "json": {
+            "title": "NCSPOT - control Spotify client for the terminal with media keys via netcat",
+            "maintainers": [
+              "n3f"
+            ],
+            "rules": [
+              {
+                "description": "NCSPOT::All"
+              },
+              {
+                "description": "NCSPOT::Play/Pause"
+              },
+              {
+                "description": "NCSPOT::Next"
+              },
+              {
+                "description": "NCSPOT::Previous"
+              }
+            ]
+          },
+          "extra_description_text": "Allows Karabiner-Elements to control the ncspot Spotify client for the terminal via netcat. Currently this needs to be enabled manually with a CLI command (allows quickly turning it off/on): '/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --set-variables '{\"ncspot\":1}'. There is also a workaround applied for changing Fn+F8 to be play/pause (because that's how I have my keyboard set up - the default setup would use just F8). See the generation script to easily modify this."
         }
       ]
     },
