@@ -10747,6 +10747,54 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/razer_naga_v2_hyper.json",
+          "json": {
+            "title": "Razer Naga v2 Hyper",
+            "maintainers": [
+              "ryparker"
+            ],
+            "rules": [
+              {
+                "description": "Razer Naga v2 Hyper - 1 to Shift+Option+1"
+              },
+              {
+                "description": "Razer Naga v2 Hyper - 2 to Shift+Option+2"
+              },
+              {
+                "description": "Razer Naga v2 Hyper - 3 to Shift+Option+3"
+              },
+              {
+                "description": "Razer Naga v2 Hyper - 4 to Shift+Option+4"
+              },
+              {
+                "description": "Razer Naga v2 Hyper - 5 to Shift+Option+5"
+              },
+              {
+                "description": "Razer Naga v2 Hyper - 6 to Shift+Option+6"
+              },
+              {
+                "description": "Razer Naga v2 Hyper - 7 to Shift+Option+7"
+              },
+              {
+                "description": "Razer Naga v2 Hyper - 8 to Shift+Option+8"
+              },
+              {
+                "description": "Razer Naga v2 Hyper - 9 to Shift+Option+9"
+              },
+              {
+                "description": "Razer Naga v2 Hyper - 10 to Shift+Option+0"
+              },
+              {
+                "description": "Razer Naga v2 Hyper - 11 to Shift+Option+-"
+              },
+              {
+                "description": "Razer Naga v2 Hyper - 12 to Shift+Option+="
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/rcmd_to_lcmd_option.json",
           "json": {
             "title": "Right Cmd to Left Cmd + Left Option ",
