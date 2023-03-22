@@ -10501,6 +10501,24 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/one_keystroke_tilde_backtick_circumflex_mac_fr.json",
+          "json": {
+            "title": "Make tilde (~), backtick (`) and accent circumflex ^ work with one keystroke Mac FR.",
+            "rules": [
+              {
+                "description": "Tilde one keystroke."
+              },
+              {
+                "description": "Backtick one keystroke."
+              },
+              {
+                "description": "Accent circumflex one keystroke."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/option+arrow_to_pagecontrol.json",
           "json": {
             "title": "Option+arrow to PageUp/PageDown/Home/End",
