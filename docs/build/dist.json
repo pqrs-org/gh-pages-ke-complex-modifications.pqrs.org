@@ -10048,6 +10048,33 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/duhl-k6-pro-remaps.json",
+          "json": {
+            "title": "Keychron K6 pro: ESC -> ~/` and RIGHT_COMMAND -> HYPER",
+            "rules": [
+              {
+                "description": "CONTROL + ESC -> `"
+              },
+              {
+                "description": "COMMAND + ESC -> COMMAND + `"
+              },
+              {
+                "description": "SHIFT + ESC -> ~"
+              },
+              {
+                "description": "Fn + h/j/k/l -> Arrows"
+              },
+              {
+                "description": "RIGHT_COMMAND to HYPER (COMMAND + CONTROL + OPTION + SHIFT)"
+              },
+              {
+                "description": "Toggle CAPS_LOCK with LEFT_SHIFT + RIGHT_SHIFT"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/durgod-hades-uk.json",
           "json": {
             "title": "DURGOD Hades UK Layout - Sam McKay",
