@@ -681,6 +681,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/caps_lock_tap_esc_hold_left_alt.json",
+          "json": {
+            "title": "Caps Lock to ESC on tap/Left Alt on hold",
+            "rules": [
+              {
+                "description": "Caps Lock to ESC on tap/Left Alt on hold"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/caps_lock_tapped_caps_held_cmd.json",
           "json": {
             "title": "Change caps_lock to dual keys, caps_lock and left_command.",
