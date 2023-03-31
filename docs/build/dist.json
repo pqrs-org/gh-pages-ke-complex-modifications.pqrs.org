@@ -11038,9 +11038,27 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/switch_input_languages_with_ralt.json",
+          "json": {
+            "title": "R_ALT to switch input languages as it is in Windows (especially Korean)",
+            "maintainers": [
+              "pydemia"
+            ],
+            "rules": [
+              {
+                "description": "R_ALT to switch input languages as it is in Windows (especially Korean)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/switch_input_languages_with_rcmd_for_korean.json",
           "json": {
             "title": "R_CMD to switch input languages like R_ALT in Windows (especially Korean)",
+            "maintainers": [
+              "pydemia"
+            ],
             "rules": [
               {
                 "description": "R_CMD to switch input languages like R_ALT in Windows (especially Korean)"
