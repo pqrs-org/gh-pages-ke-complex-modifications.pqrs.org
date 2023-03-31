@@ -6518,6 +6518,20 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/pc-insert-to-screencapture-via-clipboard.json",
+          "json": {
+            "title": "Use PC Insert button for screen capture to Clipboard",
+            "maintainers": [
+              "unity1979"
+            ],
+            "rules": [
+              {
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
