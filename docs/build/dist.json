@@ -870,6 +870,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/right_command_to_f19.json",
+          "json": {
+            "title": "Change right_command key to F19 when pressed alone",
+            "rules": [
+              {
+                "description": "Change right_command key to command+control+option+shift. (Post f19 key when pressed alone)"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
