@@ -882,6 +882,19 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/CAPSLOCK_modifier_suite.json",
+          "extra_description_path": "extra_descriptions/CAPSLOCK_modifier_suite.html",
+          "json": {
+            "title": "CAPSLOCK modifier suite",
+            "rules": [
+              {
+                "description": "CAPSLOCK modifier suite"
+              }
+            ]
+          },
+          "extra_description_text": "repurpose capslock as a layer two shortcut: caps_lock + - left_shift = caps_lock - w = up_arrow - a = left_arrow - s = down_arrow - d = right_arrow - escape = grave_accent_and_tilde - o = mute - p = vk_consumer_previous - open_bracket = play_or_pause - close_brakcet = vk_consumer_next - delete_or_backspace = volume_increment - backslash = volume_decrement"
         }
       ]
     },
