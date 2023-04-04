@@ -894,7 +894,7 @@
               }
             ]
           },
-          "extra_description_text": "repurpose capslock as a layer two shortcut: caps_lock + - left_shift = caps_lock - w = up_arrow - a = left_arrow - s = down_arrow - d = right_arrow - escape = grave_accent_and_tilde - o = mute - p = vk_consumer_previous - open_bracket = play_or_pause - close_brakcet = vk_consumer_next - delete_or_backspace = volume_increment - backslash = volume_decrement"
+          "extra_description_text": "CAPSLOCK modifier suite Great for 60% layouts! Repurpose capslock as a layer two shortcut: caps + l_shift = caps w = &uarr; a = &larr; s = &darr; d = &rarr; esc = `~ o = mute p = vk_consumer_previous [ = play_or_pause ] = vk_consumer_next &larr; backspace = volume_increment \\ = volume_decrement"
         }
       ]
     },
