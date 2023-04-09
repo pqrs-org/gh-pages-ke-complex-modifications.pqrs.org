@@ -10933,6 +10933,17 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/right_shift_x2_to_mission_control.json",
+          "json": {
+            "title": "right_shift_x2_to_mission_control",
+            "rules": [
+              {
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/schwa_in_abc_extended.json",
           "json": {
             "title": "ABC Extended Schwa",
