@@ -9240,6 +9240,27 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/jkil_arrows.json",
+          "json": {
+            "title": "JKIL arrows (touch-typing cursor and more)",
+            "maintainers": [
+              "kravchik"
+            ],
+            "rules": [
+              {
+                "description": "Fast text navigation: [right ⌘ + left ⌥ + jkil] to [ten presses of ◀ ▼ ▲ ▶]"
+              },
+              {
+                "description": "Touch-typing arrows: [right ⌘ + jkil] to [◀ ▼ ▲ ▶]"
+              },
+              {
+                "description": "Touch-typing additional: [right ⌘ + nm;yhuo] to [⌦ ⌫ ⏎ △ ▽ ⇤ ⇥]"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
