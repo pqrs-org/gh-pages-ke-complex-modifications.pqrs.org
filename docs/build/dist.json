@@ -11070,6 +11070,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/spacebar_to_right_option.json",
+          "json": {
+            "title": "Change spacebar to right option on press and hold",
+            "rules": [
+              {
+                "description": "Change spacebar to right option on press and hold"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/swap-command-tab-with-control-tab-optional-shift.json",
           "json": {
             "title": "Swap \"command + tab\" with \"control + tab\" optional shift",
