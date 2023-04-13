@@ -9227,6 +9227,33 @@
       "id": "Command arrows and home end",
       "files": [
         {
+          "path": "json/caps_lock_toolbox.json",
+          "json": {
+            "title": "Capslock Toolbox",
+            "maintainers": [
+              "haohancom"
+            ],
+            "rules": [
+              {
+                "description": "CAPSLOCK + hjkl to arrow keys (Post CAPSLOCK if press CAPSLOCK alone)"
+              },
+              {
+                "description": "CAPSLOCK + b to backspace"
+              },
+              {
+                "description": "CAPSLOCK + space to enter"
+              },
+              {
+                "description": "CAPSLOCK + 1234567890-= to f1-f12"
+              },
+              {
+                "description": "Media Control(p to pause, f to fast_forward, r to rewind, i to volume increacement, d to volume decrecement, m to mute)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/command_h_j_k_l_u_i_to_left_down_up_right_home_end.json",
           "json": {
             "title": "command + h/j/k/l/u/i to arrow keys and home end",
