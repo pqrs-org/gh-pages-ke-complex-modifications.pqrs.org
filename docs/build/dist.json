@@ -10093,6 +10093,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/citrix_remove_fn.json",
+          "json": {
+            "title": "Citrix Receiver/Workspace remove Fn key from Functional (F*) keys",
+            "rules": [
+              {
+                "description": "Remove Fn from F* keys in Citrix"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/cmd_backslash_to_cmd_tab.json",
           "json": {
             "title": "Command_R + BackSlash to Command + Tab",
