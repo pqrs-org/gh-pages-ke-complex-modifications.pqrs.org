@@ -10363,6 +10363,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/home-to-switch-application-on-mac.json",
+          "json": {
+            "title": "Page down / home to switch Application on Mac",
+            "rules": [
+              {
+                "description": "Page down"
+              },
+              {
+                "description": "Home"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/iso-fr_tkl.json",
           "json": {
             "title": "Complete layout for ISO-FR AZERTY keyboards (TKL Keyboard) + Basics Ctrl + [?] shortcuts",
