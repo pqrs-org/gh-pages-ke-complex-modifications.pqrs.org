@@ -5765,10 +5765,10 @@
         {
           "path": "json/lshift_to_escape.json",
           "json": {
-            "title": "Change shift key",
+            "title": "Left shift to Escape on single press alone, shift when held or combined",
             "rules": [
               {
-                "description": "Change left_shift to caps_lock if alone."
+                "description": "Left shift to Escape on single press alone, shift on press and hold for more than 250 milliseconds or combined with other keys."
               }
             ]
           },
