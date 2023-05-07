@@ -10750,6 +10750,22 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/personal_mitch_60pct_basic.json",
+          "json": {
+            "title": "mitch 60% compatible arrows and keys",
+            "rules": [
+              {
+                "description": "mitch 60% compatible arrows and keys",
+                "available_since": "14.12.0"
+              },
+              {
+                "description": "media control mappings"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/personal_seung-00.json",
           "json": {
             "title": "Personal rules (@seung-00)",
