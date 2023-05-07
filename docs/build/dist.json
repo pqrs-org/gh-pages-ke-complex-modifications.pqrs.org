@@ -10630,6 +10630,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/never_dictattion.json",
+          "json": {
+            "title": "Treat Dictation as F5",
+            "rules": [
+              {
+                "description": "Always treat the dictation media key as if it was just F5. Helps to totally disable the dictation popup for keyboards that don't handle the function keys correctly."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/nuphy_air60_escape.json",
           "json": {
             "title": "Nuphy Air60 Escape Key Modifications",
