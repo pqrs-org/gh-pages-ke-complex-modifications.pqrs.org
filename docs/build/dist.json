@@ -7048,10 +7048,13 @@
         {
           "path": "json/open_terminal_window.json",
           "json": {
-            "title": "Open a Terminal window with Ctrl-RAlt-T",
+            "title": "Open a Terminal window with Ctrl-Alt-T",
             "rules": [
               {
                 "description": "Open a terminal window with Ctrl-RAlt-T"
+              },
+              {
+                "description": "Open a terminal window with Ctrl-LAlt-T"
               }
             ]
           },
