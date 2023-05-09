@@ -2800,6 +2800,22 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/FnKeyManagement.json",
+          "extra_description_path": "extra_descriptions/FnKeyManagement.html",
+          "json": {
+            "title": "Function Key Management",
+            "maintainers": [
+              "creatorKoo"
+            ],
+            "rules": [
+              {
+                "description": "When Specific app foreground, Then Change Fn Key Setting"
+              }
+            ]
+          },
+          "extra_description_text": "Description Fn Key reverse - for specific apps. Notes intellij 와 같이 mac-os에서 fn key를 기본값으로 단축키를 많이 사용하는 경우 불편하여 그러한 앱에서만 fn key 작동 방식이 반대로 동작하도록 구성하였다 예를들어 shift+f6 (이름바꾸기) 단축키를 사용하고자 할 때에 shift + fn + f6 이 아니라 intellij 에 한해서만 shift + f6 으로 동작한다. 실제 f6의 기능을 하고 싶으면, fn + f6 버튼을 누르면 된다 문제가 있다면, 저에게 email 주시면 감사하겠습니다."
+        },
+        {
           "path": "json/uk_macos_rdp.json",
           "json": {
             "title": "MacOS to RDP – British Keyboard Layout / UK Keyboard Layout",
@@ -4768,11 +4784,14 @@
             ],
             "rules": [
               {
+                "description": "Right_command to korean <-> english for gurum"
+              },
+              {
                 "description": "Right_command to korean <-> english"
               }
             ]
           },
-          "extra_description_text": "Description Right_command to korean english right_command to 2-Set korean(두벌식) ABC(로마자) Notes Originally, the mac-os input-source-change event was triggered by a key-up event. In contrast, the windows-os input-source-change event was triggered by a key-down event. So, this function is windows-os liked input source change system. If you have any issue, email me."
+          "extra_description_text": "Description Right_command to korean english Notes mac-os의 기본 한글 전환 방식은 key-up 이벤트(키를 누르고 땔때) 한글 전환이 된다 반대로, windows-os의 한글 전환 방식은 key-down(키를 누르자마자) 한글 전환이 된다 그래서 이 확장은 key-down 이벤트로 한영 전환을 할 수 있도록 구현하였다. 문제가 있다면, 저에게 email 주시면 감사하겠습니다. 추가적으로, 구름 입력기 두벌식 한글자판과 기본 입력기 영어 자판과 변환하는 기능도 제공한다. Originally, the mac-os input-source-change event was triggered by a key-up event. In contrast, the windows-os input-source-change event was triggered by a key-down event. So, this function is windows-os liked input source change system. If you have any issue, email me."
         },
         {
           "path": "json/caps_lock_toggle_korean_english_include_parallels.json",
@@ -5277,6 +5296,22 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/global_app_shortcut.json",
+          "extra_description_path": "extra_descriptions/global_app_shortcut.html",
+          "json": {
+            "title": "Global app shortcut",
+            "maintainers": [
+              "creatorKoo"
+            ],
+            "rules": [
+              {
+                "description": "Global app shortcut"
+              }
+            ]
+          },
+          "extra_description_text": "Description global_app_shortcut Notes right-option key + specific key = open specific app. 특정 앱을 빠르게 실행하거나 전환하고 싶을 때 사용할 수 있다. 스트림덱과 같이 사용할 수 있다. 아래와 같은 앱은 이미 구현되어 있으며, 사용자가 적용 후 json 수정하여 특정 앱을 수정 할 수 있다. 문제가 있다면, 저에게 email 주시면 감사하겠습니다. right-option + \"m:Music, f:Finder, n:notes, c:Chrome, S:safari, t:iTerm, i:intellij, C:code, k:kakaotalk, T:telegram, s:Slack\""
         },
         {
           "path": "json/command_r_and_shift_r_to_command_tab.json",
