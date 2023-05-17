@@ -1206,6 +1206,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/ctrl_pnbf_arrow.json",
+          "json": {
+            "title": "Left ctrl + pnbf to up/down/left/right arrows",
+            "rules": [
+              {
+                "description": "Left_Ctrl+p/Left_Ctrl+n/Left_Ctrl+b/Left_Ctrl+f to up/down/left/right arrows"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/diamond_cursor_right_supplements.json",
           "json": {
             "title": "Diamond Cursor Right Supplements (rev 2)",
