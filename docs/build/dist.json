@@ -1222,12 +1222,15 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/ctrl_pnbf_arrow.json",
+          "path": "json/ctrl_pnbfae_arrow.json",
           "json": {
-            "title": "Left ctrl + pnbf to up/down/left/right arrows",
+            "title": "Left ctrl + pnbfae to up/down/left/right/home/end",
+            "maintainers": [
+              "PisecesPeng"
+            ],
             "rules": [
               {
-                "description": "Left_Ctrl+p/Left_Ctrl+n/Left_Ctrl+b/Left_Ctrl+f to up/down/left/right arrows"
+                "description": "Left_Ctrl + p/n/b/f/a/e to up/down/left/right/home/end"
               }
             ]
           },
