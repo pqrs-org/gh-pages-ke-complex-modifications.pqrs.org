@@ -903,6 +903,22 @@
       "id": "emulation-modes",
       "files": [
         {
+          "path": "json/mouse_full_emulation_with_right_command_super_fast.json",
+          "extra_description_path": "extra_descriptions/mouse_full_emulation_with_right_command_super_fast.json.html",
+          "json": {
+            "title": "Mouse full emulation with right command super fast",
+            "maintainers": [
+              "maxdzyubak"
+            ],
+            "rules": [
+              {
+                "description": "Mouse full emulation with right command super fast"
+              }
+            ]
+          },
+          "extra_description_text": "Mouse full emulation with right command super fast Mouse keys mode is active while you press the right_command key + Example key Release unpress the right_command key to leave mouse keys mode Example key: h: mouse left j: mouse down k: mouse up l: mouse right v: left click b: middle click r: right click f: fast mode (fast mouse move by f + hjkl) d: slow mode (slow mouse move by d + hjkl) s: scroll mode (scroll by s + hjkl)"
+        },
+        {
           "path": "json/toggle_vim.json",
           "json": {
             "title": "Toggle to vim hjkl in specified apps",
