@@ -10813,6 +10813,20 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/pc_prtscn_portion_clipboard.json",
+          "json": {
+            "title": "Use Print Screen (PrtScn) PC button for screen capture portion to Clipboard - Same as Cmd+Ctrl+Shift+4",
+            "maintainers": [
+              "arkulkarni"
+            ],
+            "rules": [
+              {
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/personal_gabrys.json",
           "json": {
             "title": "Personal rules for Gabrys (@gabrys)",
