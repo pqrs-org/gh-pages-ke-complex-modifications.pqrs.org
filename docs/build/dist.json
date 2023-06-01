@@ -10821,6 +10821,7 @@
             ],
             "rules": [
               {
+                "description": "Print Screen (PrtScn) to Command+Ctrl+Shift+4"
               }
             ]
           },
