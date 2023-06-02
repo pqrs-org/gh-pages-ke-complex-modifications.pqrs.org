@@ -10828,6 +10828,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/pc_right_ctrl_application_open_calculator.json",
+          "json": {
+            "title": "Use Right Ctrl + Application (right click) PC keyboard buttons to open the Calculator app",
+            "maintainers": [
+              "arkulkarni"
+            ],
+            "rules": [
+              {
+                "description": "Right Ctrl + Application (right click) PC keyboard buttons to open Calculator"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/personal_gabrys.json",
           "json": {
             "title": "Personal rules for Gabrys (@gabrys)",
