@@ -5471,28 +5471,27 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/ctrl_delete.json",
+          "path": "json/ctrl_deletes_to_option_deletes.json",
           "json": {
-            "title": "Map Ctrl+Backward-Delete.",
+            "title": "Exchange control + deletes with option + deletes (forward and backward)",
             "rules": [
               {
-                "description": "Add Ctrl+Backward-Delete to Option+Delete (delete current word).",
-                "type": "basic"
+                "description": "Exchange control + backward delete with option + backward delete"
               },
               {
-                "description": "Map Ctrl-Backspace to forward Delete (forward delete one character at a time)."
+                "description": "Exchange control + forward delete with option + forward delete"
               }
             ]
           },
           "extra_description_text": ""
         },
         {
-          "path": "json/ctrl_forward_delete.json",
+          "path": "json/ctrl_delete_to_forward_delete.json",
           "json": {
-            "title": "Map Ctrl+Forward-Delete to Option+Forward-Delete (forward delete current word)",
+            "title": "Map Ctrl-Backspace to forward Delete (forward delete one character at a time).",
             "rules": [
               {
-                "description": "Add Ctrl+Forward-Delete"
+                "description": "Map Ctrl-Backspace to forward Delete (forward delete one character at a time)."
               }
             ]
           },
