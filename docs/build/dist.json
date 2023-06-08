@@ -10710,6 +10710,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/mousebutton5tocommandshiftn.json",
+          "json": {
+            "title": "MouseButton5 to Command + Shift + n (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton4 to Command + Shift + n"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/never_dictattion.json",
           "json": {
             "title": "Treat Dictation as F5",
