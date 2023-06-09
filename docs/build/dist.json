@@ -6630,6 +6630,18 @@
       "id": "os-functionality",
       "files": [
         {
+          "path": "json/F4-desktop.json",
+          "json": {
+            "title": "Show Desktop with F4",
+            "rules": [
+              {
+                "description": "Show Desktop with F4"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/search_in_dict.json",
           "json": {
             "title": "Search in Dictionary.app",
@@ -9649,18 +9661,6 @@
             "rules": [
               {
                 "description": "Remap keys to use Right-Hand Dvorak keyboard layout"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/F4-desktop.json",
-          "json": {
-            "title": "Show Desktop with F4",
-            "rules": [
-              {
-                "description": "Show Desktop with F4"
               }
             ]
           },
