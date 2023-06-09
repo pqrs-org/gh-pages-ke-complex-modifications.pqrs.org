@@ -9655,6 +9655,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/F4-desktop.json",
+          "json": {
+            "title": "Show Desktop with F4",
+            "rules": [
+              {
+                "description": "Show Desktop with F4"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/Fn+space=emoji.json",
           "json": {
             "title": "Fn + space = emoji menu (command+control+space)",
