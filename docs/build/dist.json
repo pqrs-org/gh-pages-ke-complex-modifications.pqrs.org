@@ -10734,6 +10734,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/mousebutton6tocommandoptionn.json",
+          "json": {
+            "title": "MouseButton6 to Command + option + n (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton6 to Command + option + n"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/never_dictattion.json",
           "json": {
             "title": "Treat Dictation as F5",
