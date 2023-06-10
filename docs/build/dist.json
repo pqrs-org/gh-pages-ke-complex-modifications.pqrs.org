@@ -10746,6 +10746,30 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/mousebutton7tocommandplus.json",
+          "json": {
+            "title": "MouseButton7 to Command + pluse (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton7 to Command + pluse"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mousebutton8tocommandminus.json",
+          "json": {
+            "title": "MouseButton8 to Command + minus (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton8 to Command + minus"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/never_dictattion.json",
           "json": {
             "title": "Treat Dictation as F5",
