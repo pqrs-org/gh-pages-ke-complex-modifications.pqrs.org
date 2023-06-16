@@ -8911,7 +8911,7 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/personal_chxmvn.json",
+          "path": "json/personal_ccmvn.json",
           "json": {
             "title": "Personal rules (@ccmvn)",
             "maintainers": [
@@ -9061,6 +9061,15 @@
               },
               {
                 "description": "Scroll-Lock => Ctrl+Command+Q"
+              },
+              {
+                "description": "Scroll-Lock => Ctrl+Command+Q"
+              },
+              {
+                "description": "Mouse 4 => Back"
+              },
+              {
+                "description": "Mouse 5 => Forward"
               }
             ]
           },
