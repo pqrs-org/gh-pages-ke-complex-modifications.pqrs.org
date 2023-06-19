@@ -319,11 +319,11 @@
             ],
             "rules": [
               {
-                "description": "(Atom, CKII, EUIV, iTerm, muCommander, PyCharm, VSCodium, WebStorm, AndroidStudio) Function keys work as fn keys"
+                "description": "(Atom, CKII, EUIV, iTerm, muCommander, PyCharm, VSCode, VSCodium, WebStorm, AndroidStudio) Function keys work as fn keys"
               }
             ]
           },
-          "extra_description_text": "This mod maps your function keys (F1–F12) to themselves for a predefined selection of apps. (I left my selection in there as an example, so please use the “Frontmost application” tab of Karabiner's EventViewer to find bundle identifiers and file paths for your apps.) I have set this up as follows: Each function key in the “Function keys” tab is set to whatever I want it to do. (A combination of media buttons and custom actions through Hammerspoon.) “Use all F1, F2, etc. keys as standard function keys” unchecked, so that the above mappings apply without pressing fn. This modification added to the “Complex modifications” tab. This way I can use the function keys as function keys within the following apps, and as media buttons in all others: Atom Crusader Kings II Europa Universalis IV iTerm2 muCommander PyCharm VSCodium"
+          "extra_description_text": "This mod maps your function keys (F1–F12) to themselves for a predefined selection of apps. (I left my selection in there as an example, so please use the “Frontmost application” tab of Karabiner's EventViewer to find bundle identifiers and file paths for your apps.) I have set this up as follows: Each function key in the “Function keys” tab is set to whatever I want it to do. (A combination of media buttons and custom actions through Hammerspoon.) “Use all F1, F2, etc. keys as standard function keys” unchecked, so that the above mappings apply without pressing fn. This modification added to the “Complex modifications” tab. This way I can use the function keys as function keys within the following apps, and as media buttons in all others: Atom Crusader Kings II Europa Universalis IV iTerm2 muCommander PyCharm VSCode VSCodium WebStorm AndroidStudio"
         },
         {
           "path": "json/Jesse_Tutorial_Hyper_Plus_Others.json",
