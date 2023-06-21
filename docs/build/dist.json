@@ -11238,6 +11238,24 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/samuelraub_fix_german_keyboard.json",
+          "json": {
+            "title": "Fix German Keyboard Dead Keys: Backtick, Tilde, Circumflex",
+            "rules": [
+              {
+                "description": "Fix Backtick"
+              },
+              {
+                "description": "Fix Tilde"
+              },
+              {
+                "description": "Fix Circumflex"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/schwa_in_abc_extended.json",
           "json": {
             "title": "ABC Extended Schwa",
