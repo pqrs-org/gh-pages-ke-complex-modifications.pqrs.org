@@ -10206,6 +10206,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/cmd_shift_arrow.json",
+          "json": {
+            "title": "Cmd + (Shift) + L/R Arrow --> Control + (Shift) + L/R Arrow",
+            "rules": [
+              {
+                "description": "Cmd+(Shift)+Right/left arrow => Alt+(Shift)+Right/left arrow (Move cursor one word with selection and without selection)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/colemak-caps-lock-backspace-delete-swap.json",
           "json": {
             "title": "Caps lock to backspace and backspace to delete forward, but only on Colemak",
