@@ -10120,6 +10120,22 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/caps_lock_hold_ijkl_arrows.json",
+          "json": {
+            "title": "Hold CAPS LOCK for ijkl arrow keys (Anne Pro 2)",
+            "maintainer": [
+              "Aldin38"
+            ],
+            "homepage": "https://github.com/Aldin38/KE-complex_modifications",
+            "rules": [
+              {
+                "description": "Hold CAPS LOCK for ijkl arrow keys (Anne Pro 2)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/caps_lock_tapped_escape_held_left_control.json",
           "json": {
             "title": "Change caps_lock to dual keys, escape and left_control.",
