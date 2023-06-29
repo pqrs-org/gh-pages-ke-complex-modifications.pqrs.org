@@ -11156,6 +11156,19 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/personal_toshi-ue_us.json",
+          "json": {
+            "title": "Personal rules (@toshi-ue) US Keyboard Settings",
+            "rules": [
+              {
+                "description": "Caps Lock to Control When Held in US keyboard",
+                "_comment": ""
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/personal_toshi-ue_vi_mode.json",
           "json": {
             "title": "Personal rules JIS (@toshi-ue) vi mode shortcut command in terminal apps",
