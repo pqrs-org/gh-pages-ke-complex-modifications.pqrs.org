@@ -3326,6 +3326,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/warp.json",
+          "json": {
+            "title": "Map Option to soft-meta for Warp",
+            "rules": [
+              {
+                "description": "Map left_option to soft-meta for Warp"
+              },
+              {
+                "description": "Map right_option to soft-meta for Warp"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/aquaskk.json",
           "json": {
             "title": "AquaSKK",
