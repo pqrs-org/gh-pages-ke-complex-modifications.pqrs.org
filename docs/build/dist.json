@@ -895,6 +895,70 @@
             ]
           },
           "extra_description_text": "CAPSLOCK modifier suite Great for 60% layouts! Repurpose capslock as a layer two shortcut: caps + l_shift = caps w = &uarr; a = &larr; s = &darr; d = &rarr; esc = `~ o = mute p = vk_consumer_previous [ = play_or_pause ] = vk_consumer_next &larr; backspace = volume_increment \\ = volume_decrement"
+        },
+        {
+          "path": "json/ru_keyboard_remapping_comma_on_b.json",
+          "extra_description_path": "extra_descriptions/ru_keyboard_remapping_comma_on_b.json.html",
+          "json": {
+            "title": "Russian Keyboard Remapping: Запятая на б",
+            "maintainers": [
+              "maxdzyubak"
+            ],
+            "rules": [
+              {
+                "description": "Russian Keyboard Remapping: Запятая на б"
+              }
+            ]
+          },
+          "extra_description_text": "Russian Keyboard Remapping: Запятая на б На русской раскладке запятая по нажатию на маленькую клавишу б"
+        },
+        {
+          "path": "json/ru_keyboard_remapping_small_b_on_shift_b.json",
+          "extra_description_path": "extra_descriptions/ru_keyboard_remapping_small_b_on_shift_b.json.html",
+          "json": {
+            "title": "Russian Keyboard Remapping: Маленькая б на shift+б",
+            "maintainers": [
+              "maxdzyubak"
+            ],
+            "rules": [
+              {
+                "description": "Russian Keyboard Remapping: Маленькая б на shift+б"
+              }
+            ]
+          },
+          "extra_description_text": "Russian Keyboard Remapping: Маленькая б на shift+б На русской раскладке маленькая б по нажатию на shift + б"
+        },
+        {
+          "path": "json/ru_keyboard_remapping_period_on_yu.json",
+          "extra_description_path": "extra_descriptions/ru_keyboard_remapping_small_yu_on_shift_yu.json.html",
+          "json": {
+            "title": "Russian Keyboard Remapping: Точка на ю",
+            "maintainers": [
+              "maxdzyubak"
+            ],
+            "rules": [
+              {
+                "description": "Russian Keyboard Remapping: Точка на ю"
+              }
+            ]
+          },
+          "extra_description_text": "Russian Keyboard Remapping: Маленькая ю на shift+ю На русской раскладке маленькая ю на shift + ю"
+        },
+        {
+          "path": "json/ru_keyboard_remapping_small_yu_on_shift_yu.json",
+          "extra_description_path": "extra_descriptions/ru_keyboard_remapping_small_yu_on_shift_yu.json.html",
+          "json": {
+            "title": "Russian Keyboard Remapping: Маленькая ю на shift+ю",
+            "maintainers": [
+              "maxdzyubak"
+            ],
+            "rules": [
+              {
+                "description": "Russian Keyboard Remapping: Маленькая ю на shift+ю"
+              }
+            ]
+          },
+          "extra_description_text": "Russian Keyboard Remapping: Маленькая ю на shift+ю На русской раскладке маленькая ю на shift + ю"
         }
       ]
     },
