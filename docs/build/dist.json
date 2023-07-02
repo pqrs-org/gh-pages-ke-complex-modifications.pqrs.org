@@ -10120,6 +10120,24 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/backslash-to-forward-delete.json",
+          "json": {
+            "title": "Backslash (\\) to forward delete. (Use Fn + \\ for default behavior)",
+            "rules": [
+              {
+                "description": "Change Backslash (\\) to forward delete"
+              },
+              {
+                "description": "Change option + \\ to delete next word"
+              },
+              {
+                "description": "Change command + \\ to delete forward whole line"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/backspace_to_delete.json",
           "json": {
             "title": "Delete when modifier+Backspace",
