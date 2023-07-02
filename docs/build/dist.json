@@ -9283,6 +9283,24 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/autoshift2.json",
+          "json": {
+            "title": "Autoshift 2: Post key if pressed alone, backspace then shifted key if held down",
+            "rules": [
+              {
+                "description": "Autoshift 2 Alphabets only: Post alphabets if pressed alone, backspace then Capital alphas if held down"
+              },
+              {
+                "description": "Autoshift 2 Numbers only: Post number if pressed alone, backspace then shifted number row key if held down"
+              },
+              {
+                "description": "Autoshift 2 Special Characters only: Post key if pressed alone, backspace then shifted key if held down"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/shift_r_home_end_keypress.json",
           "json": {
             "title": "right_control to end; and if held, home",
