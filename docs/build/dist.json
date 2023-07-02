@@ -10329,19 +10329,34 @@
         {
           "path": "json/control_wilu_deletejumpundo.json",
           "json": {
-            "title": "control + w,i,l,u -> delete left word,jump one word to the left/right, undo 删除前面一个单词/往前跳一个词/往后跳一个词/undo",
+            "title": "control + w,i,l,u,n,p,h,b,f -> delete left word, move cursor one word to left/right etc. 删除左面一个词, 光标左/右移一个词 等等",
             "rules": [
               {
-                "description": "control + w: delete the left word 删除光标前面一个单词"
+                "description": "control + w: delete the word to the left of the cursor 删除光标左侧一个单词"
               },
               {
-                "description": "control + i: jump onw word to the left 往左跳一个词"
+                "description": "control + i: move the cursor one word to the left 将光标左移一个词"
               },
               {
-                "description": "control + l: jump onw word to the right 往右跳一个词"
+                "description": "control + l: move the cursor one word to the right 将光标右移一个词"
               },
               {
                 "description": "control + u: undo 取消前一次操作"
+              },
+              {
+                "description": "control + n: down_arrow 方向键[下]"
+              },
+              {
+                "description": "control + p: up_arrow 方向键[上]"
+              },
+              {
+                "description": "control + h: backspace/delete 删除左侧一个字符"
+              },
+              {
+                "description": "control + b: moves the cursor left one character 光标左移一个字符"
+              },
+              {
+                "description": "control + f: moves the cursor right one character 光标右移一个字符"
               }
             ]
           },
