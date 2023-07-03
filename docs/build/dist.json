@@ -10799,6 +10799,27 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/jkil_arrows_left.json",
+          "json": {
+            "title": "JKIL arrows [left command] (touch-typing cursor and more)",
+            "maintainers": [
+              "jordandraper"
+            ],
+            "rules": [
+              {
+                "description": "Fast text navigation: [left ⌘ + left ⌥ + jkil] to [ten presses of ◀ ▼ ▲ ▶]."
+              },
+              {
+                "description": "Touch-typing arrows: [left ⌘ + jkil] to [◀ ▼ ▲ ▶]"
+              },
+              {
+                "description": "Touch-typing additional: [left ⌘ + nm;yhuo] to [⌦ ⌫ ⏎ △ ▽ ⇤ ⇥]"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/karabiner-macro-volume-brightness.json",
           "json": {
             "title": "TES68 Volume and Brightness Macros + Up/Down Arrows",
