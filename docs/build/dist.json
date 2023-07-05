@@ -10907,6 +10907,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/map_left_shift+caps_lock_to_enter.json",
+          "json": {
+            "title": "Map Left Shift + Caps Lock to Enter",
+            "maintainers": [
+              "jordandraper"
+            ],
+            "rules": [
+              {
+                "description": "Map Left Shift + Caps Lock to Enter"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/map_prtscr_to_screenshot.json",
           "json": {
             "title": "Maps Prtscr to Screenshot",
