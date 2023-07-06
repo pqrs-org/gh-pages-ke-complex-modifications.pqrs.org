@@ -8250,8 +8250,8 @@
             ],
             "rules": [
               {
-                "description": "Personal rules (@tekezo) (rev 46)",
-                "available_since": "14.9.0"
+                "description": "Personal rules (@tekezo) (rev 47)",
+                "available_since": "14.12.6"
               }
             ]
           },
