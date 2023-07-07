@@ -10275,6 +10275,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/caps_lock_wasd_nav.json",
+          "json": {
+            "title": "Capslock WASD Navigation",
+            "maintainers": [
+              "nuclearmonster"
+            ],
+            "rules": [
+              {
+                "description": "CAPSLOCK + WASD to arrow keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/capslock_as_esc.json",
           "json": {
             "title": "CapsLock as ESC",
