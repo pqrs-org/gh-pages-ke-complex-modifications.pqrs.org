@@ -9784,6 +9784,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/Fn=Option+Space.json",
+          "json": {
+            "title": "Fn = Option + Space. For better changing input sources if you have Cmd + Space for Spotlight. (Set Globe Key to do nothing and set Option + Space for \"Select the previous input source\" in Keyboard shortcuts)",
+            "rules": [
+              {
+                "description": "Fn = Option + Space"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/IME.json",
           "json": {
             "title": "IME",
@@ -11894,6 +11906,6 @@
       ]
     }
   ],
-  "revision": "ffca8fb",
-  "updatedAt": 1689034487
+  "revision": "eae2cb6",
+  "updatedAt": 1689034612
 }
