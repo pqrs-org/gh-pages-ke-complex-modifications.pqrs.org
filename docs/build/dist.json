@@ -2149,6 +2149,58 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/spacefn_plus.json",
+          "extra_description_path": "extra_descriptions/spacefn_plus.json.html",
+          "json": {
+            "title": "SpaceFN",
+            "maintainers": [
+              "tshu-w"
+            ],
+            "rules": [
+              {
+                "description": "SpaceFN: Space enables SpaceFN mode (see: https://geekhack.org/index.php?topic=51069.0 & https://spacelauncherapp.com)"
+              },
+              {
+                "description": "SpaceFN: Space+b to Space (hold to repeat)"
+              },
+              {
+                "description": "SpaceFN: Space+[ijkl] to Up, Left, Down, Right"
+              },
+              {
+                "description": "SpaceFN: Space+[hjkl] to Left, Down, Up, Right"
+              },
+              {
+                "description": "SpaceFN: Space+u to Home, Space+o to End"
+              },
+              {
+                "description": "SpaceFN: Space+h to Page Up, Space+n to Page Down"
+              },
+              {
+                "description": "SpaceFN: Space+p to Print Screen, Space+Open Bracket ([) to Scroll Lock, Space+Close Bracket (]) to Pause, Space+Backslash (\\) to Insert"
+              },
+              {
+                "description": "SpaceFN: Space+Backspace to Forward Delete"
+              },
+              {
+                "description": "SpaceFN: Backquote (`) to Escape"
+              },
+              {
+                "description": "SpaceFN: Space+e to Escape, Space+m to Backtick (`), Space+Comma to Tilde (~)"
+              },
+              {
+                "description": "SpaceFN: Space+[1234567890-=] to F[1-12]"
+              },
+              {
+                "description": "SpaceFN: Space+Slash (/) to Menu"
+              },
+              {
+                "description": "SpaceFN: Disable SpaceFN mode after last typing"
+              }
+            ]
+          },
+          "extra_description_text": "SpaceFN Plus This is an upgraded version of SpaceFN. The existing SpaceFN configuration unfavourably activates SpaceFN mode during rapid typing, rendering it unusability. The concept is drawn from SpaceLauncher, with two primary revisions: Inhibit SpaceFN Mode for a duration of 0.2 seconds post the last keystroke: This adjustment allows for the quick insertion of a space following the completion of a word. Ingore pre-defined keys within 0.2 seconds after space key down: This enhancement aims to prevent a letter from being activated before releasing the space bar during speedy typing. I have been using these two improvements for 4 years, and they work well for me."
+        },
+        {
           "path": "json/touchcursor_mode.json",
           "extra_description_path": "extra_descriptions/touchcursor_mode.json.html",
           "json": {
@@ -11938,6 +11990,6 @@
       ]
     }
   ],
-  "revision": "2457a5d",
-  "updatedAt": 1690238908
+  "revision": "6e685aa",
+  "updatedAt": 1690239547
 }
