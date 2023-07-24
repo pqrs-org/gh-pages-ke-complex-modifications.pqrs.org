@@ -959,6 +959,38 @@
             ]
           },
           "extra_description_text": "Russian Keyboard Remapping: Маленькая ю на shift+ю На русской раскладке маленькая ю на shift + ю"
+        },
+        {
+          "path": "json/ru_keyboard_remapping_small_b.json",
+          "extra_description_path": "extra_descriptions/ru_keyboard_remapping_small_b.json.html",
+          "json": {
+            "title": "Russian Keyboard Remapping: Маленькая б на мягкий знак(ь). Мягкий знак(ь) на shift + б (в классическом исполнении мягкий знак(ь))",
+            "maintainers": [
+              "maxdzyubak"
+            ],
+            "rules": [
+              {
+                "description": "Russian Keyboard Remapping: Маленькая б на мягкий знак(ь). Мягкий знак(ь) на shift + б (в классическом исполнении мягкий знак(ь))"
+              }
+            ]
+          },
+          "extra_description_text": "Russian Keyboard Remapping: Маленькая б на мягкий знак(ь). Мягкий знак(ь) на shift + б (в классическом исполнении мягкий знак(ь)) На русской раскладке маленькая б по нажатию на ь"
+        },
+        {
+          "path": "json/ru_keyboard_remapping_small_yu-on-close_bracket.json",
+          "extra_description_path": "extra_descriptions/ru_keyboard_remapping_small_yu-on-close_bracket.json.html",
+          "json": {
+            "title": "Russian Keyboard Remapping: Маленькая ю на твёрдый знак (ъ). Твёрдый знак на shift + ю (в классическом исполнении на твёрдый знак)",
+            "maintainers": [
+              "maxdzyubak"
+            ],
+            "rules": [
+              {
+                "description": "Russian Keyboard Remapping: Маленькая ю на твёрдый знак (ъ). Твёрдый знак на shift + ю (в классическом исполнении на твёрдый знак)"
+              }
+            ]
+          },
+          "extra_description_text": "Russian Keyboard Remapping: Маленькая ю на твёрдый знак (ъ). Твёрдый знак на shift + ю (в классическом исполнении на твёрдый знак) На русской раскладке маленькая ю по нажатию на ъ На русской раскладке маленький ъ по нажатию на shift + ъ"
         }
       ]
     },
@@ -11906,6 +11938,6 @@
       ]
     }
   ],
-  "revision": "e97f32f",
-  "updatedAt": 1689120821
+  "revision": "2457a5d",
+  "updatedAt": 1690238908
 }
