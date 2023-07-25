@@ -2198,7 +2198,7 @@
               }
             ]
           },
-          "extra_description_text": "SpaceFN Plus This is an upgraded version of SpaceFN. The existing SpaceFN configuration unfavourably activates SpaceFN mode during rapid typing, rendering it unusability. The concept is drawn from SpaceLauncher, with two primary revisions: Inhibit SpaceFN Mode for a duration of 0.2 seconds post the last keystroke: This adjustment allows for the quick insertion of a space following the completion of a word. Ingore pre-defined keys within 0.2 seconds after space key down: This enhancement aims to prevent a letter from being activated before releasing the space bar during speedy typing. I have been using these two improvements for 4 years, and they work well for me."
+          "extra_description_text": "SpaceFN Plus This is an upgraded version of SpaceFN. The existing SpaceFN configuration unfavourably activates SpaceFN mode during rapid typing, rendering it unusability. The concept is drawn from SpaceLauncher, with two primary revisions: Inhibit SpaceFN Mode for a duration of 0.2 seconds post the last keystroke: This adjustment allows for the quick insertion of a space following the completion of a word. Ingore pre-defined keys within 0.2 seconds after space key down: This enhancement aims to prevent a letter from being activated before releasing the space bar during speedy typing. I have been using these two improvements for 4 years, and they work well for me. Known limitation: as stated here and reiterated here, Karabiner currently has a significant limitation - it overlooks rules that are outlined following other existing rules, even if those rules have unique conditions. For a more comprehensive explanation, refer to this feature request. Consequently, it is recommended to position the initial revision, “Disable SpaceFN mode after last typing,” following all other rules to prevent it from superseding the remaining rules."
         },
         {
           "path": "json/touchcursor_mode.json",
@@ -11990,6 +11990,6 @@
       ]
     }
   ],
-  "revision": "6e685aa",
-  "updatedAt": 1690239547
+  "revision": "1e4c18a",
+  "updatedAt": 1690250346
 }
