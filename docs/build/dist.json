@@ -6784,6 +6784,28 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/intuitive_smartquotes_mac.json",
+          "extra_description_path": "extra_descriptions/intuitive_smartquotes_mac.html",
+          "json": {
+            "title": "Intuitive smart quote mapping for Mac",
+            "rules": [
+              {
+                "description": "Remap left single quote from option-] to option-["
+              },
+              {
+                "description": "Remap right single quote from option-} to option-]"
+              },
+              {
+                "description": "Remap left double quote from option-[ to option-{"
+              },
+              {
+                "description": "Remap right double quote from option-{ to option-}"
+              }
+            ]
+          },
+          "extra_description_text": "Intuitive Smart Quotes Mapping for Mac Remaps smart quotes to more logical settings for Mac. Opening and closing quotes now map to opening and closing brackets, and the shift modifier switches from single to double quotes. Left single quote (‘): option+[ Right single quote (’): option+] Left double quote (“): option+shift+[ Right double quote (”): option+shift+]"
         }
       ]
     },
@@ -11990,6 +12012,6 @@
       ]
     }
   ],
-  "revision": "1e4c18a",
-  "updatedAt": 1690250346
+  "revision": "2b40509",
+  "updatedAt": 1690501126
 }
