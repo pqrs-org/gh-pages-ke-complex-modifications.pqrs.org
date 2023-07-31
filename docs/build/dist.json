@@ -5392,6 +5392,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/print_screen-EN-scroll_lock-JP-pause-KR.json",
+          "json": {
+            "title": "Switch EN/JP/KR with print_screen, scroll_lock, and application",
+            "rules": [
+              {
+                "description": "print_screen to English, scroll_lock to Japanese, application to Korean"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -12012,6 +12024,6 @@
       ]
     }
   ],
-  "revision": "2b40509",
-  "updatedAt": 1690501126
+  "revision": "a807c7a",
+  "updatedAt": 1690761852
 }
