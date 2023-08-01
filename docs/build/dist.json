@@ -5239,6 +5239,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/eisuufn.json",
+          "json": {
+            "title": "EisuuFN",
+            "rules": [
+              {
+                "description": "EisuuFN: japanese_eisuu to fn unlesss alone"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/kanafn.json",
           "json": {
             "title": "KanaFN (“keyexchange”-compatible)",
@@ -12024,6 +12036,6 @@
       ]
     }
   ],
-  "revision": "a807c7a",
-  "updatedAt": 1690761852
+  "revision": "d2828ee",
+  "updatedAt": 1690934050
 }
