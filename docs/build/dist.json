@@ -11103,6 +11103,66 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/microsoft_sculpt_ergonomic_desktop_latin_american.json",
+          "json": {
+            "title": "Microsoft Sculpt Ergonomic Desktop (latin american keyboard)",
+            "rules": [
+              {
+                "description": "Swap 'left Alt ⎇' key and 'Windows key'"
+              },
+              {
+                "description": "Swap 'right Alt ⎇' key and 'Menu/Application' key"
+              },
+              {
+                "description": "Map 'Home' key to '⌘ + Left arrow'"
+              },
+              {
+                "description": "Map 'End' key to '⌘ + Right arrow'"
+              },
+              {
+                "description": "Map 'PrintScreen' key to 'ScreenShoot'"
+              },
+              {
+                "description": "Map 'ScrLk' key to 'Eject'"
+              },
+              {
+                "description": "Map 'Pause' key to 'Fn' key"
+              },
+              {
+                "description": "Map 'Task View' key (F2 key) to launching 'Mission Control.app'"
+              },
+              {
+                "description": "Map 'Desktop Left' key (F3 key) to 'Move left a space' action"
+              },
+              {
+                "description": "Map 'Desktop Right' key (F4 key) to 'Move right a space' action"
+              },
+              {
+                "description": "Map 'Cortana/Search' key (F5 key) to launching 'Spotlight'"
+              },
+              {
+                "description": "Map 'Network' key (F6 key) to launching 'Safari.app'"
+              },
+              {
+                "description": "Map 'Connect' key (F7 key) to launching 'Screen Sharing.app'"
+              },
+              {
+                "description": "Map 'Windows Settings' key (F8 key) to launching 'System Preferences.app'"
+              },
+              {
+                "description": "Map 'Back' mouse button to 'quote + left_command' action"
+              },
+              {
+                "description": "Map 'Windows' mouse button to launching 'Launchpad.app'"
+              },
+              {
+                "description": "Toggle 'NumLock' and map action keys on Numpad"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/mouse_keys_minimal.json",
           "json": {
             "title": "Mouse keys Minimal",
@@ -12049,6 +12109,6 @@
       ]
     }
   ],
-  "revision": "d0214f6",
-  "updatedAt": 1691053723
+  "revision": "8302116",
+  "updatedAt": 1691106325
 }
