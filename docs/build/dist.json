@@ -10691,6 +10691,19 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/fn_numpad.json",
+          "json": {
+            "title": "Fn + NumPad Mac Style",
+            "author": "Jerry Jeong",
+            "rules": [
+              {
+                "description": "Fn + Num Pad Mac Style"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/fn_open_bracket_to_esc.json",
           "json": {
             "title": "Fn + [ to Esc",
@@ -12036,6 +12049,6 @@
       ]
     }
   ],
-  "revision": "d2828ee",
-  "updatedAt": 1690934050
+  "revision": "d0214f6",
+  "updatedAt": 1691053723
 }
