@@ -9282,6 +9282,30 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/personal_dziaineka.json",
+          "json": {
+            "title": "Personal rules (@dziaineka)",
+            "rules": [
+              {
+                "description": "Left CMD -> en"
+              },
+              {
+                "description": "Right CMD -> ruby"
+              },
+              {
+                "description": "caps_lock toggle to get into vim-like navigation (but different)"
+              },
+              {
+                "description": "Quit application by pressing command-q twice"
+              },
+              {
+                "description": "Quit Safari by pressing command-q twice"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -12109,6 +12133,6 @@
       ]
     }
   ],
-  "revision": "8302116",
-  "updatedAt": 1691106325
+  "revision": "b263d45",
+  "updatedAt": 1691362574
 }
