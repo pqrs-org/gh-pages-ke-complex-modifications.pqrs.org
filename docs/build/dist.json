@@ -10839,6 +10839,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/hai_open_apps-chatfinity.json",
+          "json": {
+            "title": "Hai HHKB Launch app - chatfinity",
+            "rules": [
+              {
+                "description": "right_option + C -> Chatfinity"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/hhkb_arrows_for_realforce_r3.json",
           "json": {
             "title": "HHKB arrows for RealForce R3",
@@ -12148,6 +12160,6 @@
       ]
     }
   ],
-  "revision": "2e78858",
-  "updatedAt": 1691423029
+  "revision": "7e281be",
+  "updatedAt": 1691445669
 }
