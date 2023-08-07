@@ -8394,7 +8394,7 @@
             ],
             "rules": [
               {
-                "description": "Personal rules (@tekezo) (rev 47)",
+                "description": "Personal rules (@tekezo) (rev 48)",
                 "available_since": "14.12.6"
               }
             ]
@@ -8427,7 +8427,7 @@
             ],
             "rules": [
               {
-                "description": "Launcher Mode v4 (rev 18)",
+                "description": "Launcher Mode v4 (rev 19)",
                 "available_since": "13.1.4"
               }
             ]
@@ -12160,6 +12160,6 @@
       ]
     }
   ],
-  "revision": "7e281be",
-  "updatedAt": 1691445669
+  "revision": "320e6d0",
+  "updatedAt": 1691450126
 }
