@@ -3349,6 +3349,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/amethyst_left_right.json",
+          "json": {
+            "title": "Amethyst: Shift + Option + h/l to ctrl + arrow keys",
+            "rules": [
+              {
+                "description": "Change Shift + Option + h to Ctrl + left_arrow"
+              },
+              {
+                "description": "Change Shift + Option + l to Ctrl + right_arrow"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/finder.json",
           "json": {
             "title": "Finder",
@@ -12133,6 +12148,6 @@
       ]
     }
   ],
-  "revision": "8758e18",
-  "updatedAt": 1691414328
+  "revision": "2e78858",
+  "updatedAt": 1691423029
 }
