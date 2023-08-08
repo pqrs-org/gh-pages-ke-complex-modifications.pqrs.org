@@ -4070,6 +4070,12 @@
               },
               {
                 "description": "NCSPOT::Previous"
+              },
+              {
+                "description": "NCSPOT::Volume Up"
+              },
+              {
+                "description": "NCSPOT::Volume Down"
               }
             ]
           },
@@ -12160,6 +12166,6 @@
       ]
     }
   ],
-  "revision": "320e6d0",
-  "updatedAt": 1691450126
+  "revision": "336f09a",
+  "updatedAt": 1691522348
 }
