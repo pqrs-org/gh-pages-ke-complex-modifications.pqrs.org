@@ -11739,6 +11739,63 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/river.json",
+          "json": {
+            "title": "Personal rules (@river)",
+            "rules": [
+              {
+                "description": "left_control + Esc to grave_accent (`)"
+              },
+              {
+                "description": "shift + Esc to tilde (~)"
+              },
+              {
+                "description": "Command + Esc to Command + ` (for app switching)"
+              },
+              {
+                "description": "right_control + 1 to display_brightness_decrement"
+              },
+              {
+                "description": "right_control + 2 to display_brightness_increment"
+              },
+              {
+                "description": "right_control + 3 to F3"
+              },
+              {
+                "description": "right_control + 3 to F3"
+              },
+              {
+                "description": "right_control + 4 to F4"
+              },
+              {
+                "description": "right_control + 5 to F5"
+              },
+              {
+                "description": "right_control + 5 to F6"
+              },
+              {
+                "description": "right_control + 7 to rewind"
+              },
+              {
+                "description": "right_control + 8 to play_or_pause"
+              },
+              {
+                "description": "right_control + 9 to fastforward"
+              },
+              {
+                "description": "right_control + 0 to mute"
+              },
+              {
+                "description": "right_control + hyphen to volume_decrement"
+              },
+              {
+                "description": "right_control + equal_sign to volume_increment"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/samuelraub_fix_german_keyboard.json",
           "json": {
             "title": "Fix German Keyboard Dead Keys: Backtick, Tilde, Circumflex",
@@ -12166,6 +12223,6 @@
       ]
     }
   ],
-  "revision": "fe4d532",
-  "updatedAt": 1691625452
+  "revision": "5f0054e",
+  "updatedAt": 1691746635
 }
