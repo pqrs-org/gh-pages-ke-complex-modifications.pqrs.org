@@ -1770,6 +1770,19 @@
           "extra_description_text": "Use a shortcut to toggle a portion of your keyboard to a numeric keypad. Perfect for 60%-keyboard users. Shortcut: left_control + left_shift + N Layout of numeric keypad: 9 0 - maps to 7 8 9 o p [ maps to 4 5 6 l ; ' maps to 1 2 3 , maps to 0"
         },
         {
+          "path": "json/om_numeric_keypad_mode.json",
+          "extra_description_path": "extra_descriptions/om_numeric_keypad_mode.json.html",
+          "json": {
+            "title": "Caps Lock ON -> Numeric Keypad Mode",
+            "rules": [
+              {
+                "description": "Caps Lock ON -> Numeric Keypad Mode"
+              }
+            ]
+          },
+          "extra_description_text": "3PrtSc 4ScrLk 5Pause 6Clear 77 88 99 0/ -= EIns RHome TPgUp YEsc U4 I5 O6 P* DDel FEnd GPgDn HTab J1 K2 L3 ;- ReturnEnter CApp VBtn1 BBtn3 NBtn2 M0 ,, .. /+"
+        },
+        {
           "path": "json/pc_shortcuts.json",
           "json": {
             "title": "PC-Style Shortcuts",
@@ -4226,6 +4239,18 @@
             ]
           },
           "extra_description_text": "See Colemak Mod-DH ANSI keyboards for more information."
+        },
+        {
+          "path": "json/om_colemak_command_qwerty.json",
+          "json": {
+            "title": "Colemak - Command Qwerty",
+            "rules": [
+              {
+                "description": "Colemak - Command Qwerty"
+              }
+            ]
+          },
+          "extra_description_text": ""
         },
         {
           "path": "json/codemak.json",
@@ -6851,6 +6876,87 @@
             ]
           },
           "extra_description_text": "Intuitive Smart Quotes Mapping for Mac Remaps smart quotes to more logical settings for Mac. Opening and closing quotes now map to opening and closing brackets, and the shift modifier switches from single to double quotes. Left single quote (‘): option+[ Right single quote (’): option+] Left double quote (“): option+shift+[ Right double quote (”): option+shift+]"
+        },
+        {
+          "path": "json/om_modifier_double_tap.json",
+          "json": {
+            "title": "Double Tap Modifier -> Hyper + Numeric Key",
+            "rules": [
+              {
+                "description": "Left_Shift * 2 -> Left_Shift + Left_Option + Left_Control + Left_Command + [0]"
+              },
+              {
+                "description": "Right_Shift * 2 -> Left_Shift + Left_Option + Left_Control + Left_Command + [1]"
+              },
+              {
+                "description": "Left_Control * 2 -> Left_Shift + Left_Option + Left_Control + Left_Command + [2]"
+              },
+              {
+                "description": "Right_Control * 2 -> Left_Shift + Left_Option + Left_Control + Left_Command + [3]"
+              },
+              {
+                "description": "Left_Option * 2 -> Left_Shift + Left_Option + Left_Control + Left_Command + [4]"
+              },
+              {
+                "description": "Right_Option * 2 -> Left_Shift + Left_Option + Left_Control + Left_Command + [5]"
+              },
+              {
+                "description": "Left_Command * 2 -> Left_Shift + Left_Option + Left_Control + Left_Command + [6]"
+              },
+              {
+                "description": "Right_Command * 2 -> Left_Shift + Left_Option + Left_Control + Left_Command + [7]"
+              },
+              {
+                "description": "Fn * 2 -> Left_Shift + Left_Option + Left_Control + Left_Command + [8]"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/om_fn_to_hyper.json",
+          "json": {
+            "title": "Fn -> Hyper",
+            "rules": [
+              {
+                "description": "Fn + Letter -> Left_Shift + Left_Option + Left_Control + Left_Command + Letter"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/om_fn_to_esc.json",
+          "json": {
+            "title": "Fn alone -> Esc",
+            "rules": [
+              {
+                "description": "Fn alone -> Esc"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/om_optionR_to_fn.json",
+          "json": {
+            "title": "Right Option -> Fn",
+            "rules": [
+              {
+                "description": "Right_Option + Return -> Enter"
+              },
+              {
+                "description": "Right_Option + Delete -> Forward_Delete"
+              },
+              {
+                "description": "Right_Option + Up/Down/Left/Right -> PageUp/PageDown/Home/End"
+              },
+              {
+                "description": "Right_Option + [/]/\\ -> Clear/Esc/Tab/"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -7457,6 +7563,54 @@
               },
               {
                 "description": "Mission Control: Desktop on ⌥F3"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/om_window_switcher.json",
+          "json": {
+            "title": "Both Modifiers -> Window Switcher",
+            "rules": [
+              {
+                "description": "Left_Command + Right_Command -> Application Switcher"
+              },
+              {
+                "description": "Left_Option + Right_Option -> Switch Windows"
+              },
+              {
+                "description": "Left_Shift + Right_Shift -> Switch Tabs"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/om_function_keys.json",
+          "json": {
+            "title": "Modifiers + Function Key",
+            "rules": [
+              {
+                "description": "Fn + Function key -> Fnction key, Function key alone -> Media Control key"
+              },
+              {
+                "description": "Fn + Function key -> Media Control key, Function key alone -> Function key"
+              },
+              {
+                "description": "Modifiers + Function key -> Modifiers + Function key"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/om_application_launcher.json",
+          "json": {
+            "title": "Control + Option + Letter -> Launch Application",
+            "rules": [
+              {
+                "description": "Control + Option + Letter -> Launch Application"
               }
             ]
           },
@@ -9323,6 +9477,54 @@
               },
               {
                 "description": "Quit Safari by pressing command-q twice"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/om_personal_rules.json",
+          "json": {
+            "title": "Personal Rules (@omonomo)",
+            "rules": [
+              {
+                "description": "Fn + Esc -> Clear"
+              },
+              {
+                "description": "Fn + Caps_Lock -> Caps_Lock, Caps_Lock -> Right_Control"
+              },
+              {
+                "description": "Right_Control + Shift + Space -> Insert Space"
+              },
+              {
+                "description": "Fn + Space -> Space (repeat), Space alone -> Space, Space hold -> Left_Shift"
+              },
+              {
+                "description": "Fn + Return -> Enter, Return alone -> Return, Return hold -> Left_Control"
+              },
+              {
+                "description": "Right_Control + Left_Option + E/X/S/D -> Left_Control + Left_Option + Up/Down/Left/Right"
+              },
+              {
+                "description": "Right_Control + Up/Down/Left/Right -> Up/Down/Left/Right"
+              },
+              {
+                "description": "Right_Control + E/X/S/D/R/C -> Up/Down/Left/Right/PageUp/PageDown"
+              },
+              {
+                "description": "Right_Control + A/F -> Left_Option + Left/Right"
+              },
+              {
+                "description": "Right_Control + U/I/M/V/H/G -> Esc/Tab/Return/Enter/Delete/Forward_Delete"
+              },
+              {
+                "description": "Right_Control + 1/2/3/4/5/6/7/8/9/0/-/= -> F1 ~ F12"
+              },
+              {
+                "description": "Left_Command alone -> EISUU, Right_Command alone -> KANA"
+              },
+              {
+                "description": "Command + Q * 2 -> Command + Q"
               }
             ]
           },
@@ -12223,6 +12425,6 @@
       ]
     }
   ],
-  "revision": "765c722",
-  "updatedAt": 1692408557
+  "revision": "9b2e1cb",
+  "updatedAt": 1692454961
 }
