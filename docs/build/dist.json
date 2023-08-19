@@ -2475,7 +2475,7 @@
                 "description": "Ctrl+Z => Cmd+Z (Undo)"
               },
               {
-                "description": "Ctrl+Y => Cmd+Shift+Y (Redo)"
+                "description": "Ctrl+Y => Cmd+Shift+Z (Redo)"
               },
               {
                 "description": "Ctrl+A => Cmd+A (Select all)"
@@ -12223,6 +12223,6 @@
       ]
     }
   ],
-  "revision": "5568d5d",
-  "updatedAt": 1692184142
+  "revision": "765c722",
+  "updatedAt": 1692408557
 }
