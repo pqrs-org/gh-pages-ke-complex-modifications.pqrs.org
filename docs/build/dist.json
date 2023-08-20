@@ -10890,6 +10890,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/easy-backspace.json",
+          "json": {
+            "title": "Easy Backspace Rules",
+            "rules": [
+              {
+                "description": "Left Shift + Spacebar => Backspace"
+              },
+              {
+                "description": "Right Shift + Spacebar => Delete Forward"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/esc-caps-toggle.json",
           "json": {
             "title": "Escape enhancements",
@@ -12425,6 +12440,6 @@
       ]
     }
   ],
-  "revision": "9b2e1cb",
-  "updatedAt": 1692454961
+  "revision": "e638603",
+  "updatedAt": 1692509031
 }
