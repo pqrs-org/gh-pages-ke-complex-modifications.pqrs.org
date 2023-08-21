@@ -5199,6 +5199,43 @@
           "extra_description_text": "If you are used to a Swedish keyboard on Windows, this mapping will make your mac behave more it would on Windows."
         },
         {
+          "path": "json/swedish_mx_keys_programming.json",
+          "extra_description_path": "extra_descriptions/swedish_mx_keys_programming.json.html",
+          "json": {
+            "title": "Swedish Logitech MX keyboard - Fred Edition",
+            "rules": [
+              {
+                "description": "Swedish keyboard, Right command + 7,0 => curly-brackets {}"
+              },
+              {
+                "description": "Swedish keyboard, Right command + 8,9 => brackets []"
+              },
+              {
+                "description": "Swedish keyboard, Right command + 2 => @ char"
+              },
+              {
+                "description": "Swedish keyboard, Right command + greater => pipe char"
+              },
+              {
+                "description": "Swedish keyboard, Right command + 4 => $ char"
+              },
+              {
+                "description": "Swedish keyboard, Right command + 3 => £ char"
+              },
+              {
+                "description": "Swedish keyboard, Right command + question mark => backslash char"
+              },
+              {
+                "description": "Swedish keyboard, Right command + close bracket => tilde char"
+              },
+              {
+                "description": "Swedish keyboard, Home, End => Start, End of line, with shift options"
+              }
+            ]
+          },
+          "extra_description_text": "If you have an MX keys keyboard and used to work with a Swedish keyboard on Windows, this mapping will make your mac behave more it would on Windows. Most used keys mapped"
+        },
+        {
           "path": "json/DK_Programmer.json",
           "json": {
             "title": "Danish DK Programmer Keyboard",
@@ -12440,6 +12477,6 @@
       ]
     }
   ],
-  "revision": "fd3be61",
-  "updatedAt": 1692576065
+  "revision": "a0229c1",
+  "updatedAt": 1692624727
 }
