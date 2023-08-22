@@ -9572,6 +9572,36 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/personal_mlewand.json",
+          "json": {
+            "title": "Capslock as a modifier key - arrows emulation, media keys, basic os hotkeys (@mlewand)",
+            "maintainers": [
+              "mlewand"
+            ],
+            "rules": [
+              {
+                "description": "Capslock override & caps lock toggle replacement (caps+\\) (required by all other groups)"
+              },
+              {
+                "description": "Typing base (j k l i → arrow keys, h→enter, space→backspace, ;→delete, n→home, m→end, u→pgup, p→pgdn)"
+              },
+              {
+                "description": "Typing extras (caps+s→,, caps+d→., caps+w→(, caps+e→))"
+              },
+              {
+                "description": "Media keys (caps+f1 → mute, caps+f2→rewind, caps+f3→next track)"
+              },
+              {
+                "description": "os management (caps+t→focus dock, caps+b→focus icon tray, caps+r→focus app menu)"
+              },
+              {
+                "description": "Dock app keys (hardcoded for my dock order, sorry!)"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -12483,6 +12513,6 @@
       ]
     }
   ],
-  "revision": "7c03986",
-  "updatedAt": 1692701249
+  "revision": "fe23c5c",
+  "updatedAt": 1692742389
 }
