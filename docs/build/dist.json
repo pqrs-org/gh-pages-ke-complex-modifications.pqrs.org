@@ -5924,6 +5924,9 @@
           "path": "json/exchange_numbers_and_symbols.json",
           "json": {
             "title": "Exchange numbers and symbols",
+            "maintainers": [
+              "tekezo"
+            ],
             "rules": [
               {
                 "description": "Exchange numbers and symbols (1234567890 and !@#$%^&*())"
@@ -7215,6 +7218,9 @@
           "extra_description_path": "extra_descriptions/mouse_keys_simple.json.html",
           "json": {
             "title": "Mouse keys (simple) (rev 1)",
+            "maintainers": [
+              "tekezo"
+            ],
             "rules": [
               {
                 "description": "Mouse keys (simple) (rev 1)"
@@ -12477,6 +12483,6 @@
       ]
     }
   ],
-  "revision": "7964996",
-  "updatedAt": 1692662548
+  "revision": "7c03986",
+  "updatedAt": 1692701249
 }
