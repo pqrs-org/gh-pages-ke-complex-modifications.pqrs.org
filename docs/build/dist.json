@@ -8280,6 +8280,9 @@
           "extra_description_path": "extra_descriptions/yubikey_disable_keystrokes.json.rb.html",
           "json": {
             "title": "Disable YubiKey 5C Nano Keystrokes @jonatasrenan",
+            "maintainers": [
+              "jonatasrenan"
+            ],
             "rules": [
               {
                 "description": "Disable YubiKey 5C Nano Keystrokes @jonatasrenan"
@@ -12513,6 +12516,6 @@
       ]
     }
   ],
-  "revision": "fe23c5c",
-  "updatedAt": 1692742389
+  "revision": "797e8e2",
+  "updatedAt": 1692749064
 }
