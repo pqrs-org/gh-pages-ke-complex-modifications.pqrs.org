@@ -12482,18 +12482,6 @@
             ]
           },
           "extra_description_text": ""
-        },
-        {
-          "path": "json/example_japanese_nicola.json",
-          "json": {
-            "title": "Japanese NICOLA example (rev 3)",
-            "rules": [
-              {
-                "description": "Japanese NICOLA example (rev 3)"
-              }
-            ]
-          },
-          "extra_description_text": ""
         }
       ]
     },
@@ -12516,6 +12504,6 @@
       ]
     }
   ],
-  "revision": "570ab0a",
-  "updatedAt": 1693004169
+  "revision": "2d7f2d3",
+  "updatedAt": 1693055489
 }
