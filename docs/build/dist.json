@@ -1422,7 +1422,7 @@
               }
             ]
           },
-          "extra_description_text": "Ergo Fly Keys Ergonomic anti-RSI key bindings for text editing, loosely based on the US Qwerty versions of ErgoEmacs Mode and Xah Fly Keys. ergo fly keys ⌃U ⌥↑ ⌘⌫ ⌥↓ ⌃A ⎋ ↩︎ ⌃K ⌃E ⌘⌦ ⌥⌦ ↖︎ ⇥ [ ⌦ ⇟ ⌥ ` ~ ⌃X ⌃X ⌥ ' \" ⇞ ⌥⌫ ← ↘︎ ⌘← ⌥← ⌘↑ ⌘↓ ⌥→ ⌘→ ↓ ↑ ⌫ → ⇧ ] } ⌘ [ { ⌃ \\ | ⌃ / ? ⇧ - _ ⌘ = + Orange: when pressed while holding ␣ (space) Blue: top row when held; bottom row otherwise Features Moves frequently-used keys that are in ergonomically bad spots to better locations. Tuned to feel quick and responsive. Does not trigger accidentally while touch typing. Works in terminal apps, too. Usage notes This mod is made for US ANSI Qwerty keyboards. If you want to use a different keyboard layout, or another trigger key than space, please download the source code and modify ergoemacs_mode.json.rb For more info on how the keys work in terminal apps, see \"Keyboard shortcuts for Terminal apps\"."
+          "extra_description_text": "Ergo Fly Keys Ergonomic anti-RSI key bindings for text editing, loosely based on the US Qwerty versions of ErgoEmacs Mode and Xah Fly Keys. ergo fly keys ⌃U ⌥↑ ⌘⌫ ⌥↓ ⌃A ⎋ ↩︎ ⌃K ⌃E ⌘⌦ ⌥⌦ ↖︎ ⇥ [ ⌦ ⇟ ⌥ ` ~ ⌃X ⌃X ⌥ ' \" ⇞ ⌥⌫ ← ↘︎ ⌘← ⌥← ⌘↑ ⌘↓ ⌥→ ⌘→ ↓ ↑ ⌫ → ⇧ ] } ⌘ [ { ⌃ \\ | ⌃ / ? ⇧ - _ ⌘ = + Orange: when pressed while holding ␣ (space) Blue: top row when held; bottom row otherwise Features Moves frequently-used keys that are in ergonomically bad spots to better locations. Tuned to feel quick and responsive. Does not trigger accidentally while touch typing. Works in terminal apps, too. Usage notes This mod is made for US ANSI Qwerty keyboards. If you want to use a different keyboard layout, or another trigger key than space, please download the source code and modify ergoemacs_mode.json.js For more info on how the keys work in terminal apps, see \"Keyboard shortcuts for Terminal apps\"."
         },
         {
           "path": "json/fc660c_arrow_keys.json",
@@ -8277,7 +8277,7 @@
         },
         {
           "path": "json/yubikey_disable_keystrokes.json",
-          "extra_description_path": "extra_descriptions/yubikey_disable_keystrokes.json.rb.html",
+          "extra_description_path": "extra_descriptions/yubikey_disable_keystrokes.json.html",
           "json": {
             "title": "Disable YubiKey 5C Nano Keystrokes @jonatasrenan",
             "maintainers": [
@@ -8536,17 +8536,7 @@
           "path": "json/personal_minacle.json",
           "extra_description_path": "extra_descriptions/personal_minacle.json.html",
           "json": {
-            "conditions": [
-              {
-                "identifiers": [
-                  {
-                    "is_built_in_keyboard": false,
-                    "is_keyboard": true
-                  }
-                ],
-                "type": "device_if"
-              }
-            ],
+            "title": "Minacle Key Customisation",
             "maintainers": [
               "minacle"
             ],
@@ -8566,8 +8556,7 @@
               {
                 "description": "([가]⌥any → [A]⌥any), ([가]⌥⇧any → [A]⌥⇧any)"
               }
-            ],
-            "title": "Minacle Key Customisation"
+            ]
           },
           "extra_description_text": "⌘F3 → Mission Control Command–F3: Show Desktop by pressing Mission Control with Command key. (fnF13 → F16), (fnF14 → F17), (fnF15 → F18) ※ This rule works only on external keyboards. Fn–F13: Press F16. Fn–F14: Press F17. Fn–F15: Press F18. (⌃⌃ → [Aあ][A가]) Control key: Toggle input method between Japanese and English, or between Korean and English. (⌃␣ → あ가) Control–Space bar: Toggle input method between Japanese and Korean. ([가]⌥any → [A]⌥any), ([가]⌥⇧any → [A]⌥⇧any) ※ This rule works only on Korean input methods. Option–Any key: Change input method to English and re-press key combination. Then change input method to Korean. Option–Shift–Any key: Change input method to English and re-press key combination. Then change input method to Korean."
         },
@@ -12504,6 +12493,6 @@
       ]
     }
   ],
-  "revision": "1649131",
-  "updatedAt": 1693122153
+  "revision": "ac71ace",
+  "updatedAt": 1693132764
 }
