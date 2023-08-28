@@ -9580,13 +9580,13 @@
                 "description": "Typing base (j k l i → arrow keys, h→enter, space→backspace, ;→delete, n→home, m→end, u→pgup, p→pgdn)"
               },
               {
-                "description": "Typing extras (caps+s→,, caps+d→., caps+w→(, caps+e→))"
+                "description": "Typing extras (caps+s→,, caps+d→., caps+w→(, caps+e→), caps+shift+w→{, caps+shift+e→})"
               },
               {
                 "description": "Media keys (caps+f1 → mute, caps+f2→rewind, caps+f3→next track)"
               },
               {
-                "description": "os management (caps+t→focus dock, caps+b→focus icon tray, caps+r→focus app menu)"
+                "description": "os management (caps+t→focus dock, caps+b→focus icon tray, caps+~→pnt screen, caps+r→focus app menu)"
               },
               {
                 "description": "Dock app keys (hardcoded for my dock order, sorry!)"
@@ -12493,6 +12493,6 @@
       ]
     }
   ],
-  "revision": "ac71ace",
-  "updatedAt": 1693132764
+  "revision": "9f4d754",
+  "updatedAt": 1693230247
 }
