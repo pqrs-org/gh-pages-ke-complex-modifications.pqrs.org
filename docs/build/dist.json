@@ -11664,6 +11664,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/paragraph_as_tmux_prefix.json",
+          "json": {
+            "title": "Cange § to Ctrl-a",
+            "rules": [
+              {
+                "description": "Remap section sign (§) to Ctrl-a. Plus it allows to use !@#$%^&*( as numbers for tmux to switch between panes"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/pc_prtscn_portion_clipboard.json",
           "json": {
             "title": "Use Print Screen (PrtScn) PC button for screen capture portion to Clipboard - Same as Cmd+Ctrl+Shift+4",
@@ -12493,6 +12505,6 @@
       ]
     }
   ],
-  "revision": "9f4d754",
-  "updatedAt": 1693230247
+  "revision": "9cf4eeb",
+  "updatedAt": 1693785101
 }
