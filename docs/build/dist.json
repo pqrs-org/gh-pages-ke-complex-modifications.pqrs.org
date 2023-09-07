@@ -7005,6 +7005,18 @@
       "id": "os-functionality",
       "files": [
         {
+          "path": "json/mwit-taskbar-number-launch-app.json",
+          "json": {
+            "title": "Launch MacOS apps, like on windows + number",
+            "rules": [
+              {
+                "description": "Launch apps by (left) option + number."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/F4-desktop.json",
           "json": {
             "title": "Show Desktop with F4",
@@ -12505,6 +12517,6 @@
       ]
     }
   ],
-  "revision": "6af8068",
-  "updatedAt": 1694091682
+  "revision": "61bd0a9",
+  "updatedAt": 1694126702
 }
