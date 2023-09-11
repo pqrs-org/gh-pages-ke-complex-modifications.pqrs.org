@@ -11006,6 +11006,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/firefox_cmd_period_pip_shortcut.json",
+          "json": {
+            "title": "Use CMD+. to toggle PiP in Firefox",
+            "rules": [
+              {
+                "description": "Use CMD+. to toggle PiP in Firefox"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/fn+up+to+down.json",
           "json": {
             "title": "Map fn+up to left",
@@ -12517,6 +12529,6 @@
       ]
     }
   ],
-  "revision": "61bd0a9",
-  "updatedAt": 1694126702
+  "revision": "17bd0aa",
+  "updatedAt": 1694390633
 }
