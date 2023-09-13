@@ -10076,6 +10076,9 @@
           "extra_description_path": "extra_descriptions/keychron_k6_useful_escape_caps_lock.json.html",
           "json": {
             "title": "Keychron K6 Useful Escape & Caps Lock Hyper Mod",
+            "maintainers": [
+              "gsinti"
+            ],
             "rules": [
               {
                 "description": "Left Shift + Esc: ~ (tilde)"
@@ -12542,6 +12545,6 @@
       ]
     }
   ],
-  "revision": "8c0e382",
-  "updatedAt": 1694621116
+  "revision": "47ee3c1",
+  "updatedAt": 1694621324
 }
