@@ -4093,6 +4093,19 @@
             ]
           },
           "extra_description_text": "Allows Karabiner-Elements to control the ncspot Spotify client for the terminal via netcat. Currently this needs to be enabled manually with a CLI command (allows quickly turning it off/on): '/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --set-variables '{\"ncspot\":1}'. There is also a workaround applied for changing Fn+F8 to be play/pause (because that's how I have my keyboard set up - the default setup would use just F8). See the generation script to easily modify this."
+        },
+        {
+          "path": "json/powerpoint.json",
+          "extra_description_path": "extra_descriptions/powerpoint.json.html",
+          "json": {
+            "title": "Improved PowerPoint Keyboard Shortcuts",
+            "rules": [
+              {
+                "description": "(CTRL + e) is (⌘ + Right Arrow)"
+              }
+            ]
+          },
+          "extra_description_text": "Description While CTRL + a already works as \"go to the beginning of the line\" in PowerPoint by default, Microsoft decided that CTRL + e will be used to change text alignment of the current line to \"center\", which is unhelpful. With this complex mod, CTRL + e will now \"go to the end of the line\". That means both key combinations serve their Emacs-inspired purpose, balance is restored, and all's good with the world."
         }
       ]
     },
@@ -12529,6 +12542,6 @@
       ]
     }
   ],
-  "revision": "17bd0aa",
-  "updatedAt": 1694390633
+  "revision": "8c0e382",
+  "updatedAt": 1694621116
 }
