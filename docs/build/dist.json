@@ -11395,6 +11395,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/korean_swap_won_and_backtick.json",
+          "json": {
+            "title": "Swap Won (₩) and backtick (`) in Korean layout.",
+            "rules": [
+              {
+                "description": "Change Won (₩) to backtick (`)."
+              },
+              {
+                "description": "Change backtick (`) to Won (₩)."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/language-switching-for-vi-style-mods.json",
           "json": {
             "title": "Language switching for vi style modification",
@@ -12545,6 +12560,6 @@
       ]
     }
   ],
-  "revision": "4926ca2",
-  "updatedAt": 1694909110
+  "revision": "89b74fa",
+  "updatedAt": 1695201592
 }
