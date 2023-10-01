@@ -11560,6 +11560,57 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/minimalhyper.json",
+          "json": {
+            "title": "Minimal HYPER",
+            "rules": [
+              {
+                "description": "CapsLock to Hyper/Escape"
+              },
+              {
+                "description": "Navigation UIOP"
+              },
+              {
+                "description": "Navigation UIOP (select word)"
+              },
+              {
+                "description": "Navigation UIOP (select word by command)"
+              },
+              {
+                "description": "Navigation HJKL"
+              },
+              {
+                "description": "Navigation HJKL (select character)"
+              },
+              {
+                "description": "Navigation HJKL (move word)"
+              },
+              {
+                "description": "Navigation HJKL (select word)"
+              },
+              {
+                "description": "Navigation HJKL (select word by cmd)"
+              },
+              {
+                "description": "Navigation HJKL (ctrl+tab)"
+              },
+              {
+                "description": "Change language (Left command + left shift)"
+              },
+              {
+                "description": "Emoji"
+              },
+              {
+                "description": "Open applications"
+              },
+              {
+                "description": "Numpad"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/mouse_keys_minimal.json",
           "json": {
             "title": "Mouse keys Minimal",
@@ -12563,6 +12614,6 @@
       ]
     }
   ],
-  "revision": "733f610",
-  "updatedAt": 1696204455
+  "revision": "e0fd857",
+  "updatedAt": 1696204672
 }
