@@ -10215,6 +10215,18 @@
       "id": "others",
       "files": [
         {
+          "path": "json/1password_vscode_and_cursor_split_pane_compat.json",
+          "json": {
+            "title": "VSCode, Cursor, & 1Password Compat",
+            "rules": [
+              {
+                "description": "Change cmd+backslach to cmd+f11 if pressed in VSCode or Cursor"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/8BitDoMuteTeams.json",
           "json": {
             "title": "8Bitdo Mute button on teams",
@@ -12614,6 +12626,6 @@
       ]
     }
   ],
-  "revision": "e0fd857",
-  "updatedAt": 1696204672
+  "revision": "6637db4",
+  "updatedAt": 1696204838
 }
