@@ -11037,6 +11037,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/finnish_internal_pipe.json",
+          "json": {
+            "title": "Finnish internal keyboard | (vertical bar, pipe)",
+            "maintainers": [
+              "wtflm"
+            ],
+            "rules": [
+              {
+                "description": "Finnish internal keyboard | (vertical bar, pipe)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/firefox_cmd_period_pip_shortcut.json",
           "json": {
             "title": "Use CMD+. to toggle PiP in Firefox",
@@ -12626,6 +12641,6 @@
       ]
     }
   ],
-  "revision": "6637db4",
-  "updatedAt": 1696204838
+  "revision": "474c57d",
+  "updatedAt": 1696248474
 }
