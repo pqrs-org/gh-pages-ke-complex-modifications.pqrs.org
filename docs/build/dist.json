@@ -11221,6 +11221,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/hlibk_touchcurson.json",
+          "json": {
+            "title": "TouchCursor Mode (hlibk)",
+            "rules": [
+              {
+                "description": "TouchCursor Mode [Space as Trigger Key] (hlibk)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/home-to-switch-application-on-mac.json",
           "json": {
             "title": "Page down / home to switch Application on Mac",
@@ -12641,6 +12653,6 @@
       ]
     }
   ],
-  "revision": "4173f34",
-  "updatedAt": 1696548570
+  "revision": "4e235e9",
+  "updatedAt": 1696685978
 }
