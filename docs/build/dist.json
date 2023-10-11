@@ -9622,6 +9622,102 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/konken-setup_for-efficient-text-typing.json",
+          "json": {
+            "title": "KonKen's Setup: For Efficient Text Typing",
+            "rules": [
+              {
+                "description": "Left Ctrl + Spacebar => Backward Delete (Beware of the Spotlight shortcut conflicts.)"
+              },
+              {
+                "description": "Shift + Backspace => Forward Delete"
+              },
+              {
+                "description": "Ctrl + h/j/k/l => ←/↓/↑/→ Arrows (Vim-like UI. Japanese Mac Users may want to enable \"Windows-like shortcuts (Windows風のキー操作)\" to perform batch conversion with Ctrl + u/i/o/p instead of Ctrl + j/k/l/;.)"
+              },
+              {
+                "description": "Caps Lock => Left Command"
+              },
+              {
+                "description": "Left Opt & c (simultaneously) => Copy the current paragraph"
+              },
+              {
+                "description": "Cmnd + Shift + x => Cut the current paragraph (To make the most of this shortcut, also enable \"Caps Lock => Left Command.\")"
+              },
+              {
+                "description": "Ctrl + Opt + Shift + ↓ => Duplicate the current paragraph below (Behavior may vary depending on text editors.)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/konken-setup_quick-app-launchers-for-mac.json",
+          "json": {
+            "title": "KonKen's Setup: Quick App Launchers for Mac",
+            "rules": [
+              {
+                "description": "s & p (simultaneously for 0.25 sec) => Open System Preferences"
+              },
+              {
+                "description": "a & s (simultaneously for 0.25 sec) => Open App Store"
+              },
+              {
+                "description": "f & d (simultaneously for 0.25 sec) => Open Finder > Home Folder"
+              },
+              {
+                "description": "d & l (simultaneously for 0.25 sec) => Open Finder > Downloads"
+              },
+              {
+                "description": "d & s (simultaneously for 0.25 sec) => Open Finder > Desktop"
+              },
+              {
+                "description": "a & p (simultaneously for 0.25 sec) => Open Finder > Applications"
+              },
+              {
+                "description": "g & c (simultaneously for 0.25 sec) => Open Google Chrome"
+              },
+              {
+                "description": "v & s (simultaneously for 0.25 sec) => Open VS Code"
+              },
+              {
+                "description": "t & m (simultaneously for 0.25 sec) => Open Terminal"
+              },
+              {
+                "description": "f & z (simultaneously for 0.25 sec) => Open FileZilla"
+              },
+              {
+                "description": "a & f (simultaneously for 0.25 sec) => Toggle Alfred (Default hotkey Alt + Space is triggered)"
+              },
+              {
+                "description": "s & l (simultaneously for 0.25 sec) => Open Slack"
+              },
+              {
+                "description": "x & d (simultaneously for 0.25 sec) => Open Adobe XD"
+              },
+              {
+                "description": "n & t (simultaneously for 0.25 sec) => Open Notion"
+              },
+              {
+                "description": "o & n (simultaneously for 0.25 sec) => Open OneNote"
+              },
+              {
+                "description": "g & n (simultaneously for 0.25 sec) => Open Goodnotes"
+              },
+              {
+                "description": "d & r (simultaneously for 0.25 sec) => Open Drafts"
+              },
+              {
+                "description": "t & e (simultaneously for 0.25 sec) => Open TextEdit"
+              },
+              {
+                "description": "i & o (simultaneously for 0.25 sec) => Open ImageOptim"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -12653,6 +12749,6 @@
       ]
     }
   ],
-  "revision": "4e235e9",
-  "updatedAt": 1696685978
+  "revision": "f07036f",
+  "updatedAt": 1697065385
 }
