@@ -9679,6 +9679,9 @@
               },
               {
                 "description": "Quit Safari by pressing command-q twice"
+              },
+              {
+                "description": "CAPS › ESC, CAPS+J/K/I/L › ←↓↑→, CAPS+H › DEL"
               }
             ]
           },
@@ -12888,6 +12891,6 @@
       ]
     }
   ],
-  "revision": "904fd62",
-  "updatedAt": 1697150019
+  "revision": "9d925d0",
+  "updatedAt": 1697234074
 }
