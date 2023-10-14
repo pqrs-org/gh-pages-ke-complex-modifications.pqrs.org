@@ -9760,6 +9760,9 @@
               },
               {
                 "description": "Dock app keys (hardcoded for my dock order, sorry!)"
+              },
+              {
+                "description": "Auxillary keys"
               }
             ]
           },
@@ -12891,6 +12894,6 @@
       ]
     }
   ],
-  "revision": "5c346de",
-  "updatedAt": 1697317852
+  "revision": "b22cd2e",
+  "updatedAt": 1697318988
 }
