@@ -9519,9 +9519,6 @@
                 "description": "Option+Backtick => Command+Backtick (Except in Terminal, TeamViewer, AnyDesk, RDP clients, etc.)"
               },
               {
-                "description": "Left Command+Right Command (Only escape if pressed at the same time)"
-              },
-              {
                 "description": "Ctrl+C, Ctrl+V, Ctrl+X => Command+C (Copy), Command+V (Paste), Command+X (Cut)"
               },
               {
@@ -9643,12 +9640,6 @@
               },
               {
                 "description": "Ctrl+F12 => Dev Tools (For all type of browsers)"
-              },
-              {
-                "description": "Scroll-Lock => Ctrl+Command+Q"
-              },
-              {
-                "description": "Scroll-Lock => Ctrl+Command+Q"
               },
               {
                 "description": "Mouse 4 => Back"
@@ -12906,6 +12897,6 @@
       ]
     }
   ],
-  "revision": "be2c3ec",
-  "updatedAt": 1697352760
+  "revision": "1ee3bd1",
+  "updatedAt": 1697378037
 }
