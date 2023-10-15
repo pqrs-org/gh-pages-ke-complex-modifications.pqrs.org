@@ -12397,6 +12397,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/right_option_plus_numbers_to_function_keys.json",
+          "json": {
+            "title": "ROption + Numbers to F-keys",
+            "rules": [
+              {
+                "description": "ROption + Numbers to F-keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/right_shift_home_and_end.json",
           "json": {
             "title": "Right Shift Home/End to Shift + Start/End line",
@@ -12894,6 +12906,6 @@
       ]
     }
   ],
-  "revision": "b22cd2e",
-  "updatedAt": 1697318988
+  "revision": "4246498",
+  "updatedAt": 1697352373
 }
