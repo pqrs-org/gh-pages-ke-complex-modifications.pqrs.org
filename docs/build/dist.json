@@ -8789,7 +8789,7 @@
             ],
             "rules": [
               {
-                "description": "Launcher Mode v4 (rev 19)",
+                "description": "Launcher Mode v4 (rev 20)",
                 "available_since": "13.1.4"
               }
             ]
@@ -12906,6 +12906,6 @@
       ]
     }
   ],
-  "revision": "4246498",
-  "updatedAt": 1697352373
+  "revision": "be2c3ec",
+  "updatedAt": 1697352760
 }
