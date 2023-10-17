@@ -8756,12 +8756,12 @@
             ],
             "rules": [
               {
-                "description": "Personal rules (@tekezo) (rev 48)",
+                "description": "Personal rules (@tekezo) (rev 49)",
                 "available_since": "14.12.6"
               }
             ]
           },
-          "extra_description_text": "Change left_control to lazy left_control (Post spacebar when pressed alone) Post spacebar when left_shift is pressed alone Copy Unix time when fn is pressed alone Change command+control+f to command+shift+[ Change command+control+j to command+shift+] Change command+control+g to command+[ Change command+control+h to command+] Change button5 + mouse motion to scroll wheel (Post command+click if button5 is clicked alone) Change button6 to command+click Change option+- to ---------- Change option+= to ========== Miscellaneous configuration for apps Change simultaneous escape+1 to display_brightness_decrement Change simultaneous escape+2 to display_brightness_increment"
+          "extra_description_text": "Change left_control to lazy left_control (Post spacebar when pressed alone) Post spacebar when left_shift is pressed alone Copy Unix time when fn is pressed alone Change command+control+f to command+shift+[ Change command+control+j to command+shift+] Change command+control+g to command+[ Change command+control+h to command+] Change ;+j to mouse button #1 Change ;+k to mouse button #3 Change ;+l to mouse button #2 Change button5 + mouse motion to scroll wheel (Post command+click if button5 is clicked alone) Change button6 to command+click Change option+- to ---------- Change option+= to =========="
         },
         {
           "path": "json/personal_tekezo_simple_vi_mode.json",
@@ -12897,6 +12897,6 @@
       ]
     }
   ],
-  "revision": "1ee3bd1",
-  "updatedAt": 1697378037
+  "revision": "3dec3e8",
+  "updatedAt": 1697585409
 }
