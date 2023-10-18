@@ -6507,6 +6507,19 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/general-shift-delete-for-insert.json",
+          "extra_description_path": "extra_descriptions/general-shift-delete-for-insert.html",
+          "json": {
+            "title": "General - Shift + Delete to Insert Copy Buffer",
+            "rules": [
+              {
+                "description": "General - Shift + Delete to Insert Copy Buffer"
+              }
+            ]
+          },
+          "extra_description_text": "Mac users lack the Insert key on their keyboard and more specifically they lack the ability to perform Shift+Insert to paste contents of their copy buffer. Fortunately, Mac users are able to replicate this very same behavior with the key combination: Shift+Delete. Sounds counter intuitive, but the Delete key on Mac keyboards is the closes to where an Insert key would be on a PC keyboard, allowing this short-cut to to have a natural and seamless feel. Additionally, there are likely no other key-bindings to be clobbered using Shift+Delete for inserting the contents of your copy buffer."
+        },
+        {
           "path": "json/sinoridha_personal_mapping.json",
           "json": {
             "title": "Sinoridha Function Key",
@@ -12897,6 +12910,6 @@
       ]
     }
   ],
-  "revision": "3dec3e8",
-  "updatedAt": 1697585409
+  "revision": "98dbf4c",
+  "updatedAt": 1697669398
 }
