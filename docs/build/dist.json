@@ -12145,6 +12145,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/personal_mlewand_razer_naga.json",
+          "json": {
+            "title": "Mappings for (fairly old) Razer Naga Epic mouse (@mlewand)",
+            "maintainers": [
+              "mlewand"
+            ],
+            "rules": [
+              {
+                "description": "Typing extras (7→move to left screen, 8→move to right screen, 10→maximize, 11→shrink)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/personal_seung-00.json",
           "json": {
             "title": "Personal rules (@seung-00)",
@@ -12910,6 +12925,6 @@
       ]
     }
   ],
-  "revision": "98dbf4c",
-  "updatedAt": 1697669398
+  "revision": "77f4e9b",
+  "updatedAt": 1697978345
 }
