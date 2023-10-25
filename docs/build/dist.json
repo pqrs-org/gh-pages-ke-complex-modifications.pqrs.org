@@ -11914,6 +11914,24 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/mouse_456_mac_desktop_switcher.json",
+          "json": {
+            "title": "Mac Mouse 4/5/6 desktop switcher",
+            "rules": [
+              {
+                "description": "Mouse 4 Switch Right"
+              },
+              {
+                "description": "Mouse 5 Switch Left"
+              },
+              {
+                "description": "Mouse 6 Desktop Switcher"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/mouse_keys_minimal.json",
           "json": {
             "title": "Mouse keys Minimal",
@@ -12944,6 +12962,6 @@
       ]
     }
   ],
-  "revision": "2531a04",
-  "updatedAt": 1698193575
+  "revision": "d3df78a",
+  "updatedAt": 1698240902
 }
