@@ -739,6 +739,25 @@
           "extra_description_text": "Fn/Caps + WASD(↑←↓→) / QE(Home End) / RF(PageUp PageDown) This rule is inspired by \"Caps Lock W/A/S/D Arrows\" and replaced the extra layer with the form of combination keys. Replace Caps with Fn, then modify W/A/S/D/Q/E/R/F with Fn to ↑/←/↓/→/Home/End/PageUp/PageDown. Usage notes To make this rule work properly, you need to change [System Preferences> Keyboard> Press Fn] from [Change Input Source] to [Do Nothing]. Key Map Key Maps To W Up A Left S Down D Right Q Home E End R Page Up F Page Down"
         },
         {
+          "path": "json/left_control_wasdqerf.json",
+          "extra_description_path": "extra_descriptions/left_control_wasdqerf.html",
+          "json": {
+            "title": "left_control + WASD(↑/←/↓/→) / QE(Home End) / RF(PageUp PageDown)",
+            "rules": [
+              {
+                "description": "Change left_control + W/A/S/D to Arrow Keys"
+              },
+              {
+                "description": "Change left_control + Q/E to Home/End"
+              },
+              {
+                "description": "Change left_control + R/F to PageUp/PageDown"
+              }
+            ]
+          },
+          "extra_description_text": "left_control + WASD(Arrow Up/Down/Left/Right) / QE(Home End) / RF(PageUp PageDown) This rule is inspired by \"Fn/Caps + WASD(↑←↓→) / QE(Home End) / RF(PageUp PageDown)\". Modify W/A/S/D/Q/E/R/F with left_control to ↑/←/↓/→/Home/End/PageUp/PageDown. Key Map Key Maps To W Up A Left S Down D Right Q Home E End R Page Up F Page Down"
+        },
+        {
           "path": "json/right_command_vi_like.json",
           "json": {
             "title": "right command vi like v2",
@@ -12925,6 +12944,6 @@
       ]
     }
   ],
-  "revision": "77f4e9b",
-  "updatedAt": 1697978345
+  "revision": "2531a04",
+  "updatedAt": 1698193575
 }
