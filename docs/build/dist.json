@@ -5,6 +5,18 @@
       "id": "modifier-keys",
       "files": [
         {
+          "path": "json/lily58_default_arrows.json",
+          "json": {
+            "title": "Lily58 Mode, left_control + jkl;.",
+            "rules": [
+              {
+                "description": "Lily58 Mode [left_control + jkl;]"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/caps_lock_twice.json",
           "json": {
             "title": "CAPS LOCK twice & held_down to CTRL",
@@ -12962,6 +12974,6 @@
       ]
     }
   ],
-  "revision": "76aa3f5",
-  "updatedAt": 1698241271
+  "revision": "38af4b4",
+  "updatedAt": 1698579450
 }
