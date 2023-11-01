@@ -12025,6 +12025,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/move_mouse.json",
+          "json": {
+            "title": "Move mouse to next monitor",
+            "rules": [
+              {
+                "description": "Cmd+e move to screen 0, Cmd+n move to screen 1"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/never_dictattion.json",
           "json": {
             "title": "Treat Dictation as F5",
@@ -12995,6 +13007,6 @@
       ]
     }
   ],
-  "revision": "f6d4e83",
-  "updatedAt": 1698851748
+  "revision": "c58c6d1",
+  "updatedAt": 1698853409
 }
