@@ -11764,6 +11764,27 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/machenike_k500w_pt_br.json",
+          "json": {
+            "title": "Machenike K500W PT-BR ABNT2 Web Developer Setup",
+            "maintainers": [
+              "filiperochalopes"
+            ],
+            "rules": [
+              {
+                "description": "change unused numpad period to non_us_backslash so we can be able to use pipe and backslash keys. Important for developers!"
+              },
+              {
+                "description": "Change right_shift x2 to mission_control"
+              },
+              {
+                "description": "Change equal+delete to forward_delete if these keys are pressed simultaneously"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/map_cmd_q_to_cmd_shift_q.json",
           "json": {
             "title": "map cmd+q to cmd+shift+q",
@@ -12974,6 +12995,6 @@
       ]
     }
   ],
-  "revision": "38af4b4",
-  "updatedAt": 1698579450
+  "revision": "f6d4e83",
+  "updatedAt": 1698851748
 }
