@@ -5,6 +5,24 @@
       "id": "modifier-keys",
       "files": [
         {
+          "path": "json/caps_lock_doubleSidedRemap.json",
+          "json": {
+            "title": "Caps Lock + Shift -> Caps Lock, Caps Lock -> LeftCommand+Control+Shift+Option",
+            "maintainers": [
+              "DeafSpy"
+            ],
+            "rules": [
+              {
+                "description": "Caps Lock -> LeftCommand+Control+Shift+Option, Caps Lock -> Escape (if held alone for > 500 ms)"
+              },
+              {
+                "description": "Caps Lock + Shift -> Caps Lock, Caps Lock -> LeftCommand+Control+Shift+Option"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/lily58_default_arrows.json",
           "json": {
             "title": "Lily58 Mode, left_control + jkl;.",
@@ -13022,6 +13040,6 @@
       ]
     }
   ],
-  "revision": "792910d",
-  "updatedAt": 1698887983
+  "revision": "b8250d6",
+  "updatedAt": 1698929429
 }
