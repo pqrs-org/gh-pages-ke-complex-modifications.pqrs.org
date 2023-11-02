@@ -7297,6 +7297,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/fine_brightness_control.json",
+          "json": {
+            "title": "Fine Brightness Control",
+            "rules": [
+              {
+                "description": "Map brightness controls to fine brightness controls (Option + Shift + Brightness)"
+              },
+              {
+                "description": "Map fn + brightness controls to fine brightness controls (Option + Shift + Brightness)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/command_q.json",
           "json": {
             "title": "Prevent unintended command-q (rev 2)",
@@ -13007,6 +13022,6 @@
       ]
     }
   ],
-  "revision": "c58c6d1",
-  "updatedAt": 1698853409
+  "revision": "a84559b",
+  "updatedAt": 1698885396
 }
