@@ -7826,6 +7826,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/fix-ghost-select-in-context-menu.json",
+          "json": {
+            "title": "Fix ghost select in context menu",
+            "rules": [
+              {
+                "description": "Fix ghost select in context menu"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -13058,6 +13070,6 @@
       ]
     }
   ],
-  "revision": "90e26ca",
-  "updatedAt": 1699162876
+  "revision": "22f4b7f",
+  "updatedAt": 1699163247
 }
