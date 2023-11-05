@@ -5,6 +5,24 @@
       "id": "modifier-keys",
       "files": [
         {
+          "path": "json/cmd+fn+delete_forward_delete_line.json",
+          "json": {
+            "title": "Command + fn + Delete -> Forward Delete Line",
+            "maintainers": [
+              "DeafSpy"
+            ],
+            "rules": [
+              {
+                "description": "Command + fn + Delete -> Forward Delete Line v1"
+              },
+              {
+                "description": "Command + fn + Delete -> Forward Delete Line v2"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/caps_lock_doubleSidedRemap.json",
           "json": {
             "title": "Caps Lock + Shift -> Caps Lock, Caps Lock -> LeftCommand+Control+Shift+Option",
@@ -13040,6 +13058,6 @@
       ]
     }
   ],
-  "revision": "b8250d6",
-  "updatedAt": 1698929429
+  "revision": "90e26ca",
+  "updatedAt": 1699162876
 }
