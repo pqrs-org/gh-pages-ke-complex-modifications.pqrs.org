@@ -11177,7 +11177,10 @@
         {
           "path": "json/cmd-shift-to-switch-input.json",
           "json": {
-            "title": "Languages",
+            "title": "cmd + Shift Switch Languages",
+            "maintainers": [
+              "s4wet"
+            ],
             "rules": [
               {
                 "description": "Command + Shift to control + spacebar"
@@ -13121,6 +13124,6 @@
       ]
     }
   ],
-  "revision": "a374c6d",
-  "updatedAt": 1699448660
+  "revision": "601fbf1",
+  "updatedAt": 1699450076
 }
