@@ -11572,6 +11572,45 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/hlibk_fn_navigation.json",
+          "json": {
+            "title": "Hlibk Fn navigation",
+            "rules": [
+              {
+                "description": "FN + H to Left Arrow"
+              },
+              {
+                "description": "FN + J to Down Arrow"
+              },
+              {
+                "description": "FN + K to Up Arrow"
+              },
+              {
+                "description": "FN + L to Right Arrow"
+              },
+              {
+                "description": "FN + U to Command + Left Arrow"
+              },
+              {
+                "description": "FN + I to Command + Right Arrow"
+              },
+              {
+                "description": "FN + Y to Page Up"
+              },
+              {
+                "description": "FN + O to Page Down"
+              },
+              {
+                "description": "FN + P to Delete ot Backspace"
+              },
+              {
+                "description": "FN + M to Delete Forward"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/hlibk_touchcurson.json",
           "json": {
             "title": "TouchCursor Mode (hlibk)",
@@ -13082,6 +13121,6 @@
       ]
     }
   ],
-  "revision": "96b36fd",
-  "updatedAt": 1699431965
+  "revision": "a374c6d",
+  "updatedAt": 1699448660
 }
