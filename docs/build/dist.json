@@ -11175,6 +11175,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/cmd-shift-to-switch-input.json",
+          "json": {
+            "title": "Languages",
+            "rules": [
+              {
+                "description": "Command + Shift to control + spacebar"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/cmd_backslash_to_cmd_tab.json",
           "json": {
             "title": "Command_R + BackSlash to Command + Tab",
@@ -13070,6 +13082,6 @@
       ]
     }
   ],
-  "revision": "22f4b7f",
-  "updatedAt": 1699163247
+  "revision": "96b36fd",
+  "updatedAt": 1699431965
 }
