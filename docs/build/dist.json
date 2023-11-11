@@ -9858,7 +9858,7 @@
                 "description": "Capslock override & caps lock toggle replacement (caps+\\) (required by all other groups)"
               },
               {
-                "description": "Typing base (j k l i → arrow keys, h→enter, space→backspace, ;→delete, n→home, m→end, u→pgup, p→pgdn)"
+                "description": "Typing base (j k l i → arrow keys, h→enter, space→backspace, ;→delete, ,→insert, n→home, m→end, u→pgup, p→pgdn)"
               },
               {
                 "description": "Typing extras (caps+s→,, caps+d→., caps+w→(, caps+e→), caps+shift+w→{, caps+shift+e→}, caps+a→[, caps+shift+a→])"
@@ -13167,6 +13167,6 @@
       ]
     }
   ],
-  "revision": "2a55e87",
-  "updatedAt": 1699679369
+  "revision": "1ec7db1",
+  "updatedAt": 1699735610
 }
