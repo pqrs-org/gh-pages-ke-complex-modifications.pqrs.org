@@ -11083,6 +11083,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/caps_ctrl_esc.json",
+          "json": {
+            "title": "Caps→Ctrl/Esc if alone",
+            "maintainers": [
+              "mngyuan"
+            ],
+            "rules": [
+              {
+                "description": "Caps→Esc/Ctrl if held"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/caps_lock_hold_ijkl_arrows.json",
           "json": {
             "title": "Hold CAPS LOCK for ijkl arrow keys (Anne Pro 2)",
@@ -12974,6 +12989,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/uk_to_us.json",
+          "json": {
+            "title": "UK→US Mac keyboard",
+            "maintainers": [
+              "mngyuan"
+            ],
+            "rules": [
+              {
+                "description": "UK→US Mac. Remap `~ to left shift and §± to `~. Requires proper keyboard setup in System Preferences->Keyboard->Change Keyboard Type..."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/universal_emacs_keybindings.json",
           "json": {
             "title": "Universal Emacs Keybindings",
@@ -13137,6 +13167,6 @@
       ]
     }
   ],
-  "revision": "99ead09",
-  "updatedAt": 1699581281
+  "revision": "2a55e87",
+  "updatedAt": 1699679369
 }
