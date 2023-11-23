@@ -12894,6 +12894,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/shifts_for_curly_brace.json",
+          "json": {
+            "title": "Tap left shift to open and right to close curly brace",
+            "rules": [
+              {
+                "description": "Shift_L tap -> '{', Shift_R tap -> '}'"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/shifts_for_parenthesis.json",
           "json": {
             "title": "Tap left shift to open and right to close parenthesis",
@@ -13339,6 +13351,6 @@
       ]
     }
   ],
-  "revision": "fdd61c1",
-  "updatedAt": 1700727024
+  "revision": "2117430",
+  "updatedAt": 1700741594
 }
