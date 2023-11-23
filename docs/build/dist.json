@@ -11417,6 +11417,30 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/effective_utilization_of_bottom_row.json",
+          "json": {
+            "title": "Effective Utilization of Bottom Row",
+            "rules": [
+              {
+                "description": "Change Left Command to Enter if pressed alone"
+              },
+              {
+                "description": "Change Right Command to Delete if pressed alone"
+              },
+              {
+                "description": "Change EISUU to Control if not pressed alone"
+              },
+              {
+                "description": "Change KANA to Option if not pressed alone"
+              },
+              {
+                "description": "Space and Shift (SandS: Change Spacebar to Shift if not pressed alone), and Space Repeat by Holding Spacebar after Tapping"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/esc-caps-toggle.json",
           "json": {
             "title": "Escape enhancements",
@@ -13315,6 +13339,6 @@
       ]
     }
   ],
-  "revision": "af5f111",
-  "updatedAt": 1700695712
+  "revision": "fdd61c1",
+  "updatedAt": 1700727024
 }
