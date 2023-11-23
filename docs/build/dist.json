@@ -8931,7 +8931,7 @@
             ],
             "rules": [
               {
-                "description": "Launcher Mode v4 (rev 20)",
+                "description": "Launcher Mode v4 (rev 21)",
                 "available_since": "13.1.4"
               }
             ]
@@ -13351,6 +13351,6 @@
       ]
     }
   ],
-  "revision": "ac9c3e0",
-  "updatedAt": 1700741923
+  "revision": "54b612e",
+  "updatedAt": 1700742057
 }
