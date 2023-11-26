@@ -11441,6 +11441,33 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/emulate_mouse_clicking_and_scrolling.json",
+          "json": {
+            "title": "Emulate mouse clicking and scrolling",
+            "rules": [
+              {
+                "description": "left-command + j to left-click"
+              },
+              {
+                "description": "left-command + k to right-click"
+              },
+              {
+                "description": "left-command + left-shift + j to scroll-down"
+              },
+              {
+                "description": "left-command + left-shift + k to scroll-up"
+              },
+              {
+                "description": "left-command + left-control + j to command + left-click"
+              },
+              {
+                "description": "left-command + left-control + left-shift + j to shift + left-click"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/esc-caps-toggle.json",
           "json": {
             "title": "Escape enhancements",
@@ -12918,6 +12945,24 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/shortcut_delete_and_enter.json",
+          "json": {
+            "title": "Shortcut Delete and Enter",
+            "rules": [
+              {
+                "description": "left-command + semicolon to delete_or_backspace"
+              },
+              {
+                "description": "left-command + shift + semicolon to delete_forward"
+              },
+              {
+                "description": "left-command + quote to enter"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/spacebar_to_right_option.json",
           "json": {
             "title": "Change spacebar to right option on press and hold",
@@ -13351,6 +13396,6 @@
       ]
     }
   ],
-  "revision": "54b612e",
-  "updatedAt": 1700742057
+  "revision": "7884589",
+  "updatedAt": 1700961314
 }
