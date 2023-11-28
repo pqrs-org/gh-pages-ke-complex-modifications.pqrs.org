@@ -12195,6 +12195,150 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/mousebutton10tocommand-option-control-shift-5.json",
+          "json": {
+            "title": "MouseButton 10 to command + option + control + shift + 5 (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton 10 to command + option + control + shift + 5"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mousebutton11tocommand-option-control-shift-t.json",
+          "json": {
+            "title": "MouseButton 11 to command + option + control + shift + t (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton 11 to command + option + control + shift + t"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mousebutton12tocommand-option-control-shift-6.json",
+          "json": {
+            "title": "MouseButton 12 to command + option + control + shift + 6 (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton 12 to command + option + control + shift + 6"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mousebutton13tocommand-option-control-shift-y.json",
+          "json": {
+            "title": "MouseButton 13 to command + option + control + shift + y (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton 13 to command + option + control + shift + y"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mousebutton14tocommand-option-control-shift-7.json",
+          "json": {
+            "title": "MouseButton 14 to command + option + control + shift + 7 (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton 14 to command + option + control + shift + 7"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mousebutton15tocommand-option-control-shift-u.json",
+          "json": {
+            "title": "MouseButton 15 to command + option + control + shift + u (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton 15 to command + option + control + shift + u"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mousebutton16tocommand-option-control-shift-8.json",
+          "json": {
+            "title": "MouseButton 16 to command + option + control + shift + 8 (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton 16 to command + option + control + shift + 8"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mousebutton17tocommand-option-control-shift-i.json",
+          "json": {
+            "title": "MouseButton 17 to command + option + control + shift + i (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton 17 to command + option + control + shift + i"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mousebutton18tocommand-option-control-shift-9.json",
+          "json": {
+            "title": "MouseButton 18 to command + option + control + shift + 9 (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton 18 to command + option + control + shift + 9"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mousebutton19tocommand-option-control-shift-o.json",
+          "json": {
+            "title": "MouseButton 19 to command + option + control + shift + o (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton 19 to command + option + control + shift + o"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mousebutton20tocommand-option-control-shift-0.json",
+          "json": {
+            "title": "MouseButton 20 to command + option + control + shift + 0 (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton 20 to command + option + control + shift + 0"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mousebutton21tocommand-option-control-shift-p.json",
+          "json": {
+            "title": "MouseButton 21 to command + option + control + shift + p (don’t forget to enable your mouse under Devices)",
+            "rules": [
+              {
+                "description": "MouseButton 21 to command + option + control + shift + p"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/mousebutton5tocommandshiftn.json",
           "json": {
             "title": "MouseButton5 to Command + Shift + n (don’t forget to enable your mouse under Devices)",
@@ -13396,6 +13540,6 @@
       ]
     }
   ],
-  "revision": "7884589",
-  "updatedAt": 1700961314
+  "revision": "5bbd5f8",
+  "updatedAt": 1701148673
 }
