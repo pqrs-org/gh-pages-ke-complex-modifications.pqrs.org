@@ -8967,6 +8967,73 @@
           "extra_description_text": "right_option + V → Paste and Match Style right_option + S → Redo the last command in terminal with sudo up_arrow control + A \"sudo\" spacebar return Click a link while pressing right_option → Open link in a new window right_option + equal_sign/hyphen → produce a horizontal rule in code comment"
         },
         {
+          "path": "json/advanced_keymap_utility.json",
+          "extra_description_path": "extra_descriptions/advanced_keymap_utility.json.html",
+          "json": {
+            "title": "Advanced Keymap for JIS Keyboard: Project “UTILITY”",
+            "rules": [
+              {
+                "description": "【 UTILITY 】\t ☆☆☆☆☆ \t ⚠️ 上から「英数｣「かな｣「修飾キー関連」の順に設定すること ⚠️"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★★ \t 英数 ① カーソル移動（ Fn1 + HJKL ▶︎ ←↓↑→ ）"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★★ \t 英数 ② 特殊キー（ Fn1 + ERTDFN ▶︎ ⎋  ⇤  ⇥  ⌫  ⌦  ⏎ ）"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★  \t 英数 ③ 引用符（ Fn1 + QW ▶︎ ' \" ）"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★  \t 英数 ④ よく使う記号（ Fn1 + UIO ▶︎ \"[] ）"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★  \t 英数 ⑤ 算術記号類（ Fn1 + ;:P@./_ ▶︎ ^=-+*/\\ ）"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★  \t 英数 ⑥ Enter キー類（ Fn1 + NM, ▶︎ ⏎  ⇧⏎  ⌘⏎ ）"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★  \t 英数 ⑦ よく使う機能（ Fn1 + ASZXCV ▶︎ ⌃⇤  ⌃⇥  ⌘[  ⌘]  ⌘⇤  ⌘⇥ ）"
+              },
+              {
+                "description": "\t\t────────────────────────────────────────"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★★ \t かな ① 数字（ Fn2 + ASDFGHJKL; ▶︎ 1234567890 ）"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★★ \t かな ② 記号（ Fn2 + QWERTYUIO ▶︎ !\"#$%&'() ）"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★  \t かな ③ 算術記号類（ Fn2 + :P@./_ ▶︎ =-+*/\\ ）"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★  \t かな ④ 感嘆・疑問符（ Fn2 + m, ▶︎ !? ）"
+              },
+              {
+                "description": "\t\t────────────────────────────────────────"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★★ \t 左 Command（ ⌘ ）単押し ▶︎ Enter（ ⏎ ）"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★★ \t 右 Command（ ⌘ ）単押し ▶︎ Delete（ ⌫ ）"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★★ \t スペースバーの長押し（ 単押しは Space のまま ）▶︎ Shift（ ⇧ ）"
+              },
+              {
+                "description": "【 UTILITY 】\t ★★★★★ \t セミコロン（ ; ）の長押し（ 単押しは ; のまま ）▶︎ Ctrl（ ⌃ ）"
+              },
+              {
+                "description": "【 UTILITY 】\t ☆☆☆☆☆ \t ⚠️ 上から「英数｣「かな｣「修飾キー関連」の順に設定すること ⚠️"
+              }
+            ]
+          },
+          "extra_description_text": "デフォルトレイヤー 英数（Fn1）レイヤー かな（Fn2）レイヤー ⚠️ 注意 OS デフォルトの Fn（🌐）キー単押しの機能はオフにしておいてください。"
+        },
+        {
           "path": "json/personal_bavelee_20200321.json",
           "json": {
             "title": "Personal PC-Style Shortcuts(@Bave Lee)",
@@ -13540,6 +13607,6 @@
       ]
     }
   ],
-  "revision": "5bbd5f8",
-  "updatedAt": 1701148673
+  "revision": "359a33d",
+  "updatedAt": 1701387733
 }
