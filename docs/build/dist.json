@@ -5649,6 +5649,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/caps_lock_to_en_shift_caps_lock_to_ru.json",
+          "json": {
+            "title": "caps_lock to EN, shift+caps_lock to RU",
+            "rules": [
+              {
+                "description": "caps_lock to EN, shift+caps_lock to RU"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -13621,6 +13633,6 @@
       ]
     }
   ],
-  "revision": "dbf4ae0",
-  "updatedAt": 1701388306
+  "revision": "39d5a69",
+  "updatedAt": 1701510240
 }
