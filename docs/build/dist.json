@@ -9008,19 +9008,19 @@
                 "description": "【 UTILITY 】\t ★★★★★ \t 英数 ② 特殊キー（ Fn1 + ERTDFN ▶︎ ⎋  ⇤  ⇥  ⌫  ⌦  ⏎ ）"
               },
               {
-                "description": "【 UTILITY 】\t ★★★★  \t 英数 ③ 引用符（ Fn1 + QW ▶︎ ' \" ）"
+                "description": "【 UTILITY 】\t ★★★★　￰ \t 英数 ③ 引用符（ Fn1 + QW ▶︎ ' \" ）"
               },
               {
-                "description": "【 UTILITY 】\t ★★★★  \t 英数 ④ よく使う記号（ Fn1 + UIO ▶︎ \"[] ）"
+                "description": "【 UTILITY 】\t ★★★★　￰ \t 英数 ④ よく使う記号（ Fn1 + UIO ▶︎ \"[] ）"
               },
               {
-                "description": "【 UTILITY 】\t ★★★★  \t 英数 ⑤ 算術記号類（ Fn1 + ;:P@./_ ▶︎ ^=-+*/\\ ）"
+                "description": "【 UTILITY 】\t ★★★★　￰ \t 英数 ⑤ 算術記号類（ Fn1 + ;:P@./_ ▶︎ ^=-+*/\\ ）"
               },
               {
-                "description": "【 UTILITY 】\t ★★★★  \t 英数 ⑥ Enter キー類（ Fn1 + NM, ▶︎ ⏎  ⇧⏎  ⌘⏎ ）"
+                "description": "【 UTILITY 】\t ★★★★　￰ \t 英数 ⑥ Enter キー類（ Fn1 + NM, ▶︎ ⏎  ⇧⏎  ⌘⏎ ）"
               },
               {
-                "description": "【 UTILITY 】\t ★★★★  \t 英数 ⑦ よく使う機能（ Fn1 + ASZXCV ▶︎ ⌃⇤  ⌃⇥  ⌘[  ⌘]  ⌘⇤  ⌘⇥ ）"
+                "description": "【 UTILITY 】\t ★★★★　￰ \t 英数 ⑦ よく使う機能（ Fn1 + ASZXCV ▶︎ ⌃⇤  ⌃⇥  ⌘[  ⌘]  ⌘⇤  ⌘⇥ ）"
               },
               {
                 "description": "\t\t────────────────────────────────────────"
@@ -9032,10 +9032,10 @@
                 "description": "【 UTILITY 】\t ★★★★★ \t かな ② 記号（ Fn2 + QWERTYUIO ▶︎ !\"#$%&'() ）"
               },
               {
-                "description": "【 UTILITY 】\t ★★★★  \t かな ③ 算術記号類（ Fn2 + :P@./_ ▶︎ =-+*/\\ ）"
+                "description": "【 UTILITY 】\t ★★★★　￰ \t かな ③ 算術記号類（ Fn2 + :P@./_ ▶︎ =-+*/\\ ）"
               },
               {
-                "description": "【 UTILITY 】\t ★★★★  \t かな ④ 感嘆・疑問符（ Fn2 + m, ▶︎ !? ）"
+                "description": "【 UTILITY 】\t ★★★★　￰ \t かな ④ 感嘆・疑問符（ Fn2 + m, ▶︎ !? ）"
               },
               {
                 "description": "\t\t────────────────────────────────────────"
@@ -9057,7 +9057,7 @@
               }
             ]
           },
-          "extra_description_text": "デフォルトレイヤー 英数（Fn1）レイヤー かな（Fn2）レイヤー ⚠️ 注意 OS デフォルトの Fn（🌐）キー単押しの機能はオフにしておいてください。"
+          "extra_description_text": "デフォルトレイヤー 英数（Fn1）レイヤー かな（Fn2）レイヤー"
         },
         {
           "path": "json/personal_bavelee_20200321.json",
@@ -13633,6 +13633,6 @@
       ]
     }
   ],
-  "revision": "7ff6e5b",
-  "updatedAt": 1701512777
+  "revision": "51b6797",
+  "updatedAt": 1701958239
 }
