@@ -8816,10 +8816,13 @@
         {
           "path": "json/hai_hhkb_open_apps.json",
           "json": {
-            "title": "Hai HHKB Launch apps (Brave, VS Code, Signal, Slack, Postman, Sublime Merge, iTerm, Thunderbird, iMessage, Mail, Draw.IO, Sequel Ace)",
+            "title": "Hai HHKB Launch apps (Brave, VS Code, Signal, Slack, Postman, Sublime Merge, iTerm, Thunderbird, iMessage, Mail, Draw.IO, Sequel Ace, TablePlus)",
             "rules": [
               {
                 "description": "right_option + D(Database) -> Sequal Ace"
+              },
+              {
+                "description": "right_option + C(CQL Database) -> TablePlus"
               },
               {
                 "description": "right_option + B(Browser) -> Brave"
@@ -13633,6 +13636,6 @@
       ]
     }
   ],
-  "revision": "51b6797",
-  "updatedAt": 1701958239
+  "revision": "147b30f",
+  "updatedAt": 1702132130
 }
