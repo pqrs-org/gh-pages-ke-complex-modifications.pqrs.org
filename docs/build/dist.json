@@ -11438,6 +11438,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/ctrl_to_hyper_without_shift.json",
+          "json": {
+            "title": "Ctrl key -> hyper key without shift (⌘⌥⌃)",
+            "maintainers": [
+              "dmun"
+            ],
+            "rules": [
+              {
+                "description": "Ctrl key -> hyper key without shift (⌘⌥⌃)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/dk_pause_to_cmd-non_us_backslash.json",
           "json": {
             "title": "DK: Switch Pause key of Win keyboard to CMD+§ (CMD+non_us_backslash), that can be used as Punto Switcher App hotkey.",
@@ -13648,6 +13663,6 @@
       ]
     }
   ],
-  "revision": "96b81dd",
-  "updatedAt": 1703392885
+  "revision": "5e65330",
+  "updatedAt": 1703393082
 }
