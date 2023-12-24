@@ -11652,6 +11652,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/fn_old_style_numpad.js.json",
+          "json": {
+            "title": "Fn + NumPad old MacBook Layout",
+            "rules": [
+              {
+                "description": "Fn + NumPad old MacBook Layout"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/fn_open_bracket_to_esc.json",
           "json": {
             "title": "Fn + [ to Esc",
@@ -13636,6 +13648,6 @@
       ]
     }
   ],
-  "revision": "c91b3d6",
-  "updatedAt": 1702164243
+  "revision": "96b81dd",
+  "updatedAt": 1703392885
 }
