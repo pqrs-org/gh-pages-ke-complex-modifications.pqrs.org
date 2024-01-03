@@ -5,6 +5,21 @@
       "id": "modifier-keys",
       "files": [
         {
+          "path": "json/f4-to-launch-terminal.json",
+          "json": {
+            "title": "Launch a new Terminal window with F4 (replace MacOS default Spotlight)",
+            "maintainers": [
+              "jinyoungch0i"
+            ],
+            "rules": [
+              {
+                "description": "Launch a new Terminal window with F4 (replace macOS default Spotlight)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/cmd+fn+delete_forward_delete_line.json",
           "json": {
             "title": "Command + fn + Delete -> Forward Delete Line",
@@ -13669,6 +13684,6 @@
       ]
     }
   ],
-  "revision": "a7d1904",
-  "updatedAt": 1703709194
+  "revision": "4613b69",
+  "updatedAt": 1704269813
 }
