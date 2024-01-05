@@ -160,6 +160,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/caps_lock_to_hyper_or_esc_if_alone.json",
+          "json": {
+            "title": "Caps Lock → Hyper Key (⌃⌥⇧⌘) (Escape if alone)",
+            "rules": [
+              {
+                "description": "Caps Lock → Hyper Key (⌃⌥⇧⌘) | Escape if alone | Use fn + caps lock to enable caps lock"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/bepo-cmdqwerty-toggle.json",
           "json": {
             "title": "Bepo CmdQwerty Toggle",
@@ -13714,6 +13726,6 @@
       ]
     }
   ],
-  "revision": "6683daa",
-  "updatedAt": 1704459688
+  "revision": "099067a",
+  "updatedAt": 1704459994
 }
