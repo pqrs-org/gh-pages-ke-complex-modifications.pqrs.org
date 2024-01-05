@@ -8707,6 +8707,21 @@
             ]
           },
           "extra_description_text": "Disable External Keyboards when your MacBook is opened This is a rule for disabling any external keyboard when your MacBook is opened. This feature is particularly useful when you use your MacBook in clamshell mode, i.e., connected to an external display and keyboard/mouse, and wish to prevent the external keyboard from responding once the MacBook is opened, without the need to physically disconnect it. How It Works The rule operates on a simple principle: it instructs your Mac to ignore any keystrokes from external keyboards when the internal variable macbook_clamshell_status in Karabiner is set to opened . Conversely, it disregards this rule when the variable is set to closed . Integration and Operation The functionality hinges on the macbook_clamshell_status variable within Karabiner, which depends on the MacBook's state. A specialized shell script, available on GitHub , is required for this rule to work. This script, once installed, will run in the background of your system after every startup and will monitor clamshell status of your Mac via macOS event stream. On changes detected in the stream it will change the value of the variable, which in turn activates or deactiates the rule. The script is installed in the /usr/local/bin . Script outputs errors in /tmp/karabiner_clamshell_monitor.err and logs changes in clamshell status in /tmp/karabiner_clamshell_monitor.out . Installation Process Go to GitHub repository and follow installation instructions. System Requirements Root access is required during installation, to add the script to the background and startup. MacBook with Apple Silicon. MacOS Sonoma."
+        },
+        {
+          "path": "json/command_l-and-period-to-escape.json",
+          "json": {
+            "title": "Change Command_L|Command_R + Period to Escape",
+            "rules": [
+              {
+                "description": "Change Command_L + Period to Escape, to aid those who use the iPad Magic Keyboard since Command_L + Period is Escape on that keyboard."
+              },
+              {
+                "description": "Change Command_R + Period to Escape, to aid those who use the iPad Magic Keyboard since Command_R + Period is Escape on that keyboard."
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -13699,6 +13714,6 @@
       ]
     }
   ],
-  "revision": "6af83dc",
-  "updatedAt": 1704458199
+  "revision": "6683daa",
+  "updatedAt": 1704459688
 }
