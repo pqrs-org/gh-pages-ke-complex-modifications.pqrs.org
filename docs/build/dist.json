@@ -11712,6 +11712,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/fn_period_for_emoji.json",
+          "json": {
+            "title": "Emoji menu (command+control+space) for Windows style",
+            "rules": [
+              {
+                "description": "Fn + '.' (period) to pop-up the emoji menu (command + control + space)"
+              },
+              {
+                "description": "Option + '.' (period) to pop-up the emoji menu (command + control + space)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/fn_return_insert.json",
           "json": {
             "title": "Fn + Enter to Insert",
@@ -13684,6 +13699,6 @@
       ]
     }
   ],
-  "revision": "4613b69",
-  "updatedAt": 1704269813
+  "revision": "6af83dc",
+  "updatedAt": 1704458199
 }
