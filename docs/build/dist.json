@@ -3100,10 +3100,16 @@
                 "description": "Mac OSX RDP: New - Cmd+(shift+)n to Ctrl+(Shift+)n"
               },
               {
-                "description": "Mac OSX RDP: Reload browser page - Cmd+(Shift+)r to (Ctrl+)F5"
+                "description": "Mac OSX RDP: Browser: Reload page - Cmd+(Shift+)r to (Ctrl+)F5"
+              },
+              {
+                "description": "Mac OSX RDP: Browser: Open location - Cmd+l to Ctrl+L"
               },
               {
                 "description": "Mac OSX RDP: New Tab - Cmd+(Shift+)t to Ctrl+(Shift)t"
+              },
+              {
+                "description": "Mac OSX RDP: Browser: Open DevTools - Cmd+Shift+i to Ctrl+Shift+i"
               },
               {
                 "description": "Mac OSX RDP: Find - Cmd+(shift+)f to Ctrl+(Shift+)f"
@@ -3127,7 +3133,7 @@
                 "description": "Mac OSX RDP: Quit Application -  Cmd+q to Alf+F4"
               },
               {
-                "description": "Mac OSX RDP: Browser open location - Cmd+l to Ctrl+L"
+                "description": "Mac OSX RDP: Code: Comment out -  Cmd+/ to Ctrl+/"
               }
             ]
           },
@@ -13726,6 +13732,6 @@
       ]
     }
   ],
-  "revision": "b8cf930",
-  "updatedAt": 1704530877
+  "revision": "62a7b5e",
+  "updatedAt": 1704641855
 }
