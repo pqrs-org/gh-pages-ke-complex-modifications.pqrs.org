@@ -13428,6 +13428,27 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/tomitashiki.json",
+          "json": {
+            "title": "Tomita-shiki modifications",
+            "rules": [
+              {
+                "description": "left command + J/I/K/L で矢印(左/上/下/右)"
+              },
+              {
+                "description": "英数キーで英数かな切替"
+              },
+              {
+                "description": "left command + M(,) で左(右)クリック"
+              },
+              {
+                "description": "Option + u/i/o/j/k/l/m/,/. で1-9"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/uk_to_us.json",
           "json": {
             "title": "UK→US Mac keyboard",
@@ -13732,6 +13753,6 @@
       ]
     }
   ],
-  "revision": "62a7b5e",
-  "updatedAt": 1704641855
+  "revision": "d5c66ee",
+  "updatedAt": 1704682627
 }
