@@ -13433,16 +13433,25 @@
             "title": "Tomita-shiki modifications",
             "rules": [
               {
-                "description": "left command + J/I/K/L で矢印(左/上/下/右)"
+                "description": "Control → Enter, かな → Delete"
               },
               {
-                "description": "英数キーで英数かな切替"
+                "description": "英数キーを短く押す → 英数・かなを切り替え, 長押し → Left_command "
               },
               {
-                "description": "left command + M(,) で左(右)クリック"
+                "description": "left command + J/I/K/L → 矢印(左/上/下/右)"
               },
               {
-                "description": "Option + u/i/o/j/k/l/m/,/. で1-9"
+                "description": "Control + w-c → 1-9"
+              },
+              {
+                "description": "タッチパッド触りながらj/k → 左/右クリック（Karabiner-MultitouchExtentionが必要）"
+              },
+              {
+                "description": "タッチパッド触りながらl → Command（「Scroll2」を利用して、l+カーソル移動でスクロールできるように）"
+              },
+              {
+                "description": "タッチパッド触りながら; → Control（Macの設定「修飾キーを使って拡大縮小」を利用して、; + カーソル移動 → 拡大縮小）"
               }
             ]
           },
@@ -13753,6 +13762,6 @@
       ]
     }
   ],
-  "revision": "d5c66ee",
-  "updatedAt": 1704682627
+  "revision": "51db44e",
+  "updatedAt": 1704790240
 }
