@@ -11456,6 +11456,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/colemak_ru_sync.json",
+          "json": {
+            "title": "Colemak Keyboard Ru Sync",
+            "rules": [
+              {
+                "description": "Remap keys to use sys Colemak keyboard layout with sys Russian keyboard layout"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/control_wilu_deletejumpundo.json",
           "json": {
             "title": "control + w,i,l,u,n,p,h,b,f -> delete left word, move cursor one word to left/right etc. 删除左面一个词, 光标左/右移一个词 等等",
@@ -13762,6 +13774,6 @@
       ]
     }
   ],
-  "revision": "51db44e",
-  "updatedAt": 1704790240
+  "revision": "6d184ad",
+  "updatedAt": 1704895806
 }
