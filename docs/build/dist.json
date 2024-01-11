@@ -13445,7 +13445,7 @@
             "title": "Tomita-shiki modifications",
             "rules": [
               {
-                "description": "Control → Enter, かな → Delete"
+                "description": "Control → Enter"
               },
               {
                 "description": "英数キーを短く押す → 英数・かなを切り替え, 長押し → Left_command "
@@ -13454,7 +13454,10 @@
                 "description": "left command + J/I/K/L → 矢印(左/上/下/右)"
               },
               {
-                "description": "Control + w-c → 1-9"
+                "description": "Control + u-. → 1-9"
+              },
+              {
+                "description": "タッチパッド触りながらo → Delete"
               },
               {
                 "description": "タッチパッド触りながらj/k → 左/右クリック（Karabiner-MultitouchExtentionが必要）"
@@ -13774,6 +13777,6 @@
       ]
     }
   ],
-  "revision": "6d184ad",
-  "updatedAt": 1704895806
+  "revision": "856e519",
+  "updatedAt": 1704956457
 }
