@@ -11522,6 +11522,30 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/devheedoo.json",
+          "json": {
+            "title": "Personal rules (@devheedoo)",
+            "maintainers": [
+              "devheedoo"
+            ],
+            "rules": [
+              {
+                "description": "Caps Lock to Esc if alone, to Left Ctrl if not alone"
+              },
+              {
+                "description": "Left Ctrl to Esc if alone"
+              },
+              {
+                "description": "Left Ctrl + hjkl to Arrow keys"
+              },
+              {
+                "description": "Left Cmd + Esc to Left Cmd + `"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/dk_pause_to_cmd-non_us_backslash.json",
           "json": {
             "title": "DK: Switch Pause key of Win keyboard to CMD+§ (CMD+non_us_backslash), that can be used as Punto Switcher App hotkey.",
@@ -13780,6 +13804,6 @@
       ]
     }
   ],
-  "revision": "ecb302c",
-  "updatedAt": 1705201617
+  "revision": "c73fcb7",
+  "updatedAt": 1705202143
 }
