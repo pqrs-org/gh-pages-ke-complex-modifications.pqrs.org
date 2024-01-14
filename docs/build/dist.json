@@ -5580,7 +5580,10 @@
             "title": "Windows style input change Alt + Shift for Mac",
             "rules": [
               {
-                "description": "Cmd + Shift to Ctrl + Option + Space"
+                "description": "Alt + Shift to Ctrl + Option + Space (rev 2)"
+              },
+              {
+                "description": "Cmd + Shift to Ctrl + Option + Space (rev 2)"
               }
             ]
           },
@@ -13777,6 +13780,6 @@
       ]
     }
   ],
-  "revision": "856e519",
-  "updatedAt": 1704956457
+  "revision": "ecb302c",
+  "updatedAt": 1705201617
 }
