@@ -11492,6 +11492,42 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/command_jikl_to_command_arrow_keys_and_command_shift_jikl_to_command_shift_arrow_keys.json",
+          "json": {
+            "title": "Change ⌘(jikl) to ⌘(←↑↓→) keys and ⌘⇧(jikl) to ⌘⇧(←↑↓→) keys",
+            "rules": [
+              {
+                "description": "Change ⌘(jikl) to ⌘(←↑↓→) keys and ⌘⇧(jikl) to ⌘⇧(←↑↓→) keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/control_jikl_to_control_arrow_keys_and_command_option_jikl_to_command_option_arrow_keys_and_command_control_jikl_to_command_jikl.json",
+          "json": {
+            "title": "Change ^(jikl) to ^(←↑↓→) keys, ⌘⌥(jikl) to ⌘⌥(←↑↓→) keys, and ⌘^(jikl) to ⌘(jikl) keys",
+            "rules": [
+              {
+                "description": "Change ^(jikl) to ^(←↑↓→) keys, ⌘⌥(jikl) to ⌘⌥(←↑↓→) keys, and ⌘^(jikl) to ⌘(jikl) keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/control_shift_jikl_to_shift_arrow_keys.json",
+          "json": {
+            "title": "Change ^⇧(jikl) to ⇧(←↑↓→) keys",
+            "rules": [
+              {
+                "description": "Change ^⇧(jikl) to ⇧(←↑↓→) keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/control_wilu_deletejumpundo.json",
           "json": {
             "title": "control + w,i,l,u,n,p,h,b,f -> delete left word, move cursor one word to left/right etc. 删除左面一个词, 光标左/右移一个词 等等",
@@ -11988,6 +12024,18 @@
               },
               {
                 "description": "Home"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/hyper_jikl_to_arrow_keys.json",
+          "json": {
+            "title": "Change hyper-(jikl) to (←↑↓→) keys",
+            "rules": [
+              {
+                "description": "Change hyper-(jikl) to (←↑↓→) keys"
               }
             ]
           },
@@ -12732,6 +12780,18 @@
             "rules": [
               {
                 "description": "Option + Esc to Grave Accent"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/option_jikl_to_option_arrow_keys_and_option_shift_jikl_to_option_shift_arrow_keys.json",
+          "json": {
+            "title": "Change ⌥(jikl) to ⌥(←↑↓→) keys and ⌥⇧(jikl) to ⌥⇧(←↑↓→) keys",
+            "rules": [
+              {
+                "description": "Change ⌥(jikl) to ⌥(←↑↓→) keys and ⌥⇧(jikl) to ⌥⇧(←↑↓→) keys"
               }
             ]
           },
@@ -13825,6 +13885,6 @@
       ]
     }
   ],
-  "revision": "1391ca2",
-  "updatedAt": 1705590442
+  "revision": "6b7afa0",
+  "updatedAt": 1705618733
 }
