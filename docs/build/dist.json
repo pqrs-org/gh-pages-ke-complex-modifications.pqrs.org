@@ -10823,6 +10823,27 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/Left_Control_to_Navigate.json",
+          "json": {
+            "title": "Left Control to Navigate",
+            "rules": [
+              {
+                "description": "left_control + H/J/K/L to Arrow Keys"
+              },
+              {
+                "description": "left_control + A/E to Home/End"
+              },
+              {
+                "description": "left_control + P/N to PageUp/PageDown"
+              },
+              {
+                "description": "left_control + B/F to Backspace/Forward Delete; left_control + V/D to delete word/line"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/Logitech_dongle_Swap_left_cmd_with_left_option.json",
           "json": {
             "title": "Logitech MX Keys with dongle - Swap left cmd with left option",
@@ -13804,6 +13825,6 @@
       ]
     }
   ],
-  "revision": "c73fcb7",
-  "updatedAt": 1705202143
+  "revision": "1391ca2",
+  "updatedAt": 1705590442
 }
