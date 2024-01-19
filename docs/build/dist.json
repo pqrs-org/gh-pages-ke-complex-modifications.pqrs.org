@@ -11495,6 +11495,9 @@
           "path": "json/command_jikl_to_command_arrow_keys_and_command_shift_jikl_to_command_shift_arrow_keys.json",
           "json": {
             "title": "Change ⌘(jikl) to ⌘(←↑↓→) keys and ⌘⇧(jikl) to ⌘⇧(←↑↓→) keys",
+            "maintainers": [
+              "annietma"
+            ],
             "rules": [
               {
                 "description": "Change ⌘(jikl) to ⌘(←↑↓→) keys and ⌘⇧(jikl) to ⌘⇧(←↑↓→) keys"
@@ -11507,6 +11510,9 @@
           "path": "json/control_jikl_to_control_arrow_keys_and_command_option_jikl_to_command_option_arrow_keys_and_command_control_jikl_to_command_jikl.json",
           "json": {
             "title": "Change ^(jikl) to ^(←↑↓→) keys, ⌘⌥(jikl) to ⌘⌥(←↑↓→) keys, and ⌘^(jikl) to ⌘(jikl) keys",
+            "maintainers": [
+              "annietma"
+            ],
             "rules": [
               {
                 "description": "Change ^(jikl) to ^(←↑↓→) keys, ⌘⌥(jikl) to ⌘⌥(←↑↓→) keys, and ⌘^(jikl) to ⌘(jikl) keys"
@@ -11519,6 +11525,9 @@
           "path": "json/control_shift_jikl_to_shift_arrow_keys.json",
           "json": {
             "title": "Change ^⇧(jikl) to ⇧(←↑↓→) keys",
+            "maintainers": [
+              "annietma"
+            ],
             "rules": [
               {
                 "description": "Change ^⇧(jikl) to ⇧(←↑↓→) keys"
@@ -12033,6 +12042,9 @@
           "path": "json/hyper_jikl_to_arrow_keys.json",
           "json": {
             "title": "Change hyper-(jikl) to (←↑↓→) keys",
+            "maintainers": [
+              "annietma"
+            ],
             "rules": [
               {
                 "description": "Change hyper-(jikl) to (←↑↓→) keys"
@@ -12789,6 +12801,9 @@
           "path": "json/option_jikl_to_option_arrow_keys_and_option_shift_jikl_to_option_shift_arrow_keys.json",
           "json": {
             "title": "Change ⌥(jikl) to ⌥(←↑↓→) keys and ⌥⇧(jikl) to ⌥⇧(←↑↓→) keys",
+            "maintainers": [
+              "annietma"
+            ],
             "rules": [
               {
                 "description": "Change ⌥(jikl) to ⌥(←↑↓→) keys and ⌥⇧(jikl) to ⌥⇧(←↑↓→) keys"
@@ -13885,6 +13900,6 @@
       ]
     }
   ],
-  "revision": "6b7afa0",
-  "updatedAt": 1705618733
+  "revision": "d1d415b",
+  "updatedAt": 1705637619
 }
