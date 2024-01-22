@@ -13356,6 +13356,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/shift_caps_lock_jikl_to_shift_arrow_keys.json",
+          "json": {
+            "title": "Change ⇧(caps_lock)(jikl) to ⇧(←↑↓→) keys",
+            "maintainers": [
+              "annietma"
+            ],
+            "rules": [
+              {
+                "description": "Change ⇧(caps_lock)(jikl) to ⇧(←↑↓→) keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/shift_f19_to_capslock.json",
           "json": {
             "title": "Change shift+f19 to capslock",
@@ -13900,6 +13915,6 @@
       ]
     }
   ],
-  "revision": "d1d415b",
-  "updatedAt": 1705637619
+  "revision": "ed3ace0",
+  "updatedAt": 1705909996
 }
