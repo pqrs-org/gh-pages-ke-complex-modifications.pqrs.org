@@ -11336,13 +11336,13 @@
         {
           "path": "json/caps_lock_to_hyper_key_and_double_tap_shift_to_caps_lock.json",
           "json": {
-            "title": "Change ⇧(caps_lock)(jikl) to ⇧(←↑↓→) keys and double tap ⇧ to caps lock",
+            "title": "Change caps lock to hyper key and double tap ⇧ to caps lock",
             "maintainers": [
               "annietma"
             ],
             "rules": [
               {
-                "description": "Change ⇧(caps_lock)(jikl) to ⇧(←↑↓→) keys"
+                "description": "Change caps lock to hyper key"
               },
               {
                 "description": "Change double tap ⇧ to caps lock"
@@ -13945,6 +13945,6 @@
       ]
     }
   ],
-  "revision": "868fc15",
-  "updatedAt": 1705911844
+  "revision": "78a65f5",
+  "updatedAt": 1705914312
 }
