@@ -11334,6 +11334,24 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/caps_lock_to_hyper_key_and_double_tap_shift_to_caps_lock.json",
+          "json": {
+            "title": "Change ⇧(caps_lock)(jikl) to ⇧(←↑↓→) keys and double tap ⇧ to caps lock",
+            "maintainers": [
+              "annietma"
+            ],
+            "rules": [
+              {
+                "description": "Change ⇧(caps_lock)(jikl) to ⇧(←↑↓→) keys"
+              },
+              {
+                "description": "Change double tap ⇧ to caps lock"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/caps_lock_wasd_nav.json",
           "json": {
             "title": "Capslock WASD Navigation",
@@ -11500,7 +11518,10 @@
             ],
             "rules": [
               {
-                "description": "Change ⌘(jikl) to ⌘(←↑↓→) keys and ⌘⇧(jikl) to ⌘⇧(←↑↓→) keys"
+                "description": "Change ⌘(jikl) to ⌘(←↑↓→) keys"
+              },
+              {
+                "description": "Change ⌘⇧(jikl) to ⌘⇧(←↑↓→) keys"
               }
             ]
           },
@@ -11515,7 +11536,13 @@
             ],
             "rules": [
               {
-                "description": "Change ^(jikl) to ^(←↑↓→) keys, ⌘⌥(jikl) to ⌘⌥(←↑↓→) keys, and ⌘^(jikl) to ⌘(jikl) keys"
+                "description": "Change ^(jikl) to ^(←↑↓→) keys"
+              },
+              {
+                "description": "Change ⌘⌥(jikl) to ⌘⌥(←↑↓→) keys"
+              },
+              {
+                "description": "Change ⌘^(jikl) to ⌘(jikl) keys"
               }
             ]
           },
@@ -12806,7 +12833,10 @@
             ],
             "rules": [
               {
-                "description": "Change ⌥(jikl) to ⌥(←↑↓→) keys and ⌥⇧(jikl) to ⌥⇧(←↑↓→) keys"
+                "description": "Change ⌥(jikl) to ⌥(←↑↓→) keys"
+              },
+              {
+                "description": "Change ⌥⇧(jikl) to ⌥⇧(←↑↓→) keys"
               }
             ]
           },
@@ -13915,6 +13945,6 @@
       ]
     }
   ],
-  "revision": "ed3ace0",
-  "updatedAt": 1705909996
+  "revision": "868fc15",
+  "updatedAt": 1705911844
 }
