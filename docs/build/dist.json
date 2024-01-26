@@ -11336,7 +11336,7 @@
         {
           "path": "json/caps_lock_to_hyper_key_and_double_tap_shift_to_caps_lock.json",
           "json": {
-            "title": "Change caps lock to hyper key and double tap ⇧ to caps lock",
+            "title": "Change caps lock to hyper key and double tap right ⇧ key to caps lock",
             "maintainers": [
               "annietma"
             ],
@@ -11345,7 +11345,7 @@
                 "description": "Change caps lock to hyper key"
               },
               {
-                "description": "Change double tap ⇧ to caps lock"
+                "description": "Change double tap right ⇧ key to caps lock"
               }
             ]
           },
@@ -13945,6 +13945,6 @@
       ]
     }
   ],
-  "revision": "78a65f5",
-  "updatedAt": 1705914312
+  "revision": "54f9090",
+  "updatedAt": 1706312768
 }
