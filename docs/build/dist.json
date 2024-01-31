@@ -13593,6 +13593,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/tap4caps_hold4ctrl.json",
+          "json": {
+            "title": "Tap Caps Lock for ESC or Hold for Control",
+            "rules": [
+              {
+                "description": "Tap Caps Lock for ESC or Hold for Control"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/toggle-delete-with-lock-key-for-magic-keyboard.json",
           "json": {
             "title": "Toggle delete with lock key For Magic Keyboard",
@@ -13945,6 +13957,6 @@
       ]
     }
   ],
-  "revision": "54f9090",
-  "updatedAt": 1706312768
+  "revision": "8e618d2",
+  "updatedAt": 1706660456
 }
