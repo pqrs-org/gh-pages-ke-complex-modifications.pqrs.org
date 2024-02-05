@@ -4949,6 +4949,19 @@
           "extra_description_text": "Mapped Keys From To Control+ö { Control+ä } Left Command+ö [ Left Command+ä ] Control++ ~ Control+- / Right Option+ß \\ Right Option+ |"
         },
         {
+          "path": "json/german_umlaut_keyboard_mapping.json",
+          "extra_description_path": "extra_descriptions/german_umlaut_keyboard_mapping.html",
+          "json": {
+            "title": "Keyboard Mapping for German Umlauts with Option Key (Including Capitals)",
+            "rules": [
+              {
+                "description": "German Umlaut Keyboard Mapping"
+              }
+            ]
+          },
+          "extra_description_text": "German Umlaut Keyboard Mapping German Umlaut Keyboard Mapping The provided JSON represents a set of manipulators for creating keyboard mappings to input German Umlauts. The manipulators are designed to transform specific key combinations involving the Option key and Caps Lock into characters with umlauts. Pressing 'a' with the Option key (⌥) will output 'ä'. Pressing 'a' with both the Option key (⌥) and Caps Lock will output 'Ä'. Pressing 'o' with the Option key (⌥) will output 'ö'. Pressing 'o' with both the Option key (⌥) and Caps Lock will output 'Ö'. Pressing 'u' with the Option key (⌥) will output 'ü'. Pressing 'u' with both the Option key (⌥) and Caps Lock will output 'Ü'. Pressing 's' with both the Option key (⌥) and Caps Lock will output 'ß'. This configuration is useful for users who frequently need to input German characters with umlauts on a keyboard with an Option key. The manipulators utilize the Karabiner-Elements software or a similar tool to customize keyboard input behavior."
+        },
+        {
           "path": "json/german_iso_pc_mapping.json",
           "extra_description_path": "extra_descriptions/german_iso_pc_mapping.json.html",
           "json": {
@@ -13957,6 +13970,6 @@
       ]
     }
   ],
-  "revision": "8e618d2",
-  "updatedAt": 1706660456
+  "revision": "fc1043d",
+  "updatedAt": 1707095041
 }
