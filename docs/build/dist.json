@@ -9827,6 +9827,9 @@
                 "description": "Option+Backtick => Command+Backtick (Except in Terminal, TeamViewer, AnyDesk, RDP clients, etc.)"
               },
               {
+                "description": "Right Option+Non US Backslash => Pipe"
+              },
+              {
                 "description": "Ctrl+C, Ctrl+V, Ctrl+X => Command+C (Copy), Command+V (Paste), Command+X (Cut)"
               },
               {
@@ -13976,6 +13979,6 @@
       ]
     }
   ],
-  "revision": "c3db8a6",
-  "updatedAt": 1707732753
+  "revision": "e3de068",
+  "updatedAt": 1707733435
 }
