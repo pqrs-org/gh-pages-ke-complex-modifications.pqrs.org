@@ -12030,16 +12030,22 @@
                 "description": "FN + L to Right Arrow"
               },
               {
-                "description": "FN + U to Command + Left Arrow"
+                "description": "FN + I to Command + Left Arrow"
               },
               {
-                "description": "FN + I to Command + Right Arrow"
+                "description": "FN + O to Command + Right Arrow"
+              },
+              {
+                "description": "FN + < to Option + Left Arrow"
+              },
+              {
+                "description": "FN + > to Option + Right Arrow"
               },
               {
                 "description": "FN + Y to Page Up"
               },
               {
-                "description": "FN + O to Page Down"
+                "description": "FN + U to Page Down"
               },
               {
                 "description": "FN + P to Delete ot Backspace"
@@ -13970,6 +13976,6 @@
       ]
     }
   ],
-  "revision": "fc1043d",
-  "updatedAt": 1707095041
+  "revision": "c3db8a6",
+  "updatedAt": 1707732753
 }
