@@ -8756,6 +8756,37 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/cidoo_v75_pro_escape_mod.json",
+          "extra_description_path": "extra_descriptions/cidoo_v75_pro_escape_mod.json.html",
+          "json": {
+            "title": "CIDOO V75 Pro — Escape & Tilde Swap Mod w/ Hyper Key",
+            "maintainers": [
+              "gsinti"
+            ],
+            "rules": [
+              {
+                "description": "Left Shift + Esc: ~ (tilde)"
+              },
+              {
+                "description": "Right Shift + Esc: ` (grave)"
+              },
+              {
+                "description": "Control + Esc: Control + `"
+              },
+              {
+                "description": "Command + Esc: ⌘ + ` (app window cycle)"
+              },
+              {
+                "description": "Caps Lock (held): ⌃⌥⇧⌘ (Hyper Key)"
+              },
+              {
+                "description": "Hyper Key + Esc: Shift + Escape"
+              }
+            ]
+          },
+          "extra_description_text": "CIDOO V75 Pro — Escape & Tilde Swap Mod w/ Hyper Key This rule is for the CIDOO V75 Pro and designed to mimic the Keychron K6. ⚠️ This rule assumes the Escape (Esc) and Tilde (~) keys have been physically swapped and reconfigured as such in VIA. It also adds the Hyper Key mod (⌃⌥⇧⌘) to Caps Lock when held (tap for regular Caps Lock). This is built upon my existing Keychron K6 rules. This matches the key positioning for users who also use the built-in MacBook keyboard. Full list of modifications: Unmodified Esc: Escape Left Shift + Esc: ~ (tilde) Right Shift + Esc: ` (grave) Control + Esc: Control + ` Command + Esc: ⌘ + ` (app window cycle) Caps Lock (held): ⌃⌥⇧⌘ (Hyper Key) Caps Lock (alone): Regular Caps Lock Hyper Key + Esc: Shift + Escape"
         }
       ]
     },
@@ -11418,36 +11449,6 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/cidoo_v75_pro_escape_mod.json",
-          "json": {
-            "title": "CIDOO V75 Pro — Escape & Tilde Swap Mod w/ Hyper Key",
-            "maintainers": [
-              "gsinti"
-            ],
-            "rules": [
-              {
-                "description": "Left Shift + Esc: ~ (tilde)"
-              },
-              {
-                "description": "Right Shift + Esc: ` (grave)"
-              },
-              {
-                "description": "Control + Esc: Control + `"
-              },
-              {
-                "description": "Command + Esc: ⌘ + ` (app window cycle)"
-              },
-              {
-                "description": "Caps Lock (held): ⌃⌥⇧⌘ (Hyper Key)"
-              },
-              {
-                "description": "Hyper Key + Esc: Shift + Escape"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
           "path": "json/citrix_remove_fn.json",
           "json": {
             "title": "Citrix Receiver/Workspace remove Fn key from Functional (F*) keys",
@@ -14006,6 +14007,6 @@
       ]
     }
   ],
-  "revision": "58901a4",
-  "updatedAt": 1708443024
+  "revision": "ba44bad",
+  "updatedAt": 1708445780
 }
