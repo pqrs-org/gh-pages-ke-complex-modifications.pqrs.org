@@ -11418,6 +11418,36 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/cidoo_v75_pro_escape_mod.json",
+          "json": {
+            "title": "CIDOO V75 Pro — Escape & Tilde Swap Mod w/ Hyper Key",
+            "maintainers": [
+              "gsinti"
+            ],
+            "rules": [
+              {
+                "description": "Left Shift + Esc: ~ (tilde)"
+              },
+              {
+                "description": "Right Shift + Esc: ` (grave)"
+              },
+              {
+                "description": "Control + Esc: Control + `"
+              },
+              {
+                "description": "Command + Esc: ⌘ + ` (app window cycle)"
+              },
+              {
+                "description": "Caps Lock (held): ⌃⌥⇧⌘ (Hyper Key)"
+              },
+              {
+                "description": "Hyper Key + Esc: Shift + Escape"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/citrix_remove_fn.json",
           "json": {
             "title": "Citrix Receiver/Workspace remove Fn key from Functional (F*) keys",
@@ -13976,6 +14006,6 @@
       ]
     }
   ],
-  "revision": "cdddb36",
-  "updatedAt": 1707733838
+  "revision": "58901a4",
+  "updatedAt": 1708443024
 }
