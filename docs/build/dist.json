@@ -4436,13 +4436,7 @@
             "title": "Neo2",
             "rules": [
               {
-                "description": "Neo2 mod 3 key and layer 4 (Apple keyboards). Rule applied to Apple-made keyboards only."
-              },
-              {
-                "description": "Neo2 mod 3 and layer 4 (third party Mac keyboard). Rule applied to all keyboards."
-              },
-              {
-                "description": "Neo2 mod 3 and layer 4 (Windows keyboard). Rule applied to all non-Apple keyboards."
+                "description": "Neo2 mod 3 and layer 4. Rule applied to all keyboards."
               },
               {
                 "description": "Neo2 layer 6"
@@ -4464,7 +4458,41 @@
               }
             ]
           },
-          "extra_description_text": "Neo2 layout Rules for the Neo2 keyboard layout. Intended to be used with the corresponding keyboard layout file. Base rules Base rules will only be active if the corresponding Neo2 keyboard layout is active. This means that the mod3 and mod4 keys will type their actual characters if you activate a different keyboard layout. Neo2 mod 3 key and layer 4 (Apple keyboards). Rule applied to Apple-made keyboards only. Toggle mod4 by pressing both mod4 keys simultaneously.Take this rule if you are using your Mac with a common Apple keyboard. Neo2 mod 3 key and layer 4 (third party Mac keyboard). Rule applied to all keyboards. Toggle mod4 by pressing both mod4 keys simultaneously.Take this rule if you are using your Mac with a non-Apple keyboard that behaves like an Apple keyboard. If either the left mod4 key or the key left of the 1 key are misbehaving, try the \"Windows keyboard\" rule instead. Neo2 mod 3 key and layer 4 (Windows keyboard). Rule applied to all non-Apple keyboards. Toggle mod4 by pressing both mod4 keys simultaneously.Take this rule if you are using your Mac with a Windows keyboard or with the Apple Magic Keyboard with Numeric Keypad. If either the left mod4 key or the key left of the 1 key are misbehaving, try the \"third party Mac keyboard\" rule instead. Neo2 layer 6 Base rule for activating layer 6. Extension rules Neo2 mod 4: Map ↖ to Home and ↘︎ to End in terminal apps. This extra-rule lets you jump to the beginning and the end of a line in your terminal using ↖ and ↘︎ on layer 4. More precisely, it maps mod4+a to Home and mod4+g to End in the following terminal apps: macOS Terminal, iTerm2, Hyper, alacritty, kitty. Make sure to move this rule above the rule 'Neo2 layer 4' in the Karabiner-Elements preferences. In case you use the macOS Terminal: You need to perform an additional configuration step in the macOS Terminal preferences: Go to 'Terminal' -> 'Preferences' -> 'Profiles' -> 'Keyboard' and add the following two entries: Key: ↖ Action: \\033OH and Key: ↘︎ Action: \\033OF. This rule will only be active if the corresponding Neo2 keyboard layout is active. Toggle caps_lock by pressing left_shift + right_shift at the same time Toggle caps_lock by pressing left_shift + right_shift at the same time. Tab acts as Ctrl if pressed with another key Tab acts as Ctrl if pressed with another key. If pressed alone, it acts as usual. Prevent problematic keys (?, /, #, =, and ')') from being treated as option key shortcut This rule serves as a workaround for issues that layer 3 could cause in some applications. See known issues for more information. The rule maps the problematic keys to a dummy dead key on Numpad 2 + left_option + left_shift followed by the actual key without modifiers. This rule will only be active if the corresponding Neo2 keyboard layout is active. Prevent all layer 3 keys from being treated as option key shortcut This rule serves as a workaround for issues that layer 3 could cause in some applications. See known issues for more information. The rule maps all layer 3 keys to a dummy dead key on Numpad 2 + left_option + left_shift followed by the actual key without modifiers. This rule will only be active if the corresponding Neo2 keyboard layout is active."
+          "extra_description_text": "Neo2 layout Rules for the Neo2 keyboard layout. Intended to be used with the corresponding keyboard layout file. Base rules Base rules will only be active if the corresponding Neo2 keyboard layout is active. This means that the mod3 and mod4 keys will type their actual characters if you activate a different keyboard layout. Neo2 mod 3 and layer 4. Rule applied to all keyboards. Take this rule if you are using your Mac with a common Apple keyboard. Neo2 layer 6 Base rule for activating layer 6. Extension rules Neo2 mod 4: Map ↖ to Home and ↘︎ to End in terminal apps. This extra-rule lets you jump to the beginning and the end of a line in your terminal using ↖ and ↘︎ on layer 4. More precisely, it maps mod4+a to Home and mod4+g to End in the following terminal apps: macOS Terminal, iTerm2, Hyper, alacritty, kitty. Make sure to move this rule above the rule 'Neo2 layer 4' in the Karabiner-Elements preferences. In case you use the macOS Terminal: You need to perform an additional configuration step in the macOS Terminal preferences: Go to 'Terminal' -> 'Preferences' -> 'Profiles' -> 'Keyboard' and add the following two entries: Key: ↖ Action: \\033OH and Key: ↘︎ Action: \\033OF. This rule will only be active if the corresponding Neo2 keyboard layout is active. Toggle caps_lock by pressing left_shift + right_shift at the same time Toggle caps_lock by pressing left_shift + right_shift at the same time. Tab acts as Ctrl if pressed with another key Tab acts as Ctrl if pressed with another key. If pressed alone, it acts as usual. Prevent problematic keys (?, /, #, =, and ')') from being treated as option key shortcut This rule serves as a workaround for issues that layer 3 could cause in some applications. See known issues for more information. The rule maps the problematic keys to a dummy dead key on Numpad 2 + left_option + left_shift followed by the actual key without modifiers. This rule will only be active if the corresponding Neo2 keyboard layout is active. Prevent all layer 3 keys from being treated as option key shortcut This rule serves as a workaround for issues that layer 3 could cause in some applications. See known issues for more information. The rule maps all layer 3 keys to a dummy dead key on Numpad 2 + left_option + left_shift followed by the actual key without modifiers. This rule will only be active if the corresponding Neo2 keyboard layout is active. To use a PC style keyboard, the following simple modifications need to be enabled: grave_accent_and_tilde (`) -> non_us_backslash non_us_backslash -> grave_accent_and_tilde (`) non_us_pound -> backslash (\\) right_option -> right_command"
+        },
+        {
+          "path": "json/neo_layouts_based_on_abc_extended_layout.json",
+          "extra_description_path": "extra_descriptions/neo_layouts_based_on_abc_extended_layout.json.html",
+          "json": {
+            "title": "Neo layouts based on ABC - Extended layout",
+            "rules": [
+              {
+                "description": "Neo2"
+              },
+              {
+                "description": "NeoQwertz"
+              },
+              {
+                "description": "Bone"
+              },
+              {
+                "description": "Mine"
+              },
+              {
+                "description": "Noted"
+              },
+              {
+                "description": "AdNW"
+              },
+              {
+                "description": "KOY"
+              },
+              {
+                "description": "VOU"
+              }
+            ]
+          },
+          "extra_description_text": "Neo2 layout Rules for the Neo2 keyboard layout. These modifications provide better shortcut support. However, due to using the ABC Extended layout, not all keys are implemented. Layer 5 and 6 are also missing, so in order to use those the other Neo2 modifications need to also enabled. Both modification sets can be enabled at the same time, by changing the layout between ABC Extended and the corresponding Neo layout. To use a PC style keyboard, the following simple modifications need to be enabled: grave_accent_and_tilde (`) -> non_us_backslash non_us_backslash -> grave_accent_and_tilde (`) non_us_pound -> backslash (\\) right_option -> right_command"
         },
         {
           "path": "json/half-qwerty.json",
@@ -14007,6 +14035,6 @@
       ]
     }
   ],
-  "revision": "ba44bad",
-  "updatedAt": 1708445780
+  "revision": "9234aea",
+  "updatedAt": 1708989461
 }
