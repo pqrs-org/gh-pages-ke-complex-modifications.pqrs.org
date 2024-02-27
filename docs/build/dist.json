@@ -5738,6 +5738,21 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/us_intl_delayed_aumlaut.json",
+          "json": {
+            "title": "Press and hold 'a' or 'A' for 500ms to type a German 'ä'",
+            "rules": [
+              {
+                "description": "'ä' on holding down 'a' for 500ms"
+              },
+              {
+                "description": "'Ä' on holding down 'shift + a' for 500ms"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -14035,6 +14050,6 @@
       ]
     }
   ],
-  "revision": "24b48e2",
-  "updatedAt": 1709074810
+  "revision": "dd1b82f",
+  "updatedAt": 1709075732
 }
