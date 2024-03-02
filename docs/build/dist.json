@@ -13146,7 +13146,12 @@
                 "description": "(JIS)Swap ¥ and Alt+¥"
               },
               {
-                "description": "Paste Selected Text to Address bar when alt key double clicked"
+                "description": "Paste Selected Text to Address bar when right alt key double clicked",
+                "comment": "https://qiita.com/s-show/items/c991327a5317c3e0cf4b"
+              },
+              {
+                "description": "Paste Selected Text to Address bar when left alt key double clicked",
+                "comment": "https://qiita.com/s-show/items/c991327a5317c3e0cf4b"
               }
             ]
           },
@@ -14053,6 +14058,6 @@
       ]
     }
   ],
-  "revision": "e41db29",
-  "updatedAt": 1709419710
+  "revision": "3dcea79",
+  "updatedAt": 1709423439
 }
