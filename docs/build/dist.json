@@ -13144,6 +13144,9 @@
               },
               {
                 "description": "(JIS)Swap ¥ and Alt+¥"
+              },
+              {
+                "description": "Paste Selected Text to Address bar when alt key double clicked"
               }
             ]
           },
@@ -14050,6 +14053,6 @@
       ]
     }
   ],
-  "revision": "dd1b82f",
-  "updatedAt": 1709075732
+  "revision": "e41db29",
+  "updatedAt": 1709419710
 }
