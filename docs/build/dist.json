@@ -13225,6 +13225,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/prevent_unintended_command_w.json",
+          "json": {
+            "title": "Prevent unintended command-w",
+            "rules": [
+              {
+                "description": "Close Tab by pressing command-w twice"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/printscreen_with_alt_or_ctrl.json",
           "json": {
             "title": "Printscreen, Alt+Printscreen, Ctrl+Printscrren to Capture",
@@ -14073,6 +14085,6 @@
       ]
     }
   ],
-  "revision": "45b66e5",
-  "updatedAt": 1709432357
+  "revision": "68c24b8",
+  "updatedAt": 1709432504
 }
