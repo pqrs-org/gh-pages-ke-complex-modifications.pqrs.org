@@ -10055,6 +10055,12 @@
               },
               {
                 "description": "CAPS › ESC, CAPS+J/K/I/L › ←↓↑→, CAPS+H › DEL"
+              },
+              {
+                "description": "Disable Cmd+H Hide"
+              },
+              {
+                "description": "Disable Cmd+Tab"
               }
             ]
           },
@@ -14085,6 +14091,6 @@
       ]
     }
   ],
-  "revision": "68c24b8",
-  "updatedAt": 1709432504
+  "revision": "e498682",
+  "updatedAt": 1709505867
 }
