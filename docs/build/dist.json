@@ -13243,6 +13243,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/r_cmd_switch_languages_korean.json",
+          "json": {
+            "title": "R_CMD to switch input languages, especially Korean",
+            "maintainers": [
+              "predict-woo"
+            ],
+            "rules": [
+              {
+                "description": "R_CMD to switch input languages, Fixes the issue where R_CMD does not switch input languages when caps lock is on"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/razer_naga_v2_hyper.json",
           "json": {
             "title": "Razer Naga v2 Hyper",
@@ -14058,6 +14073,6 @@
       ]
     }
   ],
-  "revision": "4fd6343",
-  "updatedAt": 1709431555
+  "revision": "45b66e5",
+  "updatedAt": 1709432357
 }
