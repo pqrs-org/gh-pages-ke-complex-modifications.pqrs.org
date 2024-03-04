@@ -10172,6 +10172,12 @@
               },
               {
                 "description": "Ctrl + Opt + Shift + ↓ => Duplicate the current paragraph below (Behavior may vary depending on text editors.)"
+              },
+              {
+                "description": "Cmnd + Home/End => Cmnd + ↑/↓, Cmnd + Shift + Home/End => Cmnd + Shift + ↑/↓"
+              },
+              {
+                "description": "Ctrl + Home/End => Cmnd + ↑/↓, Ctrl + Shift + Home/End => Cmnd + Shift + ↑/↓"
               }
             ]
           },
@@ -10182,6 +10188,18 @@
           "json": {
             "title": "KonKen's Setup: Quick App Launchers for Mac",
             "rules": [
+              {
+                "description": "Tab & 1 (simultaneously within 0.1 sec) => Cmnd & Tab (Open previous window. Not repeated.)"
+              },
+              {
+                "description": "Cmnd + Shift + Esc => Open Activity Monitor"
+              },
+              {
+                "description": "Ctrl + Shift + Esc => Open Activity Monitor"
+              },
+              {
+                "description": "p & r (simultaneously for 0.25 sec) => Cmnd & Tab (Open previous window. Not repeated.)"
+              },
               {
                 "description": "s & p (simultaneously for 0.25 sec) => Open System Preferences"
               },
@@ -10213,7 +10231,7 @@
                 "description": "f & z (simultaneously for 0.25 sec) => Open FileZilla"
               },
               {
-                "description": "a & f (simultaneously for 0.25 sec) => Toggle Alfred (Default hotkey Alt + Space is triggered)"
+                "description": "a & f (simultaneously for 0.25 sec) => Toggle Alfred (Default hotkey Alt + Space is triggered.)"
               },
               {
                 "description": "s & l (simultaneously for 0.25 sec) => Open Slack"
@@ -10238,6 +10256,21 @@
               },
               {
                 "description": "i & o (simultaneously for 0.25 sec) => Open ImageOptim"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/konken-setup_us-jis-adaptor.json",
+          "json": {
+            "title": "KonKen's Setup: US/JIS Adaptor",
+            "rules": [
+              {
+                "description": "F14 => 英数 (when pressed alone) / Left Cmnd (when used in combination)"
+              },
+              {
+                "description": "F15 => かな (when pressed alone) / Right Cmnd (when used in combination)"
               }
             ]
           },
@@ -14091,6 +14124,6 @@
       ]
     }
   ],
-  "revision": "e498682",
-  "updatedAt": 1709505867
+  "revision": "8b8c54b",
+  "updatedAt": 1709523954
 }
