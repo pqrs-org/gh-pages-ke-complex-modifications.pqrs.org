@@ -8990,6 +8990,9 @@
                 "description": "right_option + A(API) -> Postman"
               },
               {
+                "description": "right_option + P -> Postman"
+              },
+              {
                 "description": "right_option + l -> Sublime Text"
               },
               {
@@ -14124,6 +14127,6 @@
       ]
     }
   ],
-  "revision": "8b8c54b",
-  "updatedAt": 1709523954
+  "revision": "76967ef",
+  "updatedAt": 1709929844
 }
