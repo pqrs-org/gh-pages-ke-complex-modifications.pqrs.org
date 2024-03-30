@@ -11534,6 +11534,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/citrix_command_option_keys.json",
+          "json": {
+            "title": "Map left_command to ctrl and left_option to alt in any Citrix Receiver/Viewer",
+            "rules": [
+              {
+                "description": "Citrix: Change option to left_command + left_option (use with related configuration)"
+              },
+              {
+                "description": "Citrix: Change left_command to left_control (use with related configuration)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/citrix_remove_fn.json",
           "json": {
             "title": "Citrix Receiver/Workspace remove Fn key from Functional (F*) keys",
@@ -14127,6 +14142,6 @@
       ]
     }
   ],
-  "revision": "76967ef",
-  "updatedAt": 1709929844
+  "revision": "691841e",
+  "updatedAt": 1711786033
 }
