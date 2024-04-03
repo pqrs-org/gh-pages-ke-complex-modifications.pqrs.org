@@ -11536,8 +11536,11 @@
         {
           "path": "json/citrix_command_option_keys.json",
           "json": {
-            "title": "Map left_command to ctrl and left_option to alt in any Citrix Receiver/Viewer",
+            "title": "Citrix key combinations (use with configuration of mapping ⌥ -> ⌘⌥)",
             "rules": [
+              {
+                "description": "Citrix: Change left_option + left/right arrow to left_command + left_option + left/right arrow for simulation of shift+arrow (use with related configuration and rule)"
+              },
               {
                 "description": "Citrix: Change option to left_command + left_option (use with related configuration)"
               },
@@ -14142,6 +14145,6 @@
       ]
     }
   ],
-  "revision": "11730c5",
-  "updatedAt": 1711804741
+  "revision": "9714e22",
+  "updatedAt": 1712110738
 }
