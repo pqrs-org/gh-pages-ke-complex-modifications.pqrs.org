@@ -11603,6 +11603,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/coder_friendly_fkeys.json",
+          "json": {
+            "title": "Coder-friendly F keys",
+            "rules": [
+              {
+                "description": "For iTerm2, IntelliJ, and Visual Studio Code: Fn + F-keys trigger media controls, while F-keys alone function as standard F-keys."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/colemak-caps-lock-backspace-delete-swap.json",
           "json": {
             "title": "Caps lock to backspace and backspace to delete forward, but only on Colemak",
@@ -14145,6 +14157,6 @@
       ]
     }
   ],
-  "revision": "9714e22",
-  "updatedAt": 1712110738
+  "revision": "bcfba9c",
+  "updatedAt": 1712188928
 }
