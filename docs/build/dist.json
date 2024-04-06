@@ -10901,6 +10901,27 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/CapsLockToEscCtrlNumPad.json",
+          "json": {
+            "title": "Caps Lock to Esc, Ctrl, and NumPad",
+            "maintainers": [
+              "brycekbargar"
+            ],
+            "rules": [
+              {
+                "description": "Caps Lock to Esc and Ctrl"
+              },
+              {
+                "description": "Restore Caps Lock as Esc"
+              },
+              {
+                "description": "Caps Lock to NumPad"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/DvorakRight.json",
           "json": {
             "title": "Right-Hand Dvorak Keyboard",
@@ -14157,6 +14178,6 @@
       ]
     }
   ],
-  "revision": "bcfba9c",
-  "updatedAt": 1712188928
+  "revision": "74360d4",
+  "updatedAt": 1712397667
 }
