@@ -5472,6 +5472,12 @@
               },
               {
                 "description": "Danish Dk keyboard, AltGr+key_left_of_z =>          Backslash \\"
+              },
+              {
+                "description": "Danish Dk keyboard, key_left_of_z =>         <"
+              },
+              {
+                "description": "Danish Dk keyboard, shift key_left_of_z =>         >"
               }
             ]
           },
@@ -14193,6 +14199,6 @@
       ]
     }
   ],
-  "revision": "515bc49",
-  "updatedAt": 1712795186
+  "revision": "793734e",
+  "updatedAt": 1712795390
 }
