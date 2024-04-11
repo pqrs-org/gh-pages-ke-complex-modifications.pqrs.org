@@ -12507,6 +12507,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/logitech_spotlight_revealjs.json",
+          "json": {
+            "title": "Logitech Spotlight (Left Arrow to Shift+Spacebar and Right Arrow to Spacebar for Reveal.js",
+            "rules": [
+              {
+                "description": "Logitech Spotlight Left Arrow to Shift+Spacebar for Reveal.js"
+              },
+              {
+                "description": "Logitech Spotligh Right Arrow to Spacebar for Reveal.js"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/machenike_k500w_pt_br.json",
           "json": {
             "title": "Machenike K500W PT-BR ABNT2 Web Developer Setup",
@@ -14178,6 +14193,6 @@
       ]
     }
   ],
-  "revision": "74360d4",
-  "updatedAt": 1712397667
+  "revision": "515bc49",
+  "updatedAt": 1712795186
 }
