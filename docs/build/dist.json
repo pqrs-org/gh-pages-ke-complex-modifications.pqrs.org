@@ -14124,6 +14124,27 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/wooting-60he-uk.json",
+          "json": {
+            "title": "Wooting 60HE UK - Sam McKay",
+            "rules": [
+              {
+                "description": "Windows Alt"
+              },
+              {
+                "description": "| \\"
+              },
+              {
+                "description": "# ~"
+              },
+              {
+                "description": "@ '"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     }
@@ -14211,6 +14232,6 @@
       ]
     }
   ],
-  "revision": "b49761d",
-  "updatedAt": 1713572402
+  "revision": "3943b58",
+  "updatedAt": 1713618439
 }
