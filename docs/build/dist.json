@@ -14078,6 +14078,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/vim_style_escape_and_select.json",
+          "json": {
+            "title": "Caps Lock Vim Movements (rev 3)",
+            "rules": [
+              {
+                "description": "CAPS › ESC, CAPS+H/J/K/L › ←↓↑→, CAPS+U/I › HOME/END, CAPS+F/G › Word left/right, CAPS+A/S/D/W › Word selection"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/virtual_machine_alt.json",
           "json": {
             "title": "Virtual Machine and Remote Desktop - Swap Command / Alt - (Microsoft or other)",
@@ -14199,6 +14211,6 @@
       ]
     }
   ],
-  "revision": "bcb6ddc",
-  "updatedAt": 1712801375
+  "revision": "b49761d",
+  "updatedAt": 1713572402
 }
