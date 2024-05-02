@@ -11963,6 +11963,23 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/evernote_slashcommand_killer.json",
+          "json": {
+            "title": "Evernote slashcommand-killer",
+            "maintainers": [
+              "AoVA"
+            ],
+            "rules": [
+              {
+                "How-to-install": "copy this file to ~/.config/karabiner/assets/complex_modifications/ ",
+                "Hint-to-use": "Evernoteのスラッシュコマンド効果を一瞬で消すために、スペースを一瞬追加します。日本語入力時はIMEトグルを伴います。Command-/で元の効果が出ます。これは本来キーボードショートカットを呼び出すコマンドですが、Command-shift-/に移動します。",
+                "description": "Disable Evernote's slash command; use Command-/ for standard menu access and Command-Shift-/ for the shortcuts list."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/far2l_fn.json",
           "json": {
             "title": "Function keys work as Fn keys (instead of media keys) for Far Manager 2",
@@ -14232,6 +14249,6 @@
       ]
     }
   ],
-  "revision": "c6cd1ea",
-  "updatedAt": 1713791342
+  "revision": "fa831ac",
+  "updatedAt": 1714608981
 }
