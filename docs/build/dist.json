@@ -11786,6 +11786,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/ctrl_h_backspace.json",
+          "json": {
+            "title": "Change Ctrl+h to delete/backspace",
+            "rules": [
+              {
+                "description": "Ctrl+h = delete/backspace"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/ctrl_to_hyper_without_shift.json",
           "json": {
             "title": "Ctrl key -> hyper key without shift (⌘⌥⌃)",
@@ -14249,6 +14261,6 @@
       ]
     }
   ],
-  "revision": "fa831ac",
-  "updatedAt": 1714608981
+  "revision": "20a3cf9",
+  "updatedAt": 1715402442
 }
