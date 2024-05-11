@@ -5,6 +5,18 @@
       "id": "modifier-keys",
       "files": [
         {
+          "path": "json/CapsWord.json",
+          "json": {
+            "title": "CapsWord",
+            "rules": [
+              {
+                "description": "CapsLock turned off automagically by space, enter, down arrow, tab, quote and =.,/"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/f4-to-launch-terminal.json",
           "json": {
             "title": "Launch a new Terminal window with F4 (replace MacOS default Spotlight)",
@@ -14286,6 +14298,6 @@
       ]
     }
   ],
-  "revision": "8f39118",
-  "updatedAt": 1715403053
+  "revision": "ebde738",
+  "updatedAt": 1715406007
 }
