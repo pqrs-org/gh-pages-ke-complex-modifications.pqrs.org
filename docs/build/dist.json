@@ -10605,6 +10605,31 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/word_star_diamond.json",
+          "extra_description_path": "extra_descriptions/word_star_diamond.json.html",
+          "json": {
+            "title": "Wordstar Diamond inspired keyboard navigation: Fn + ESDX etc.",
+            "rules": [
+              {
+                "description": "Caps Lock to Fn = modifier key for other rules; Caps Lock + Fn to Caps Lock"
+              },
+              {
+                "description": "Fn + E/S/D/X to Arrow Keys (Wordstar Diamond)"
+              },
+              {
+                "description": "Fn + R/C to Page-Up/Page-Down Keys (Wordstar Diamond)"
+              },
+              {
+                "description": "Fn + Q/W to jump to beginning/end of line"
+              },
+              {
+                "description": "Fn + A/F to jump to beginning/end of word"
+              }
+            ]
+          },
+          "extra_description_text": "Navigate with your left hand fingers: Inspired by the \"Wordstar Diamond\", this modification lets you navigate with the Caps Lock key and the keys right next to it. The Caps Lock key is remapped to the Function (Fn) key. You can then use the following keys: Caps Lock + e: Up arrow Caps Lock + s: Left arrow Caps Lock + d: Right arrow Caps Lock + x: Down arrow Caps Lock + a: Jump to start of word Caps Lock + f: Jump to end of word Caps Lock + r: Page up Caps Lock + c: Page down Caps Lock + q: Jump to start of line Caps Lock + w: Jump to end of line You can use these combinations and press Shift to select text. Read more about the \"Wordstar Diamond\" on this blog post by Ben Hoyt who inspired me to create this modification."
         }
       ]
     },
@@ -14261,6 +14286,6 @@
       ]
     }
   ],
-  "revision": "20a3cf9",
-  "updatedAt": 1715402442
+  "revision": "8f39118",
+  "updatedAt": 1715403053
 }
