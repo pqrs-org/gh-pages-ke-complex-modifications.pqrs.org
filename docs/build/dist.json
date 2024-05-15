@@ -8,6 +8,10 @@
           "path": "json/CapsWord.json",
           "json": {
             "title": "CapsWord",
+            "author": "Pedro Fernandes (https://github.com/PurnaDeva)",
+            "maintainers": [
+              "PurnaDeva"
+            ],
             "rules": [
               {
                 "description": "CapsLock turned off automagically by space, enter, down arrow, tab, quote and =.,/"
@@ -14298,6 +14302,6 @@
       ]
     }
   ],
-  "revision": "ebde738",
-  "updatedAt": 1715406007
+  "revision": "b7730a6",
+  "updatedAt": 1715808830
 }
