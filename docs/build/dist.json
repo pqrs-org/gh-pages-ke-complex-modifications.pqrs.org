@@ -11602,6 +11602,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/change_command_l-and_period_to_escape.json",
+          "json": {
+            "title": "Change Command_L|Command_R + Period to Escape",
+            "rules": [
+              {
+                "description": "Change Command_L + Period to Escape, to aid those who use the iPad Magic Keyboard since Command_L + Period is Escape on that keyboard."
+              },
+              {
+                "description": "Change Command_R + Period to Escape, to aid those who use the iPad Magic Keyboard since Command_R + Period is Escape on that keyboard."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/citrix_command_option_keys.json",
           "json": {
             "title": "Citrix key combinations (use with configuration of mapping ⌥ -> ⌘⌥)",
@@ -11848,6 +11863,18 @@
             "rules": [
               {
                 "description": "Ctrl key -> hyper key without shift (⌘⌥⌃)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/delete_file_or_dir_by_delete.json",
+          "json": {
+            "title": "Change delete_forward to cmd+backslash in finder",
+            "rules": [
+              {
+                "description": "Change delete_forward to cmd+backslash in finder"
               }
             ]
           },
@@ -14356,6 +14383,6 @@
       ]
     }
   ],
-  "revision": "e97f64f",
-  "updatedAt": 1717676009
+  "revision": "305d20e",
+  "updatedAt": 1717677455
 }
