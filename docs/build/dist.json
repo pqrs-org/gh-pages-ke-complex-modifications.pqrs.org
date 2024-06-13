@@ -3436,6 +3436,22 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/vs-code-ctrl-option-quick-open.json",
+          "json": {
+            "title": "ctrl + left option → quick open (VS Code → quick open)",
+            "author": "Carlo van Wyk (https://github.com/thecarlo)",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "ctrl + left option → quick open (VS Code → quick open)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/vs_code_left_ctrl_toggle_sidebar.json",
           "json": {
             "title": "left ctrl → cmd + b (VS Code → toggle sidebar)",
@@ -14570,6 +14586,6 @@
       ]
     }
   ],
-  "revision": "5dc935e",
-  "updatedAt": 1718286069
+  "revision": "146e828",
+  "updatedAt": 1718286266
 }
