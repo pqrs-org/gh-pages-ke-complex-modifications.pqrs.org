@@ -3420,6 +3420,22 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/vs_code_left_ctrl_toggle_sidebar.json",
+          "json": {
+            "title": "left ctrl → cmd + b (VS Code → toggle sidebar)",
+            "author": "Carlo van Wyk (https://github.com/thecarlo)",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "left ctrl → cmd + b (VS Code → toggle sidebar)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/vs_code_left_shift_search_symbols.json",
           "json": {
             "title": "left shift → cmd + shift + o (VS Code → search symbols)",
@@ -14474,6 +14490,6 @@
       ]
     }
   ],
-  "revision": "9d1f4fa",
-  "updatedAt": 1718283203
+  "revision": "c92097f",
+  "updatedAt": 1718283562
 }
