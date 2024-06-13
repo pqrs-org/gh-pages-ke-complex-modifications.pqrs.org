@@ -12689,6 +12689,22 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/mac_osx_disable_cmd_h.json",
+          "json": {
+            "title": "disable cmd + h (Mac OSX: Disable Minimise Windows)",
+            "author": "Carlo van Wyk (https://github.com/thecarlo)",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "disable cmd + h (Mac OSX: Disable Minimise Windows)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/machenike_k500w_pt_br.json",
           "json": {
             "title": "Machenike K500W PT-BR ABNT2 Web Developer Setup",
@@ -14522,6 +14538,6 @@
       ]
     }
   ],
-  "revision": "811ed0e",
-  "updatedAt": 1718284423
+  "revision": "ad38b1d",
+  "updatedAt": 1718284611
 }
