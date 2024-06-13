@@ -3436,6 +3436,22 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/vs_code_left_option_toggle_terminal.json",
+          "json": {
+            "title": "left option → cmd + j (VS Code → toggle terminal)",
+            "author": "Carlo van Wyk (https://github.com/thecarlo)",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "left option → cmd + j (VS Code → toggle terminal)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/vs_code_left_shift_search_symbols.json",
           "json": {
             "title": "left shift → cmd + shift + o (VS Code → search symbols)",
@@ -14490,6 +14506,6 @@
       ]
     }
   ],
-  "revision": "c92097f",
-  "updatedAt": 1718283562
+  "revision": "22bee5a",
+  "updatedAt": 1718283805
 }
