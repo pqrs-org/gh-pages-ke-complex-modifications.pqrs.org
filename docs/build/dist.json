@@ -13830,6 +13830,63 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/super-ctrl.json",
+          "json": {
+            "title": "Super ctrl + cmd!",
+            "rules": [
+              {
+                "description": "ctrl + S を option + ← に変換"
+              },
+              {
+                "description": "ctrl + G を option + → に変換"
+              },
+              {
+                "description": "ctrl + W を option + Delete に変換"
+              },
+              {
+                "description": "ctrl + X を fn + option + Delete に変換"
+              },
+              {
+                "description": "ctrl + U を cmd + Delete に変換"
+              },
+              {
+                "description": "ctrl + H を Delete に変換"
+              },
+              {
+                "description": "ctrl + D を fn + Delete に変換"
+              },
+              {
+                "description": "ctrl + P を up_arrow に変換"
+              },
+              {
+                "description": "ctrl + N を down_arrow に変換"
+              },
+              {
+                "description": "ctrl + J を return_or_enter に変換"
+              },
+              {
+                "description": "S,D,F の同時押しで escape"
+              },
+              {
+                "description": "left_ctrl を 2 回連打したら Raycast を起動する"
+              },
+              {
+                "description": "left_shift を 2 回連打したら WezTerm を起動する"
+              },
+              {
+                "description": "left_cmd を 2 回連打したら Brave を起動する"
+              },
+              {
+                "description": "left_option を 2 回連打したら Figma を起動する"
+              },
+              {
+                "description": "right_shift を 2 回連打したら Cursor を起動する"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/swap-command-tab-with-control-tab-optional-shift.json",
           "json": {
             "title": "Swap \"command + tab\" with \"control + tab\" optional shift",
@@ -14383,6 +14440,6 @@
       ]
     }
   ],
-  "revision": "305d20e",
-  "updatedAt": 1717677455
+  "revision": "e5af0dd",
+  "updatedAt": 1718282589
 }
