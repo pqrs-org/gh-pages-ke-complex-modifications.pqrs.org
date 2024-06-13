@@ -7358,6 +7358,22 @@
       "id": "os-functionality",
       "files": [
         {
+          "path": "json/mac_osx_double_tap_q_close_application.json",
+          "json": {
+            "title": "left cmd + double tap q to close an application (Mac OSX: left cmd + q, q to close an application)",
+            "author": "Carlo van Wyk (https://github.com/thecarlo)",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "left cmd + double tap q to close an application (Mac OSX: left cmd + q, q to close an application)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/mwit-taskbar-number-launch-app.json",
           "json": {
             "title": "Launch MacOS apps, like on windows + number",
@@ -14538,6 +14554,6 @@
       ]
     }
   ],
-  "revision": "ad38b1d",
-  "updatedAt": 1718284611
+  "revision": "4381def",
+  "updatedAt": 1718285447
 }
