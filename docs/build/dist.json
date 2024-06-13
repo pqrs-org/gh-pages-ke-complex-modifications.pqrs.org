@@ -13650,6 +13650,24 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/rk61_for_mac.json",
+          "json": {
+            "title": "RK61 Keyboard Mac Fix: Tilde and Slash Key Remapping",
+            "maintainers": [
+              "juan-28"
+            ],
+            "rules": [
+              {
+                "description": "right_shift + esc → ~"
+              },
+              {
+                "description": "up_arrow turn to slash when press with left_command"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/samuelraub_fix_german_keyboard.json",
           "json": {
             "title": "Fix German Keyboard Dead Keys: Backtick, Tilde, Circumflex",
@@ -14440,6 +14458,6 @@
       ]
     }
   ],
-  "revision": "e5af0dd",
-  "updatedAt": 1718282589
+  "revision": "f6769fe",
+  "updatedAt": 1718282827
 }
