@@ -3420,6 +3420,22 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/vs_code_left_shift_search_symbols.json",
+          "json": {
+            "title": "left shift → cmd + shift + o (VS Code → search symbols)",
+            "author": "Carlo van Wyk (https://github.com/thecarlo)",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "left shift → cmd + shift + o (VS Code → search symbols)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/vscode.json",
           "extra_description_path": "extra_descriptions/vscode.json.html",
           "json": {
@@ -14458,6 +14474,6 @@
       ]
     }
   ],
-  "revision": "f6769fe",
-  "updatedAt": 1718282827
+  "revision": "9d1f4fa",
+  "updatedAt": 1718283203
 }
