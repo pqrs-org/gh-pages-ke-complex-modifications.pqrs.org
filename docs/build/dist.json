@@ -2958,6 +2958,22 @@
       "id": "application-specific",
       "files": [
         {
+          "path": "json/adobe_premiere_pro_scroll_timeline_mouse_button_3.json",
+          "json": {
+            "title": "Adobe Premiere Pro timeline: scroll timeline with mouse button 3 (hold button 3 to scroll; release to go back to selection tool)",
+            "author": "Carlo van Wyk (https://github.com/thecarlo)",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Adobe Premiere Pro timeline: scroll timeline with mouse button 3 (hold button 3 to scroll; release to go back to selection tool)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/slack_left_option_search.json",
           "json": {
             "title": "left option → cmd + k (Slack → launch search)",
@@ -14586,6 +14602,6 @@
       ]
     }
   ],
-  "revision": "146e828",
-  "updatedAt": 1718286266
+  "revision": "986e16e",
+  "updatedAt": 1718286489
 }
