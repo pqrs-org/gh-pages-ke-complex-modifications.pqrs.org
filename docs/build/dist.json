@@ -2958,6 +2958,22 @@
       "id": "application-specific",
       "files": [
         {
+          "path": "json/slack_left_option_search.json",
+          "json": {
+            "title": "left option → cmd + k (Slack → launch search)",
+            "author": "Carlo van Wyk (https://github.com/thecarlo)",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "left option → cmd + k (Slack → launch search)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/obsidian_emacs_vim-insert.json",
           "json": {
             "title": "Obsidian.app, emacs like key at vim-insert mode_rev02",
@@ -14554,6 +14570,6 @@
       ]
     }
   ],
-  "revision": "4381def",
-  "updatedAt": 1718285447
+  "revision": "5dc935e",
+  "updatedAt": 1718286069
 }
