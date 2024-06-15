@@ -3100,7 +3100,7 @@
               }
             ]
           },
-          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Search Caps lock hyper key + a Search Tabs Switching Chrome Profiles Caps lock hyper key + q Switch between Google Chrome profiles Developer Tools Caps lock hyper key + 1 Developer Tools Caps lock hyper key + 2 Developer Console Caps lock hyper key + 3 Developer Elements Panel Caps lock hyper key + q Toggle device toolbar (when you already have a developer panel open) Right cmd Toggle Zen mode"
+          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Search Caps lock hyper key + a Search Tabs Switching Chrome Profiles Caps lock hyper key + q Switch between Google Chrome profiles Developer Tools Caps lock hyper key + 1 Developer Tools Caps lock hyper key + 2 Developer Console Caps lock hyper key + 3 Developer Elements Panel Caps lock hyper key + q Toggle device toolbar (when you already have a developer panel open)"
         },
         {
           "path": "json/obsidian_emacs_vim-insert.json",
@@ -7454,6 +7454,37 @@
       "name": "OS Functionality",
       "id": "os-functionality",
       "files": [
+        {
+          "path": "json/mac_osx.json",
+          "extra_description_path": "extra_descriptions/mac_osx.html",
+          "json": {
+            "title": "Mac OSX: Essential Keybindings",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Hyper Key: Right Option Key → left shift + left option + left command (⌃⇧⌥⌘)"
+              },
+              {
+                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
+              },
+              {
+                "description": "Hyper Key: Tab (held down) → left control + left command (⌃⌘)"
+              },
+              {
+                "description": "double-tap right ⇧ key → caps lock on"
+              },
+              {
+                "description": "Mac OSX: left cmd + double-tap q → close application"
+              },
+              {
+                "description": "Mac OSX: disable cmd + h so that it does not minimise windows"
+              }
+            ]
+          },
+          "extra_description_text": "Hyper Keys Includes 3 hyper keys for maximum flexibility. Right Option Key Maps to left shift + left option + left command (⌃⇧⌥⌘) Caps Lock Maps to left control + left shift + right command (⌃⇧⌘) The Caps lock is disabled. Tab (held down) Maps to left control + left command (⌃⌘) Toggle Caps Lock Since the Caps Lock key is set up as a hyper key, double-tap the right shift key to toggle Caps lock. Double-tap right shift Caps lock toggle Closing Applications Since it's easy to accidentally hit CMD + Q and close an application, I've changed this so that you need to hit CMD + q, q to close an application. cmd + double-tap q close application Disable minimising applications Since it's easy to accidentally minimise an application, I've disabled the cmd + h default keybinding in Mac OSX. cmd + h Keybinding is disabled"
+        },
         {
           "path": "json/mac_osx_double_tap_q_close_application.json",
           "json": {
@@ -14649,6 +14680,6 @@
       ]
     }
   ],
-  "revision": "b4d2113",
-  "updatedAt": 1718451684
+  "revision": "7b970a5",
+  "updatedAt": 1718453556
 }
