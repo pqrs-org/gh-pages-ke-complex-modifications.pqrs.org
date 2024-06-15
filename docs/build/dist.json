@@ -2995,19 +2995,26 @@
           "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Searching Caps Lock Hyper Key + a Quick open (search for a file) Caps Lock Hyper Key + s Navigate symbols (search symbols) Toggle Panels and Zen Mode Double-tap left ctrl Toggle sidebar Double-tap left option Toggle terminal Double-tap left cmd Toggle Zen mode Right cmd Toggle Zen mode keybindings.json in Visual Studio Code Add the following entry to your keybindings.json in Visual Studio Code. This is to ensure that the editor pane is focused when activating the Zen mode shortcuts. { \"key\": \"ctrl+shift+alt+f\", \"command\": \"workbench.action.focusActiveEditorGroup\" }"
         },
         {
-          "path": "json/adobe_premiere_pro_scroll_timeline_mouse_button_3.json",
+          "path": "json/premiere_pro.json",
+          "extra_description_path": "extra_descriptions/premiere_pro.html",
           "json": {
-            "title": "Adobe Premiere Pro timeline: scroll timeline with mouse button 3 (hold button 3 to scroll; release to go back to selection tool)",
+            "title": "Adobe Premiere Pro",
             "maintainers": [
               "thecarlo"
             ],
             "rules": [
               {
-                "description": "Adobe Premiere Pro timeline: scroll timeline with mouse button 3 (hold button 3 to scroll; release to go back to selection tool)"
+                "description": "Premiere Pro: scroll timeline with mouse button 3"
+              },
+              {
+                "description": "Premiere Pro: left shift + mouse button 1 → cut"
+              },
+              {
+                "description": "Premiere Pro: mouse button 2 → ripple trim to previous edit playhead"
               }
             ]
           },
-          "extra_description_text": ""
+          "extra_description_text": "Scroll the timeline with mouse button 3 Mouse button 3 Hold in button 3 to scroll the timeline horizontally. This automatically selects the hand tool. When you release button 3, it goes back to the selection tool. Faster editing with the mouse Button 1 (left-click) Makes a cut on the timeline Button 2 (right-click) Ripple edit to the previous cut on the timeline"
         },
         {
           "path": "json/slack_left_option_search.json",
@@ -14571,6 +14578,6 @@
       ]
     }
   ],
-  "revision": "ae2e5f7",
-  "updatedAt": 1718445920
+  "revision": "f9b69ce",
+  "updatedAt": 1718447209
 }
