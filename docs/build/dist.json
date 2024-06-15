@@ -3100,7 +3100,7 @@
               }
             ]
           },
-          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Searching Caps Lock Hyper Key + a Quick open (search for a file) Caps Lock Hyper Key + s Navigate symbols (search symbols) Search Caps lock hyper key + a Search Tabs Switching Chrome Profiles Caps lock hyper key + q Switch between Google Chrome profiles Developer Tools Caps lock hyper key + 1 Developer Tools Caps lock hyper key + 2 Developer Console Caps lock hyper key + 3 Developer Elements Panel Caps lock hyper key + q Toggle device toolbar (when you already have a developer panel open) Right cmd Toggle Zen mode"
+          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Search Caps lock hyper key + a Search Tabs Switching Chrome Profiles Caps lock hyper key + q Switch between Google Chrome profiles Developer Tools Caps lock hyper key + 1 Developer Tools Caps lock hyper key + 2 Developer Console Caps lock hyper key + 3 Developer Elements Panel Caps lock hyper key + q Toggle device toolbar (when you already have a developer panel open) Right cmd Toggle Zen mode"
         },
         {
           "path": "json/obsidian_emacs_vim-insert.json",
@@ -14649,6 +14649,6 @@
       ]
     }
   ],
-  "revision": "7ba73e0",
-  "updatedAt": 1718449836
+  "revision": "e8a4afe",
+  "updatedAt": 1718450422
 }
