@@ -2970,7 +2970,7 @@
                 "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
               },
               {
-                "description": "Double-tap right ⇧ key → caps lock on"
+                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
               },
               {
                 "description": "VS Code: Caps Lock Hyper Key + a → quick open (search for a file)"
@@ -3029,7 +3029,7 @@
                 "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
               },
               {
-                "description": "Double-tap right ⇧ key → caps lock on"
+                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
               },
               {
                 "description": "Slack: Caps Lock Hyper key + 1 → Launch quick search"
@@ -3081,7 +3081,7 @@
                 "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
               },
               {
-                "description": "Double-tap right ⇧ key → caps lock on"
+                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
               },
               {
                 "description": "Google Chrome: Caps lock hyper key + 1 → Developer Tools"
@@ -7473,7 +7473,7 @@
                 "description": "Hyper Key: Tab (held down) → left control + left command (⌃⌘)"
               },
               {
-                "description": "Max OSX: double-tap right shift key → caps lock toggle"
+                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
               },
               {
                 "description": "Mac OSX: left cmd + double-tap q → close application"
@@ -7488,13 +7488,13 @@
         {
           "path": "json/mac_osx_double_tap_q_close_application.json",
           "json": {
-            "title": "left cmd + double tap q to close an application (Mac OSX: left cmd + q, q to close an application)",
+            "title": "Mac OSX: left cmd + double-tap q → close application",
             "maintainers": [
               "thecarlo"
             ],
             "rules": [
               {
-                "description": "left cmd + double tap q to close an application (Mac OSX: left cmd + q, q to close an application)"
+                "description": "Mac OSX: left cmd + double-tap q → close application"
               }
             ]
           },
@@ -14680,6 +14680,6 @@
       ]
     }
   ],
-  "revision": "6c76ff5",
-  "updatedAt": 1718457369
+  "revision": "d93e6ce",
+  "updatedAt": 1718458735
 }
