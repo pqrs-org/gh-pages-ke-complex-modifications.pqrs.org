@@ -2958,6 +2958,43 @@
       "id": "application-specific",
       "files": [
         {
+          "path": "json/vs_code.json",
+          "extra_description_path": "extra_descriptions/vs_code.html",
+          "json": {
+            "title": "Visual Studio Code: Productivity Power Pack",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
+              },
+              {
+                "description": "Double-tap right ⇧ key → caps lock on"
+              },
+              {
+                "description": "VS Code: Caps Lock Hyper Key + a → quick open (search for a file)"
+              },
+              {
+                "description": "VS Code: Caps Lock Hyper Key + s → search symbols"
+              },
+              {
+                "description": "VS Code: double-tap left ctrl → toggle sidebar"
+              },
+              {
+                "description": "VS Code: double-tap left option → hide terminal"
+              },
+              {
+                "description": "VS Code: double-tap left cmd → zen mode"
+              },
+              {
+                "description": "VS Code: right cmd → zen mode"
+              }
+            ]
+          },
+          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Searching Caps Lock Hyper Key + a Quick open (search for a file) Caps Lock Hyper Key + s Navigate symbols (search symbols) Toggle Panels and Zen Mode Double-tap left ctrl Toggle sidebar Double-tap left option Toggle terminal Double-tap left cmd Toggle Zen mode Right cmd Toggle Zen mode keybindings.json in Visual Studio Code Add the following to your keybindings.json in Visual Studio Code. This is to ensure that the editor pane is focused when activating the Zen mode shortcuts. { \"key\": \"ctrl+shift+alt+f\", \"command\": \"workbench.action.focusActiveEditorGroup\" }"
+        },
+        {
           "path": "json/adobe_premiere_pro_scroll_timeline_mouse_button_3.json",
           "json": {
             "title": "Adobe Premiere Pro timeline: scroll timeline with mouse button 3 (hold button 3 to scroll; release to go back to selection tool)",
@@ -3446,86 +3483,6 @@
             "rules": [
               {
                 "description": "Xcode Visual Studio style (Run, Stop, Build, Step, Breakpoint)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/vs-code-ctrl-option-quick-open.json",
-          "json": {
-            "title": "ctrl + left option → quick open (VS Code → quick open)",
-            "author": "Carlo van Wyk (https://github.com/thecarlo)",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "ctrl + left option → quick open (VS Code → quick open)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/vs_code_left_ctrl_toggle_sidebar.json",
-          "json": {
-            "title": "left ctrl → cmd + b (VS Code → toggle sidebar)",
-            "author": "Carlo van Wyk (https://github.com/thecarlo)",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "left ctrl → cmd + b (VS Code → toggle sidebar)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/vs_code_left_option_toggle_terminal.json",
-          "json": {
-            "title": "left option → cmd + j (VS Code → toggle terminal)",
-            "author": "Carlo van Wyk (https://github.com/thecarlo)",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "left option → cmd + j (VS Code → toggle terminal)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/vs_code_left_shift_search_symbols.json",
-          "json": {
-            "title": "left shift → cmd + shift + o (VS Code → search symbols)",
-            "author": "Carlo van Wyk (https://github.com/thecarlo)",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "left shift → cmd + shift + o (VS Code → search symbols)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/vs_code_right_cmd_zen_mode.json",
-          "json": {
-            "title": "right cmd → left cmd + k, z (VS Code → Zen Mode)",
-            "author": "Carlo van Wyk (https://github.com/thecarlo)",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "right cmd → left cmd + k, z (VS Code → Zen Mode)"
               }
             ]
           },
@@ -14618,6 +14575,6 @@
       ]
     }
   ],
-  "revision": "2a1ba5f",
-  "updatedAt": 1718417155
+  "revision": "7aeda46",
+  "updatedAt": 1718445092
 }
