@@ -7447,6 +7447,24 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/F3-5_to_screenshots.json",
+          "json": {
+            "title": "F3~5 to screenshots",
+            "rules": [
+              {
+                "description": "F3 to ⇧⌘3 (screenshot)"
+              },
+              {
+                "description": "F4 to ⇧⌘4 (selective screenshot)"
+              },
+              {
+                "description": "F5 to ⇧⌘5 (screen record menu)"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -14680,6 +14698,6 @@
       ]
     }
   ],
-  "revision": "d93e6ce",
-  "updatedAt": 1718458735
+  "revision": "c362359",
+  "updatedAt": 1718495761
 }
