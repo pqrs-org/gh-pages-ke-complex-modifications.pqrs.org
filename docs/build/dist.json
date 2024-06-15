@@ -5895,6 +5895,22 @@
       "id": "key-specific",
       "files": [
         {
+          "path": "json/double_tap_play_to_skip.json",
+          "extra_description_path": "extra_descriptions/double_tap_play_to_skip.json.html",
+          "json": {
+            "title": "Double-tap play/pause to skip track",
+            "maintainers": [
+              "yarinkaul"
+            ],
+            "rules": [
+              {
+                "description": "Double-tap play/pause to skip track"
+              }
+            ]
+          },
+          "extra_description_text": "Double-tap play/pause to skip track This complex modification assigns the play/pause media button twice, so that it works as before with a single press of the button. If it is tapped twice, it will instead skip to the next track."
+        },
+        {
           "path": "json/accute_accent_deadkey_azerty.json",
           "extra_description_path": "extra_descriptions/accute_accent_deadkey_azerty.json.html",
           "json": {
@@ -14602,6 +14618,6 @@
       ]
     }
   ],
-  "revision": "986e16e",
-  "updatedAt": 1718286489
+  "revision": "2a1ba5f",
+  "updatedAt": 1718417155
 }
