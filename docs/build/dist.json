@@ -7483,7 +7483,7 @@
               }
             ]
           },
-          "extra_description_text": "Hyper Keys Includes 3 hyper keys for maximum flexibility. Right Option Key Maps to left shift + left option + left command (⌃⇧⌥⌘) Caps Lock Maps to left control + left shift + right command (⌃⇧⌘) The Caps lock is disabled. Tab (held down) Maps to left control + left command (⌃⌘) Toggle Caps Lock Since the Caps Lock key is set up as a hyper key, double-tap the right shift key to toggle Caps lock. Double-tap right shift Caps lock toggle Closing Applications Since it's easy to accidentally hit CMD + Q and close an application, I've changed this so that you need to hit CMD + q, q to close an application. cmd + double-tap q close application Disable minimising applications Since it's easy to accidentally minimise an application, I've disabled the cmd + h default keybinding in Mac OSX. cmd + h Keybinding is disabled"
+          "extra_description_text": "Hyper Keys Includes 3 hyper keys for maximum flexibility. Right Option Key Maps to left shift + left option + left command (⌃⇧⌥⌘) Caps Lock Maps to left control + left shift + right command (⌃⇧⌘) The Caps lock is disabled. Tab (held down) Maps to left control + left command (⌃⌘) Toggle Caps Lock Since the Caps Lock key is set up as a hyper key, double-tap the right shift key to toggle Caps lock. Double-tap right shift caps lock toggle Closing Applications Since it's easy to accidentally hit CMD + Q and close an application, I've changed this so that you need to hit CMD + q, q to close an application. cmd + double-tap q close application Disable minimising applications Since it's easy to accidentally minimise an application, I've disabled the cmd + h default keybinding in Mac OSX. cmd + h keybinding is disabled"
         },
         {
           "path": "json/mac_osx_double_tap_q_close_application.json",
@@ -14680,6 +14680,6 @@
       ]
     }
   ],
-  "revision": "7b970a5",
-  "updatedAt": 1718453556
+  "revision": "a057e94",
+  "updatedAt": 1718454026
 }
