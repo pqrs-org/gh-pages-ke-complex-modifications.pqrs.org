@@ -2998,7 +2998,7 @@
           "path": "json/premiere_pro.json",
           "extra_description_path": "extra_descriptions/premiere_pro.html",
           "json": {
-            "title": "Adobe Premiere Pro",
+            "title": "Adobe Premiere Pro: Productivity Power Pack",
             "maintainers": [
               "thecarlo"
             ],
@@ -3067,6 +3067,40 @@
             ]
           },
           "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Searching and Navigation Caps Lock Hyper key + 1 Quick search Caps Lock Hyper key + 2 Navigate to activity Caps Lock Hyper key + 3 Navigate to DMs Caps Lock Hyper key + 4 Navigate to all unread messages Formatting and Messages Caps Lock Hyper key + q Format selection as quote Caps Lock Hyper key + a Code format Caps Lock Hyper key + s Code block Caps Lock Hyper key + d Add hyperlink Caps Lock Hyper key + f Upload file Other Shortcuts Caps Lock Hyper key + e Set status Slack: Caps Lock Hyper key + w Toggle sidebar"
+        },
+        {
+          "path": "json/google_chrome.json",
+          "extra_description_path": "extra_descriptions/google_chrome.html",
+          "json": {
+            "title": "Google Chrome: Productivity Power Pack",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
+              },
+              {
+                "description": "Double-tap right ⇧ key → caps lock on"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + 1 → Developer Tools"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + 2 → Developer Console"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + 3 → Developer Elements Panel"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + q → Profile Selector"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + a → Search Tabs"
+              }
+            ]
+          },
+          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Searching Caps Lock Hyper Key + a Quick open (search for a file) Caps Lock Hyper Key + s Navigate symbols (search symbols) Search Caps lock hyper key + a Search Tabs Switching Chrome Profiles Caps lock hyper key + q Switch between Google Chrome profiles Developer Tools Caps lock hyper key + 1 Developer Tools Caps lock hyper key + 2 Developer Console Caps lock hyper key + 3 Developer Elements Panel Caps lock hyper key + q Toggle device toolbar (when you already have a developer panel open) Right cmd Toggle Zen mode"
         },
         {
           "path": "json/obsidian_emacs_vim-insert.json",
@@ -14615,6 +14649,6 @@
       ]
     }
   ],
-  "revision": "56d4f27",
-  "updatedAt": 1718448694
+  "revision": "7ba73e0",
+  "updatedAt": 1718449836
 }
