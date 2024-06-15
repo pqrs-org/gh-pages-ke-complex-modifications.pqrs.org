@@ -3017,19 +3017,56 @@
           "extra_description_text": "Scroll the timeline with mouse button 3 Mouse button 3 Hold in button 3 to scroll the timeline horizontally. This automatically selects the hand tool. When you release button 3, it goes back to the selection tool. Faster editing with the mouse Button 1 (left-click) Makes a cut on the timeline Button 2 (right-click) Ripple edit to the previous cut on the timeline"
         },
         {
-          "path": "json/slack_left_option_search.json",
+          "path": "json/slack.json",
+          "extra_description_path": "extra_descriptions/slack.html",
           "json": {
-            "title": "left option → cmd + k (Slack → launch search)",
+            "title": "Slack: Productivity Power Pack",
             "maintainers": [
               "thecarlo"
             ],
             "rules": [
               {
-                "description": "left option → cmd + k (Slack → launch search)"
+                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
+              },
+              {
+                "description": "Double-tap right ⇧ key → caps lock on"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + 1 → Launch quick search"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + 2 → Activity"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + 3 → DMs"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + 4 → All Unread Messages"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + q → format selection as quote"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + w → toggle sidebar"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + e → set status"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + a → code format"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + s → code block"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + d → hyperlink"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + f → Upload file"
               }
             ]
           },
-          "extra_description_text": ""
+          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Searching and Navigation Caps Lock Hyper key + 1 Quick search Caps Lock Hyper key + 2 Navigate to activity Caps Lock Hyper key + 3 Navigate to DMs Caps Lock Hyper key + 4 Navigate to all unread messages Formatting and Messages Caps Lock Hyper key + q Format selection as quote Caps Lock Hyper key + a Code format Caps Lock Hyper key + s Code block Caps Lock Hyper key + d Add hyperlink Caps Lock Hyper key + f Upload file Other Shortcuts Caps Lock Hyper key + e Set status Slack: Caps Lock Hyper key + w Toggle sidebar"
         },
         {
           "path": "json/obsidian_emacs_vim-insert.json",
@@ -14578,6 +14615,6 @@
       ]
     }
   ],
-  "revision": "f9b69ce",
-  "updatedAt": 1718447209
+  "revision": "56d4f27",
+  "updatedAt": 1718448694
 }
