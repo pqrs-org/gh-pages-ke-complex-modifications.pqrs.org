@@ -3171,14 +3171,32 @@
                 "description": "Google Chrome: Caps lock hyper key + 3 → Developer Elements Panel"
               },
               {
+                "description": "Google Chrome: Caps lock hyper key + 4 → View Source Code"
+              },
+              {
                 "description": "Google Chrome: Caps lock hyper key + q → Profile Selector"
               },
               {
+                "description": "Google Chrome: Caps lock hyper key + r → Reload page"
+              },
+              {
                 "description": "Google Chrome: Caps lock hyper key + a → Search Tabs"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + s → Select address"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + d → Clear browsing data"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + f → Search the web"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + g → View downloads"
               }
             ]
           },
-          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Search Caps lock hyper key + a Search Tabs Switching Chrome Profiles Caps lock hyper key + q Switch between Google Chrome profiles Developer Tools Caps lock hyper key + 1 Developer Tools Caps lock hyper key + 2 Developer Console Caps lock hyper key + 3 Developer Elements Panel Caps lock hyper key + q Toggle device toolbar (when you already have a developer panel open)"
+          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Google Chrome Keymappings Caps lock hyper key + q Switch between Google Chrome profiles Caps lock hyper key + r Reload page Caps lock hyper key + a Search Tabs Caps lock hyper key + s Select address Caps lock hyper key + d Clear browsing history Caps lock hyper key + f Search the web Caps lock hyper key + g View downloads Developer Tools Keymappings Caps lock hyper key + 1 Developer Tools Caps lock hyper key + 2 Developer Console Caps lock hyper key + 3 Developer Elements Panel Caps lock hyper key + 4 View Source Caps lock hyper key + q Toggle device toolbar (when you already have a developer panel open)"
         },
         {
           "path": "json/obsidian_emacs_vim-insert.json",
@@ -14788,6 +14806,6 @@
       ]
     }
   ],
-  "revision": "ba7ec21",
-  "updatedAt": 1718516420
+  "revision": "ef35c26",
+  "updatedAt": 1718520411
 }
