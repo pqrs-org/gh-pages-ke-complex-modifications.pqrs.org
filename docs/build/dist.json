@@ -3177,7 +3177,16 @@
                 "description": "Google Chrome: Caps lock hyper key + q → Profile Selector"
               },
               {
+                "description": "Google Chrome: Caps lock hyper key + w → Toggle between last used tabs (requires CLUT: Cycle Last Used Tabs extension)"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + e → Duplicate tab (requires Duplicate Tab Shortcut extension)"
+              },
+              {
                 "description": "Google Chrome: Caps lock hyper key + r → Reload page"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + t → Move tab to new window (requires Pop out tabs to new window extension)"
               },
               {
                 "description": "Google Chrome: Caps lock hyper key + a → Search Tabs"
@@ -3196,7 +3205,7 @@
               }
             ]
           },
-          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Google Chrome Keymappings Caps lock hyper key + q Switch between Google Chrome profiles Caps lock hyper key + r Reload page Caps lock hyper key + a Search Tabs Caps lock hyper key + s Select address Caps lock hyper key + d Clear browsing history Caps lock hyper key + f Search the web Caps lock hyper key + g View downloads Developer Tools Keymappings Caps lock hyper key + 1 Developer Tools Caps lock hyper key + 2 Developer Console Caps lock hyper key + 3 Developer Elements Panel Caps lock hyper key + 4 View Source Caps lock hyper key + q Toggle device toolbar (when you already have a developer panel open)"
+          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Tab Management Keymappings Caps lock hyper key + a Search Tabs Caps lock hyper key + w Toggle between last used tabs (requires CLUT: Cycle Last Used Tabs extension) Caps lock hyper key + e Duplicate tab (requires Duplicate Tab Shortcut extension) Caps lock hyper key + t Move tab to a new window (requires Pop out tabs to new window extension) Misc Keymappings Caps lock hyper key + q Switch between Google Chrome profiles Caps lock hyper key + r Reload page Caps lock hyper key + s Select address Caps lock hyper key + d Clear browsing history Caps lock hyper key + f Search the web Caps lock hyper key + g View downloads Developer Tools Keymappings Caps lock hyper key + 1 Developer Tools Caps lock hyper key + 2 Developer Console Caps lock hyper key + 3 Developer Elements Panel Caps lock hyper key + 4 View Source Caps lock hyper key + q Toggle device toolbar (when you already have a developer panel open)"
         },
         {
           "path": "json/obsidian_emacs_vim-insert.json",
@@ -14806,6 +14815,6 @@
       ]
     }
   ],
-  "revision": "ef35c26",
-  "updatedAt": 1718520411
+  "revision": "8958f48",
+  "updatedAt": 1718523037
 }
