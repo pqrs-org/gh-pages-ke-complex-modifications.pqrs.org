@@ -7660,7 +7660,7 @@
               }
             ]
           },
-          "extra_description_text": "Use Function Keys in supported applications, else use Media Keys These keybindings ensure that F keys work as intended in supported applications. In all other applications, the F keys will work as media keys. Current list of supported applications where function keys will work as intended: VS Code Jetbrains Goland Jetbrains Rider Jetbrains PyCharm Jetbrains IntelliJ IDEA Jetbrains PhpStorm Jetbrains CLion Jetbrains WebStorm Jetbrains RubyMine Jetbrains Datagrip Eclipse XCode iTerm2 Terminal Adobe Photoshop Adobe Premiere Pro Adobe Illustrator Adobe Audition Adobe After Effects Davinci Resolve"
+          "extra_description_text": "Use Function Keys in supported applications, else use Media Keys These keybindings ensure that F keys work as intended in supported applications. In all other applications, the F keys will work as media keys. Current list of supported applications where function keys will work as intended: VS Code Jetbrains Goland Jetbrains Rider Jetbrains PyCharm Jetbrains IntelliJ IDEA Jetbrains PhpStorm Jetbrains CLion Jetbrains WebStorm Jetbrains RubyMine Jetbrains Datagrip Jetbrains RustRover Eclipse XCode iTerm2 Terminal Adobe Photoshop Adobe Premiere Pro Adobe Illustrator Adobe Audition Adobe After Effects Davinci Resolve Textmate"
         },
         {
           "path": "json/mwit-taskbar-number-launch-app.json",
@@ -14815,6 +14815,6 @@
       ]
     }
   ],
-  "revision": "e765ada",
-  "updatedAt": 1718535375
+  "revision": "f627038",
+  "updatedAt": 1718536272
 }
