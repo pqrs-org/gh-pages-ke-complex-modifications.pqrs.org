@@ -7646,21 +7646,21 @@
           "extra_description_text": "Disable minimising windows on Mac OSX. Minimising windows on OSX is annoying as the windows disappear and leads to unnecessary friction to find the windows and open them again. cmd + h (minimise the active application window) Keybinding is disabled cmd + option + h + m (minimise all application windows) Keybinding is disabled"
         },
         {
-          "path": "json/function_keys_developer_apps.json",
-          "extra_description_path": "extra_descriptions/function_keys_developer_apps.html",
+          "path": "json/function_keys_supported_apps.json",
+          "extra_description_path": "extra_descriptions/function_keys_supported_apps.html",
           "json": {
-            "title": "Mac OSX: Use Function Keys in Developer Apps, else use Media Keys",
+            "title": "Mac OSX: Use Function Keys in Supported Applications, else use Media Keys",
             "maintainers": [
               "jiarui-z",
               "thecarlo"
             ],
             "rules": [
               {
-                "description": "Mac OSX: Use Function Keys in Developer Apps, else use Media Keys"
+                "description": "Mac OSX: Use Function Keys in Supported Apps, else use Media Keys"
               }
             ]
           },
-          "extra_description_text": "Use Function Keys in Developer Apps, else use Media Keys These keybindings ensure that F keys work as intended in developer applications. In all other applications, the F keys will work as media keys. Current list of developer applications: VS Code Jetbrains Goland Jetbrains Rider Jetbrains PyCharm Jetbrains IntelliJ IDEA Jetbrains PhpStorm Jetbrains CLion"
+          "extra_description_text": "Use Function Keys in supported applications, else use Media Keys These keybindings ensure that F keys work as intended in supported applications. In all other applications, the F keys will work as media keys. Current list of supported applications where function keys will work as intended: VS Code Jetbrains Goland Jetbrains Rider Jetbrains PyCharm Jetbrains IntelliJ IDEA Jetbrains PhpStorm Jetbrains CLion Jetbrains WebStorm Jetbrains RubyMine Jetbrains Datagrip Eclipse XCode iTerm2 Terminal Adobe Photoshop Adobe Premiere Pro Adobe Illustrator Adobe Audition Adobe After Effects Davinci Resolve"
         },
         {
           "path": "json/mwit-taskbar-number-launch-app.json",
@@ -14815,6 +14815,6 @@
       ]
     }
   ],
-  "revision": "8958f48",
-  "updatedAt": 1718523037
+  "revision": "e765ada",
+  "updatedAt": 1718535375
 }
