@@ -7575,11 +7575,14 @@
                 "description": "Mac OSX: left cmd + double-tap q → close application"
               },
               {
-                "description": "Mac OSX: disable cmd + h so that it does not minimise windows"
+                "description": "Mac OSX: disable cmd + h to prevent minimising an application window"
+              },
+              {
+                "description": "Mac OSX: disable cmd + option + h + m to prevent minimising all windows"
               }
             ]
           },
-          "extra_description_text": "Hyper Keys Includes 3 hyper keys for maximum flexibility. Right Option Maps to left shift + left option + left command (⌃⇧⌥⌘) Caps Lock Maps to left control + left shift + right command (⌃⇧⌘) The Caps lock is disabled. Tab (held down) Maps to left control + left command (⌃⌘) Toggle Caps Lock Since the Caps Lock key is set up as a hyper key, double-tap the right shift key to toggle Caps lock. Double-tap right shift caps lock toggle Closing Applications Since it's easy to accidentally hit CMD + Q and close an application, I've changed this so that you need to hit CMD + q, q to close an application. cmd + double-tap q close application Disable minimising applications Since it's easy to accidentally minimise an application, I've disabled the cmd + h default keybinding in Mac OSX. cmd + h keybinding is disabled"
+          "extra_description_text": "Hyper Keys Includes 3 hyper keys for maximum flexibility. Right Option Maps to left shift + left option + left command (⌃⇧⌥⌘) Caps Lock Maps to left control + left shift + right command (⌃⇧⌘) The Caps lock is disabled. Tab (held down) Maps to left control + left command (⌃⌘) Toggle Caps Lock Since the Caps Lock key is set up as a hyper key, double-tap the right shift key to toggle Caps lock. Double-tap right shift caps lock toggle Closing Applications Since it's easy to accidentally hit CMD + Q and close an application, I've changed this so that you need to hit CMD + q, q to close an application. cmd + double-tap q close application Disable minimising windows on Mac OSX. Minimising windows on OSX is annoying as the windows disappear and leads to unnecessary friction to find the windows and open them again. cmd + h (minimise the active application window) Keybinding is disabled cmd + option + h + m (minimise all application windows) Keybinding is disabled"
         },
         {
           "path": "json/mac_osx_double_tap_q_close_application.json",
@@ -7595,6 +7598,25 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/mac_osx_disable_minimising_windows.json",
+          "extra_description_path": "extra_descriptions/mac_osx_disable_minimising_windows.html",
+          "json": {
+            "title": "Mac OSX: disable minimising windows",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Mac OSX: disable cmd + h to prevent minimising an application window"
+              },
+              {
+                "description": "Mac OSX: disable cmd + option + h + m to prevent minimising all windows"
+              }
+            ]
+          },
+          "extra_description_text": "Disable minimising windows on Mac OSX. Minimising windows on OSX is annoying as the windows disappear and leads to unnecessary friction to find the windows and open them again. cmd + h (minimise the active application window) Keybinding is disabled cmd + option + h + m (minimise all application windows) Keybinding is disabled"
         },
         {
           "path": "json/mwit-taskbar-number-launch-app.json",
@@ -8029,22 +8051,6 @@
             ]
           },
           "extra_description_text": "Multitouch Vi Mode changes h,j,k,l keys to arrow keys while your finger is on the trackpad. Key When one finger is on the trackpad When two fingers are on the trackpad h left arrow home j down arrow page down k up arrow page up l right arrow end Multitouch Vi Mode requires MultitouchExtension. Please follow this instruction before using Multitouch Vi Mode. Open MultitouchExtension app from Preferences > Misc. Enable \"Start at login\" on MultitouchExtension Preferences."
-        },
-        {
-          "path": "json/mac_osx_disable_cmd_h.json",
-          "extra_description_path": "extra_descriptions/mac_osx_disable_cmd_h.html",
-          "json": {
-            "title": "Mac OSX: disable cmd + h so that it does not minimise windows",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "Mac OSX: disable cmd + h so that it does not minimise windows"
-              }
-            ]
-          },
-          "extra_description_text": "Disable cmd + h to prevent accidentally minimising windows. cmd + h Keybinding is disabled"
         },
         {
           "path": "json/multitouch_mouse_buttons.json",
@@ -14777,6 +14783,6 @@
       ]
     }
   ],
-  "revision": "1bbc03f",
-  "updatedAt": 1718509465
+  "revision": "90f0048",
+  "updatedAt": 1718511065
 }
