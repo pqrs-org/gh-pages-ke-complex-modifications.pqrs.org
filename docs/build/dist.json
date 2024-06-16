@@ -8031,6 +8031,22 @@
           "extra_description_text": "Multitouch Vi Mode changes h,j,k,l keys to arrow keys while your finger is on the trackpad. Key When one finger is on the trackpad When two fingers are on the trackpad h left arrow home j down arrow page down k up arrow page up l right arrow end Multitouch Vi Mode requires MultitouchExtension. Please follow this instruction before using Multitouch Vi Mode. Open MultitouchExtension app from Preferences > Misc. Enable \"Start at login\" on MultitouchExtension Preferences."
         },
         {
+          "path": "json/mac_osx_disable_cmd_h.json",
+          "extra_description_path": "extra_descriptions/mac_osx_disable_cmd_h.html",
+          "json": {
+            "title": "Mac OSX: disable cmd + h so that it does not minimise windows",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Mac OSX: disable cmd + h so that it does not minimise windows"
+              }
+            ]
+          },
+          "extra_description_text": "Disable cmd + h to prevent accidentally minimising windows. cmd + h Keybinding is disabled"
+        },
+        {
           "path": "json/multitouch_mouse_buttons.json",
           "extra_description_path": "extra_descriptions/multitouch_mouse_buttons.json.html",
           "json": {
@@ -12928,21 +12944,6 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/mac_osx_disable_cmd_h.json",
-          "json": {
-            "title": "disable cmd + h (Mac OSX: Disable Minimise Windows)",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "disable cmd + h (Mac OSX: Disable Minimise Windows)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
           "path": "json/machenike_k500w_pt_br.json",
           "json": {
             "title": "Machenike K500W PT-BR ABNT2 Web Developer Setup",
@@ -14776,6 +14777,6 @@
       ]
     }
   ],
-  "revision": "9973622",
-  "updatedAt": 1718506153
+  "revision": "1bbc03f",
+  "updatedAt": 1718509465
 }
