@@ -5,6 +5,81 @@
       "id": "modifier-keys",
       "files": [
         {
+          "path": "json/hyper_key_power_pack.json",
+          "extra_description_path": "extra_descriptions/hyper_key_power_pack.html",
+          "json": {
+            "title": "Hyper Key Power Pack",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Hyper Key: Right Option → left shift + left option + left command (⌃⇧⌥⌘)"
+              },
+              {
+                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
+              },
+              {
+                "description": "Hyper Key: Tab (held down) → left control + left command (⌃⌘)"
+              },
+              {
+                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
+              }
+            ]
+          },
+          "extra_description_text": "Hyper Key Power Pack Includes 3 hyper keys for maximum flexibility. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock key functionality is disabled. Right Option Maps to left shift + left option + left command (⌃⇧⌥⌘) Tab (long press) Maps to left control + left command (⌃⌘). To use the tab key as intended, short press the tab key. Toggling Caps lock Double-tap right shift Caps lock toggle"
+        },
+        {
+          "path": "json/hyper_key_caps_lock.json",
+          "extra_description_path": "extra_descriptions/hyper_key_caps_lock.html",
+          "json": {
+            "title": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
+              },
+              {
+                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
+              }
+            ]
+          },
+          "extra_description_text": "Caps Lock Hyper Key Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock key functionality is disabled. Toggling Caps lock Double-tap right shift Caps lock toggle"
+        },
+        {
+          "path": "json/hyper_key_tab.json",
+          "extra_description_path": "extra_descriptions/hyper_key_tab.html",
+          "json": {
+            "title": "Hyper Key: Tab (held down) → left control + left command (⌃⌘)",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Hyper Key: Tab (held down) → left control + left command (⌃⌘)"
+              }
+            ]
+          },
+          "extra_description_text": "Tab Hyper Key Tab (long press) Maps to left control + left command (⌃⌘). Using tab key as intended Tab (short press) Tab"
+        },
+        {
+          "path": "json/hyper_key_right_option.json",
+          "json": {
+            "title": "Hyper Key: Right Option → left shift + left option + left command (⌃⇧⌥⌘)",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Hyper Key: Right Option → left shift + left option + left command (⌃⇧⌥⌘)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/CapsWord.json",
           "json": {
             "title": "CapsWord",
@@ -2992,7 +3067,7 @@
               }
             ]
           },
-          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Searching Caps Lock Hyper Key + a Quick open (search for a file) Caps Lock Hyper Key + s Navigate symbols (search symbols) Toggle Panels and Zen Mode Double-tap left ctrl Toggle sidebar Double-tap left option Toggle terminal Double-tap left cmd Toggle Zen mode Right cmd Toggle Zen mode keybindings.json in Visual Studio Code Add the following entry to your keybindings.json in Visual Studio Code. This is to ensure that the editor pane is focused when activating the Zen mode shortcuts. { \"key\": \"ctrl+shift+alt+f\", \"command\": \"workbench.action.focusActiveEditorGroup\" }"
+          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock key functionality is disabled. Double-tap right shift Caps lock toggle Searching Caps Lock Hyper Key + a Quick open (search for a file) Caps Lock Hyper Key + s Navigate symbols (search symbols) Toggle Panels and Zen Mode Double-tap left ctrl Toggle sidebar Double-tap left option Toggle terminal Double-tap left cmd Toggle Zen mode Right cmd Toggle Zen mode keybindings.json in Visual Studio Code Add the following entry to your keybindings.json in Visual Studio Code. This is to ensure that the editor pane is focused when activating the Zen mode shortcuts. { \"key\": \"ctrl+shift+alt+f\", \"command\": \"workbench.action.focusActiveEditorGroup\" }"
         },
         {
           "path": "json/premiere_pro.json",
@@ -7482,7 +7557,7 @@
             ],
             "rules": [
               {
-                "description": "Hyper Key: Right Option Key → left shift + left option + left command (⌃⇧⌥⌘)"
+                "description": "Hyper Key: Right Option → left shift + left option + left command (⌃⇧⌥⌘)"
               },
               {
                 "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
@@ -7501,7 +7576,7 @@
               }
             ]
           },
-          "extra_description_text": "Hyper Keys Includes 3 hyper keys for maximum flexibility. Right Option Key Maps to left shift + left option + left command (⌃⇧⌥⌘) Caps Lock Maps to left control + left shift + right command (⌃⇧⌘) The Caps lock is disabled. Tab (held down) Maps to left control + left command (⌃⌘) Toggle Caps Lock Since the Caps Lock key is set up as a hyper key, double-tap the right shift key to toggle Caps lock. Double-tap right shift caps lock toggle Closing Applications Since it's easy to accidentally hit CMD + Q and close an application, I've changed this so that you need to hit CMD + q, q to close an application. cmd + double-tap q close application Disable minimising applications Since it's easy to accidentally minimise an application, I've disabled the cmd + h default keybinding in Mac OSX. cmd + h keybinding is disabled"
+          "extra_description_text": "Hyper Keys Includes 3 hyper keys for maximum flexibility. Right Option Maps to left shift + left option + left command (⌃⇧⌥⌘) Caps Lock Maps to left control + left shift + right command (⌃⇧⌘) The Caps lock is disabled. Tab (held down) Maps to left control + left command (⌃⌘) Toggle Caps Lock Since the Caps Lock key is set up as a hyper key, double-tap the right shift key to toggle Caps lock. Double-tap right shift caps lock toggle Closing Applications Since it's easy to accidentally hit CMD + Q and close an application, I've changed this so that you need to hit CMD + q, q to close an application. cmd + double-tap q close application Disable minimising applications Since it's easy to accidentally minimise an application, I've disabled the cmd + h default keybinding in Mac OSX. cmd + h keybinding is disabled"
         },
         {
           "path": "json/mac_osx_double_tap_q_close_application.json",
@@ -14698,6 +14773,6 @@
       ]
     }
   ],
-  "revision": "c362359",
-  "updatedAt": 1718495761
+  "revision": "f9826ac",
+  "updatedAt": 1718496020
 }
