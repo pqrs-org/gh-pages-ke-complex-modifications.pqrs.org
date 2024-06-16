@@ -78,8 +78,8 @@
           "json": {
             "title": "Mac OSX: Use Function Keys in Supported Applications, else use Media Keys",
             "maintainers": [
-              "jiarui-z",
-              "thecarlo"
+              "thecarlo",
+              "jiarui-z"
             ],
             "rules": [
               {
@@ -843,80 +843,6 @@
           "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock key functionality is disabled. Double-tap right shift Caps lock toggle Searching Caps Lock Hyper Key + a Quick open (search for a file) Caps Lock Hyper Key + s Navigate symbols (search symbols) Caps Lock Hyper Key + d Command palette Toggle Panels and Zen Mode Caps Lock Hyper Key + q Toggle Zen mode Caps Lock Hyper Key + w Toggle sidebar Caps Lock Hyper Key + e Toggle terminal Right cmd Toggle Zen mode keybindings.json in Visual Studio Code Add the following entry to your keybindings.json in Visual Studio Code. This is to ensure that the editor pane is focused when activating the Zen mode shortcuts. { \"key\": \"ctrl+shift+alt+f\", \"command\": \"workbench.action.focusActiveEditorGroup\" }"
         },
         {
-          "path": "json/premiere_pro.json",
-          "extra_description_path": "extra_descriptions/premiere_pro.html",
-          "json": {
-            "title": "Adobe Premiere Pro: Productivity Power Pack",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "Premiere Pro: scroll timeline with mouse button 3"
-              },
-              {
-                "description": "Premiere Pro: left shift + mouse button 1 → cut"
-              },
-              {
-                "description": "Premiere Pro: mouse button 2 → ripple trim to previous edit playhead"
-              }
-            ]
-          },
-          "extra_description_text": "Scroll the timeline with mouse button 3 Mouse button 3 Hold down button 3 to scroll the timeline horizontally. This automatically selects the hand tool. When you release button 3, it goes back to the selection tool. Faster ripple edit with the mouse Left shift + Button 1 (left-click) Makes a cut on the timeline Button 2 (right-click) Ripple edit to the previous cut on the timeline"
-        },
-        {
-          "path": "json/slack.json",
-          "extra_description_path": "extra_descriptions/slack.html",
-          "json": {
-            "title": "Slack: Productivity Power Pack",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
-              },
-              {
-                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + 1 → Launch quick search"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + 2 → Activity"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + 3 → DMs"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + 4 → All Unread Messages"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + q → format selection as quote"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + w → toggle sidebar"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + e → set status"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + a → code format"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + s → code block"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + d → hyperlink"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + f → Upload file"
-              }
-            ]
-          },
-          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Searching and Navigation Caps Lock Hyper key + 1 Quick search Caps Lock Hyper key + 2 Navigate to activity Caps Lock Hyper key + 3 Navigate to DMs Caps Lock Hyper key + 4 Navigate to all unread messages Formatting and Messages Caps Lock Hyper key + q Format selection as quote Caps Lock Hyper key + a Code format Caps Lock Hyper key + s Code block Caps Lock Hyper key + d Add hyperlink Caps Lock Hyper key + f Upload file Other Shortcuts Caps Lock Hyper key + e Set status Slack: Caps Lock Hyper key + w Toggle sidebar"
-        },
-        {
           "path": "json/google_chrome.json",
           "extra_description_path": "extra_descriptions/google_chrome.html",
           "json": {
@@ -976,6 +902,80 @@
             ]
           },
           "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Tab Management Keymappings Caps lock hyper key + a Search Tabs Caps lock hyper key + w Toggle between last used tabs (requires CLUT: Cycle Last Used Tabs extension) Caps lock hyper key + e Duplicate tab (requires Duplicate Tab Shortcut extension) Caps lock hyper key + t Move tab to a new window (requires Pop out tabs to new window extension) Misc Keymappings Caps lock hyper key + q Switch between Google Chrome profiles Caps lock hyper key + r Reload page Caps lock hyper key + s Select address Caps lock hyper key + d Clear browsing history Caps lock hyper key + f Search the web Caps lock hyper key + g View downloads Developer Tools Keymappings Caps lock hyper key + 1 Developer Tools Caps lock hyper key + 2 Developer Console Caps lock hyper key + 3 Developer Elements Panel Caps lock hyper key + 4 View Source Caps lock hyper key + q Toggle device toolbar (when you already have a developer panel open)"
+        },
+        {
+          "path": "json/slack.json",
+          "extra_description_path": "extra_descriptions/slack.html",
+          "json": {
+            "title": "Slack: Productivity Power Pack",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
+              },
+              {
+                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + 1 → Launch quick search"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + 2 → Activity"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + 3 → DMs"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + 4 → All Unread Messages"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + q → format selection as quote"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + w → toggle sidebar"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + e → set status"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + a → code format"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + s → code block"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + d → hyperlink"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + f → Upload file"
+              }
+            ]
+          },
+          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Searching and Navigation Caps Lock Hyper key + 1 Quick search Caps Lock Hyper key + 2 Navigate to activity Caps Lock Hyper key + 3 Navigate to DMs Caps Lock Hyper key + 4 Navigate to all unread messages Formatting and Messages Caps Lock Hyper key + q Format selection as quote Caps Lock Hyper key + a Code format Caps Lock Hyper key + s Code block Caps Lock Hyper key + d Add hyperlink Caps Lock Hyper key + f Upload file Other Shortcuts Caps Lock Hyper key + e Set status Slack: Caps Lock Hyper key + w Toggle sidebar"
+        },
+        {
+          "path": "json/premiere_pro.json",
+          "extra_description_path": "extra_descriptions/premiere_pro.html",
+          "json": {
+            "title": "Adobe Premiere Pro: Productivity Power Pack",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Premiere Pro: scroll timeline with mouse button 3"
+              },
+              {
+                "description": "Premiere Pro: left shift + mouse button 1 → cut"
+              },
+              {
+                "description": "Premiere Pro: mouse button 2 → ripple trim to previous edit playhead"
+              }
+            ]
+          },
+          "extra_description_text": "Scroll the timeline with mouse button 3 Mouse button 3 Hold down button 3 to scroll the timeline horizontally. This automatically selects the hand tool. When you release button 3, it goes back to the selection tool. Faster ripple edit with the mouse Left shift + Button 1 (left-click) Makes a cut on the timeline Button 2 (right-click) Ripple edit to the previous cut on the timeline"
         },
         {
           "path": "json/obsidian_emacs_vim-insert.json",
@@ -14815,6 +14815,6 @@
       ]
     }
   ],
-  "revision": "0e08c84",
-  "updatedAt": 1718571539
+  "revision": "27ce2b7",
+  "updatedAt": 1718572006
 }
