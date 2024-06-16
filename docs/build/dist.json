@@ -7619,6 +7619,23 @@
           "extra_description_text": "Disable minimising windows on Mac OSX. Minimising windows on OSX is annoying as the windows disappear and leads to unnecessary friction to find the windows and open them again. cmd + h (minimise the active application window) Keybinding is disabled cmd + option + h + m (minimise all application windows) Keybinding is disabled"
         },
         {
+          "path": "json/function_keys_developer_apps.json",
+          "extra_description_path": "extra_descriptions/function_keys_developer_apps.html",
+          "json": {
+            "title": "Mac OSX: Use Function Keys in Developer Apps, else use Media Keys",
+            "maintainers": [
+              "jiarui-z",
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Mac OSX: Use Function Keys in Developer Apps, else use Media Keys"
+              }
+            ]
+          },
+          "extra_description_text": "Use Function Keys in Developer Apps, else use Media Keys These keybindings ensure that F keys work as intended in developer applications. In all other applications, the F keys will work as media keys. Current list of developer applications: VS Code Jetbrains Goland Jetbrains Rider Jetbrains PyCharm Jetbrains IntelliJ IDEA Jetbrains PhpStorm Jetbrains CLion"
+        },
+        {
           "path": "json/mwit-taskbar-number-launch-app.json",
           "json": {
             "title": "Launch MacOS apps, like on windows + number",
@@ -12011,18 +12028,6 @@
           "extra_description_text": ""
         },
         {
-          "path": "json/coder_friendly_fkeys.json",
-          "json": {
-            "title": "Coder-friendly F keys",
-            "rules": [
-              {
-                "description": "For iTerm2, IntelliJ, and Visual Studio Code: Fn + F-keys trigger media controls, while F-keys alone function as standard F-keys."
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
           "path": "json/colemak-caps-lock-backspace-delete-swap.json",
           "json": {
             "title": "Caps lock to backspace and backspace to delete forward, but only on Colemak",
@@ -14783,6 +14788,6 @@
       ]
     }
   ],
-  "revision": "90f0048",
-  "updatedAt": 1718511065
+  "revision": "ba7ec21",
+  "updatedAt": 1718516420
 }
