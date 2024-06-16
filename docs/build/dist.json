@@ -1,6 +1,2299 @@
 {
   "index": [
     {
+      "name": "OS Functionality",
+      "id": "os-functionality",
+      "files": [
+        {
+          "path": "json/mac_osx.json",
+          "extra_description_path": "extra_descriptions/mac_osx.html",
+          "json": {
+            "title": "Mac OSX: Essential Keybindings",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Hyper Key: Right Option → left shift + left option + left command (⌃⇧⌥⌘)"
+              },
+              {
+                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
+              },
+              {
+                "description": "Hyper Key: Tab (held down) → left control + left command (⌃⌘)"
+              },
+              {
+                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
+              },
+              {
+                "description": "Mac OSX: left cmd + double-tap q → close application"
+              },
+              {
+                "description": "Mac OSX: disable cmd + h to prevent minimising an application window"
+              },
+              {
+                "description": "Mac OSX: disable cmd + option + h + m to prevent minimising all windows"
+              }
+            ]
+          },
+          "extra_description_text": "Hyper Keys Includes 3 hyper keys for maximum flexibility. Right Option Maps to left shift + left option + left command (⌃⇧⌥⌘) Caps Lock Maps to left control + left shift + right command (⌃⇧⌘) The Caps lock is disabled. Tab (held down) Maps to left control + left command (⌃⌘) Toggle Caps Lock Since the Caps Lock key is set up as a hyper key, double-tap the right shift key to toggle Caps lock. Double-tap right shift caps lock toggle Closing Applications Since it's easy to accidentally hit CMD + Q and close an application, I've changed this so that you need to hit CMD + q, q to close an application. cmd + double-tap q close application Disable minimising windows on Mac OSX. Minimising windows on OSX is annoying as the windows disappear and leads to unnecessary friction to find the windows and open them again. cmd + h (minimise the active application window) Keybinding is disabled cmd + option + h + m (minimise all application windows) Keybinding is disabled"
+        },
+        {
+          "path": "json/mac_osx_double_tap_q_close_application.json",
+          "json": {
+            "title": "Mac OSX: left cmd + double-tap q → close application",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Mac OSX: left cmd + double-tap q → close application"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mac_osx_disable_minimising_windows.json",
+          "extra_description_path": "extra_descriptions/mac_osx_disable_minimising_windows.html",
+          "json": {
+            "title": "Mac OSX: disable minimising windows",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Mac OSX: disable cmd + h to prevent minimising an application window"
+              },
+              {
+                "description": "Mac OSX: disable cmd + option + h + m to prevent minimising all windows"
+              }
+            ]
+          },
+          "extra_description_text": "Disable minimising windows on Mac OSX. Minimising windows on OSX is annoying as the windows disappear and leads to unnecessary friction to find the windows and open them again. cmd + h (minimise the active application window) Keybinding is disabled cmd + option + h + m (minimise all application windows) Keybinding is disabled"
+        },
+        {
+          "path": "json/function_keys_supported_apps.json",
+          "extra_description_path": "extra_descriptions/function_keys_supported_apps.html",
+          "json": {
+            "title": "Mac OSX: Use Function Keys in Supported Applications, else use Media Keys",
+            "maintainers": [
+              "jiarui-z",
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Mac OSX: Use Function Keys in Supported Apps, else use Media Keys"
+              }
+            ]
+          },
+          "extra_description_text": "Use Function Keys in supported applications, else use Media Keys These keybindings ensure that F keys work as intended in supported applications. In all other applications, the F keys will work as media keys. Current list of supported applications where function keys will work as intended: VS Code Jetbrains Goland Jetbrains Rider Jetbrains PyCharm Jetbrains IntelliJ IDEA Jetbrains PhpStorm Jetbrains CLion Jetbrains WebStorm Jetbrains RubyMine Jetbrains Datagrip Jetbrains RustRover Eclipse XCode iTerm2 Terminal Adobe Photoshop Adobe Premiere Pro Adobe Illustrator Adobe Audition Adobe After Effects Davinci Resolve Textmate"
+        },
+        {
+          "path": "json/mwit-taskbar-number-launch-app.json",
+          "json": {
+            "title": "Launch MacOS apps, like on windows + number",
+            "rules": [
+              {
+                "description": "Launch apps by (left) option + number."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/F4-desktop.json",
+          "json": {
+            "title": "Show Desktop with F4",
+            "rules": [
+              {
+                "description": "Show Desktop with F4"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/search_in_dict.json",
+          "json": {
+            "title": "Search in Dictionary.app",
+            "author": "Ramiro Garcia (https://github.com/ranemirusG)",
+            "rules": [
+              {
+                "description": "Use LEFT OPTION + s to search copied word in Dictionary.app"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/printscreen_command+shift+5.json",
+          "json": {
+            "title": "<Macos> Simple PrintScreen to Command+Shift+5",
+            "rules": [
+              {
+                "description": "Print Screen to Command+Shift+5"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/show_desktop.json",
+          "json": {
+            "title": "show desktop",
+            "rules": [
+              {
+                "description": "Command + D to Command + Option + H + M"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/CapsLockToSearch.json",
+          "json": {
+            "title": "Caps Lock to Chromebook Search Key",
+            "rules": [
+              {
+                "description": "Caps Lock to Chromebook Search Key"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/cmd_del_to_cmd_bksp.json",
+          "json": {
+            "title": "Change Command-Delete to Command-Backspace",
+            "rules": [
+              {
+                "description": "Change Command-Delete to Command-Backspace"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mouse_motion_to_scroll.json",
+          "json": {
+            "title": "Change mouse motion to scroll (rev 3)",
+            "maintainers": [
+              "tekezo"
+            ],
+            "rules": [
+              {
+                "description": "Change button3 + mouse motion to scroll wheel (rev 1)",
+                "available_since": "12.3.0"
+              },
+              {
+                "description": "Change button4 + mouse motion to scroll wheel (rev 1)",
+                "available_since": "12.3.0"
+              },
+              {
+                "description": "Change button5 + mouse motion to scroll wheel (rev 1)",
+                "available_since": "12.3.0"
+              },
+              {
+                "description": "Change control + mouse motion to scroll wheel (rev 1)",
+                "available_since": "12.3.0"
+              },
+              {
+                "description": "Change fn + mouse motion to scroll wheel (rev 1)",
+                "available_since": "12.3.0"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/launch_apps.json",
+          "extra_description_path": "extra_descriptions/launch_apps.json.html",
+          "json": {
+            "title": "Launch apps",
+            "rules": [
+              {
+                "description": "Launch apps by right shift+letters."
+              }
+            ]
+          },
+          "extra_description_text": "right shift + a: Activity Monitor right shift + d: Dictionary right shift + e: Text Edit right shift + f: Finder right shift + s: Safari right shift + t: Terminal"
+        },
+        {
+          "path": "json/application_window_tab_switch_with_right_cmd_hjklsemiquote.json",
+          "json": {
+            "title": "Use right_command+h/j/k/l/;/' to switch current tab/window/application",
+            "rules": [
+              {
+                "description": "Use right_command+;/' to cycle through running applications (like command+tab)."
+              },
+              {
+                "description": "Use right_command+h/l to switch tabs in an application."
+              },
+              {
+                "description": "Use right_command+j/k to switch windows of the foreground application ."
+              },
+              {
+                "description": "Disable left_command+(tab/shift+tab) (to retrain reflexes using the other manipulators)."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/anti_rsi_app_switch.json",
+          "json": {
+            "title": "Anti-RSI App Switch (LCMD+Space to LCMD+Tab, LOpt+Space to LCMD+` and reverse +LShift or + LControl).",
+            "rules": [
+              {
+                "description": "Anti-RSI App Switch (LCMD+Space to LCMD+Tab and reverse +LShift)."
+              },
+              {
+                "description": "Anti-RSI App Switch (LOpt+Space to LCMD+` and reverse +LShift)."
+              },
+              {
+                "description": "Anti-RSI App Switch (LCMD+Space to LCMD+Tab and reverse +LControl)."
+              },
+              {
+                "description": "Anti-RSI App Switch (LOpt+Space to LCMD+` and reverse +LControl)."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/fine_volume_control.json",
+          "json": {
+            "title": "Fine volume control (rev 2)",
+            "rules": [
+              {
+                "description": "Map volume controls to fine volume controls (Option + Shift + Volume)"
+              },
+              {
+                "description": "Map fn + volume controls to fine volume controls (Option + Shift + Volume)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/fine_brightness_control.json",
+          "json": {
+            "title": "Fine Brightness Control",
+            "rules": [
+              {
+                "description": "Map brightness controls to fine brightness controls (Option + Shift + Brightness)"
+              },
+              {
+                "description": "Map fn + brightness controls to fine brightness controls (Option + Shift + Brightness)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/command_q.json",
+          "json": {
+            "title": "Prevent unintended command-q (rev 2)",
+            "rules": [
+              {
+                "description": "Quit application by pressing command-q twice"
+              },
+              {
+                "description": "Quit application by holding command-q"
+              },
+              {
+                "description": "Quit Safari by pressing command-q twice"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mouse_keys_ambi.json",
+          "extra_description_path": "extra_descriptions/mouse_keys_ambi.json.html",
+          "json": {
+            "title": "Mouse keys ambidextrous",
+            "maintainers": [
+              "k--chow"
+            ],
+            "rules": [
+              {
+                "description": "Mouse keys Ambidextrous"
+              }
+            ]
+          },
+          "extra_description_text": "Mouse keys Ambidextrous Replace the mouse with your keyboard, with either or both hands. With fast scrolling, and two speed settings. Hold the left_control key in tandem with W,A,S,D (left hand) or I,J,K,L(right hand) for mouse movement. Hold shift + left_control for 4x faster mouse movement (max speed). Fn + W,A,S,D (left hand) or I,J,K,L(right hand)for scrolling. Key bindings: Mouse motion: left_control + W,A,S,D or I, J, K, L Fast mouse motion: left_control + shift + W,A,S,D or I, J, K, L Mouse left click: left_control + Q or U Mouse right click: left_control + E or O Mouse scroll: Fn + W,A,S,D or I, J, K, L"
+        },
+        {
+          "path": "json/mouse_keys_simple.json",
+          "extra_description_path": "extra_descriptions/mouse_keys_simple.json.html",
+          "json": {
+            "title": "Mouse keys (simple) (rev 1)",
+            "maintainers": [
+              "tekezo"
+            ],
+            "rules": [
+              {
+                "description": "Mouse keys (simple) (rev 1)"
+              }
+            ]
+          },
+          "extra_description_text": "Mouse keys (simple) right_shift + w: mouse up right_shift + a: mouse left right_shift + s: mouse down right_shift + d: mouse right right_shift + f: left click right_shift + g: right click right_shift + r: scroll up right_shift + v: scroll down"
+        },
+        {
+          "path": "json/mouse_keys_full.json",
+          "extra_description_path": "extra_descriptions/mouse_keys_full.json.html",
+          "json": {
+            "title": "Mouse keys (full) (rev 4)",
+            "rules": [
+              {
+                "description": "Mouse keys (full) (rev 4)"
+              }
+            ]
+          },
+          "extra_description_text": "Mouse keys (full) You can enter mouse keys mode by \"right_command + m\". Mouse keys mode is active while you press the right_command key. Example: Press the right_command key Press the m key (enter mouse keys mode) Release the m key Press the j key (mouse down) Press the l key (mouse right) Release the right_command key (leave mouse keys mode) Key bindings: h: mouse left j: mouse down k: mouse up l: mouse right v: left click b: middle click n: right click f: fast mode (fast mouse move by f+hjkl) d: slow mode (slow mouse move by d+hjkl) s: scroll mode (scroll by s+hjkl)"
+        },
+        {
+          "path": "json/mouse_keys_mode_v4.json",
+          "extra_description_path": "extra_descriptions/mouse_keys_mode_v4.json.html",
+          "json": {
+            "title": "Mouse Keys Mode v4 (rev 3)",
+            "maintainers": [
+              "tekezo"
+            ],
+            "rules": [
+              {
+                "description": "Mouse Keys Mode v4 (rev 3)",
+                "available_since": "13.6.0"
+              }
+            ]
+          },
+          "extra_description_text": "Mouse keys Mode v4 You can operate mouse via keyboard. (motion, click and scroll) Mouse keys mode is active by the following procedure. d key_down any keys of mouse keys key_down (h, j, k, l,...) any keys of mouse keys key_up (h, j, k, l,...) Then mouse keys is active until you release d key. Example: Press d Press h Press j Release h Release j Release d Key bindings: h: mouse left j: mouse down k: mouse up l: mouse right v: left click b: middle click n: right click f: fast mode (fast mouse move by f+hjkl) g: slow mode (slow mouse move by g+hjkl) s: scroll mode (scroll by s+hjkl) u: set mouse cursor position to the center of current display i: set mouse cursor position to the center of main display o: set mouse cursor position to the center of second display p: set mouse cursor position to the center of third display"
+        },
+        {
+          "path": "json/mouse_keys_full_xgwang_me.json",
+          "extra_description_path": "extra_descriptions/mouse_keys_full_xgwang_me.json.html",
+          "json": {
+            "title": "Mouse keys (xgwang.me)",
+            "rules": [
+              {
+                "description": "Mouse keys (xgwang.me)"
+              }
+            ]
+          },
+          "extra_description_text": "Mouse keys (xgwang.me) You can enter mouse keys mode by holding \"left_command\" then click \"right_command\". To leave mouse keys mode, hold \"left_command\" and click \"right_command\" again. Example: Press the left_command + right_command key (enter mouse keys mode) Press the j key (mouse down) Press the l key (mouse right) Press the left_command + right_command key (leave mouse keys mode) Key bindings: h: mouse left j: mouse down k: mouse up l: mouse right v: left click b: middle click n: right click f: fast mode (fast mouse move by f+hjkl) d: slow mode (slow mouse move by d+hjkl) s: scroll mode (scroll by s+hjkl)"
+        },
+        {
+          "path": "json/disable_cmd_f1_screen_mirroring.json",
+          "json": {
+            "title": "Disable Cmd+F1 Toggle Screen Mirroring",
+            "rules": [
+              {
+                "description": "Disable Cmd+F1 Toggle Screen Mirroring Shortcut (map to display_brightness_decrement), see https://discussions.apple.com/thread/2793101"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/rotate_left_modifiers.json",
+          "json": {
+            "title": "Rotate left modifiers",
+            "rules": [
+              {
+                "description": "Map left ctrl to command, command to option, option to control unless in iTerm2 or Remote Desktop"
+              },
+              {
+                "description": "Swap left option and command in iTerm2 and Remote Desktop"
+              },
+              {
+                "description": "Map left option+tab to command+tab"
+              },
+              {
+                "description": "Lazy left modifiers (allows option+shift+tab to shift apps backwards). Enable this last!"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/sleep-monitor.json",
+          "json": {
+            "title": "Add Sleep Monitor for Keyboard without Eject",
+            "rules": [
+              {
+                "description": "Ctrl+Cmd+Shift+Esc to Sleep Monitor"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/disable_cmd_h_hide_window.json",
+          "json": {
+            "title": "Prevent unintended command-h hide window (rev 2)",
+            "rules": [
+              {
+                "description": "Disable Cmd+H Hide (rev 2)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/control_lclick_to_lclick.json",
+          "json": {
+            "title": "Disable Ctrl Click",
+            "rules": [
+              {
+                "description": "Ctrl + Left Click to Left Click"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/lock_screen.json",
+          "json": {
+            "title": "Lock Screen",
+            "rules": [
+              {
+                "description": "Option+L to Lock Screen (macOS 10.13+)"
+              },
+              {
+                "description": "Control+Command+Delete to Lock Screen (macOS 10.13+)"
+              },
+              {
+                "description": "Eject to Lock Screen (macOS 10.13+)"
+              },
+              {
+                "description": "Eject to Lock Screen - Dvorak (macOS 10.13+)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/screen_saver.json",
+          "json": {
+            "title": "Screen Saver (can Lock Screen)",
+            "rules": [
+              {
+                "description": "Option+L to start Screen Saver"
+              },
+              {
+                "description": "Control+Command+Delete to start Screen Saver"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/multitouch_diamond_cursor.json",
+          "extra_description_path": "extra_descriptions/multitouch_diamond_cursor.json.html",
+          "json": {
+            "title": "Multitouch Diamond Cursor (rev 2)",
+            "maintainers": [
+              "tekezo"
+            ],
+            "rules": [
+              {
+                "description": "Multitouch Diamond Cursor (rev 2)",
+                "available_since": "12.6.9"
+              }
+            ]
+          },
+          "extra_description_text": "Multitouch Diamond Cursor changes w,a,s,d keys to arrow keys while your finger is on the trackpad. Key When one finger is on the trackpad When two fingers are on the trackpad w up arrow page up a left arrow home s down arrow page down d right arrow end Multitouch Diamond Cursor requires MultitouchExtension. Please follow this instruction before using Multitouch Diamond Cursor. Open MultitouchExtension app from Preferences > Misc. Enable \"Start at login\" on MultitouchExtension Preferences."
+        },
+        {
+          "path": "json/multitouch_vi_mode.json",
+          "extra_description_path": "extra_descriptions/multitouch_vi_mode.json.html",
+          "json": {
+            "title": "Multitouch Vi Mode (rev 2)",
+            "maintainers": [
+              "tekezo"
+            ],
+            "rules": [
+              {
+                "description": "Multitouch Vi Mode (rev 2)",
+                "available_since": "12.6.9"
+              }
+            ]
+          },
+          "extra_description_text": "Multitouch Vi Mode changes h,j,k,l keys to arrow keys while your finger is on the trackpad. Key When one finger is on the trackpad When two fingers are on the trackpad h left arrow home j down arrow page down k up arrow page up l right arrow end Multitouch Vi Mode requires MultitouchExtension. Please follow this instruction before using Multitouch Vi Mode. Open MultitouchExtension app from Preferences > Misc. Enable \"Start at login\" on MultitouchExtension Preferences."
+        },
+        {
+          "path": "json/multitouch_mouse_buttons.json",
+          "extra_description_path": "extra_descriptions/multitouch_mouse_buttons.json.html",
+          "json": {
+            "title": "Multitouch Mouse Buttons (rev 2)",
+            "maintainers": [
+              "tekezo"
+            ],
+            "rules": [
+              {
+                "description": "Multitouch Mouse Buttons (rev 2)",
+                "available_since": "12.6.9"
+              }
+            ]
+          },
+          "extra_description_text": "Multitouch Mouse Buttons changes 1,2,3,4,5,6,7,8,9 keys to mouse buttons while your finger is on the trackpad. Key Mouse button 1 left button 2 right button 3 middle button 4 button4 5 button5 6 button6 7 button7 8 button8 9 button9 Multitouch Mouse Buttons requires MultitouchExtension. Please follow this instruction before using Multitouch Mouse Buttons. Open MultitouchExtension app from Preferences > Misc. Enable \"Start at login\" on MultitouchExtension Preferences."
+        },
+        {
+          "path": "json/thumbsense.json",
+          "extra_description_path": "extra_descriptions/thumbsense.json.html",
+          "json": {
+            "title": "ThumbSense (rev 3)",
+            "maintainers": [
+              "tekezo"
+            ],
+            "rules": [
+              {
+                "description": "ThumbSense (rev 3)",
+                "available_since": "12.6.9"
+              }
+            ]
+          },
+          "extra_description_text": "Supported shortcuts Key Function F, J, SPACE Mouse left button D, K Mouse right button G Next (on web browsers) H Previous (on web browsers) W Window close ThumbSense requires MultitouchExtension. Please follow this instruction before using ThumbSense. Open MultitouchExtension app from Preferences > Misc. Enable \"Start at login\" on MultitouchExtension Preferences."
+        },
+        {
+          "path": "json/Right_option_as_emoji_key.json",
+          "json": {
+            "title": "Emoji-key (non-apple keyboard [not fn])",
+            "rules": [
+              {
+                "description": "Press right_alt alone toggles emoji input"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mouse_buttons_4_5_desktop_switch.json",
+          "json": {
+            "title": "Switch desktop with mouse buttons 4,5",
+            "rules": [
+              {
+                "description": "Maps button 5 to left desktop switch, 4 to right desktop switch"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mouse_345_mac_desktop_switcher.json",
+          "json": {
+            "title": "Mac Mouse 3/4/5 desktop switcher",
+            "rules": [
+              {
+                "description": "Mouse 4 Switch Left"
+              },
+              {
+                "description": "Mouse 5 Switch Right"
+              },
+              {
+                "description": "Mouse 3 Desktop Switcher"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mouse3_app_switcher.json",
+          "extra_description_path": "extra_descriptions/mouse3_app_switcher.json.html",
+          "json": {
+            "title": "Mac Mouse 3 Application switcher",
+            "rules": [
+              {
+                "description": "Mouse 3 App Switcher"
+              }
+            ]
+          },
+          "extra_description_text": "--> Quick Application Switcher with Mouse Button 3 Use Mouse Button 3(middle mouse button) to \"Command-Tab\" Switch Applications Motivation Occasionally it could be more convenient to rapidly switch between two apps with a simple click of the mouse button. This also allows such convenience as selection with the mouse while using common keyboard shortcuts (e.g. cut/copy/paste) (creator's side note: This was also spurred by a sense of repetitive use issues of using the Command+Tab key combination frequently) How to use Use karabiner-elements to map the Mouse 3 (single click, does not repeat) to \"Command-Tab\" equivalent. Install this extension under tab 'Complex modifications'. Will only switch back and forth between two most recent Applications"
+        },
+        {
+          "path": "json/r_cmd_to_l_ctrl_and_space.json",
+          "extra_description_path": "extra_descriptions/r_cmd_to_l_ctrl_and_space.json.html",
+          "json": {
+            "title": "r_cmd_to_l_ctrl_and_space",
+            "rules": [
+              {
+                "description": "right_command -> left_control + spacebar, for switch input type in mac OS."
+              }
+            ]
+          },
+          "extra_description_text": "for mac/hhkb: right_command -> left_control + spacebar, for switch input type."
+        },
+        {
+          "path": "json/open_terminal_window.json",
+          "json": {
+            "title": "Open a Terminal window with Ctrl-Alt-T",
+            "rules": [
+              {
+                "description": "Open a terminal window with Ctrl-RAlt-T"
+              },
+              {
+                "description": "Open a terminal window with Ctrl-LAlt-T"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/keyboard-brightness.json",
+          "json": {
+            "title": "Keyboard Brightness Adjustment",
+            "rules": [
+              {
+                "description": "command-f1 and f2 to adjust keyboard brightness"
+              },
+              {
+                "description": "command-f5 and f6 to adjust keyboard brightness, same keys as earlier macs"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/keybrightness_F5.json",
+          "json": {
+            "title": "Keyboard Brightness Adjustment",
+            "rules": [
+              {
+                "description": "Restore keyboard func to M1 Macs by overwriting dictation key, F5 to go up, hold F5 to go down"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mouse_345_changer.json",
+          "json": {
+            "title": "MacLee's MacOS Mouse 3/4/5 Changer (3: close tab, 4/5: move tabs)",
+            "rules": [
+              {
+                "description": "Mouse 3 Close Single Tab"
+              },
+              {
+                "description": "Mouse 4 Backward Tab Move"
+              },
+              {
+                "description": "Mouse 5 Forward Tab Move"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/option_pgup_pgdown_home_end_to_ctrl_arrows.json",
+          "json": {
+            "title": "Option+ PageUp, PageDown, Home, End to Control+Arrows (Mission Control)",
+            "rules": [
+              {
+                "description": "Option+PageDown to Control+ArrowRight (Mission Control: Move right a space)"
+              },
+              {
+                "description": "Option+PageUp to Control+ArrowLeft (Mission Control: Move left a space)"
+              },
+              {
+                "description": "Option+Home to Control+ArrowUp (Mission Control: Mission Control)"
+              },
+              {
+                "description": "Option+End to Control+ArrowDown (Mission Control: Application windows)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/cmd+shift+k_delete_line.json",
+          "json": {
+            "title": "cmd+shift+k delete line",
+            "rules": [
+              {
+                "description": "cmd+shift+k delete line"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mission_control_all_on_f3_app_on_command_f3_desktop_on_option_f3.json",
+          "json": {
+            "title": "Mission Control: All on F3, App on ⌘F3, Desktop on ⌥F3",
+            "rules": [
+              {
+                "description": "Mission Control: All Windows on F3"
+              },
+              {
+                "description": "Mission Control: Application Windows on ⌘F3"
+              },
+              {
+                "description": "Mission Control: Desktop on ⌥F3"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/om_window_switcher.json",
+          "json": {
+            "title": "Both Modifiers -> Window Switcher",
+            "rules": [
+              {
+                "description": "Left_Command + Right_Command -> Application Switcher"
+              },
+              {
+                "description": "Left_Option + Right_Option -> Switch Windows"
+              },
+              {
+                "description": "Left_Shift + Right_Shift -> Switch Tabs"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/om_function_keys.json",
+          "json": {
+            "title": "Modifiers + Function Key",
+            "rules": [
+              {
+                "description": "Fn + Function key -> Fnction key, Function key alone -> Media Control key"
+              },
+              {
+                "description": "Fn + Function key -> Media Control key, Function key alone -> Function key"
+              },
+              {
+                "description": "Modifiers + Function key -> Modifiers + Function key"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/om_application_launcher.json",
+          "json": {
+            "title": "Control + Option + Letter -> Launch Application",
+            "rules": [
+              {
+                "description": "Control + Option + Letter -> Launch Application"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/fix-ghost-select-in-context-menu.json",
+          "json": {
+            "title": "Fix ghost select in context menu",
+            "rules": [
+              {
+                "description": "Fix ghost select in context menu"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        }
+      ]
+    },
+    {
+      "name": "Application Specific",
+      "id": "application-specific",
+      "files": [
+        {
+          "path": "json/vs_code.json",
+          "extra_description_path": "extra_descriptions/vs_code.html",
+          "json": {
+            "title": "Visual Studio Code: Productivity Power Pack",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
+              },
+              {
+                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
+              },
+              {
+                "description": "VS Code: Caps Lock Hyper Key + a → quick open (search for a file)"
+              },
+              {
+                "description": "VS Code: Caps Lock Hyper Key + s → search symbols"
+              },
+              {
+                "description": "VS Code: Caps Lock Hyper Key + d → command palette"
+              },
+              {
+                "description": "VS Code: Caps Lock Hyper Key + q → zen mode"
+              },
+              {
+                "description": "VS Code: Caps Lock Hyper Key + w → toggle sidebar"
+              },
+              {
+                "description": "VS Code: Caps Lock Hyper Key + e → toggle terminal"
+              },
+              {
+                "description": "VS Code: right cmd → zen mode"
+              }
+            ]
+          },
+          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock key functionality is disabled. Double-tap right shift Caps lock toggle Searching Caps Lock Hyper Key + a Quick open (search for a file) Caps Lock Hyper Key + s Navigate symbols (search symbols) Caps Lock Hyper Key + d Command palette Toggle Panels and Zen Mode Caps Lock Hyper Key + q Toggle Zen mode Caps Lock Hyper Key + w Toggle sidebar Caps Lock Hyper Key + e Toggle terminal Right cmd Toggle Zen mode keybindings.json in Visual Studio Code Add the following entry to your keybindings.json in Visual Studio Code. This is to ensure that the editor pane is focused when activating the Zen mode shortcuts. { \"key\": \"ctrl+shift+alt+f\", \"command\": \"workbench.action.focusActiveEditorGroup\" }"
+        },
+        {
+          "path": "json/premiere_pro.json",
+          "extra_description_path": "extra_descriptions/premiere_pro.html",
+          "json": {
+            "title": "Adobe Premiere Pro: Productivity Power Pack",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Premiere Pro: scroll timeline with mouse button 3"
+              },
+              {
+                "description": "Premiere Pro: left shift + mouse button 1 → cut"
+              },
+              {
+                "description": "Premiere Pro: mouse button 2 → ripple trim to previous edit playhead"
+              }
+            ]
+          },
+          "extra_description_text": "Scroll the timeline with mouse button 3 Mouse button 3 Hold down button 3 to scroll the timeline horizontally. This automatically selects the hand tool. When you release button 3, it goes back to the selection tool. Faster ripple edit with the mouse Left shift + Button 1 (left-click) Makes a cut on the timeline Button 2 (right-click) Ripple edit to the previous cut on the timeline"
+        },
+        {
+          "path": "json/slack.json",
+          "extra_description_path": "extra_descriptions/slack.html",
+          "json": {
+            "title": "Slack: Productivity Power Pack",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
+              },
+              {
+                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + 1 → Launch quick search"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + 2 → Activity"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + 3 → DMs"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + 4 → All Unread Messages"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + q → format selection as quote"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + w → toggle sidebar"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + e → set status"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + a → code format"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + s → code block"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + d → hyperlink"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + f → Upload file"
+              }
+            ]
+          },
+          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Searching and Navigation Caps Lock Hyper key + 1 Quick search Caps Lock Hyper key + 2 Navigate to activity Caps Lock Hyper key + 3 Navigate to DMs Caps Lock Hyper key + 4 Navigate to all unread messages Formatting and Messages Caps Lock Hyper key + q Format selection as quote Caps Lock Hyper key + a Code format Caps Lock Hyper key + s Code block Caps Lock Hyper key + d Add hyperlink Caps Lock Hyper key + f Upload file Other Shortcuts Caps Lock Hyper key + e Set status Slack: Caps Lock Hyper key + w Toggle sidebar"
+        },
+        {
+          "path": "json/google_chrome.json",
+          "extra_description_path": "extra_descriptions/google_chrome.html",
+          "json": {
+            "title": "Google Chrome: Productivity Power Pack",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
+              },
+              {
+                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + 1 → Developer Tools"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + 2 → Developer Console"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + 3 → Developer Elements Panel"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + 4 → View Source Code"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + q → Profile Selector"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + w → Toggle between last used tabs (requires CLUT: Cycle Last Used Tabs extension)"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + e → Duplicate tab (requires Duplicate Tab Shortcut extension)"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + r → Reload page"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + t → Move tab to new window (requires Pop out tabs to new window extension)"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + a → Search Tabs"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + s → Select address"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + d → Clear browsing data"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + f → Search the web"
+              },
+              {
+                "description": "Google Chrome: Caps lock hyper key + g → View downloads"
+              }
+            ]
+          },
+          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Tab Management Keymappings Caps lock hyper key + a Search Tabs Caps lock hyper key + w Toggle between last used tabs (requires CLUT: Cycle Last Used Tabs extension) Caps lock hyper key + e Duplicate tab (requires Duplicate Tab Shortcut extension) Caps lock hyper key + t Move tab to a new window (requires Pop out tabs to new window extension) Misc Keymappings Caps lock hyper key + q Switch between Google Chrome profiles Caps lock hyper key + r Reload page Caps lock hyper key + s Select address Caps lock hyper key + d Clear browsing history Caps lock hyper key + f Search the web Caps lock hyper key + g View downloads Developer Tools Keymappings Caps lock hyper key + 1 Developer Tools Caps lock hyper key + 2 Developer Console Caps lock hyper key + 3 Developer Elements Panel Caps lock hyper key + 4 View Source Caps lock hyper key + q Toggle device toolbar (when you already have a developer panel open)"
+        },
+        {
+          "path": "json/obsidian_emacs_vim-insert.json",
+          "json": {
+            "title": "Obsidian.app, emacs like key at vim-insert mode_rev02",
+            "rules": [
+              {
+                "description": "ctrl + bfpnae (only for Obsidian.app)_rev02"
+              },
+              {
+                "description": "ctrl + hdk (only for Obsidian.app)_rev02"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/Sync_SystemVolume_to_Music.json",
+          "json": {
+            "title": "Sync Music and System Volume (no key repeat)",
+            "rules": [
+              {
+                "description": "Sync Music and System Volume (on volume key events)"
+              },
+              {
+                "description": "Sync Music and System Volume (on volume key events, allow offset)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/Sync_SystemVolume_to_iTunes.json",
+          "json": {
+            "title": "Sync iTunes and System Volume (no key repeat)",
+            "rules": [
+              {
+                "description": "Sync iTunes and System Volume (on volume key events)"
+              },
+              {
+                "description": "Sync iTunes and System Volume (on volume key events, allow offset)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/bash.json",
+          "json": {
+            "title": "Shell helpers",
+            "rules": [
+              {
+                "description": "Double tap left-shift to return ~/"
+              },
+              {
+                "description": "Double tap right-shift to return ~/."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/convert_hangouts_mutes_to_zoom_us.json",
+          "json": {
+            "title": "Convert hangouts Mic/Video Mutes to Zoom.us",
+            "rules": [
+              {
+                "description": "Convert hangouts mic mute to Zoom.us mic mute"
+              },
+              {
+                "description": "Convert hangouts video mute to Zoom.us video mute"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/swap_alt_cmd_in_autodesk_maya.json",
+          "json": {
+            "title": "ALT <=> CMD in Autodesk Maya",
+            "rules": [
+              {
+                "description": "Swap option and command in Autodesk Maya"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/remote_desktop_separated_rules.json",
+          "json": {
+            "title": "Remote Desktop (separated rules)",
+            "rules": [
+              {
+                "description": "(Remote Desktop) Left command to left control"
+              },
+              {
+                "description": "(Remote Desktop) Left option to left command"
+              },
+              {
+                "description": "(Remote Desktop) Left control to left command"
+              },
+              {
+                "description": "(Remote Desktop) Caps lock to left control"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/remote-desktop.json",
+          "json": {
+            "title": "Remote Desktop",
+            "rules": [
+              {
+                "description": "Swap command and control"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/mac_osx_on_rdp.json",
+          "json": {
+            "title": "Mac OSX Style Shortcuts for RDP sessions. Translates OSX shortcuts to PC equivalent",
+            "maintainers": [
+              "varp"
+            ],
+            "rules": [
+              {
+                "description": "Mac OSX RDP: Cmd+Left/Right to Home/End"
+              },
+              {
+                "description": "Mac OSX RDP: Cmd+Shift+Left/Right to Shift+Home/End"
+              },
+              {
+                "description": "Mac OSX RDP: Cmd+Tab to Alt+Tab"
+              },
+              {
+                "description": "Mac OSX RDP: Copy/Paste/Cut - Cmd+c/Cmd+v/Cmd+x to Ctrl+c/Ctrl+v/Ctrl+x"
+              },
+              {
+                "description": "Mac OSX RDP: Option+(Shift+)Left/Right to Ctrl+(Shift+)Left/Right"
+              },
+              {
+                "description": "Mac OSX RDP: Undo - Cmd+z to Ctrl+z"
+              },
+              {
+                "description": "Mac OSX RDP: Redo -  Cmd+Shift+z to Ctrl+Shift+z"
+              },
+              {
+                "description": "Mac OSX RDP: Select-All - Cmd+(Shift+)a to Ctrl+(Shift+)a"
+              },
+              {
+                "description": "Mac OSX RDP: Save - Cmd+(shift+)s to Ctrl+(Shift+)s"
+              },
+              {
+                "description": "Mac OSX RDP: New - Cmd+(shift+)n to Ctrl+(Shift+)n"
+              },
+              {
+                "description": "Mac OSX RDP: Browser: Reload page - Cmd+(Shift+)r to (Ctrl+)F5"
+              },
+              {
+                "description": "Mac OSX RDP: Browser: Open location - Cmd+l to Ctrl+L"
+              },
+              {
+                "description": "Mac OSX RDP: New Tab - Cmd+(Shift+)t to Ctrl+(Shift)t"
+              },
+              {
+                "description": "Mac OSX RDP: Browser: Open DevTools - Cmd+Shift+i to Ctrl+Shift+i"
+              },
+              {
+                "description": "Mac OSX RDP: Find - Cmd+(shift+)f to Ctrl+(Shift+)f"
+              },
+              {
+                "description": "Mac OSX RDP: Open - Cmd+(shift+)o to Ctrl+(Shift+)o"
+              },
+              {
+                "description": "Mac OSX RDP: Close Window - Cmd+(shift+)w to Ctrl+(Shift+)w"
+              },
+              {
+                "description": "Mac OSX RDP: Fn+Space To Switch Input (Left Shift+Left Alt)"
+              },
+              {
+                "description": "Mac OSX RDP: Cmd+Space To Switch Input (Left Shift+Left Alt)"
+              },
+              {
+                "description": "Mac OSX RDP: Cmd+Space To Switch Input (Left Shift+Left Ctrl)"
+              },
+              {
+                "description": "Mac OSX RDP: Quit Application -  Cmd+q to Alf+F4"
+              },
+              {
+                "description": "Mac OSX RDP: Code: Comment out -  Cmd+/ to Ctrl+/"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/FnKeyManagement.json",
+          "extra_description_path": "extra_descriptions/FnKeyManagement.html",
+          "json": {
+            "title": "Function Key Management",
+            "maintainers": [
+              "creatorKoo"
+            ],
+            "rules": [
+              {
+                "description": "When Specific app foreground, Then Change Fn Key Setting"
+              }
+            ]
+          },
+          "extra_description_text": "Description Fn Key reverse - for specific apps. Notes intellij 와 같이 mac-os에서 fn key를 기본값으로 단축키를 많이 사용하는 경우 불편하여 그러한 앱에서만 fn key 작동 방식이 반대로 동작하도록 구성하였다 예를들어 shift+f6 (이름바꾸기) 단축키를 사용하고자 할 때에 shift + fn + f6 이 아니라 intellij 에 한해서만 shift + f6 으로 동작한다. 실제 f6의 기능을 하고 싶으면, fn + f6 버튼을 누르면 된다 문제가 있다면, 저에게 email 주시면 감사하겠습니다."
+        },
+        {
+          "path": "json/uk_macos_rdp.json",
+          "json": {
+            "title": "MacOS to RDP – British Keyboard Layout / UK Keyboard Layout",
+            "maintainers": [
+              "bameyrick"
+            ],
+            "rules": [
+              {
+                "description": "@ key"
+              },
+              {
+                "description": "\" key"
+              },
+              {
+                "description": "\\ key"
+              },
+              {
+                "description": "` key"
+              },
+              {
+                "description": "| key"
+              },
+              {
+                "description": "~ key"
+              },
+              {
+                "description": "# key (left option)"
+              },
+              {
+                "description": "# key (right option)"
+              },
+              {
+                "description": "Home key to the beginning of the sentence (Command + Left)"
+              },
+              {
+                "description": "End key to the end of the sentence (Command + Right)"
+              },
+              {
+                "description": "Option(Alt)+Tab as Switch Application (Command+Tab)"
+              },
+              {
+                "description": "Copy/Paste/Cut"
+              },
+              {
+                "description": "Alt+Left/Right to Control+Left/Right"
+              },
+              {
+                "description": "Undo"
+              },
+              {
+                "description": "Redo"
+              },
+              {
+                "description": "Select-All"
+              },
+              {
+                "description": "Save"
+              },
+              {
+                "description": "New"
+              },
+              {
+                "description": "Reload browser page Command+R to F5"
+              },
+              {
+                "description": "New Tab"
+              },
+              {
+                "description": "Find"
+              },
+              {
+                "description": "Open"
+              },
+              {
+                "description": "Close Window"
+              },
+              {
+                "description": "Fn+Space To Switch Input (Left Shift+Left Alt)"
+              },
+              {
+                "description": "Cmd+Space To Switch Input (Left Shift+Left Alt)"
+              },
+              {
+                "description": "Cmd+Space To Switch Input (Left Shift+Left Ctrl)"
+              },
+              {
+                "description": "Quit Application (Alt+F4 to Command+Q)"
+              },
+              {
+                "description": "Browser open location (Ctrl+L)"
+              },
+              {
+                "description": "Browser inspect element (Ctrl+L)"
+              },
+              {
+                "description": "Command to control (left)"
+              },
+              {
+                "description": "Command to control (right)"
+              },
+              {
+                "description": "VSCode open terminal"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/french_mac_keyboard_remote_desktop.json",
+          "extra_description_path": "extra_descriptions/french_mac_keyboard_remote_desktop.json.html",
+          "json": {
+            "title": "For French Mac Keyboard under Microsoft Remote Desktop",
+            "rules": [
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): All drawn keyboard symbols in one rule / Tous les symboles dessinés en une seule règle"
+              },
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): Swap left Cmd and Ctrl / Echange Ctrl et Cmd de gauche"
+              },
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): '6' to '§'"
+              },
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): '8' to '!'"
+              },
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): '=' to '-'"
+              },
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): '=' + Shift to '_'"
+              },
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'non_us_backslash' to '@'"
+              },
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'non_us_backslash' + shift to '#'"
+              },
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'close_bracket' + Shift to '*'"
+              },
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'close_bracket' + Alt to '€'"
+              },
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'backslash' to '`'"
+              },
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'backslash' + Shift to '£'"
+              },
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'slash' to '='"
+              },
+              {
+                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'slash' + Shift to '+'"
+              }
+            ]
+          },
+          "extra_description_text": "Version 1.0 Version 1.1 : Now support Microsoft Remote Desktop 10 Schedule features: We do not have yet tools to distinguish the remote session window from those which sometimes open asking for credentials before the remote connexion is set. Beware of passwords that use symbols that are not common to the PC and Mac keyboard. You can not use the option \"Use F1, F2, etc. as standard function keys\" in a specific application yet. But as we regularly need F5 to \"update\" on Windows, my advice is to activate this option permanently. I'm afraid there will never be any change on this point. Some configurations require the use of unexpected keys: Current key to use for complex editing on Mac French keyboard # 1172 . Known troubles: When the virtual keyboard is opened in your remote Windows session, some keys may behave strangely (for example, a grave accent). MacBook users with Touch Bar may need to add these rules: Touch bar does not change to f1-f12 when I press the key fn. More information: French Mac Keyboard with Microsoft Remote Desktop App under Sierra or more recent"
+        },
+        {
+          "path": "json/tmux_prefix.json",
+          "extra_description_path": "extra_descriptions/tmux_prefix.json.html",
+          "json": {
+            "title": "Tmux Prefix (rev 3)",
+            "rules": [
+              {
+                "description": "Tmux Prefix Mode [Tab as trigger key]"
+              },
+              {
+                "description": "Tmux Prefix Mode [Fn as trigger key]"
+              },
+              {
+                "description": "Tmux Prefix Mode [caps_lock as trigger key] (rev 2)"
+              },
+              {
+                "description": "Tmux Prefix Mode [escape as trigger key]"
+              },
+              {
+                "description": "Tmux Prefix Mode [ ctrl+B as prefix ]"
+              },
+              {
+                "description": "Tmux Prefix Mode [ ctrl+A as prefix ]"
+              },
+              {
+                "description": "Tmux Prefix Mode [ ctrl+Space as prefix ]"
+              }
+            ]
+          },
+          "extra_description_text": "Tmux Prefix Mode Tmux is a terminal multiplexer that lets you switch easily between several programs in one terminal, detach them, etc. It's very useful but most key bindings require a prefix key combination (default: Ctrl+B). This mode allows you to use a simple [ Modifier + Key ] to trigger a [ Ctrl+B ] [ Key ] sequence. How to use Choose a trigger key to be used Chooose a prefix to replace (based on your tmux configuration, default is Ctrl+B) Now trigger a tmux command simply using Trigger + Key (eg: Fn+c -> Ctrl+b, c to create a new window) Note: Keys that are remapped include: a-z, 0-9, comma,slash,period,semicolon,quote,open_bracket,close_bracket"
+        },
+        {
+          "path": "json/terminal_navi.json",
+          "extra_description_path": "extra_descriptions/terminal_navi.json.html",
+          "json": {
+            "title": "Keyboard shortcuts for Terminal apps",
+            "maintainers": [
+              "marlonrichert"
+            ],
+            "rules": [
+              {
+                "description": "Keyboard shortcuts for Terminal apps"
+              }
+            ]
+          },
+          "extra_description_text": "Makes the following keyboard shortcuts work the same or similarly in both macOS and terminal apps: Shortcut Action Bash/Readline Zsh ⌘Z Undo ✅ ✅ ⇧⌘Z Redo ❌ needs bindkey '^[e' redo ⌘D Duplicate the word left of the cursor ❌ ✅ ⇧⌘D Duplicate the last word of the previous command line ✅ ✅ ⌫ Delete one character backward ✅ ✅ ⌦ or fn⌫ Delete one character forward ✅ ✅ ⌥← Go one natural word backward ✅ needs WORDCHARS='' ⌥→ Go one natural word forward ✅ needs WORDCHARS='' ⌥⌫ Cut one natural word backward ✅ needs WORDCHARS='' ⌥⌦ or ⌥fn⌫ Cut one natural word forward ✅ needs WORDCHARS='' ⌘← Go one shell word backward ✅ needs bindkey '^[^B' vi-backward-blank-word ⌘→ Go one shell word forward ✅ needs bindkey '^[^F' vi-forward-blank-word ⌘⌫ Cut one shell word backward ✅ needs zsh-edit ⌘⌦ or ⌘fn⌫ Cut one shell word forward ✅ needs zsh-edit ⌃A Go to previous line break ✅ ✅ ⌃E Go to next line break ✅ ✅ ⌃U Cut to previous line break ✅ needs bindkey '^U' backward-kill-line ⌃K Cut to next line break ✅ ✅ ⌥↑ Go to first line ✅ first line of history ✅ first line of buffer or, if already there, of history ⌥↓ Go to last line ✅ last line of history ✅ last line of buffer or, if already there, of history"
+        },
+        {
+          "path": "json/launch_new_Chrome_or_iTerm2_windows.json",
+          "extra_description_path": "extra_descriptions/launch_new_Chrome_or_iTerm2_windows.json.html",
+          "json": {
+            "title": "Launch new Chrome or iTerm2 windows via keybindings",
+            "rules": [
+              {
+                "description": "left control + left shift + ` (backtick) - launches a new iTerm2 window with the default profile"
+              },
+              {
+                "description": "left control + left shift + 1 - launches a new Google Chrome window"
+              }
+            ]
+          },
+          "extra_description_text": "This keybinding is set up to launch new windows of running applications, rather than launching applications themselves. (Launching a running application only brings it to the foreground). This is meant to mimic the launcher keybindings available in Ubuntu."
+        },
+        {
+          "path": "json/launchapp_catalina.json",
+          "extra_description_path": "extra_descriptions/launchapp_catalina.json.html",
+          "json": {
+            "title": "Launch apps",
+            "rules": [
+              {
+                "description": "Launch apps by left control & option+letters."
+              }
+            ]
+          },
+          "extra_description_text": "updated paths to match new locations in Catalina left control&option + a: Activity Monitor left control&option + d: Dictionary left control&option + e: VSCode left control&option + f: Finder left control&option + s: Safari left control&option + t: iTerm"
+        },
+        {
+          "path": "json/xcode.json",
+          "json": {
+            "title": "Xcode",
+            "rules": [
+              {
+                "description": "Xcode Visual Studio style (Run, Stop, Build, Step, Breakpoint)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/vscode.json",
+          "extra_description_path": "extra_descriptions/vscode.json.html",
+          "json": {
+            "title": "Visual Studio Code",
+            "rules": [
+              {
+                "description": "Change left_shift to cmd+k if pressed alone in VSCode"
+              },
+              {
+                "description": "Change mouse button 4/5 to navigate back/forward in VSCode"
+              }
+            ]
+          },
+          "extra_description_text": "Double-press Shift to Go To Anything Enable the rule \"Change left_shift to cmd+k if pressed alone in VSCode\", then edit your keyboard shortcuts in VSCode and bind the command workbench.action.quickOpen to the chord ⌘K ⌘K."
+        },
+        {
+          "path": "json/safari.json",
+          "json": {
+            "title": "Don't exit fullscreen when pressing ESC in Safari",
+            "rules": [
+              {
+                "description": "Remap ESC to Option-ESC in Safari only"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/safari_ignore_command_q.json",
+          "json": {
+            "title": "Don't exit when pressing LCommand + q in Safari (RCommand + q still works)",
+            "rules": [
+              {
+                "description": "Remap LCommand + q to q in Safari only"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/virtual_machine.json",
+          "json": {
+            "title": "Virtual Machine and Remote Desktop (Microsoft or other)",
+            "rules": [
+              {
+                "description": "Swap left command and control in virtual machine/remote desktop"
+              },
+              {
+                "description": "Swap right command and control in virtual machine/remote desktop"
+              },
+              {
+                "description": "Use standard function keys in virtual machine/remote desktop"
+              },
+              {
+                "description": "Press Fn + function keys to use special features in virtual machine/remote desktop"
+              },
+              {
+                "description": "Swap >/< and °/§ in virtual machine/remote desktop"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/amethyst.json",
+          "json": {
+            "title": "Amethyst Mode",
+            "rules": [
+              {
+                "description": "Trigger Amethyst Mode/Amethyst Second Mode with 9/0"
+              },
+              {
+                "description": "9+8 cycle layout forward 9+* backward"
+              },
+              {
+                "description": "9+q/w shrink expand main pane"
+              },
+              {
+                "description": "9+J/j move focuse clockwise / counter clockwise"
+              },
+              {
+                "description": "90+J/j swap focused window clockwise / counter clockwise"
+              },
+              {
+                "description": "90+8/* swap focused window clockwise / counter clockwise screen"
+              },
+              {
+                "description": "9+ui/UI focus screen 12 / throw focus window to screen 12"
+              },
+              {
+                "description": "9+zxc/ZXC focus screen 123 / throw focus window to screen 123"
+              },
+              {
+                "description": "9+t toggle flot for current window"
+              },
+              {
+                "description": "9+asdf select tall/wide/column/fullscren layout"
+              },
+              {
+                "description": "Amethyst Mode All in one"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/amethyst_left_right.json",
+          "json": {
+            "title": "Amethyst: Shift + Option + h/l to ctrl + arrow keys",
+            "rules": [
+              {
+                "description": "Change Shift + Option + h to Ctrl + left_arrow"
+              },
+              {
+                "description": "Change Shift + Option + l to Ctrl + right_arrow"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/finder.json",
+          "json": {
+            "title": "Finder",
+            "rules": [
+              {
+                "description": "Use Return as Open"
+              },
+              {
+                "description": "Use Return as Open and Use Fn+Return as Rename"
+              },
+              {
+                "description": "Use F2 as Rename"
+              },
+              {
+                "description": "Use Delete as Move to Trash"
+              },
+              {
+                "description": "Use Fn+Delete as Move to Trash"
+              },
+              {
+                "description": "Use Backspace as Go to Previous Folder"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/Photoshop_Windows_keymaps.json",
+          "json": {
+            "title": "Adobe Photoshop",
+            "rules": [
+              {
+                "description": "PC-Style control option and command"
+              },
+              {
+                "description": "option + z/y to undo/redo"
+              },
+              {
+                "description": "F1 to creat new layer"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/vim_style_escape.json",
+          "json": {
+            "title": "Vim style escape key mapping",
+            "rules": [
+              {
+                "description": "Map ctrl + [ to escape"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/vim_buffer_switch.json",
+          "json": {
+            "title": "Vim Ctrl+6 to Ctrl+Shift+6 for buffer switching",
+            "rules": [
+              {
+                "description": "Map ctrl + 6 to ctrl + shift + 6"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/sketch-shortcut.json",
+          "extra_description_path": "extra_descriptions/sketch-shortcut.json.html",
+          "json": {
+            "title": "Sketch Shortcut",
+            "rules": [
+              {
+                "description": "Post spacebar to Command+Shift+Ctrl if not press alone in Sketch app."
+              },
+              {
+                "description": "Use spacebar+; and spacebar+' switch artboard in Sketch app. (Should be used with previous rule and put under it)"
+              }
+            ]
+          },
+          "extra_description_text": "Usage The First rule change the spacebar to the Command+Shift+Ctrl combination, and only effected in the sketch app. You can custom the sketch shortcuts in the system preference with key combination like Command+Shift+Ctrl+A, and then press Spacebar with key A to use the shortcut. Suggested shortcut preference: (@tankxu's sketch shortcut) The Second rule is useful for HHKB user. Sketch offer the shortcut Fn+Arrow Left and Fn+Arrow Right to switch the artboard, but HHKB can't post these key combination. And the artboard switch function aren't be listed in the application's menu, so it can't be customed shortcut in the system preference. The second rule can solve this problem. It can make the keyboard post Fn+Arrow Left key combination when the Spacebar pressed with key semicolon and post Fn+Arrow Right key combination when the Spacebar pressed with key quote, Now you can use spcebar to switch the artboard. The second rule shoud be used with the first rule, and it need to be putted under the fisrt rule in the \"Enable rules\" list."
+        },
+        {
+          "path": "json/figma-shortcut.json",
+          "extra_description_path": "extra_descriptions/figma-shortcut.json.html",
+          "json": {
+            "title": "Figma Shortcut",
+            "rules": [
+              {
+                "description": "Post spacebar to Command+Shift+Ctrl if not press alone in Figma app."
+              }
+            ]
+          },
+          "extra_description_text": "Figma version of Sketch shortcut created by @tankxu."
+        },
+        {
+          "path": "json/option_tab.json",
+          "json": {
+            "title": "Use Option + Number to Switch Tabs in Chrome, Brave & Firefox",
+            "rules": [
+              {
+                "description": "Use Option + Number to Switch Tabs in Chrome, Brave & Firefox"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/alacritty.json",
+          "json": {
+            "title": "Map Option to soft-meta for Alacritty",
+            "rules": [
+              {
+                "description": "Map left_option to soft-meta for Alacritty"
+              },
+              {
+                "description": "Map right_option to soft-meta for Alacritty"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/warp.json",
+          "json": {
+            "title": "Map Option to soft-meta for Warp",
+            "rules": [
+              {
+                "description": "Map left_option to soft-meta for Warp"
+              },
+              {
+                "description": "Map right_option to soft-meta for Warp"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/aquaskk.json",
+          "json": {
+            "title": "AquaSKK",
+            "rules": [
+              {
+                "description": "AquaSKK for JetBrains"
+              },
+              {
+                "description": "AquaSKK for Terminal/iTerm2"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/vnc_swap_left_cmd_ctrl.json",
+          "json": {
+            "title": "CTRL/CMD Key Swap",
+            "rules": [
+              {
+                "description": "swap left control/command keys for vncviewer"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/jetbrains_osx_mimics_pc.json",
+          "extra_description_path": "extra_descriptions/jetbrains_osx_mimics_pc.json.html",
+          "json": {
+            "title": "Jetbrains matches Windows",
+            "rules": [
+              {
+                "description": "Command -> Alt in Jetbrains Rider"
+              },
+              {
+                "description": "Alt -> Ctrl in Jetbrains Rider"
+              },
+              {
+                "description": "Ctrl -> Gui in Jetbrains Rider"
+              },
+              {
+                "description": "Ctrl -> Gui in Jetbrains Rider"
+              }
+            ]
+          },
+          "extra_description_text": "Remap Control, Option, and Command on OSX to mimic the PC layout when using Jetbrains products. Sharing settings via Jetbrains Account Sync and Settings Repositories results in a more intuitive layout. command: alt option: ctrl control: command command-tab: command-tab (to preserve window swapping)"
+        },
+        {
+          "path": "json/spectacle_fn_wasdf.json",
+          "extra_description_path": "extra_descriptions/spectacle_fn_wasdf.json.html",
+          "json": {
+            "title": "Jetbrains matches Windows",
+            "rules": [
+              {
+                "description": "Spectacle fn WASDF"
+              }
+            ]
+          },
+          "extra_description_text": "When using Spectacle on a Macbook, hitting fn and WASD of F will move the current window. Fast window movement with Spectacle even when overriding modifiers in other apps. fn-w: snap current window up fn-a: snap current window left fn-s: snap current window down fn-d: snap current window right fn-f: make current window fullscreen"
+        },
+        {
+          "path": "json/stadia_cmd.json",
+          "extra_description_path": "extra_descriptions/stadia_cmd.html",
+          "json": {
+            "title": "Alt to Command Key in Stadia",
+            "rules": [
+              {
+                "description": "Use CMD key as alt for Google Chrome Stadia gaming - requires install of Stadia app on Macbook"
+              }
+            ]
+          },
+          "extra_description_text": "Use the Mac Command key as ALT for Google Chrome Stadia gaming. Requires installation of the Stadia chrome app on Macbook."
+        },
+        {
+          "path": "json/wow_cmd.json",
+          "extra_description_path": "extra_descriptions/wow_cmd.html",
+          "json": {
+            "title": "Command Key to Control in World of Warcraft",
+            "rules": [
+              {
+                "description": "Use the left CMD key as ctrl for World of Warcraft on Macbook"
+              }
+            ]
+          },
+          "extra_description_text": "Use the Mac Command key as CTRL for World of Warcraft."
+        },
+        {
+          "path": "json/swap_ctrl_and_cmd_for_trader_workstation.json",
+          "json": {
+            "title": "CTRL <=> CMD in Trader Workstation",
+            "rules": [
+              {
+                "description": "Swap CTRL and command in Trader Workstation to fix copy-paste issues"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/roon.json",
+          "json": {
+            "title": "Roon media keys",
+            "maintainers": [
+              "torarnek"
+            ],
+            "rules": [
+              {
+                "description": "Roon volume down media key"
+              },
+              {
+                "description": "Roon volume up media key"
+              },
+              {
+                "description": "Roon toggle mute media key"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/notion_cmd_p_to_cmd_k.json",
+          "json": {
+            "title": "Swap Cmd+K and Cmd+P in Notion",
+            "rules": [
+              {
+                "description": "Change Left Cmd+K to Left Cmd+P in Notion"
+              },
+              {
+                "description": "Change Right Cmd+K to Right Cmd+P in Notion"
+              },
+              {
+                "description": "Change Left Cmd+P to Left Cmd+K in Notion"
+              },
+              {
+                "description": "Change Right Cmd+P to Right Cmd+K in Notion"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/panic-nova-home-and-end.json",
+          "extra_description_path": "extra_descriptions/panic-nova-home-and-end.json.html",
+          "json": {
+            "title": "Panic Nova: Home and End",
+            "rules": [
+              {
+                "description": "Panic Nova: Allow Home and End to navigate along a line."
+              },
+              {
+                "description": "Panic Nova: Allow Shift+Home and Shift+End to select text along a line."
+              }
+            ]
+          },
+          "extra_description_text": "Home and End key modifier for Panic's Nova editor. Changes the Home and End keys so they can navigate and select text along a single line instead of the top and bottom of a file."
+        },
+        {
+          "path": "json/citrix_ctrl_alt_win.json",
+          "extra_description_path": "extra_descriptions/citrix.html",
+          "json": {
+            "title": "Citrix Receiver/Workspace modifiers for Ctrl, Alt, Windows order",
+            "rules": [
+              {
+                "description": "In Citrix, add fn modifier to Tab so it is forwarded"
+              },
+              {
+                "description": "In Citrix, change left_option to Alt key via \"⌘⌥ Command (left)-Option\""
+              },
+              {
+                "description": "In Citrix, change right_option to Alt key via \"⌘⌥ Command (left)-Option\""
+              },
+              {
+                "description": "In Citrix, change left_command as well via \"Send Windows logo key using ⌘ Command (right)\""
+              }
+            ]
+          },
+          "extra_description_text": "Map Apple modifiers (Ctrl, Option, Command) to Windows modifiers (Ctrl, Alt, Windows or Ctrl, Windows, Alt) in Citrix Receiver & Workspace, with working Alt+Tab and Windows key shortcuts. For whatever reason, Citrix Receiver/Workspace MacOS client has only limited settings to map Alt and Windows keys, motivating the need for this modification. Example Citrix Workspace (2005) settings that work with this configuration: References The goods on offer Configure shortcuts in the client MacOS Windows Citrix Workspace users have another option Original Gist with this modification"
+        },
+        {
+          "path": "json/citrix_ctrl_win_alt.json",
+          "extra_description_path": "extra_descriptions/citrix.html",
+          "json": {
+            "title": "Citrix Receiver/Workspace modifiers for Ctrl, Windows, Alt order",
+            "rules": [
+              {
+                "description": "In Citrix, add fn modifier to Tab so it is forwarded"
+              },
+              {
+                "description": "In Citrix, change left_command to Alt via \"⌘⌥ Command (left)-Option\""
+              },
+              {
+                "description": "In Citrix, change right_command to Alt via \"⌘⌥ Command (left)-Option\""
+              },
+              {
+                "description": "In Citrix, change left_option to Windows logo key via \"Send Windows logo key using ⌘ Command (right)\""
+              },
+              {
+                "description": "In Citrix, change right_option to Windows logo key via \"Send Windows logo key using ⌘ Command (right)\""
+              }
+            ]
+          },
+          "extra_description_text": "Map Apple modifiers (Ctrl, Option, Command) to Windows modifiers (Ctrl, Alt, Windows or Ctrl, Windows, Alt) in Citrix Receiver & Workspace, with working Alt+Tab and Windows key shortcuts. For whatever reason, Citrix Receiver/Workspace MacOS client has only limited settings to map Alt and Windows keys, motivating the need for this modification. Example Citrix Workspace (2005) settings that work with this configuration: References The goods on offer Configure shortcuts in the client MacOS Windows Citrix Workspace users have another option Original Gist with this modification"
+        },
+        {
+          "path": "json/control-to-command-in-office.json",
+          "json": {
+            "title": "Use left control key as command key in Microsoft Office",
+            "rules": [
+              {
+                "description": "Use left control key as command key in Microsoft Office (rev 1)"
+              },
+              {
+                "description": "Use right control key as command key in Microsoft Office (rev 1)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/preview-vim.json",
+          "extra_description_path": "extra_descriptions/preview-vim.html",
+          "json": {
+            "title": "vim / zathura bindings for Preview.app",
+            "rules": [
+              {
+                "description": "vim-preview: map jk (down/up)"
+              },
+              {
+                "description": "vim preview: map JK (previous / next page)"
+              },
+              {
+                "description": "vim-preview: map hl (left / right)"
+              },
+              {
+                "description": "vim-preview: map HL (previous / next position)"
+              },
+              {
+                "description": "vim-preview: map zoom (9/0/-/=)"
+              },
+              {
+                "description": "vim-preview: map gG (go to first / last page)"
+              }
+            ]
+          },
+          "extra_description_text": "vim-preview This modification provides zathura/vim-like functionality to Preview.app. Key binds currently implemented: Movement Left => h Right => l Down => j Up => k Previous position => H Next position => L Previous page => K Next page => J First page => g Last page => G Zoom Zoom In => = Zoom Out => - Actual size => 0 Zoom to fit => 9 The main repository is hosted on Github. Contributions are welcome!"
+        },
+        {
+          "path": "json/swap_ctrl_and_cmd_except_in_terminal.json",
+          "json": {
+            "title": "Swap left-ctrl and command except in Terminal",
+            "rules": [
+              {
+                "description": "Swap left-ctrl and command except in Terminal"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/swap_fn_and_cmd_except_in_terminal.json",
+          "json": {
+            "title": "Swap FN and left_command except in Terminals",
+            "rules": [
+              {
+                "description": "Swap FN and left command except in Terminals"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/KeynoteAndIllustrator.json",
+          "json": {
+            "title": "Mouse 4,5 -> Keynote Zoom",
+            "maintainers": [
+              "juonic"
+            ],
+            "rules": [
+              {
+                "description": "Mouse button 4 to zoom out"
+              },
+              {
+                "description": "Mouse button 5 to zoom in"
+              },
+              {
+                "description": "Keynote Group to CTR+G"
+              },
+              {
+                "description": "Keynote UnGroup to CTR+Shift+G"
+              },
+              {
+                "description": "Keynote Layer Top"
+              },
+              {
+                "description": "Keynote Layer Bottom"
+              },
+              {
+                "description": "Illustrator Layer Bottom"
+              },
+              {
+                "description": "Illustrator Layer Top"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/apple_mail_shortcuts.json",
+          "json": {
+            "title": "Apple Mail shortcuts",
+            "rules": [
+              {
+                "description": "⌘-enter to send in Apple Mail"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/slack_shortcuts.json",
+          "json": {
+            "title": "Slack shortcuts",
+            "rules": [
+              {
+                "description": "⌘-k to hyperlink in Slack"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/eject_to_activate_and_toggle_mic_mute_ms_teams.json",
+          "json": {
+            "title": "Toggle mic mute in MS Teams with the Eject key",
+            "rules": [
+              {
+                "description": "Maps Eject to ⌘⇧M in Teams"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/shift-enter-fish-shell-autocomplete.json",
+          "json": {
+            "title": "Execute Fish shell autocomplete",
+            "rules": [
+              {
+                "description": "Left Shift + Enter maps to Right Arrow > Enter, which will execute the suggested command in Fish shell"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/clickup.json",
+          "json": {
+            "title": "ClickUp shortcuts",
+            "rules": [
+              {
+                "description": "⌘-w to close internal windows in ClickUp"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/dictation-to-mutify.json",
+          "json": {
+            "title": "Dictation to Mutify",
+            "rules": [
+              {
+                "description": "Dictation key (F5 action) to trigger Mutify mute/unmute (⇧⌘0) action. Most useful for Macs without Touchbar."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/browser-rshift-enter-disable.json",
+          "json": {
+            "title": "Don't send shift when accidentally pressing right shift + enter in web browsers (Lshift + enter still works)",
+            "rules": [
+              {
+                "description": "Remap Rshift + enter to enter in web browsers only"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/jetbrains_rider_fn.json",
+          "json": {
+            "title": "Function keys work as Fn keys (instead of media keys) for JetBrainsRider",
+            "rules": [
+              {
+                "description": "JetBrains Rider Function keys work as Fn keys"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/shottr_map_cmd_c_to_copy.json",
+          "json": {
+            "title": "Shottr — Cmd+c to copy screenshot to clipboard",
+            "rules": [
+              {
+                "description": "Remap Cmd+shift+c to Cmd+c"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/finder_improved_navigation.json",
+          "json": {
+            "title": "Finder improved Navigation",
+            "rules": [
+              {
+                "description": "Use F2 as Rename and set onedit"
+              },
+              {
+                "description": "Use Backspace as Go to Previous Folder in Finder if not onedit"
+              },
+              {
+                "description": "Use Return as Open if not renaming file"
+              },
+              {
+                "description": "Use Return to finish renaming when onedit=1"
+              },
+              {
+                "description": "Use Esc to finish renaming when onedit=1"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/f5_ms_teams_zoom_mic_mute.json",
+          "extra_description_path": "extra_descriptions/f5_ms_teams_zoom_mic_mute.html",
+          "json": {
+            "title": "Toggle mic mute in MS Teams or ZOOM with the f5 key",
+            "rules": [
+              {
+                "description": "Maps F5 to ⌘⇧M in MS Teams or ⌘⇧A to ZOOM. F5 has an MIC symbol on recent MacOS keyboards."
+              }
+            ]
+          },
+          "extra_description_text": "Mute MS Teams or ZOOM with F5 use F5 to toggle MUTE ether on MS Teams or ZOOM Motivation After trying to use the eject key version of this cmdline execute i found that my M1 Macbook Pro has a Mic symbol on the f5 key, so i decided to try to use that key to mute in my daily used videocall applications instead. how to use Use karabiner-elements Function keys tab to map the 'dictate' key to use 'f5' instead if you use the function keys. Install this extension under tab 'Complex modifications'. During a Call on ZOOM or MS Teams the mute and unmute should work even in background. It searches in active processes and if one is found it executes the corresponding ⌘⇧M for Teams or ⌘⇧A for ZOOM. Credits This rule was based on work done by \"Toggle mic mute in MS Teams with the Eject key\" and the Github PR #975 \"capslock_to_mute_teams_zoom.json\"."
+        },
+        {
+          "path": "json/music_keyboard_controls.json",
+          "extra_description_path": "extra_descriptions/music_keyboard_controls.html",
+          "json": {
+            "title": "Basic Music app keyboard control",
+            "rules": [
+              {
+                "description": "Uses Ctrl shortcuts to explicitly play/pause/prev/next Music app."
+              }
+            ]
+          },
+          "extra_description_text": "Tired of Safari or other apps stealing the focus of your shiny multimedia keys. Are you playing or pausing the youtube video when you actually want to pause the Music app in the background? Use these shortcuts instead to control the Music app explicitly to avoid mistakes! The keyboard shortcuts are based on old defaults from SizzlingKeys which is not maintained any more and was only for iTunes rather than the new Apple Music app abomination. These shortcuts are most likely going to clash with something else you have, unless you have kept upgrading your mac from those times and never updated the shortcuts. So just copy the JSON and change the bindings to your liking. The three default keyboard bindings: Ctrl+Space: pauses or plays back the current Music tune. If the Music app is closed the app will be launched, but for whatever reason it won't start playing until you focus it and play something manually or repeat the keyboard shortcut. 🍎 peak software quality. Command+option+cursor right: Skips to the next song. Command+option+cursor left: Skips to the previous song. All the magic is done through shell calls to osascript. You can find more information about available iTunes/Music commands to use in osascript at websites like Doug's AppleScripts."
+        },
+        {
+          "path": "json/ms_teams_ptt.json",
+          "json": {
+            "title": "MS Teams PTT",
+            "rules": [
+              {
+                "description": "Hold spacebar to talk on MS Teams"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/parallels_right_cmd_to_insert.json",
+          "json": {
+            "title": "Right command is insert in Parallels (for JAWS, NVDA, Narrator)",
+            "rules": [
+              {
+                "description": "Right command is insert in Parallels"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/f12-show-hide-iterm.json",
+          "json": {
+            "title": "Use F12 to show/hide iTerm (Quake-style \"instant terminal\")",
+            "rules": [
+              {
+                "description": "Launch/show iTerm if it is not in foreground"
+              },
+              {
+                "description": "Minimize iTerm if it is in foreground"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/fn+cmd_to_eisu_and_kana.json",
+          "json": {
+            "title": "Change fn + left_/right_command to 英数/かな (japanese_eisuu/kana)",
+            "rules": [
+              {
+                "description": "Change fn + left_command to japanese_eisuu"
+              },
+              {
+                "description": "Change fn + right_command to japanese_kana"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/tradingview_ctrl_n.json",
+          "json": {
+            "title": "TradingView shortcut (Ctrl + N)",
+            "rules": [
+              {
+                "description": "Ctrl + N: New Chart -> down_arrow"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/logitech_mx_vertical_back_forward_with_vs_code.json",
+          "json": {
+            "title": "Back/Forward for Logitech MX Vertical in VS Code & macOS",
+            "rules": [
+              {
+                "description": "Change mouse button 4/5 to navigate back/forward in VSCode"
+              },
+              {
+                "description": "When VS Code is not active, use standard browser back/forward commands"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
+          "path": "json/ncspot.json",
+          "extra_description_path": "extra_descriptions/ncspot.json.html",
+          "json": {
+            "title": "NCSPOT - control Spotify client for the terminal with media keys via netcat",
+            "maintainers": [
+              "n3f"
+            ],
+            "rules": [
+              {
+                "description": "NCSPOT::All"
+              },
+              {
+                "description": "NCSPOT::Play/Pause"
+              },
+              {
+                "description": "NCSPOT::Next"
+              },
+              {
+                "description": "NCSPOT::Previous"
+              },
+              {
+                "description": "NCSPOT::Volume Up"
+              },
+              {
+                "description": "NCSPOT::Volume Down"
+              }
+            ]
+          },
+          "extra_description_text": "Allows Karabiner-Elements to control the ncspot Spotify client for the terminal via netcat. Currently this needs to be enabled manually with a CLI command (allows quickly turning it off/on): '/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --set-variables '{\"ncspot\":1}'. There is also a workaround applied for changing Fn+F8 to be play/pause (because that's how I have my keyboard set up - the default setup would use just F8). See the generation script to easily modify this."
+        },
+        {
+          "path": "json/powerpoint.json",
+          "extra_description_path": "extra_descriptions/powerpoint.json.html",
+          "json": {
+            "title": "Improved PowerPoint Keyboard Shortcuts",
+            "rules": [
+              {
+                "description": "(CTRL + e) is (⌘ + Right Arrow)"
+              }
+            ]
+          },
+          "extra_description_text": "Description While CTRL + a already works as \"go to the beginning of the line\" in PowerPoint by default, Microsoft decided that CTRL + e will be used to change text alignment of the current line to \"center\", which is unhelpful. With this complex mod, CTRL + e will now \"go to the end of the line\". That means both key combinations serve their Emacs-inspired purpose, balance is restored, and all's good with the world."
+        }
+      ]
+    },
+    {
       "name": "Modifier Keys",
       "id": "modifier-keys",
       "files": [
@@ -3025,1501 +5318,6 @@
             ]
           },
           "extra_description_text": ""
-        }
-      ]
-    },
-    {
-      "name": "Application Specific",
-      "id": "application-specific",
-      "files": [
-        {
-          "path": "json/vs_code.json",
-          "extra_description_path": "extra_descriptions/vs_code.html",
-          "json": {
-            "title": "Visual Studio Code: Productivity Power Pack",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
-              },
-              {
-                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
-              },
-              {
-                "description": "VS Code: Caps Lock Hyper Key + a → quick open (search for a file)"
-              },
-              {
-                "description": "VS Code: Caps Lock Hyper Key + s → search symbols"
-              },
-              {
-                "description": "VS Code: Caps Lock Hyper Key + d → command palette"
-              },
-              {
-                "description": "VS Code: Caps Lock Hyper Key + q → zen mode"
-              },
-              {
-                "description": "VS Code: Caps Lock Hyper Key + w → toggle sidebar"
-              },
-              {
-                "description": "VS Code: Caps Lock Hyper Key + e → toggle terminal"
-              },
-              {
-                "description": "VS Code: right cmd → zen mode"
-              }
-            ]
-          },
-          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock key functionality is disabled. Double-tap right shift Caps lock toggle Searching Caps Lock Hyper Key + a Quick open (search for a file) Caps Lock Hyper Key + s Navigate symbols (search symbols) Caps Lock Hyper Key + d Command palette Toggle Panels and Zen Mode Caps Lock Hyper Key + q Toggle Zen mode Caps Lock Hyper Key + w Toggle sidebar Caps Lock Hyper Key + e Toggle terminal Right cmd Toggle Zen mode keybindings.json in Visual Studio Code Add the following entry to your keybindings.json in Visual Studio Code. This is to ensure that the editor pane is focused when activating the Zen mode shortcuts. { \"key\": \"ctrl+shift+alt+f\", \"command\": \"workbench.action.focusActiveEditorGroup\" }"
-        },
-        {
-          "path": "json/premiere_pro.json",
-          "extra_description_path": "extra_descriptions/premiere_pro.html",
-          "json": {
-            "title": "Adobe Premiere Pro: Productivity Power Pack",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "Premiere Pro: scroll timeline with mouse button 3"
-              },
-              {
-                "description": "Premiere Pro: left shift + mouse button 1 → cut"
-              },
-              {
-                "description": "Premiere Pro: mouse button 2 → ripple trim to previous edit playhead"
-              }
-            ]
-          },
-          "extra_description_text": "Scroll the timeline with mouse button 3 Mouse button 3 Hold down button 3 to scroll the timeline horizontally. This automatically selects the hand tool. When you release button 3, it goes back to the selection tool. Faster ripple edit with the mouse Left shift + Button 1 (left-click) Makes a cut on the timeline Button 2 (right-click) Ripple edit to the previous cut on the timeline"
-        },
-        {
-          "path": "json/slack.json",
-          "extra_description_path": "extra_descriptions/slack.html",
-          "json": {
-            "title": "Slack: Productivity Power Pack",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
-              },
-              {
-                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + 1 → Launch quick search"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + 2 → Activity"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + 3 → DMs"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + 4 → All Unread Messages"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + q → format selection as quote"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + w → toggle sidebar"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + e → set status"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + a → code format"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + s → code block"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + d → hyperlink"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + f → Upload file"
-              }
-            ]
-          },
-          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Searching and Navigation Caps Lock Hyper key + 1 Quick search Caps Lock Hyper key + 2 Navigate to activity Caps Lock Hyper key + 3 Navigate to DMs Caps Lock Hyper key + 4 Navigate to all unread messages Formatting and Messages Caps Lock Hyper key + q Format selection as quote Caps Lock Hyper key + a Code format Caps Lock Hyper key + s Code block Caps Lock Hyper key + d Add hyperlink Caps Lock Hyper key + f Upload file Other Shortcuts Caps Lock Hyper key + e Set status Slack: Caps Lock Hyper key + w Toggle sidebar"
-        },
-        {
-          "path": "json/google_chrome.json",
-          "extra_description_path": "extra_descriptions/google_chrome.html",
-          "json": {
-            "title": "Google Chrome: Productivity Power Pack",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
-              },
-              {
-                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + 1 → Developer Tools"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + 2 → Developer Console"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + 3 → Developer Elements Panel"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + 4 → View Source Code"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + q → Profile Selector"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + w → Toggle between last used tabs (requires CLUT: Cycle Last Used Tabs extension)"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + e → Duplicate tab (requires Duplicate Tab Shortcut extension)"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + r → Reload page"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + t → Move tab to new window (requires Pop out tabs to new window extension)"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + a → Search Tabs"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + s → Select address"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + d → Clear browsing data"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + f → Search the web"
-              },
-              {
-                "description": "Google Chrome: Caps lock hyper key + g → View downloads"
-              }
-            ]
-          },
-          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Tab Management Keymappings Caps lock hyper key + a Search Tabs Caps lock hyper key + w Toggle between last used tabs (requires CLUT: Cycle Last Used Tabs extension) Caps lock hyper key + e Duplicate tab (requires Duplicate Tab Shortcut extension) Caps lock hyper key + t Move tab to a new window (requires Pop out tabs to new window extension) Misc Keymappings Caps lock hyper key + q Switch between Google Chrome profiles Caps lock hyper key + r Reload page Caps lock hyper key + s Select address Caps lock hyper key + d Clear browsing history Caps lock hyper key + f Search the web Caps lock hyper key + g View downloads Developer Tools Keymappings Caps lock hyper key + 1 Developer Tools Caps lock hyper key + 2 Developer Console Caps lock hyper key + 3 Developer Elements Panel Caps lock hyper key + 4 View Source Caps lock hyper key + q Toggle device toolbar (when you already have a developer panel open)"
-        },
-        {
-          "path": "json/obsidian_emacs_vim-insert.json",
-          "json": {
-            "title": "Obsidian.app, emacs like key at vim-insert mode_rev02",
-            "rules": [
-              {
-                "description": "ctrl + bfpnae (only for Obsidian.app)_rev02"
-              },
-              {
-                "description": "ctrl + hdk (only for Obsidian.app)_rev02"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/Sync_SystemVolume_to_Music.json",
-          "json": {
-            "title": "Sync Music and System Volume (no key repeat)",
-            "rules": [
-              {
-                "description": "Sync Music and System Volume (on volume key events)"
-              },
-              {
-                "description": "Sync Music and System Volume (on volume key events, allow offset)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/Sync_SystemVolume_to_iTunes.json",
-          "json": {
-            "title": "Sync iTunes and System Volume (no key repeat)",
-            "rules": [
-              {
-                "description": "Sync iTunes and System Volume (on volume key events)"
-              },
-              {
-                "description": "Sync iTunes and System Volume (on volume key events, allow offset)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/bash.json",
-          "json": {
-            "title": "Shell helpers",
-            "rules": [
-              {
-                "description": "Double tap left-shift to return ~/"
-              },
-              {
-                "description": "Double tap right-shift to return ~/."
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/convert_hangouts_mutes_to_zoom_us.json",
-          "json": {
-            "title": "Convert hangouts Mic/Video Mutes to Zoom.us",
-            "rules": [
-              {
-                "description": "Convert hangouts mic mute to Zoom.us mic mute"
-              },
-              {
-                "description": "Convert hangouts video mute to Zoom.us video mute"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/swap_alt_cmd_in_autodesk_maya.json",
-          "json": {
-            "title": "ALT <=> CMD in Autodesk Maya",
-            "rules": [
-              {
-                "description": "Swap option and command in Autodesk Maya"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/remote_desktop_separated_rules.json",
-          "json": {
-            "title": "Remote Desktop (separated rules)",
-            "rules": [
-              {
-                "description": "(Remote Desktop) Left command to left control"
-              },
-              {
-                "description": "(Remote Desktop) Left option to left command"
-              },
-              {
-                "description": "(Remote Desktop) Left control to left command"
-              },
-              {
-                "description": "(Remote Desktop) Caps lock to left control"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/remote-desktop.json",
-          "json": {
-            "title": "Remote Desktop",
-            "rules": [
-              {
-                "description": "Swap command and control"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/mac_osx_on_rdp.json",
-          "json": {
-            "title": "Mac OSX Style Shortcuts for RDP sessions. Translates OSX shortcuts to PC equivalent",
-            "maintainers": [
-              "varp"
-            ],
-            "rules": [
-              {
-                "description": "Mac OSX RDP: Cmd+Left/Right to Home/End"
-              },
-              {
-                "description": "Mac OSX RDP: Cmd+Shift+Left/Right to Shift+Home/End"
-              },
-              {
-                "description": "Mac OSX RDP: Cmd+Tab to Alt+Tab"
-              },
-              {
-                "description": "Mac OSX RDP: Copy/Paste/Cut - Cmd+c/Cmd+v/Cmd+x to Ctrl+c/Ctrl+v/Ctrl+x"
-              },
-              {
-                "description": "Mac OSX RDP: Option+(Shift+)Left/Right to Ctrl+(Shift+)Left/Right"
-              },
-              {
-                "description": "Mac OSX RDP: Undo - Cmd+z to Ctrl+z"
-              },
-              {
-                "description": "Mac OSX RDP: Redo -  Cmd+Shift+z to Ctrl+Shift+z"
-              },
-              {
-                "description": "Mac OSX RDP: Select-All - Cmd+(Shift+)a to Ctrl+(Shift+)a"
-              },
-              {
-                "description": "Mac OSX RDP: Save - Cmd+(shift+)s to Ctrl+(Shift+)s"
-              },
-              {
-                "description": "Mac OSX RDP: New - Cmd+(shift+)n to Ctrl+(Shift+)n"
-              },
-              {
-                "description": "Mac OSX RDP: Browser: Reload page - Cmd+(Shift+)r to (Ctrl+)F5"
-              },
-              {
-                "description": "Mac OSX RDP: Browser: Open location - Cmd+l to Ctrl+L"
-              },
-              {
-                "description": "Mac OSX RDP: New Tab - Cmd+(Shift+)t to Ctrl+(Shift)t"
-              },
-              {
-                "description": "Mac OSX RDP: Browser: Open DevTools - Cmd+Shift+i to Ctrl+Shift+i"
-              },
-              {
-                "description": "Mac OSX RDP: Find - Cmd+(shift+)f to Ctrl+(Shift+)f"
-              },
-              {
-                "description": "Mac OSX RDP: Open - Cmd+(shift+)o to Ctrl+(Shift+)o"
-              },
-              {
-                "description": "Mac OSX RDP: Close Window - Cmd+(shift+)w to Ctrl+(Shift+)w"
-              },
-              {
-                "description": "Mac OSX RDP: Fn+Space To Switch Input (Left Shift+Left Alt)"
-              },
-              {
-                "description": "Mac OSX RDP: Cmd+Space To Switch Input (Left Shift+Left Alt)"
-              },
-              {
-                "description": "Mac OSX RDP: Cmd+Space To Switch Input (Left Shift+Left Ctrl)"
-              },
-              {
-                "description": "Mac OSX RDP: Quit Application -  Cmd+q to Alf+F4"
-              },
-              {
-                "description": "Mac OSX RDP: Code: Comment out -  Cmd+/ to Ctrl+/"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/FnKeyManagement.json",
-          "extra_description_path": "extra_descriptions/FnKeyManagement.html",
-          "json": {
-            "title": "Function Key Management",
-            "maintainers": [
-              "creatorKoo"
-            ],
-            "rules": [
-              {
-                "description": "When Specific app foreground, Then Change Fn Key Setting"
-              }
-            ]
-          },
-          "extra_description_text": "Description Fn Key reverse - for specific apps. Notes intellij 와 같이 mac-os에서 fn key를 기본값으로 단축키를 많이 사용하는 경우 불편하여 그러한 앱에서만 fn key 작동 방식이 반대로 동작하도록 구성하였다 예를들어 shift+f6 (이름바꾸기) 단축키를 사용하고자 할 때에 shift + fn + f6 이 아니라 intellij 에 한해서만 shift + f6 으로 동작한다. 실제 f6의 기능을 하고 싶으면, fn + f6 버튼을 누르면 된다 문제가 있다면, 저에게 email 주시면 감사하겠습니다."
-        },
-        {
-          "path": "json/uk_macos_rdp.json",
-          "json": {
-            "title": "MacOS to RDP – British Keyboard Layout / UK Keyboard Layout",
-            "maintainers": [
-              "bameyrick"
-            ],
-            "rules": [
-              {
-                "description": "@ key"
-              },
-              {
-                "description": "\" key"
-              },
-              {
-                "description": "\\ key"
-              },
-              {
-                "description": "` key"
-              },
-              {
-                "description": "| key"
-              },
-              {
-                "description": "~ key"
-              },
-              {
-                "description": "# key (left option)"
-              },
-              {
-                "description": "# key (right option)"
-              },
-              {
-                "description": "Home key to the beginning of the sentence (Command + Left)"
-              },
-              {
-                "description": "End key to the end of the sentence (Command + Right)"
-              },
-              {
-                "description": "Option(Alt)+Tab as Switch Application (Command+Tab)"
-              },
-              {
-                "description": "Copy/Paste/Cut"
-              },
-              {
-                "description": "Alt+Left/Right to Control+Left/Right"
-              },
-              {
-                "description": "Undo"
-              },
-              {
-                "description": "Redo"
-              },
-              {
-                "description": "Select-All"
-              },
-              {
-                "description": "Save"
-              },
-              {
-                "description": "New"
-              },
-              {
-                "description": "Reload browser page Command+R to F5"
-              },
-              {
-                "description": "New Tab"
-              },
-              {
-                "description": "Find"
-              },
-              {
-                "description": "Open"
-              },
-              {
-                "description": "Close Window"
-              },
-              {
-                "description": "Fn+Space To Switch Input (Left Shift+Left Alt)"
-              },
-              {
-                "description": "Cmd+Space To Switch Input (Left Shift+Left Alt)"
-              },
-              {
-                "description": "Cmd+Space To Switch Input (Left Shift+Left Ctrl)"
-              },
-              {
-                "description": "Quit Application (Alt+F4 to Command+Q)"
-              },
-              {
-                "description": "Browser open location (Ctrl+L)"
-              },
-              {
-                "description": "Browser inspect element (Ctrl+L)"
-              },
-              {
-                "description": "Command to control (left)"
-              },
-              {
-                "description": "Command to control (right)"
-              },
-              {
-                "description": "VSCode open terminal"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/french_mac_keyboard_remote_desktop.json",
-          "extra_description_path": "extra_descriptions/french_mac_keyboard_remote_desktop.json.html",
-          "json": {
-            "title": "For French Mac Keyboard under Microsoft Remote Desktop",
-            "rules": [
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): All drawn keyboard symbols in one rule / Tous les symboles dessinés en une seule règle"
-              },
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): Swap left Cmd and Ctrl / Echange Ctrl et Cmd de gauche"
-              },
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): '6' to '§'"
-              },
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): '8' to '!'"
-              },
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): '=' to '-'"
-              },
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): '=' + Shift to '_'"
-              },
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'non_us_backslash' to '@'"
-              },
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'non_us_backslash' + shift to '#'"
-              },
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'close_bracket' + Shift to '*'"
-              },
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'close_bracket' + Alt to '€'"
-              },
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'backslash' to '`'"
-              },
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'backslash' + Shift to '£'"
-              },
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'slash' to '='"
-              },
-              {
-                "description": "French remap for Microsoft Remote Desktop (incl. beta): 'slash' + Shift to '+'"
-              }
-            ]
-          },
-          "extra_description_text": "Version 1.0 Version 1.1 : Now support Microsoft Remote Desktop 10 Schedule features: We do not have yet tools to distinguish the remote session window from those which sometimes open asking for credentials before the remote connexion is set. Beware of passwords that use symbols that are not common to the PC and Mac keyboard. You can not use the option \"Use F1, F2, etc. as standard function keys\" in a specific application yet. But as we regularly need F5 to \"update\" on Windows, my advice is to activate this option permanently. I'm afraid there will never be any change on this point. Some configurations require the use of unexpected keys: Current key to use for complex editing on Mac French keyboard # 1172 . Known troubles: When the virtual keyboard is opened in your remote Windows session, some keys may behave strangely (for example, a grave accent). MacBook users with Touch Bar may need to add these rules: Touch bar does not change to f1-f12 when I press the key fn. More information: French Mac Keyboard with Microsoft Remote Desktop App under Sierra or more recent"
-        },
-        {
-          "path": "json/tmux_prefix.json",
-          "extra_description_path": "extra_descriptions/tmux_prefix.json.html",
-          "json": {
-            "title": "Tmux Prefix (rev 3)",
-            "rules": [
-              {
-                "description": "Tmux Prefix Mode [Tab as trigger key]"
-              },
-              {
-                "description": "Tmux Prefix Mode [Fn as trigger key]"
-              },
-              {
-                "description": "Tmux Prefix Mode [caps_lock as trigger key] (rev 2)"
-              },
-              {
-                "description": "Tmux Prefix Mode [escape as trigger key]"
-              },
-              {
-                "description": "Tmux Prefix Mode [ ctrl+B as prefix ]"
-              },
-              {
-                "description": "Tmux Prefix Mode [ ctrl+A as prefix ]"
-              },
-              {
-                "description": "Tmux Prefix Mode [ ctrl+Space as prefix ]"
-              }
-            ]
-          },
-          "extra_description_text": "Tmux Prefix Mode Tmux is a terminal multiplexer that lets you switch easily between several programs in one terminal, detach them, etc. It's very useful but most key bindings require a prefix key combination (default: Ctrl+B). This mode allows you to use a simple [ Modifier + Key ] to trigger a [ Ctrl+B ] [ Key ] sequence. How to use Choose a trigger key to be used Chooose a prefix to replace (based on your tmux configuration, default is Ctrl+B) Now trigger a tmux command simply using Trigger + Key (eg: Fn+c -> Ctrl+b, c to create a new window) Note: Keys that are remapped include: a-z, 0-9, comma,slash,period,semicolon,quote,open_bracket,close_bracket"
-        },
-        {
-          "path": "json/terminal_navi.json",
-          "extra_description_path": "extra_descriptions/terminal_navi.json.html",
-          "json": {
-            "title": "Keyboard shortcuts for Terminal apps",
-            "maintainers": [
-              "marlonrichert"
-            ],
-            "rules": [
-              {
-                "description": "Keyboard shortcuts for Terminal apps"
-              }
-            ]
-          },
-          "extra_description_text": "Makes the following keyboard shortcuts work the same or similarly in both macOS and terminal apps: Shortcut Action Bash/Readline Zsh ⌘Z Undo ✅ ✅ ⇧⌘Z Redo ❌ needs bindkey '^[e' redo ⌘D Duplicate the word left of the cursor ❌ ✅ ⇧⌘D Duplicate the last word of the previous command line ✅ ✅ ⌫ Delete one character backward ✅ ✅ ⌦ or fn⌫ Delete one character forward ✅ ✅ ⌥← Go one natural word backward ✅ needs WORDCHARS='' ⌥→ Go one natural word forward ✅ needs WORDCHARS='' ⌥⌫ Cut one natural word backward ✅ needs WORDCHARS='' ⌥⌦ or ⌥fn⌫ Cut one natural word forward ✅ needs WORDCHARS='' ⌘← Go one shell word backward ✅ needs bindkey '^[^B' vi-backward-blank-word ⌘→ Go one shell word forward ✅ needs bindkey '^[^F' vi-forward-blank-word ⌘⌫ Cut one shell word backward ✅ needs zsh-edit ⌘⌦ or ⌘fn⌫ Cut one shell word forward ✅ needs zsh-edit ⌃A Go to previous line break ✅ ✅ ⌃E Go to next line break ✅ ✅ ⌃U Cut to previous line break ✅ needs bindkey '^U' backward-kill-line ⌃K Cut to next line break ✅ ✅ ⌥↑ Go to first line ✅ first line of history ✅ first line of buffer or, if already there, of history ⌥↓ Go to last line ✅ last line of history ✅ last line of buffer or, if already there, of history"
-        },
-        {
-          "path": "json/launch_new_Chrome_or_iTerm2_windows.json",
-          "extra_description_path": "extra_descriptions/launch_new_Chrome_or_iTerm2_windows.json.html",
-          "json": {
-            "title": "Launch new Chrome or iTerm2 windows via keybindings",
-            "rules": [
-              {
-                "description": "left control + left shift + ` (backtick) - launches a new iTerm2 window with the default profile"
-              },
-              {
-                "description": "left control + left shift + 1 - launches a new Google Chrome window"
-              }
-            ]
-          },
-          "extra_description_text": "This keybinding is set up to launch new windows of running applications, rather than launching applications themselves. (Launching a running application only brings it to the foreground). This is meant to mimic the launcher keybindings available in Ubuntu."
-        },
-        {
-          "path": "json/launchapp_catalina.json",
-          "extra_description_path": "extra_descriptions/launchapp_catalina.json.html",
-          "json": {
-            "title": "Launch apps",
-            "rules": [
-              {
-                "description": "Launch apps by left control & option+letters."
-              }
-            ]
-          },
-          "extra_description_text": "updated paths to match new locations in Catalina left control&option + a: Activity Monitor left control&option + d: Dictionary left control&option + e: VSCode left control&option + f: Finder left control&option + s: Safari left control&option + t: iTerm"
-        },
-        {
-          "path": "json/xcode.json",
-          "json": {
-            "title": "Xcode",
-            "rules": [
-              {
-                "description": "Xcode Visual Studio style (Run, Stop, Build, Step, Breakpoint)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/vscode.json",
-          "extra_description_path": "extra_descriptions/vscode.json.html",
-          "json": {
-            "title": "Visual Studio Code",
-            "rules": [
-              {
-                "description": "Change left_shift to cmd+k if pressed alone in VSCode"
-              },
-              {
-                "description": "Change mouse button 4/5 to navigate back/forward in VSCode"
-              }
-            ]
-          },
-          "extra_description_text": "Double-press Shift to Go To Anything Enable the rule \"Change left_shift to cmd+k if pressed alone in VSCode\", then edit your keyboard shortcuts in VSCode and bind the command workbench.action.quickOpen to the chord ⌘K ⌘K."
-        },
-        {
-          "path": "json/safari.json",
-          "json": {
-            "title": "Don't exit fullscreen when pressing ESC in Safari",
-            "rules": [
-              {
-                "description": "Remap ESC to Option-ESC in Safari only"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/safari_ignore_command_q.json",
-          "json": {
-            "title": "Don't exit when pressing LCommand + q in Safari (RCommand + q still works)",
-            "rules": [
-              {
-                "description": "Remap LCommand + q to q in Safari only"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/virtual_machine.json",
-          "json": {
-            "title": "Virtual Machine and Remote Desktop (Microsoft or other)",
-            "rules": [
-              {
-                "description": "Swap left command and control in virtual machine/remote desktop"
-              },
-              {
-                "description": "Swap right command and control in virtual machine/remote desktop"
-              },
-              {
-                "description": "Use standard function keys in virtual machine/remote desktop"
-              },
-              {
-                "description": "Press Fn + function keys to use special features in virtual machine/remote desktop"
-              },
-              {
-                "description": "Swap >/< and °/§ in virtual machine/remote desktop"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/amethyst.json",
-          "json": {
-            "title": "Amethyst Mode",
-            "rules": [
-              {
-                "description": "Trigger Amethyst Mode/Amethyst Second Mode with 9/0"
-              },
-              {
-                "description": "9+8 cycle layout forward 9+* backward"
-              },
-              {
-                "description": "9+q/w shrink expand main pane"
-              },
-              {
-                "description": "9+J/j move focuse clockwise / counter clockwise"
-              },
-              {
-                "description": "90+J/j swap focused window clockwise / counter clockwise"
-              },
-              {
-                "description": "90+8/* swap focused window clockwise / counter clockwise screen"
-              },
-              {
-                "description": "9+ui/UI focus screen 12 / throw focus window to screen 12"
-              },
-              {
-                "description": "9+zxc/ZXC focus screen 123 / throw focus window to screen 123"
-              },
-              {
-                "description": "9+t toggle flot for current window"
-              },
-              {
-                "description": "9+asdf select tall/wide/column/fullscren layout"
-              },
-              {
-                "description": "Amethyst Mode All in one"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/amethyst_left_right.json",
-          "json": {
-            "title": "Amethyst: Shift + Option + h/l to ctrl + arrow keys",
-            "rules": [
-              {
-                "description": "Change Shift + Option + h to Ctrl + left_arrow"
-              },
-              {
-                "description": "Change Shift + Option + l to Ctrl + right_arrow"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/finder.json",
-          "json": {
-            "title": "Finder",
-            "rules": [
-              {
-                "description": "Use Return as Open"
-              },
-              {
-                "description": "Use Return as Open and Use Fn+Return as Rename"
-              },
-              {
-                "description": "Use F2 as Rename"
-              },
-              {
-                "description": "Use Delete as Move to Trash"
-              },
-              {
-                "description": "Use Fn+Delete as Move to Trash"
-              },
-              {
-                "description": "Use Backspace as Go to Previous Folder"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/Photoshop_Windows_keymaps.json",
-          "json": {
-            "title": "Adobe Photoshop",
-            "rules": [
-              {
-                "description": "PC-Style control option and command"
-              },
-              {
-                "description": "option + z/y to undo/redo"
-              },
-              {
-                "description": "F1 to creat new layer"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/vim_style_escape.json",
-          "json": {
-            "title": "Vim style escape key mapping",
-            "rules": [
-              {
-                "description": "Map ctrl + [ to escape"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/vim_buffer_switch.json",
-          "json": {
-            "title": "Vim Ctrl+6 to Ctrl+Shift+6 for buffer switching",
-            "rules": [
-              {
-                "description": "Map ctrl + 6 to ctrl + shift + 6"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/sketch-shortcut.json",
-          "extra_description_path": "extra_descriptions/sketch-shortcut.json.html",
-          "json": {
-            "title": "Sketch Shortcut",
-            "rules": [
-              {
-                "description": "Post spacebar to Command+Shift+Ctrl if not press alone in Sketch app."
-              },
-              {
-                "description": "Use spacebar+; and spacebar+' switch artboard in Sketch app. (Should be used with previous rule and put under it)"
-              }
-            ]
-          },
-          "extra_description_text": "Usage The First rule change the spacebar to the Command+Shift+Ctrl combination, and only effected in the sketch app. You can custom the sketch shortcuts in the system preference with key combination like Command+Shift+Ctrl+A, and then press Spacebar with key A to use the shortcut. Suggested shortcut preference: (@tankxu's sketch shortcut) The Second rule is useful for HHKB user. Sketch offer the shortcut Fn+Arrow Left and Fn+Arrow Right to switch the artboard, but HHKB can't post these key combination. And the artboard switch function aren't be listed in the application's menu, so it can't be customed shortcut in the system preference. The second rule can solve this problem. It can make the keyboard post Fn+Arrow Left key combination when the Spacebar pressed with key semicolon and post Fn+Arrow Right key combination when the Spacebar pressed with key quote, Now you can use spcebar to switch the artboard. The second rule shoud be used with the first rule, and it need to be putted under the fisrt rule in the \"Enable rules\" list."
-        },
-        {
-          "path": "json/figma-shortcut.json",
-          "extra_description_path": "extra_descriptions/figma-shortcut.json.html",
-          "json": {
-            "title": "Figma Shortcut",
-            "rules": [
-              {
-                "description": "Post spacebar to Command+Shift+Ctrl if not press alone in Figma app."
-              }
-            ]
-          },
-          "extra_description_text": "Figma version of Sketch shortcut created by @tankxu."
-        },
-        {
-          "path": "json/option_tab.json",
-          "json": {
-            "title": "Use Option + Number to Switch Tabs in Chrome, Brave & Firefox",
-            "rules": [
-              {
-                "description": "Use Option + Number to Switch Tabs in Chrome, Brave & Firefox"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/alacritty.json",
-          "json": {
-            "title": "Map Option to soft-meta for Alacritty",
-            "rules": [
-              {
-                "description": "Map left_option to soft-meta for Alacritty"
-              },
-              {
-                "description": "Map right_option to soft-meta for Alacritty"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/warp.json",
-          "json": {
-            "title": "Map Option to soft-meta for Warp",
-            "rules": [
-              {
-                "description": "Map left_option to soft-meta for Warp"
-              },
-              {
-                "description": "Map right_option to soft-meta for Warp"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/aquaskk.json",
-          "json": {
-            "title": "AquaSKK",
-            "rules": [
-              {
-                "description": "AquaSKK for JetBrains"
-              },
-              {
-                "description": "AquaSKK for Terminal/iTerm2"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/vnc_swap_left_cmd_ctrl.json",
-          "json": {
-            "title": "CTRL/CMD Key Swap",
-            "rules": [
-              {
-                "description": "swap left control/command keys for vncviewer"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/jetbrains_osx_mimics_pc.json",
-          "extra_description_path": "extra_descriptions/jetbrains_osx_mimics_pc.json.html",
-          "json": {
-            "title": "Jetbrains matches Windows",
-            "rules": [
-              {
-                "description": "Command -> Alt in Jetbrains Rider"
-              },
-              {
-                "description": "Alt -> Ctrl in Jetbrains Rider"
-              },
-              {
-                "description": "Ctrl -> Gui in Jetbrains Rider"
-              },
-              {
-                "description": "Ctrl -> Gui in Jetbrains Rider"
-              }
-            ]
-          },
-          "extra_description_text": "Remap Control, Option, and Command on OSX to mimic the PC layout when using Jetbrains products. Sharing settings via Jetbrains Account Sync and Settings Repositories results in a more intuitive layout. command: alt option: ctrl control: command command-tab: command-tab (to preserve window swapping)"
-        },
-        {
-          "path": "json/spectacle_fn_wasdf.json",
-          "extra_description_path": "extra_descriptions/spectacle_fn_wasdf.json.html",
-          "json": {
-            "title": "Jetbrains matches Windows",
-            "rules": [
-              {
-                "description": "Spectacle fn WASDF"
-              }
-            ]
-          },
-          "extra_description_text": "When using Spectacle on a Macbook, hitting fn and WASD of F will move the current window. Fast window movement with Spectacle even when overriding modifiers in other apps. fn-w: snap current window up fn-a: snap current window left fn-s: snap current window down fn-d: snap current window right fn-f: make current window fullscreen"
-        },
-        {
-          "path": "json/stadia_cmd.json",
-          "extra_description_path": "extra_descriptions/stadia_cmd.html",
-          "json": {
-            "title": "Alt to Command Key in Stadia",
-            "rules": [
-              {
-                "description": "Use CMD key as alt for Google Chrome Stadia gaming - requires install of Stadia app on Macbook"
-              }
-            ]
-          },
-          "extra_description_text": "Use the Mac Command key as ALT for Google Chrome Stadia gaming. Requires installation of the Stadia chrome app on Macbook."
-        },
-        {
-          "path": "json/wow_cmd.json",
-          "extra_description_path": "extra_descriptions/wow_cmd.html",
-          "json": {
-            "title": "Command Key to Control in World of Warcraft",
-            "rules": [
-              {
-                "description": "Use the left CMD key as ctrl for World of Warcraft on Macbook"
-              }
-            ]
-          },
-          "extra_description_text": "Use the Mac Command key as CTRL for World of Warcraft."
-        },
-        {
-          "path": "json/swap_ctrl_and_cmd_for_trader_workstation.json",
-          "json": {
-            "title": "CTRL <=> CMD in Trader Workstation",
-            "rules": [
-              {
-                "description": "Swap CTRL and command in Trader Workstation to fix copy-paste issues"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/roon.json",
-          "json": {
-            "title": "Roon media keys",
-            "maintainers": [
-              "torarnek"
-            ],
-            "rules": [
-              {
-                "description": "Roon volume down media key"
-              },
-              {
-                "description": "Roon volume up media key"
-              },
-              {
-                "description": "Roon toggle mute media key"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/notion_cmd_p_to_cmd_k.json",
-          "json": {
-            "title": "Swap Cmd+K and Cmd+P in Notion",
-            "rules": [
-              {
-                "description": "Change Left Cmd+K to Left Cmd+P in Notion"
-              },
-              {
-                "description": "Change Right Cmd+K to Right Cmd+P in Notion"
-              },
-              {
-                "description": "Change Left Cmd+P to Left Cmd+K in Notion"
-              },
-              {
-                "description": "Change Right Cmd+P to Right Cmd+K in Notion"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/panic-nova-home-and-end.json",
-          "extra_description_path": "extra_descriptions/panic-nova-home-and-end.json.html",
-          "json": {
-            "title": "Panic Nova: Home and End",
-            "rules": [
-              {
-                "description": "Panic Nova: Allow Home and End to navigate along a line."
-              },
-              {
-                "description": "Panic Nova: Allow Shift+Home and Shift+End to select text along a line."
-              }
-            ]
-          },
-          "extra_description_text": "Home and End key modifier for Panic's Nova editor. Changes the Home and End keys so they can navigate and select text along a single line instead of the top and bottom of a file."
-        },
-        {
-          "path": "json/citrix_ctrl_alt_win.json",
-          "extra_description_path": "extra_descriptions/citrix.html",
-          "json": {
-            "title": "Citrix Receiver/Workspace modifiers for Ctrl, Alt, Windows order",
-            "rules": [
-              {
-                "description": "In Citrix, add fn modifier to Tab so it is forwarded"
-              },
-              {
-                "description": "In Citrix, change left_option to Alt key via \"⌘⌥ Command (left)-Option\""
-              },
-              {
-                "description": "In Citrix, change right_option to Alt key via \"⌘⌥ Command (left)-Option\""
-              },
-              {
-                "description": "In Citrix, change left_command as well via \"Send Windows logo key using ⌘ Command (right)\""
-              }
-            ]
-          },
-          "extra_description_text": "Map Apple modifiers (Ctrl, Option, Command) to Windows modifiers (Ctrl, Alt, Windows or Ctrl, Windows, Alt) in Citrix Receiver & Workspace, with working Alt+Tab and Windows key shortcuts. For whatever reason, Citrix Receiver/Workspace MacOS client has only limited settings to map Alt and Windows keys, motivating the need for this modification. Example Citrix Workspace (2005) settings that work with this configuration: References The goods on offer Configure shortcuts in the client MacOS Windows Citrix Workspace users have another option Original Gist with this modification"
-        },
-        {
-          "path": "json/citrix_ctrl_win_alt.json",
-          "extra_description_path": "extra_descriptions/citrix.html",
-          "json": {
-            "title": "Citrix Receiver/Workspace modifiers for Ctrl, Windows, Alt order",
-            "rules": [
-              {
-                "description": "In Citrix, add fn modifier to Tab so it is forwarded"
-              },
-              {
-                "description": "In Citrix, change left_command to Alt via \"⌘⌥ Command (left)-Option\""
-              },
-              {
-                "description": "In Citrix, change right_command to Alt via \"⌘⌥ Command (left)-Option\""
-              },
-              {
-                "description": "In Citrix, change left_option to Windows logo key via \"Send Windows logo key using ⌘ Command (right)\""
-              },
-              {
-                "description": "In Citrix, change right_option to Windows logo key via \"Send Windows logo key using ⌘ Command (right)\""
-              }
-            ]
-          },
-          "extra_description_text": "Map Apple modifiers (Ctrl, Option, Command) to Windows modifiers (Ctrl, Alt, Windows or Ctrl, Windows, Alt) in Citrix Receiver & Workspace, with working Alt+Tab and Windows key shortcuts. For whatever reason, Citrix Receiver/Workspace MacOS client has only limited settings to map Alt and Windows keys, motivating the need for this modification. Example Citrix Workspace (2005) settings that work with this configuration: References The goods on offer Configure shortcuts in the client MacOS Windows Citrix Workspace users have another option Original Gist with this modification"
-        },
-        {
-          "path": "json/control-to-command-in-office.json",
-          "json": {
-            "title": "Use left control key as command key in Microsoft Office",
-            "rules": [
-              {
-                "description": "Use left control key as command key in Microsoft Office (rev 1)"
-              },
-              {
-                "description": "Use right control key as command key in Microsoft Office (rev 1)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/preview-vim.json",
-          "extra_description_path": "extra_descriptions/preview-vim.html",
-          "json": {
-            "title": "vim / zathura bindings for Preview.app",
-            "rules": [
-              {
-                "description": "vim-preview: map jk (down/up)"
-              },
-              {
-                "description": "vim preview: map JK (previous / next page)"
-              },
-              {
-                "description": "vim-preview: map hl (left / right)"
-              },
-              {
-                "description": "vim-preview: map HL (previous / next position)"
-              },
-              {
-                "description": "vim-preview: map zoom (9/0/-/=)"
-              },
-              {
-                "description": "vim-preview: map gG (go to first / last page)"
-              }
-            ]
-          },
-          "extra_description_text": "vim-preview This modification provides zathura/vim-like functionality to Preview.app. Key binds currently implemented: Movement Left => h Right => l Down => j Up => k Previous position => H Next position => L Previous page => K Next page => J First page => g Last page => G Zoom Zoom In => = Zoom Out => - Actual size => 0 Zoom to fit => 9 The main repository is hosted on Github. Contributions are welcome!"
-        },
-        {
-          "path": "json/swap_ctrl_and_cmd_except_in_terminal.json",
-          "json": {
-            "title": "Swap left-ctrl and command except in Terminal",
-            "rules": [
-              {
-                "description": "Swap left-ctrl and command except in Terminal"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/swap_fn_and_cmd_except_in_terminal.json",
-          "json": {
-            "title": "Swap FN and left_command except in Terminals",
-            "rules": [
-              {
-                "description": "Swap FN and left command except in Terminals"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/KeynoteAndIllustrator.json",
-          "json": {
-            "title": "Mouse 4,5 -> Keynote Zoom",
-            "maintainers": [
-              "juonic"
-            ],
-            "rules": [
-              {
-                "description": "Mouse button 4 to zoom out"
-              },
-              {
-                "description": "Mouse button 5 to zoom in"
-              },
-              {
-                "description": "Keynote Group to CTR+G"
-              },
-              {
-                "description": "Keynote UnGroup to CTR+Shift+G"
-              },
-              {
-                "description": "Keynote Layer Top"
-              },
-              {
-                "description": "Keynote Layer Bottom"
-              },
-              {
-                "description": "Illustrator Layer Bottom"
-              },
-              {
-                "description": "Illustrator Layer Top"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/apple_mail_shortcuts.json",
-          "json": {
-            "title": "Apple Mail shortcuts",
-            "rules": [
-              {
-                "description": "⌘-enter to send in Apple Mail"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/slack_shortcuts.json",
-          "json": {
-            "title": "Slack shortcuts",
-            "rules": [
-              {
-                "description": "⌘-k to hyperlink in Slack"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/eject_to_activate_and_toggle_mic_mute_ms_teams.json",
-          "json": {
-            "title": "Toggle mic mute in MS Teams with the Eject key",
-            "rules": [
-              {
-                "description": "Maps Eject to ⌘⇧M in Teams"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/shift-enter-fish-shell-autocomplete.json",
-          "json": {
-            "title": "Execute Fish shell autocomplete",
-            "rules": [
-              {
-                "description": "Left Shift + Enter maps to Right Arrow > Enter, which will execute the suggested command in Fish shell"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/clickup.json",
-          "json": {
-            "title": "ClickUp shortcuts",
-            "rules": [
-              {
-                "description": "⌘-w to close internal windows in ClickUp"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/dictation-to-mutify.json",
-          "json": {
-            "title": "Dictation to Mutify",
-            "rules": [
-              {
-                "description": "Dictation key (F5 action) to trigger Mutify mute/unmute (⇧⌘0) action. Most useful for Macs without Touchbar."
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/browser-rshift-enter-disable.json",
-          "json": {
-            "title": "Don't send shift when accidentally pressing right shift + enter in web browsers (Lshift + enter still works)",
-            "rules": [
-              {
-                "description": "Remap Rshift + enter to enter in web browsers only"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/jetbrains_rider_fn.json",
-          "json": {
-            "title": "Function keys work as Fn keys (instead of media keys) for JetBrainsRider",
-            "rules": [
-              {
-                "description": "JetBrains Rider Function keys work as Fn keys"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/shottr_map_cmd_c_to_copy.json",
-          "json": {
-            "title": "Shottr — Cmd+c to copy screenshot to clipboard",
-            "rules": [
-              {
-                "description": "Remap Cmd+shift+c to Cmd+c"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/finder_improved_navigation.json",
-          "json": {
-            "title": "Finder improved Navigation",
-            "rules": [
-              {
-                "description": "Use F2 as Rename and set onedit"
-              },
-              {
-                "description": "Use Backspace as Go to Previous Folder in Finder if not onedit"
-              },
-              {
-                "description": "Use Return as Open if not renaming file"
-              },
-              {
-                "description": "Use Return to finish renaming when onedit=1"
-              },
-              {
-                "description": "Use Esc to finish renaming when onedit=1"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/f5_ms_teams_zoom_mic_mute.json",
-          "extra_description_path": "extra_descriptions/f5_ms_teams_zoom_mic_mute.html",
-          "json": {
-            "title": "Toggle mic mute in MS Teams or ZOOM with the f5 key",
-            "rules": [
-              {
-                "description": "Maps F5 to ⌘⇧M in MS Teams or ⌘⇧A to ZOOM. F5 has an MIC symbol on recent MacOS keyboards."
-              }
-            ]
-          },
-          "extra_description_text": "Mute MS Teams or ZOOM with F5 use F5 to toggle MUTE ether on MS Teams or ZOOM Motivation After trying to use the eject key version of this cmdline execute i found that my M1 Macbook Pro has a Mic symbol on the f5 key, so i decided to try to use that key to mute in my daily used videocall applications instead. how to use Use karabiner-elements Function keys tab to map the 'dictate' key to use 'f5' instead if you use the function keys. Install this extension under tab 'Complex modifications'. During a Call on ZOOM or MS Teams the mute and unmute should work even in background. It searches in active processes and if one is found it executes the corresponding ⌘⇧M for Teams or ⌘⇧A for ZOOM. Credits This rule was based on work done by \"Toggle mic mute in MS Teams with the Eject key\" and the Github PR #975 \"capslock_to_mute_teams_zoom.json\"."
-        },
-        {
-          "path": "json/music_keyboard_controls.json",
-          "extra_description_path": "extra_descriptions/music_keyboard_controls.html",
-          "json": {
-            "title": "Basic Music app keyboard control",
-            "rules": [
-              {
-                "description": "Uses Ctrl shortcuts to explicitly play/pause/prev/next Music app."
-              }
-            ]
-          },
-          "extra_description_text": "Tired of Safari or other apps stealing the focus of your shiny multimedia keys. Are you playing or pausing the youtube video when you actually want to pause the Music app in the background? Use these shortcuts instead to control the Music app explicitly to avoid mistakes! The keyboard shortcuts are based on old defaults from SizzlingKeys which is not maintained any more and was only for iTunes rather than the new Apple Music app abomination. These shortcuts are most likely going to clash with something else you have, unless you have kept upgrading your mac from those times and never updated the shortcuts. So just copy the JSON and change the bindings to your liking. The three default keyboard bindings: Ctrl+Space: pauses or plays back the current Music tune. If the Music app is closed the app will be launched, but for whatever reason it won't start playing until you focus it and play something manually or repeat the keyboard shortcut. 🍎 peak software quality. Command+option+cursor right: Skips to the next song. Command+option+cursor left: Skips to the previous song. All the magic is done through shell calls to osascript. You can find more information about available iTunes/Music commands to use in osascript at websites like Doug's AppleScripts."
-        },
-        {
-          "path": "json/ms_teams_ptt.json",
-          "json": {
-            "title": "MS Teams PTT",
-            "rules": [
-              {
-                "description": "Hold spacebar to talk on MS Teams"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/parallels_right_cmd_to_insert.json",
-          "json": {
-            "title": "Right command is insert in Parallels (for JAWS, NVDA, Narrator)",
-            "rules": [
-              {
-                "description": "Right command is insert in Parallels"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/f12-show-hide-iterm.json",
-          "json": {
-            "title": "Use F12 to show/hide iTerm (Quake-style \"instant terminal\")",
-            "rules": [
-              {
-                "description": "Launch/show iTerm if it is not in foreground"
-              },
-              {
-                "description": "Minimize iTerm if it is in foreground"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/fn+cmd_to_eisu_and_kana.json",
-          "json": {
-            "title": "Change fn + left_/right_command to 英数/かな (japanese_eisuu/kana)",
-            "rules": [
-              {
-                "description": "Change fn + left_command to japanese_eisuu"
-              },
-              {
-                "description": "Change fn + right_command to japanese_kana"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/tradingview_ctrl_n.json",
-          "json": {
-            "title": "TradingView shortcut (Ctrl + N)",
-            "rules": [
-              {
-                "description": "Ctrl + N: New Chart -> down_arrow"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/logitech_mx_vertical_back_forward_with_vs_code.json",
-          "json": {
-            "title": "Back/Forward for Logitech MX Vertical in VS Code & macOS",
-            "rules": [
-              {
-                "description": "Change mouse button 4/5 to navigate back/forward in VSCode"
-              },
-              {
-                "description": "When VS Code is not active, use standard browser back/forward commands"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/ncspot.json",
-          "extra_description_path": "extra_descriptions/ncspot.json.html",
-          "json": {
-            "title": "NCSPOT - control Spotify client for the terminal with media keys via netcat",
-            "maintainers": [
-              "n3f"
-            ],
-            "rules": [
-              {
-                "description": "NCSPOT::All"
-              },
-              {
-                "description": "NCSPOT::Play/Pause"
-              },
-              {
-                "description": "NCSPOT::Next"
-              },
-              {
-                "description": "NCSPOT::Previous"
-              },
-              {
-                "description": "NCSPOT::Volume Up"
-              },
-              {
-                "description": "NCSPOT::Volume Down"
-              }
-            ]
-          },
-          "extra_description_text": "Allows Karabiner-Elements to control the ncspot Spotify client for the terminal via netcat. Currently this needs to be enabled manually with a CLI command (allows quickly turning it off/on): '/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --set-variables '{\"ncspot\":1}'. There is also a workaround applied for changing Fn+F8 to be play/pause (because that's how I have my keyboard set up - the default setup would use just F8). See the generation script to easily modify this."
-        },
-        {
-          "path": "json/powerpoint.json",
-          "extra_description_path": "extra_descriptions/powerpoint.json.html",
-          "json": {
-            "title": "Improved PowerPoint Keyboard Shortcuts",
-            "rules": [
-              {
-                "description": "(CTRL + e) is (⌘ + Right Arrow)"
-              }
-            ]
-          },
-          "extra_description_text": "Description While CTRL + a already works as \"go to the beginning of the line\" in PowerPoint by default, Microsoft decided that CTRL + e will be used to change text alignment of the current line to \"center\", which is unhelpful. With this complex mod, CTRL + e will now \"go to the end of the line\". That means both key combinations serve their Emacs-inspired purpose, balance is restored, and all's good with the world."
         }
       ]
     },
@@ -7566,804 +8364,6 @@
               },
               {
                 "description": "F5 to ⇧⌘5 (screen record menu)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        }
-      ]
-    },
-    {
-      "name": "OS Functionality",
-      "id": "os-functionality",
-      "files": [
-        {
-          "path": "json/mac_osx.json",
-          "extra_description_path": "extra_descriptions/mac_osx.html",
-          "json": {
-            "title": "Mac OSX: Essential Keybindings",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "Hyper Key: Right Option → left shift + left option + left command (⌃⇧⌥⌘)"
-              },
-              {
-                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
-              },
-              {
-                "description": "Hyper Key: Tab (held down) → left control + left command (⌃⌘)"
-              },
-              {
-                "description": "Mac OSX: double-tap right shift key → caps lock toggle"
-              },
-              {
-                "description": "Mac OSX: left cmd + double-tap q → close application"
-              },
-              {
-                "description": "Mac OSX: disable cmd + h to prevent minimising an application window"
-              },
-              {
-                "description": "Mac OSX: disable cmd + option + h + m to prevent minimising all windows"
-              }
-            ]
-          },
-          "extra_description_text": "Hyper Keys Includes 3 hyper keys for maximum flexibility. Right Option Maps to left shift + left option + left command (⌃⇧⌥⌘) Caps Lock Maps to left control + left shift + right command (⌃⇧⌘) The Caps lock is disabled. Tab (held down) Maps to left control + left command (⌃⌘) Toggle Caps Lock Since the Caps Lock key is set up as a hyper key, double-tap the right shift key to toggle Caps lock. Double-tap right shift caps lock toggle Closing Applications Since it's easy to accidentally hit CMD + Q and close an application, I've changed this so that you need to hit CMD + q, q to close an application. cmd + double-tap q close application Disable minimising windows on Mac OSX. Minimising windows on OSX is annoying as the windows disappear and leads to unnecessary friction to find the windows and open them again. cmd + h (minimise the active application window) Keybinding is disabled cmd + option + h + m (minimise all application windows) Keybinding is disabled"
-        },
-        {
-          "path": "json/mac_osx_double_tap_q_close_application.json",
-          "json": {
-            "title": "Mac OSX: left cmd + double-tap q → close application",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "Mac OSX: left cmd + double-tap q → close application"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/mac_osx_disable_minimising_windows.json",
-          "extra_description_path": "extra_descriptions/mac_osx_disable_minimising_windows.html",
-          "json": {
-            "title": "Mac OSX: disable minimising windows",
-            "maintainers": [
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "Mac OSX: disable cmd + h to prevent minimising an application window"
-              },
-              {
-                "description": "Mac OSX: disable cmd + option + h + m to prevent minimising all windows"
-              }
-            ]
-          },
-          "extra_description_text": "Disable minimising windows on Mac OSX. Minimising windows on OSX is annoying as the windows disappear and leads to unnecessary friction to find the windows and open them again. cmd + h (minimise the active application window) Keybinding is disabled cmd + option + h + m (minimise all application windows) Keybinding is disabled"
-        },
-        {
-          "path": "json/function_keys_supported_apps.json",
-          "extra_description_path": "extra_descriptions/function_keys_supported_apps.html",
-          "json": {
-            "title": "Mac OSX: Use Function Keys in Supported Applications, else use Media Keys",
-            "maintainers": [
-              "jiarui-z",
-              "thecarlo"
-            ],
-            "rules": [
-              {
-                "description": "Mac OSX: Use Function Keys in Supported Apps, else use Media Keys"
-              }
-            ]
-          },
-          "extra_description_text": "Use Function Keys in supported applications, else use Media Keys These keybindings ensure that F keys work as intended in supported applications. In all other applications, the F keys will work as media keys. Current list of supported applications where function keys will work as intended: VS Code Jetbrains Goland Jetbrains Rider Jetbrains PyCharm Jetbrains IntelliJ IDEA Jetbrains PhpStorm Jetbrains CLion Jetbrains WebStorm Jetbrains RubyMine Jetbrains Datagrip Jetbrains RustRover Eclipse XCode iTerm2 Terminal Adobe Photoshop Adobe Premiere Pro Adobe Illustrator Adobe Audition Adobe After Effects Davinci Resolve Textmate"
-        },
-        {
-          "path": "json/mwit-taskbar-number-launch-app.json",
-          "json": {
-            "title": "Launch MacOS apps, like on windows + number",
-            "rules": [
-              {
-                "description": "Launch apps by (left) option + number."
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/F4-desktop.json",
-          "json": {
-            "title": "Show Desktop with F4",
-            "rules": [
-              {
-                "description": "Show Desktop with F4"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/search_in_dict.json",
-          "json": {
-            "title": "Search in Dictionary.app",
-            "author": "Ramiro Garcia (https://github.com/ranemirusG)",
-            "rules": [
-              {
-                "description": "Use LEFT OPTION + s to search copied word in Dictionary.app"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/printscreen_command+shift+5.json",
-          "json": {
-            "title": "<Macos> Simple PrintScreen to Command+Shift+5",
-            "rules": [
-              {
-                "description": "Print Screen to Command+Shift+5"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/show_desktop.json",
-          "json": {
-            "title": "show desktop",
-            "rules": [
-              {
-                "description": "Command + D to Command + Option + H + M"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/CapsLockToSearch.json",
-          "json": {
-            "title": "Caps Lock to Chromebook Search Key",
-            "rules": [
-              {
-                "description": "Caps Lock to Chromebook Search Key"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/cmd_del_to_cmd_bksp.json",
-          "json": {
-            "title": "Change Command-Delete to Command-Backspace",
-            "rules": [
-              {
-                "description": "Change Command-Delete to Command-Backspace"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/mouse_motion_to_scroll.json",
-          "json": {
-            "title": "Change mouse motion to scroll (rev 3)",
-            "maintainers": [
-              "tekezo"
-            ],
-            "rules": [
-              {
-                "description": "Change button3 + mouse motion to scroll wheel (rev 1)",
-                "available_since": "12.3.0"
-              },
-              {
-                "description": "Change button4 + mouse motion to scroll wheel (rev 1)",
-                "available_since": "12.3.0"
-              },
-              {
-                "description": "Change button5 + mouse motion to scroll wheel (rev 1)",
-                "available_since": "12.3.0"
-              },
-              {
-                "description": "Change control + mouse motion to scroll wheel (rev 1)",
-                "available_since": "12.3.0"
-              },
-              {
-                "description": "Change fn + mouse motion to scroll wheel (rev 1)",
-                "available_since": "12.3.0"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/launch_apps.json",
-          "extra_description_path": "extra_descriptions/launch_apps.json.html",
-          "json": {
-            "title": "Launch apps",
-            "rules": [
-              {
-                "description": "Launch apps by right shift+letters."
-              }
-            ]
-          },
-          "extra_description_text": "right shift + a: Activity Monitor right shift + d: Dictionary right shift + e: Text Edit right shift + f: Finder right shift + s: Safari right shift + t: Terminal"
-        },
-        {
-          "path": "json/application_window_tab_switch_with_right_cmd_hjklsemiquote.json",
-          "json": {
-            "title": "Use right_command+h/j/k/l/;/' to switch current tab/window/application",
-            "rules": [
-              {
-                "description": "Use right_command+;/' to cycle through running applications (like command+tab)."
-              },
-              {
-                "description": "Use right_command+h/l to switch tabs in an application."
-              },
-              {
-                "description": "Use right_command+j/k to switch windows of the foreground application ."
-              },
-              {
-                "description": "Disable left_command+(tab/shift+tab) (to retrain reflexes using the other manipulators)."
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/anti_rsi_app_switch.json",
-          "json": {
-            "title": "Anti-RSI App Switch (LCMD+Space to LCMD+Tab, LOpt+Space to LCMD+` and reverse +LShift or + LControl).",
-            "rules": [
-              {
-                "description": "Anti-RSI App Switch (LCMD+Space to LCMD+Tab and reverse +LShift)."
-              },
-              {
-                "description": "Anti-RSI App Switch (LOpt+Space to LCMD+` and reverse +LShift)."
-              },
-              {
-                "description": "Anti-RSI App Switch (LCMD+Space to LCMD+Tab and reverse +LControl)."
-              },
-              {
-                "description": "Anti-RSI App Switch (LOpt+Space to LCMD+` and reverse +LControl)."
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/fine_volume_control.json",
-          "json": {
-            "title": "Fine volume control (rev 2)",
-            "rules": [
-              {
-                "description": "Map volume controls to fine volume controls (Option + Shift + Volume)"
-              },
-              {
-                "description": "Map fn + volume controls to fine volume controls (Option + Shift + Volume)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/fine_brightness_control.json",
-          "json": {
-            "title": "Fine Brightness Control",
-            "rules": [
-              {
-                "description": "Map brightness controls to fine brightness controls (Option + Shift + Brightness)"
-              },
-              {
-                "description": "Map fn + brightness controls to fine brightness controls (Option + Shift + Brightness)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/command_q.json",
-          "json": {
-            "title": "Prevent unintended command-q (rev 2)",
-            "rules": [
-              {
-                "description": "Quit application by pressing command-q twice"
-              },
-              {
-                "description": "Quit application by holding command-q"
-              },
-              {
-                "description": "Quit Safari by pressing command-q twice"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/mouse_keys_ambi.json",
-          "extra_description_path": "extra_descriptions/mouse_keys_ambi.json.html",
-          "json": {
-            "title": "Mouse keys ambidextrous",
-            "maintainers": [
-              "k--chow"
-            ],
-            "rules": [
-              {
-                "description": "Mouse keys Ambidextrous"
-              }
-            ]
-          },
-          "extra_description_text": "Mouse keys Ambidextrous Replace the mouse with your keyboard, with either or both hands. With fast scrolling, and two speed settings. Hold the left_control key in tandem with W,A,S,D (left hand) or I,J,K,L(right hand) for mouse movement. Hold shift + left_control for 4x faster mouse movement (max speed). Fn + W,A,S,D (left hand) or I,J,K,L(right hand)for scrolling. Key bindings: Mouse motion: left_control + W,A,S,D or I, J, K, L Fast mouse motion: left_control + shift + W,A,S,D or I, J, K, L Mouse left click: left_control + Q or U Mouse right click: left_control + E or O Mouse scroll: Fn + W,A,S,D or I, J, K, L"
-        },
-        {
-          "path": "json/mouse_keys_simple.json",
-          "extra_description_path": "extra_descriptions/mouse_keys_simple.json.html",
-          "json": {
-            "title": "Mouse keys (simple) (rev 1)",
-            "maintainers": [
-              "tekezo"
-            ],
-            "rules": [
-              {
-                "description": "Mouse keys (simple) (rev 1)"
-              }
-            ]
-          },
-          "extra_description_text": "Mouse keys (simple) right_shift + w: mouse up right_shift + a: mouse left right_shift + s: mouse down right_shift + d: mouse right right_shift + f: left click right_shift + g: right click right_shift + r: scroll up right_shift + v: scroll down"
-        },
-        {
-          "path": "json/mouse_keys_full.json",
-          "extra_description_path": "extra_descriptions/mouse_keys_full.json.html",
-          "json": {
-            "title": "Mouse keys (full) (rev 4)",
-            "rules": [
-              {
-                "description": "Mouse keys (full) (rev 4)"
-              }
-            ]
-          },
-          "extra_description_text": "Mouse keys (full) You can enter mouse keys mode by \"right_command + m\". Mouse keys mode is active while you press the right_command key. Example: Press the right_command key Press the m key (enter mouse keys mode) Release the m key Press the j key (mouse down) Press the l key (mouse right) Release the right_command key (leave mouse keys mode) Key bindings: h: mouse left j: mouse down k: mouse up l: mouse right v: left click b: middle click n: right click f: fast mode (fast mouse move by f+hjkl) d: slow mode (slow mouse move by d+hjkl) s: scroll mode (scroll by s+hjkl)"
-        },
-        {
-          "path": "json/mouse_keys_mode_v4.json",
-          "extra_description_path": "extra_descriptions/mouse_keys_mode_v4.json.html",
-          "json": {
-            "title": "Mouse Keys Mode v4 (rev 3)",
-            "maintainers": [
-              "tekezo"
-            ],
-            "rules": [
-              {
-                "description": "Mouse Keys Mode v4 (rev 3)",
-                "available_since": "13.6.0"
-              }
-            ]
-          },
-          "extra_description_text": "Mouse keys Mode v4 You can operate mouse via keyboard. (motion, click and scroll) Mouse keys mode is active by the following procedure. d key_down any keys of mouse keys key_down (h, j, k, l,...) any keys of mouse keys key_up (h, j, k, l,...) Then mouse keys is active until you release d key. Example: Press d Press h Press j Release h Release j Release d Key bindings: h: mouse left j: mouse down k: mouse up l: mouse right v: left click b: middle click n: right click f: fast mode (fast mouse move by f+hjkl) g: slow mode (slow mouse move by g+hjkl) s: scroll mode (scroll by s+hjkl) u: set mouse cursor position to the center of current display i: set mouse cursor position to the center of main display o: set mouse cursor position to the center of second display p: set mouse cursor position to the center of third display"
-        },
-        {
-          "path": "json/mouse_keys_full_xgwang_me.json",
-          "extra_description_path": "extra_descriptions/mouse_keys_full_xgwang_me.json.html",
-          "json": {
-            "title": "Mouse keys (xgwang.me)",
-            "rules": [
-              {
-                "description": "Mouse keys (xgwang.me)"
-              }
-            ]
-          },
-          "extra_description_text": "Mouse keys (xgwang.me) You can enter mouse keys mode by holding \"left_command\" then click \"right_command\". To leave mouse keys mode, hold \"left_command\" and click \"right_command\" again. Example: Press the left_command + right_command key (enter mouse keys mode) Press the j key (mouse down) Press the l key (mouse right) Press the left_command + right_command key (leave mouse keys mode) Key bindings: h: mouse left j: mouse down k: mouse up l: mouse right v: left click b: middle click n: right click f: fast mode (fast mouse move by f+hjkl) d: slow mode (slow mouse move by d+hjkl) s: scroll mode (scroll by s+hjkl)"
-        },
-        {
-          "path": "json/disable_cmd_f1_screen_mirroring.json",
-          "json": {
-            "title": "Disable Cmd+F1 Toggle Screen Mirroring",
-            "rules": [
-              {
-                "description": "Disable Cmd+F1 Toggle Screen Mirroring Shortcut (map to display_brightness_decrement), see https://discussions.apple.com/thread/2793101"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/rotate_left_modifiers.json",
-          "json": {
-            "title": "Rotate left modifiers",
-            "rules": [
-              {
-                "description": "Map left ctrl to command, command to option, option to control unless in iTerm2 or Remote Desktop"
-              },
-              {
-                "description": "Swap left option and command in iTerm2 and Remote Desktop"
-              },
-              {
-                "description": "Map left option+tab to command+tab"
-              },
-              {
-                "description": "Lazy left modifiers (allows option+shift+tab to shift apps backwards). Enable this last!"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/sleep-monitor.json",
-          "json": {
-            "title": "Add Sleep Monitor for Keyboard without Eject",
-            "rules": [
-              {
-                "description": "Ctrl+Cmd+Shift+Esc to Sleep Monitor"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/disable_cmd_h_hide_window.json",
-          "json": {
-            "title": "Prevent unintended command-h hide window (rev 2)",
-            "rules": [
-              {
-                "description": "Disable Cmd+H Hide (rev 2)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/control_lclick_to_lclick.json",
-          "json": {
-            "title": "Disable Ctrl Click",
-            "rules": [
-              {
-                "description": "Ctrl + Left Click to Left Click"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/lock_screen.json",
-          "json": {
-            "title": "Lock Screen",
-            "rules": [
-              {
-                "description": "Option+L to Lock Screen (macOS 10.13+)"
-              },
-              {
-                "description": "Control+Command+Delete to Lock Screen (macOS 10.13+)"
-              },
-              {
-                "description": "Eject to Lock Screen (macOS 10.13+)"
-              },
-              {
-                "description": "Eject to Lock Screen - Dvorak (macOS 10.13+)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/screen_saver.json",
-          "json": {
-            "title": "Screen Saver (can Lock Screen)",
-            "rules": [
-              {
-                "description": "Option+L to start Screen Saver"
-              },
-              {
-                "description": "Control+Command+Delete to start Screen Saver"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/multitouch_diamond_cursor.json",
-          "extra_description_path": "extra_descriptions/multitouch_diamond_cursor.json.html",
-          "json": {
-            "title": "Multitouch Diamond Cursor (rev 2)",
-            "maintainers": [
-              "tekezo"
-            ],
-            "rules": [
-              {
-                "description": "Multitouch Diamond Cursor (rev 2)",
-                "available_since": "12.6.9"
-              }
-            ]
-          },
-          "extra_description_text": "Multitouch Diamond Cursor changes w,a,s,d keys to arrow keys while your finger is on the trackpad. Key When one finger is on the trackpad When two fingers are on the trackpad w up arrow page up a left arrow home s down arrow page down d right arrow end Multitouch Diamond Cursor requires MultitouchExtension. Please follow this instruction before using Multitouch Diamond Cursor. Open MultitouchExtension app from Preferences > Misc. Enable \"Start at login\" on MultitouchExtension Preferences."
-        },
-        {
-          "path": "json/multitouch_vi_mode.json",
-          "extra_description_path": "extra_descriptions/multitouch_vi_mode.json.html",
-          "json": {
-            "title": "Multitouch Vi Mode (rev 2)",
-            "maintainers": [
-              "tekezo"
-            ],
-            "rules": [
-              {
-                "description": "Multitouch Vi Mode (rev 2)",
-                "available_since": "12.6.9"
-              }
-            ]
-          },
-          "extra_description_text": "Multitouch Vi Mode changes h,j,k,l keys to arrow keys while your finger is on the trackpad. Key When one finger is on the trackpad When two fingers are on the trackpad h left arrow home j down arrow page down k up arrow page up l right arrow end Multitouch Vi Mode requires MultitouchExtension. Please follow this instruction before using Multitouch Vi Mode. Open MultitouchExtension app from Preferences > Misc. Enable \"Start at login\" on MultitouchExtension Preferences."
-        },
-        {
-          "path": "json/multitouch_mouse_buttons.json",
-          "extra_description_path": "extra_descriptions/multitouch_mouse_buttons.json.html",
-          "json": {
-            "title": "Multitouch Mouse Buttons (rev 2)",
-            "maintainers": [
-              "tekezo"
-            ],
-            "rules": [
-              {
-                "description": "Multitouch Mouse Buttons (rev 2)",
-                "available_since": "12.6.9"
-              }
-            ]
-          },
-          "extra_description_text": "Multitouch Mouse Buttons changes 1,2,3,4,5,6,7,8,9 keys to mouse buttons while your finger is on the trackpad. Key Mouse button 1 left button 2 right button 3 middle button 4 button4 5 button5 6 button6 7 button7 8 button8 9 button9 Multitouch Mouse Buttons requires MultitouchExtension. Please follow this instruction before using Multitouch Mouse Buttons. Open MultitouchExtension app from Preferences > Misc. Enable \"Start at login\" on MultitouchExtension Preferences."
-        },
-        {
-          "path": "json/thumbsense.json",
-          "extra_description_path": "extra_descriptions/thumbsense.json.html",
-          "json": {
-            "title": "ThumbSense (rev 3)",
-            "maintainers": [
-              "tekezo"
-            ],
-            "rules": [
-              {
-                "description": "ThumbSense (rev 3)",
-                "available_since": "12.6.9"
-              }
-            ]
-          },
-          "extra_description_text": "Supported shortcuts Key Function F, J, SPACE Mouse left button D, K Mouse right button G Next (on web browsers) H Previous (on web browsers) W Window close ThumbSense requires MultitouchExtension. Please follow this instruction before using ThumbSense. Open MultitouchExtension app from Preferences > Misc. Enable \"Start at login\" on MultitouchExtension Preferences."
-        },
-        {
-          "path": "json/Right_option_as_emoji_key.json",
-          "json": {
-            "title": "Emoji-key (non-apple keyboard [not fn])",
-            "rules": [
-              {
-                "description": "Press right_alt alone toggles emoji input"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/mouse_buttons_4_5_desktop_switch.json",
-          "json": {
-            "title": "Switch desktop with mouse buttons 4,5",
-            "rules": [
-              {
-                "description": "Maps button 5 to left desktop switch, 4 to right desktop switch"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/mouse_345_mac_desktop_switcher.json",
-          "json": {
-            "title": "Mac Mouse 3/4/5 desktop switcher",
-            "rules": [
-              {
-                "description": "Mouse 4 Switch Left"
-              },
-              {
-                "description": "Mouse 5 Switch Right"
-              },
-              {
-                "description": "Mouse 3 Desktop Switcher"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/mouse3_app_switcher.json",
-          "extra_description_path": "extra_descriptions/mouse3_app_switcher.json.html",
-          "json": {
-            "title": "Mac Mouse 3 Application switcher",
-            "rules": [
-              {
-                "description": "Mouse 3 App Switcher"
-              }
-            ]
-          },
-          "extra_description_text": "--> Quick Application Switcher with Mouse Button 3 Use Mouse Button 3(middle mouse button) to \"Command-Tab\" Switch Applications Motivation Occasionally it could be more convenient to rapidly switch between two apps with a simple click of the mouse button. This also allows such convenience as selection with the mouse while using common keyboard shortcuts (e.g. cut/copy/paste) (creator's side note: This was also spurred by a sense of repetitive use issues of using the Command+Tab key combination frequently) How to use Use karabiner-elements to map the Mouse 3 (single click, does not repeat) to \"Command-Tab\" equivalent. Install this extension under tab 'Complex modifications'. Will only switch back and forth between two most recent Applications"
-        },
-        {
-          "path": "json/r_cmd_to_l_ctrl_and_space.json",
-          "extra_description_path": "extra_descriptions/r_cmd_to_l_ctrl_and_space.json.html",
-          "json": {
-            "title": "r_cmd_to_l_ctrl_and_space",
-            "rules": [
-              {
-                "description": "right_command -> left_control + spacebar, for switch input type in mac OS."
-              }
-            ]
-          },
-          "extra_description_text": "for mac/hhkb: right_command -> left_control + spacebar, for switch input type."
-        },
-        {
-          "path": "json/open_terminal_window.json",
-          "json": {
-            "title": "Open a Terminal window with Ctrl-Alt-T",
-            "rules": [
-              {
-                "description": "Open a terminal window with Ctrl-RAlt-T"
-              },
-              {
-                "description": "Open a terminal window with Ctrl-LAlt-T"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/keyboard-brightness.json",
-          "json": {
-            "title": "Keyboard Brightness Adjustment",
-            "rules": [
-              {
-                "description": "command-f1 and f2 to adjust keyboard brightness"
-              },
-              {
-                "description": "command-f5 and f6 to adjust keyboard brightness, same keys as earlier macs"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/keybrightness_F5.json",
-          "json": {
-            "title": "Keyboard Brightness Adjustment",
-            "rules": [
-              {
-                "description": "Restore keyboard func to M1 Macs by overwriting dictation key, F5 to go up, hold F5 to go down"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/mouse_345_changer.json",
-          "json": {
-            "title": "MacLee's MacOS Mouse 3/4/5 Changer (3: close tab, 4/5: move tabs)",
-            "rules": [
-              {
-                "description": "Mouse 3 Close Single Tab"
-              },
-              {
-                "description": "Mouse 4 Backward Tab Move"
-              },
-              {
-                "description": "Mouse 5 Forward Tab Move"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/option_pgup_pgdown_home_end_to_ctrl_arrows.json",
-          "json": {
-            "title": "Option+ PageUp, PageDown, Home, End to Control+Arrows (Mission Control)",
-            "rules": [
-              {
-                "description": "Option+PageDown to Control+ArrowRight (Mission Control: Move right a space)"
-              },
-              {
-                "description": "Option+PageUp to Control+ArrowLeft (Mission Control: Move left a space)"
-              },
-              {
-                "description": "Option+Home to Control+ArrowUp (Mission Control: Mission Control)"
-              },
-              {
-                "description": "Option+End to Control+ArrowDown (Mission Control: Application windows)"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/cmd+shift+k_delete_line.json",
-          "json": {
-            "title": "cmd+shift+k delete line",
-            "rules": [
-              {
-                "description": "cmd+shift+k delete line"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/mission_control_all_on_f3_app_on_command_f3_desktop_on_option_f3.json",
-          "json": {
-            "title": "Mission Control: All on F3, App on ⌘F3, Desktop on ⌥F3",
-            "rules": [
-              {
-                "description": "Mission Control: All Windows on F3"
-              },
-              {
-                "description": "Mission Control: Application Windows on ⌘F3"
-              },
-              {
-                "description": "Mission Control: Desktop on ⌥F3"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/om_window_switcher.json",
-          "json": {
-            "title": "Both Modifiers -> Window Switcher",
-            "rules": [
-              {
-                "description": "Left_Command + Right_Command -> Application Switcher"
-              },
-              {
-                "description": "Left_Option + Right_Option -> Switch Windows"
-              },
-              {
-                "description": "Left_Shift + Right_Shift -> Switch Tabs"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/om_function_keys.json",
-          "json": {
-            "title": "Modifiers + Function Key",
-            "rules": [
-              {
-                "description": "Fn + Function key -> Fnction key, Function key alone -> Media Control key"
-              },
-              {
-                "description": "Fn + Function key -> Media Control key, Function key alone -> Function key"
-              },
-              {
-                "description": "Modifiers + Function key -> Modifiers + Function key"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/om_application_launcher.json",
-          "json": {
-            "title": "Control + Option + Letter -> Launch Application",
-            "rules": [
-              {
-                "description": "Control + Option + Letter -> Launch Application"
-              }
-            ]
-          },
-          "extra_description_text": ""
-        },
-        {
-          "path": "json/fix-ghost-select-in-context-menu.json",
-          "json": {
-            "title": "Fix ghost select in context menu",
-            "rules": [
-              {
-                "description": "Fix ghost select in context menu"
               }
             ]
           },
@@ -14815,6 +14815,6 @@
       ]
     }
   ],
-  "revision": "f627038",
-  "updatedAt": 1718536272
+  "revision": "0e08c84",
+  "updatedAt": 1718571539
 }
