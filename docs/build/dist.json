@@ -919,16 +919,13 @@
                 "description": "Mac OSX: double-tap right shift key → caps lock toggle"
               },
               {
-                "description": "Slack: Caps Lock Hyper key + 1 → Launch quick search"
+                "description": "Slack: Caps Lock Hyper key + 1 → Activity"
               },
               {
-                "description": "Slack: Caps Lock Hyper key + 2 → Activity"
+                "description": "Slack: Caps Lock Hyper key + 2 → DMs"
               },
               {
-                "description": "Slack: Caps Lock Hyper key + 3 → DMs"
-              },
-              {
-                "description": "Slack: Caps Lock Hyper key + 4 → All Unread Messages"
+                "description": "Slack: Caps Lock Hyper key + 3 → All Unread Messages"
               },
               {
                 "description": "Slack: Caps Lock Hyper key + q → format selection as quote"
@@ -940,20 +937,23 @@
                 "description": "Slack: Caps Lock Hyper key + e → set status"
               },
               {
-                "description": "Slack: Caps Lock Hyper key + a → code format"
+                "description": "Slack: Caps Lock Hyper key + a → Launch quick search"
               },
               {
-                "description": "Slack: Caps Lock Hyper key + s → code block"
+                "description": "Slack: Caps Lock Hyper key + s → code format"
               },
               {
-                "description": "Slack: Caps Lock Hyper key + d → hyperlink"
+                "description": "Slack: Caps Lock Hyper key + d → code block"
               },
               {
                 "description": "Slack: Caps Lock Hyper key + f → Upload file"
+              },
+              {
+                "description": "Slack: Caps Lock Hyper key + g → hyperlink"
               }
             ]
           },
-          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Searching and Navigation Caps Lock Hyper key + 1 Quick search Caps Lock Hyper key + 2 Navigate to activity Caps Lock Hyper key + 3 Navigate to DMs Caps Lock Hyper key + 4 Navigate to all unread messages Formatting and Messages Caps Lock Hyper key + q Format selection as quote Caps Lock Hyper key + a Code format Caps Lock Hyper key + s Code block Caps Lock Hyper key + d Add hyperlink Caps Lock Hyper key + f Upload file Other Shortcuts Caps Lock Hyper key + e Set status Slack: Caps Lock Hyper key + w Toggle sidebar"
+          "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Searching and Navigation Caps Lock Hyper key + a Quick search Caps Lock Hyper key + 1 Navigate to activity Caps Lock Hyper key + 2 Navigate to DMs Caps Lock Hyper key + 3 Navigate to all unread messages Formatting and Messages Caps Lock Hyper key + q Format selection as quote Caps Lock Hyper key + s Code format Caps Lock Hyper key + d Code block Caps Lock Hyper key + f Upload file Caps Lock Hyper key + g Add hyperlink Other Shortcuts Caps Lock Hyper key + e Set status Slack: Caps Lock Hyper key + w Toggle sidebar"
         },
         {
           "path": "json/premiere_pro.json",
@@ -14815,6 +14815,6 @@
       ]
     }
   ],
-  "revision": "27ce2b7",
-  "updatedAt": 1718572006
+  "revision": "4ea70b8",
+  "updatedAt": 1718682703
 }
