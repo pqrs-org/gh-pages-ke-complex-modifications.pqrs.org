@@ -12990,7 +12990,7 @@
             ],
             "rules": [
               {
-                "description": "change unused numpad period to non_us_backslash so we can be able to use pipe and backslash keys. Important for developers!"
+                "description": "change backlash to non_us_backslash so we can be able to use pipe and backslash keys but on Blender."
               },
               {
                 "description": "Change right_shift x2 to mission_control"
@@ -14815,6 +14815,6 @@
       ]
     }
   ],
-  "revision": "91d8d18",
-  "updatedAt": 1718713946
+  "revision": "8475421",
+  "updatedAt": 1719134306
 }
