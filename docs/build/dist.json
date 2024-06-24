@@ -904,6 +904,48 @@
           "extra_description_text": "Hyper Key The caps lock hyper key is included for quick left handed access to all the shortcuts. Caps Lock Maps to left control + left shift + right command (⌃⇧⌘). The Caps lock is disabled. Double-tap right shift Caps lock toggle Tab Management Keymappings Caps lock hyper key + a Search Tabs Caps lock hyper key + w Toggle between last used tabs (requires CLUT: Cycle Last Used Tabs extension) Caps lock hyper key + e Duplicate tab (requires Duplicate Tab Shortcut extension) Caps lock hyper key + t Move tab to a new window (requires Pop out tabs to new window extension) Misc Keymappings Caps lock hyper key + q Switch between Google Chrome profiles Caps lock hyper key + r Reload page Caps lock hyper key + s Select address Caps lock hyper key + d Clear browsing history Caps lock hyper key + f Search the web Caps lock hyper key + g View downloads Developer Tools Keymappings Caps lock hyper key + 1 Developer Tools Caps lock hyper key + 2 Developer Console Caps lock hyper key + 3 Developer Elements Panel Caps lock hyper key + 4 View Source Caps lock hyper key + q Toggle device toolbar (when you already have a developer panel open)"
         },
         {
+          "path": "json/spotify.json",
+          "json": {
+            "title": "Spotify",
+            "maintainers": [
+              "thecarlo"
+            ],
+            "rules": [
+              {
+                "description": "Hyper Key: Caps Lock → left control + left shift + right command (⌃⇧⌘)"
+              },
+              {
+                "description": "Spotify: Caps Lock Hyper key + a → search"
+              },
+              {
+                "description": "Spotify: Caps Lock Hyper key + s → search in library"
+              },
+              {
+                "description": "Spotify: Caps Lock Hyper key + 1 → home"
+              },
+              {
+                "description": "Spotify: Caps Lock Hyper key + 2 → now playing"
+              },
+              {
+                "description": "Spotify: Caps Lock Hyper key + 3 → your library"
+              },
+              {
+                "description": "Spotify: Caps Lock Hyper key + 4 → your playlists"
+              },
+              {
+                "description": "Spotify: Caps Lock Hyper key + q → queue"
+              },
+              {
+                "description": "Spotify: Caps Lock Hyper key + w → toggle left sidebar"
+              },
+              {
+                "description": "Spotify: Caps Lock Hyper key + e → toggle right sidebar"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/slack.json",
           "extra_description_path": "extra_descriptions/slack.html",
           "json": {
@@ -14815,6 +14857,6 @@
       ]
     }
   ],
-  "revision": "8475421",
-  "updatedAt": 1719134306
+  "revision": "fb20122",
+  "updatedAt": 1719191764
 }
