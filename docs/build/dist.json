@@ -12241,6 +12241,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/ctrl-greater_lesser_signs.json",
+          "json": {
+            "title": "Ctrl + comma/period to lesser/greater-than signs",
+            "rules": [
+              {
+                "description": "Enables greater-than and lesser-than signs with Ctrl+"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/ctrl_h_backspace.json",
           "json": {
             "title": "Change Ctrl+h to delete/backspace",
@@ -14857,6 +14869,6 @@
       ]
     }
   ],
-  "revision": "fb20122",
-  "updatedAt": 1719191764
+  "revision": "3c57155",
+  "updatedAt": 1719492594
 }
