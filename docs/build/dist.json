@@ -795,6 +795,18 @@
             ]
           },
           "extra_description_text": ""
+        },
+        {
+          "path": "json/disable_option_click.json",
+          "json": {
+            "title": "Disable Option-click minimizing windows",
+            "rules": [
+              {
+                "description": "Disable Option-click minimizing windows"
+              }
+            ]
+          },
+          "extra_description_text": ""
         }
       ]
     },
@@ -14869,6 +14881,6 @@
       ]
     }
   ],
-  "revision": "3c57155",
-  "updatedAt": 1719492594
+  "revision": "88ba4cf",
+  "updatedAt": 1719724630
 }
