@@ -11645,7 +11645,7 @@
           "json": {
             "title": "Tye Tartarus v2.json",
             "maintainers": [
-              "tyeraymond-design"
+              "quantum-designer"
             ],
             "rules": [
               {
@@ -11658,7 +11658,7 @@
                 "description": "Razer 03 to command plus"
               },
               {
-                "description": "Razer 04 to shift command plus"
+                "description": "Razer 04 to command hyphen"
               },
               {
                 "description": "Razer 05 to alt eyedropper"
@@ -14881,6 +14881,6 @@
       ]
     }
   ],
-  "revision": "88ba4cf",
-  "updatedAt": 1719724630
+  "revision": "e3fb171",
+  "updatedAt": 1720335426
 }
