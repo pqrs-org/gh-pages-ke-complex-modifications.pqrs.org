@@ -9519,7 +9519,7 @@
             ],
             "rules": [
               {
-                "description": "Personal rules (@tekezo) (rev 51)",
+                "description": "Personal rules (@tekezo) (rev 52)",
                 "available_since": "14.12.6"
               }
             ]
@@ -14893,6 +14893,6 @@
       ]
     }
   ],
-  "revision": "c57c3f8",
-  "updatedAt": 1720502391
+  "revision": "594ce2d",
+  "updatedAt": 1720518658
 }
