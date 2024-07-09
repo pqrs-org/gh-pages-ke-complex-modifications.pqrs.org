@@ -12292,6 +12292,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/dark_reader_toggle.json",
+          "json": {
+            "title": "Dark Reader Toggle",
+            "rules": [
+              {
+                "description": "Change F7 to Toggle Dark Mode Reader in Browsers"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/delete_file_or_dir_by_delete.json",
           "json": {
             "title": "Change delete_forward to cmd+backslash in finder",
@@ -14893,6 +14905,6 @@
       ]
     }
   ],
-  "revision": "594ce2d",
-  "updatedAt": 1720518658
+  "revision": "fd2021a",
+  "updatedAt": 1720565155
 }
