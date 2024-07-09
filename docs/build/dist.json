@@ -13477,6 +13477,18 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/nightfall_toggle.json",
+          "json": {
+            "title": "Nightfall Dark Mode Toggle",
+            "rules": [
+              {
+                "description": "Change F7 to Ctrl+Cmd+Opt+T (toggle dark mode from Nightfall)"
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/nuphy_air60_escape.json",
           "json": {
             "title": "Nuphy Air60 Escape Key Modifications",
@@ -14881,6 +14893,6 @@
       ]
     }
   ],
-  "revision": "e3fb171",
-  "updatedAt": 1720335426
+  "revision": "c57c3f8",
+  "updatedAt": 1720502391
 }
