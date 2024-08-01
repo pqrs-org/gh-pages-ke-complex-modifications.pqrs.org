@@ -9402,7 +9402,7 @@
             "title": "Hai HHKB Launch apps (Gan Jing Auth, Gan Jing Browser/Brave, VS Code, Signal, Slack, Postman, Sublime Merge, iTerm, Thunderbird, iMessage, Mail, Draw.IO, Sequel Ace, TablePlus)",
             "rules": [
               {
-                "description": "right_option + A(Auth) -> Gan Jing Auth"
+                "description": "right_option + K -> KeyLockr"
               },
               {
                 "description": "right_option + D(Database) -> Sequal Ace"
@@ -14905,6 +14905,6 @@
       ]
     }
   ],
-  "revision": "3243d7f",
-  "updatedAt": 1721830182
+  "revision": "6bde09c",
+  "updatedAt": 1722527675
 }
