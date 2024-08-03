@@ -6133,6 +6133,21 @@
           "extra_description_text": ""
         },
         {
+          "path": "json/hungarian_ureturn.json",
+          "json": {
+            "title": "Hungarian: replace ű-return with return",
+            "maintainers": [
+              "balintb"
+            ],
+            "rules": [
+              {
+                "description": "Replaces ű+return with return. By doing so, attempts to reduce the number of occurrences where an 'ű' char is emitted before return due to the proximity of these keys in the HU keyboard layout."
+              }
+            ]
+          },
+          "extra_description_text": ""
+        },
+        {
           "path": "json/us-with-hr.json",
           "json": {
             "title": "US keyboard with Croatian letters on right command key",
@@ -14905,6 +14920,6 @@
       ]
     }
   ],
-  "revision": "0a2690c",
-  "updatedAt": 1722625406
+  "revision": "474b404",
+  "updatedAt": 1722670916
 }
