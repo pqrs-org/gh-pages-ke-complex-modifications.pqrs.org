@@ -3999,6 +3999,12 @@
               },
               {
                 "description": "FN + Right to End"
+              },
+              {
+                "description": "FN + Left to Cmd + Left"
+              },
+              {
+                "description": "FN + Right to Cmd + Right"
               }
             ]
           },
@@ -14920,6 +14926,6 @@
       ]
     }
   ],
-  "revision": "474b404",
-  "updatedAt": 1722670916
+  "revision": "d53989b",
+  "updatedAt": 1723164672
 }
